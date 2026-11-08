@@ -19,7 +19,7 @@ People Playground in 11 languages. Pick yours:
 - Japanese, Korean and Chinese fonts are included.
 - No internet access, no changes to game files or saves.
 
-**Install:** download the x64 archive from [Releases](../../releases/latest), copy everything into the game folder next to `People Playground.exe` and start the game. Full guide with Mac and Steam Deck steps: [INSTALL.txt](INSTALL.txt).
+**Install:** download the x64 archive from [Releases](../../releases/latest), copy everything into the game folder next to `People Playground.exe` and start the game. Full guide with Mac and Steam Deck steps: [INSTALL_en.txt](INSTALL/INSTALL_en.txt).
 
 **Support the author:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -44,7 +44,7 @@ Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 - 自带中文字体，不会出现方块乱码。
 - 不联网，不修改游戏文件和存档。
 
-**安装：** 在 [Releases](../../releases/latest) 下载 x64 压缩包，把全部内容复制到游戏目录（`People Playground.exe` 所在文件夹），然后启动游戏，在菜单中选择「简体中文」。详细说明见 [INSTALL.txt](INSTALL.txt)。
+**安装：** 在 [Releases](../../releases/latest) 下载 x64 压缩包，把全部内容复制到游戏目录（`People Playground.exe` 所在文件夹），然后启动游戏，在菜单中选择「简体中文」。详细说明见 [INSTALL_zh-Hans.txt](INSTALL/INSTALL_zh-Hans.txt)。
 
 **支持作者：**
 - [lava.top](https://app.lava.top/teohanki)（Visa、Mastercard、Apple Pay、PayPal、SEPA、PIX、iDEAL、Bancontact、MB WAY、Mir、SBP）
@@ -68,7 +68,7 @@ Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 - Funciona con el modo seguro del juego: es un plugin de BepInEx y no necesita Mod Enabler.
 - No se conecta a internet ni toca los archivos del juego ni tus partidas.
 
-**Instalación:** descarga el archivo x64 de [Releases](../../releases/latest), copia todo su contenido a la carpeta del juego, junto a `People Playground.exe`, y abre el juego. Guía completa: [INSTALL.txt](INSTALL.txt).
+**Instalación:** descarga el archivo x64 de [Releases](../../releases/latest), copia todo su contenido a la carpeta del juego, junto a `People Playground.exe`, y abre el juego. Guía completa: [INSTALL_es.txt](INSTALL/INSTALL_es.txt).
 
 **Apoya al autor:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -92,7 +92,7 @@ El mod es gratis y siempre lo será. En cada actualización añado los nombres d
 - Compatible avec le mode sans échec du jeu : c'est un plugin BepInEx, Mod Enabler est inutile.
 - Pas d'accès à internet, aucune modification des fichiers du jeu ni des sauvegardes.
 
-**Installation :** téléchargez l'archive x64 dans [Releases](../../releases/latest), copiez tout son contenu dans le dossier du jeu, à côté de `People Playground.exe`, puis lancez le jeu. Guide complet : [INSTALL.txt](INSTALL.txt).
+**Installation :** téléchargez l'archive x64 dans [Releases](../../releases/latest), copiez tout son contenu dans le dossier du jeu, à côté de `People Playground.exe`, puis lancez le jeu. Guide complet : [INSTALL_fr.txt](INSTALL/INSTALL_fr.txt).
 
 **Soutenir l'auteur :**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -116,7 +116,7 @@ Un bug, une mauvaise traduction ou une idée ? Écrivez-moi dans les [Issues](..
 - Funciona com o modo seguro do jogo: é um plugin do BepInEx e não precisa de Mod Enabler.
 - Não acessa a internet nem mexe nos arquivos do jogo ou nos seus saves.
 
-**Instalação:** baixe o arquivo x64 em [Releases](../../releases/latest), copie tudo para a pasta do jogo, ao lado de `People Playground.exe`, e abra o jogo. Guia completo: [INSTALL.txt](INSTALL.txt).
+**Instalação:** baixe o arquivo x64 em [Releases](../../releases/latest), copie tudo para a pasta do jogo, ao lado de `People Playground.exe`, e abra o jogo. Guia completo: [INSTALL_pt-BR.txt](INSTALL/INSTALL_pt-BR.txt).
 
 **Apoie o autor:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -140,7 +140,7 @@ Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../
 - Работает в безопасном режиме игры: это плагин BepInEx, Mod Enabler не нужен.
 - Плагин не ходит в интернет и не трогает файлы игры и сохранения.
 
-**Установка:** скачайте архив x64 в [Releases](../../releases/latest), скопируйте всё его содержимое в папку игры рядом с `People Playground.exe` и запустите игру. Подробно, с Mac и Steam Deck: [INSTALL_RU.txt](INSTALL_RU.txt).
+**Установка:** скачайте архив x64 в [Releases](../../releases/latest), скопируйте всё его содержимое в папку игры рядом с `People Playground.exe` и запустите игру. Подробно, с Mac и Steam Deck: [INSTALL_ru.txt](INSTALL/INSTALL_ru.txt).
 
 **Поддержать автора:**
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, МИР, СБП)
@@ -164,7 +164,7 @@ Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../
 - Läuft im abgesicherten Modus des Spiels: Es ist ein BepInEx-Plugin, Mod Enabler brauchst du nicht.
 - Kein Internetzugriff, keine Änderungen an Spieldateien oder Spielständen.
 
-**Installation:** Lade das x64-Archiv unter [Releases](../../releases/latest) herunter, kopiere den ganzen Inhalt in den Spielordner neben `People Playground.exe` und starte das Spiel. Ausführliche Anleitung: [INSTALL.txt](INSTALL.txt).
+**Installation:** Lade das x64-Archiv unter [Releases](../../releases/latest) herunter, kopiere den ganzen Inhalt in den Spielordner neben `People Playground.exe` und starte das Spiel. Ausführliche Anleitung: [INSTALL_de.txt](INSTALL/INSTALL_de.txt).
 
 **Den Autor unterstützen:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -189,7 +189,7 @@ Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../..
 - 日本語フォントを同梱しているので、文字化けしません。
 - インターネットに接続せず、ゲームファイルやセーブデータを変更しません。
 
-**導入方法：** [Releases](../../releases/latest) から x64 版をダウンロードし、中身をすべて `People Playground.exe` があるフォルダーにコピーしてゲームを起動します。詳しくは [INSTALL.txt](INSTALL.txt) を参照してください。
+**導入方法：** [Releases](../../releases/latest) から x64 版をダウンロードし、中身をすべて `People Playground.exe` があるフォルダーにコピーしてゲームを起動します。詳しくは [INSTALL_ja.txt](INSTALL/INSTALL_ja.txt) を参照してください。
 
 **作者を支援する：**
 - [lava.top](https://app.lava.top/teohanki)（Visa、Mastercard、Apple Pay、PayPal、SEPA、PIX、iDEAL、Bancontact、MB WAY、Mir、SBP）
@@ -213,7 +213,7 @@ Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../..
 - Oyunun güvenli modunda çalışır: bir BepInEx eklentisidir, Mod Enabler gerekmez.
 - İnternete bağlanmaz, oyun dosyalarına ve kayıtlarına dokunmaz.
 
-**Kurulum:** [Releases](../../releases/latest) sayfasından x64 arşivini indir, içindeki her şeyi `People Playground.exe` dosyasının bulunduğu oyun klasörüne kopyala ve oyunu başlat. Ayrıntılı rehber: [INSTALL.txt](INSTALL.txt).
+**Kurulum:** [Releases](../../releases/latest) sayfasından x64 arşivini indir, içindeki her şeyi `People Playground.exe` dosyasının bulunduğu oyun klasörüne kopyala ve oyunu başlat. Ayrıntılı rehber: [INSTALL_tr.txt](INSTALL/INSTALL_tr.txt).
 
 **Yapımcıyı destekle:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -238,7 +238,7 @@ Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına 
 - 한글 글꼴이 들어 있어 글자가 깨지지 않습니다.
 - 인터넷에 접속하지 않고 게임 파일과 세이브를 건드리지 않습니다.
 
-**설치:** [Releases](../../releases/latest)에서 x64 압축 파일을 내려받아 모든 내용을 `People Playground.exe`가 있는 게임 폴더에 복사한 뒤 게임을 실행하세요. 자세한 안내: [INSTALL.txt](INSTALL.txt).
+**설치:** [Releases](../../releases/latest)에서 x64 압축 파일을 내려받아 모든 내용을 `People Playground.exe`가 있는 게임 폴더에 복사한 뒤 게임을 실행하세요. 자세한 안내: [INSTALL_ko.txt](INSTALL/INSTALL_ko.txt).
 
 **제작자 후원하기:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
@@ -262,7 +262,7 @@ Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına 
 - Działa w trybie awaryjnym gry: to wtyczka BepInEx, Mod Enabler nie jest potrzebny.
 - Nie łączy się z internetem i nie zmienia plików gry ani zapisów.
 
-**Instalacja:** pobierz archiwum x64 z [Releases](../../releases/latest), skopiuj całą zawartość do folderu gry obok `People Playground.exe` i uruchom grę. Pełna instrukcja: [INSTALL.txt](INSTALL.txt).
+**Instalacja:** pobierz archiwum x64 z [Releases](../../releases/latest), skopiuj całą zawartość do folderu gry obok `People Playground.exe` i uruchom grę. Pełna instrukcja: [INSTALL_pl.txt](INSTALL/INSTALL_pl.txt).
 
 **Wesprzyj autora:**
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
