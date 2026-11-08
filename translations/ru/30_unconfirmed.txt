@@ -1,0 +1,15 @@
+Extended limb damage	Расширенный урон конечностям
+Causes limbs to become more fragile as they take more damage. Enabled by default.	Конечности становятся хрупче по мере получения урона. По умолчанию включено.
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	Видимость следов пуль и похожих эффектов. По умолчанию 100%.
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	Определяет качество столкновений обломков. Дискретный режим быстрый, но менее точный. Непрерывный не даёт обломкам проходить сквозь друг друга на высоких скоростях.
+Clamp brightness	Ограничить яркость
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	Ослабляет свечение у ослепительно ярких объектов. Полезно, если вы чувствительны к яркому свету.
+Changes the displayed temperature unit across the game.	Меняет единицу температуры во всей игре.
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	Если включено, при удержании клавиши детального просмотра показывается центр масс каждого объекта. Полезно для сбалансированных построек.
+UI volume	Громкость интерфейса
+Adjust the volume of user interface sounds. Default is 100%.	Громкость звуков интерфейса. По умолчанию 100%.
+Ambience volume	Громкость окружения
+Adjust the volume of ambient background sounds. Default is 100%.	Громкость фоновых звуков окружения. По умолчанию 100%.
+Make sure to leave a review on Steam and join our Discord server if you like the game!	Если игра понравилась, оставьте отзыв в Steam и заходите на наш сервер Discord!
+Check out the official wiki for more information about the game.	Больше об игре - в официальной вики.
+Third-party licenses:	Сторонние лицензии:

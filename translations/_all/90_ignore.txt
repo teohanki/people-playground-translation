@@ -1,0 +1,22 @@
+Category title	Category title
+Allan please add details.	Allan please add details.
+Allan please add details	Allan please add details
+Stat name	Stat name
+Stat value	Stat value
+Button label	Button label
+Title goes here	Title goes here
+GameObject name	GameObject name
+He forgot to add a title	He forgot to add a title
+He forgot to add a description text	He forgot to add a description text
+New Text	New Text
+this is a notification	this is a notification
+this is a title	this is a title
+<b>Who knoijdwijdwidjwiws</b>	<b>Who knoijdwijdwidjwiws</b>
+version line 1	version line 1
+version line 2	version line 2
+<color=#bbb>Doing something</color>	<color=#bbb>Doing something</color>
+People Playground	People Playground
+mouse 1	mouse 1
+Backspace	Backspace
+Tab	Tab
+Caret	Caret

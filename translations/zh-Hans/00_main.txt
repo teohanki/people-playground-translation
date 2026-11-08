@@ -1,0 +1,1668 @@
+# English<TAB>简体中文
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	决定物理模拟的迭代次数。数值越高，模拟越精确，但性能越差。布娃娃按 16 设计，改成其他数值时行为可能会变化。默认值为 16。
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	给液体容器加压或减压。推出模式把液体压出去，吸入模式把液体吸进来。它本身不能储存液体。用血管线把它连接到容器上。
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	决定碰撞检测的质量。离散模式快得多，但不太精确。连续模式能防止物体在高速时互相穿过。动态模式会根据速度在两者之间切换。
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	用于在表面上方悬浮的推进器。通电后悬浮力增强。悬浮高度可在右键菜单中设置。红色信号升高，蓝色信号降低。
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	液体离心机。会从容器中移除浓度最低的液体。左侧的灯显示里面有几种不同的液体。只剩最下面的灯亮着时，就不再过滤了。
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	光照系统会让暗处真正变暗，并让发光物体派上用场。关闭光照后，一切都会是全亮状态。光照对性能影响很小。
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	高通截止。低于此频率的环境音不会播放。如果声音有爆音问题，这会有帮助。默认和推荐值为 90 Hz。
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	便携式原子化武器。发射一枚极小的弹丸，嵌入物体后会尝试分解周围的分子结构。对柔软物体效果最好。
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	把一个电极板按在胸口上部然后激活，心脏就会重新跳动。可以在人死后不久用来复活。不能治愈伤口。
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	可以放出或收回缆绳的机器。激活可切换方向，通电后才会动。收到红色激活信号时，会开关内置电池。
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	以可调速度旋转。红色信号会反转方向，其他信号会切换开关。通电后扭矩更大，速度不变。
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	功率是小型号十倍的发电机。它极不稳定也极其危险，可能导致意外行为。请谨慎使用。
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	蓄能能量武器。发射一枚爆炸弹，在飞行中向附近物体放出电弧，慢慢释放能量。握持越久，威力越大。
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	手持近距离硬化液喷射器。和冷冻毒药不同，硬化液不会随血液扩散，而是让一部分皮肤变硬变蓝。
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	声音可能超出设定的音量上限。建议保持开启，以免伤害听力。关闭后果自负！
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	从发射器释放强力冲击波。前方的每个物体受到的力与其自身质量成正比。简单说：越重的东西被推得越狠。
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	开启后，人类和机器人在手臂无法再抓住物体时会松手。通常发生在死亡或手臂中弹时。默认开启。
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	数字温度计。在 -273 到 9999 °C 范围内能准确显示自身温度。设计可承受最高 3.4028235e38 °C 的温度！
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	手持近距离硬化液喷射器。和<b>冷冻毒药</b>不同，硬化液不会随血液扩散，而是让一部分皮肤变硬变蓝。
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	调试消息会以游戏内通知的形式显示，包括警告、错误和未处理的异常。建议保持关闭。
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	手持近距离治疗液喷射器。和<b>生命血清</b>不同，治疗液不会愈合皮肉伤，但能抵消冷冻毒药和硬化液。
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	开启后，爆炸和枪声会在远处回荡。关闭后音频处理会轻一些。
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	可变电阻。拉动拉杆进行调节。拉杆在左边时通过 0% 的能量，在右边时通过 100%。
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	激活时切换开关的压力阀。只允许压力通过。用血管线连接后，可以阻断液体压力的流动。
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	把激活信号从一个物体传到另一个物体。连线方向很重要。信号走绿色（主）频道。
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	产生电磁脉冲，自己多半也会因此损坏。脉冲很可能让半径 82.39700374531835 米内的所有电子设备失灵。真够精确的。
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	简化背景可以减少录屏时的压缩伪影。简化渲染不会提升性能。
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	这个装置可以控制激活信号通过它所需的时间。默认 1 秒，而不是通常的 0.1 秒。
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	根据设置，在按下或松开指定按键时发送激活信号。可能会与用户自定义的按键冲突。
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	以 1 Hz 的频率跳动。频率可在右键菜单中修改。以同样的频率发送激活信号。通电后会变得难以预测。
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	可储存 5 L 液体的罐子。激活会切换到下一个压力模式。红色信号切换到上一个模式。
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	它会自己推进。不知为何，这个玩具更像推进器而不是风扇。和风扇不同，螺旋桨不会振动，也不会把其他物体吹开。
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	切换子弹是否有飞行时间并显示曳光。会降低性能。默认关闭。
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	切换触发方式。双重触发会在按下按键时触发，松开时再额外触发一次。
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	开启后，生物受到伤害时会中断强制动画。例如人类中枪后会停止行走。
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	切换肢体能否被完全摧毁。开启后，肢体在极端压力下会变成血雾。
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	从 0 度转到可调目标角度的电动铰链。比较重，通电后转得更快。
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	空烧瓶。由一种坚不可摧的神圣物质制成，制作者称之为“聚甲基丙烯酸甲酯”。容量一升。
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	开启垂直同步后，帧率会被限制为显示器的刷新率。可以减少画面撕裂。
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	最大测量距离 7 米的红外测温仪。显示红外线照到的物体的温度。
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	手持追踪导弹发射器。发射会追踪目标的导弹。锁定时会有声音和画面提示。
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	点击模组即可开关。损坏的模组无法启用。已禁用和损坏的模组不会运行。
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	发射歼灭场的装置。这个场能把物体拆解成单个原子，让它从世界上消失。
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	保龄球瓶是各种保龄球玩法中的目标，包括十瓶、五瓶、鸭瓶和蜡烛瓶。
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	检测到前方有金属物体时发送激活信号。范围可在右键菜单中调整。
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	没人知道这支注射器里装的是什么。效果似乎毫无规律，而且每支都不一样。它是粉色的。
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	检测到前方有燃烧的物体时发送激活信号。范围可在右键菜单中调整。
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	激活时切换开关的阀门。用血管线连接后，可以阻断液体流动。
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	检测到前方有生物时发送激活信号。范围可在右键菜单中调整。
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	在计时器归零前阻挡激活信号。计时器在……激活时启动。
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	350 ml 的小瓶子。持续使用时，会把里面的东西倒进瓶口处的物体。
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	检测到前方有任何东西时发送激活信号。范围可在右键菜单中调整。
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	监测生物的心率。用血管线把监护仪连接到肢体上。
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	检测到前方有运动时发送激活信号。范围可在右键菜单中调整。
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	把电信号转换成激活信号。简单说：输入能量，输出激活。
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	简易手持火箭筒。发射的火箭比标准火箭筒的更快，但威力更小。
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	非常重的金属锤。撞击时会借助未知能量产生强大的冲击波。
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	大容量（25 L）液体桶。没装满液体时能浮在水上。
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	开启后，游戏会拒绝加载含可疑代码的模组。重启后生效。
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	把激活信号转换成电力。简单说：输入激活，输出电力。
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	非常强大的光束炮。充能后更强。除了炮管，其他部件都没了。
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	用来轻松锯木头的工具。在这个游戏里它其实锯不了木头。
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	产生电力。比电池强，比发电机弱。可以安全触摸。
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	模组编译的最长时间（秒），超时后会终止编译。
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	自动天花板炮塔。会搜索周围 20 米内的生物并将其杀死。
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	一种体型较小、令人厌恶的生物。戈尔斯聪明而恶毒，身上还常有一股烧焦胶水的味道。
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	发射一团能让人动弹不得的能量。看起来有点像扩音器。
+An explosive that absorbs all energy in the environment and violently releases it.	吸收周围所有能量并猛烈释放的炸药。
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	发送和接收激活信号。只与同一频道的设备通信。
+Regular gate. It lets signals through when its power level is above the set threshold.	普通门。能量高于设定阈值时让信号通过。
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	用来挡子弹的小板。不是打不穿，但非常耐打。
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	又高又相对轻的混凝土板。很脆，但它的重量很适合用来搭建筑。
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	在血液中循环期间，可以让人在水下呼吸的血清。
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	投射纯视觉粒子。可以喷出烟、火和电。
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	光束能量武器。发出一道短促而高度集中的能量脉冲。
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	切换是否绘制选中、冻结和连线的高亮。录制时很有用。
+An object that allows something to slide in between. Only the coloured parts collide.	可以让东西从中间滑过的物体。只有带颜色的部分会发生碰撞。
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	一块绝缘材料板。可以隔绝温度和电。
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	全自动轻机枪。附带经典的无限弹链。
+Things too specific or generic to be catergorised.	太特殊或太普通而无法归类的东西。
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	激活后保持固定朝向的装置。几乎无法转动。
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	决定慢动作模式下时间变慢的程度。默认值为 20%。
+When enabled, an alert will appear when mods cause increased loading times.	开启后，当模组明显拖慢加载时会弹出提示。
+You might want to add some tags to make your contraption more visible to your target audience.	你可以加一些标签，让你的装置更容易被目标观众看到。
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	泛光是一种后期处理效果，能让物体看起来极其明亮。
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	基本上就是个花洒。接受任何液体，并立刻从底部倒出。
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	把碰撞设置改为<b>离散</b>可以大幅提升性能！
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	一个相对较弱的推进器，不发热、不点燃任何东西，也不振动。
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	不知为何还能用的 30 mm 破甲弹炮。除了炮管，其他部件都没了。
+Mod compilation complete, make sure to restart the map to apply activated mods!	模组编译完成，请重启地图以应用已启用的模组！
+You can set your collision settings to discrete for a significant performance gain!	把碰撞设置改为离散可以大幅提升性能！
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>仅在窗口模式为无边框或全屏时生效。
+Casts a small field that holds objects in place relative to the emitter.	产生一个小型力场，让物体相对发射器保持不动。
+Determines the temperature unit used throughout the game. Celsius by default.	决定整个游戏中使用的温度单位。默认为摄氏度。
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	增强肢体完整度，减缓出血，并尝试逆转腐烂。
+This device emits an activation signal when it detects a laser pointer beam.	检测到激光笔光束时发送激活信号的装置。
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	激活后吸引半径 15 米内磁性物体的电磁铁。
+Different kinds of explosives each with different properties and strengths.	各种性质和威力各不相同的炸药。
+This will toggle relatively expensive particle and decal effects.	切换相对耗性能的粒子和痕迹效果。
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	不知为何还能用的 120 mm 炮。除了炮管，其他部件都没了。
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	手持特斯拉线圈武器。握持越久威力越大。
+A colourable foreground element that keeps its texture unstretched when resized.	可上色的前景元素，缩放时纹理不会被拉伸。
+Modding your game may cause bugs, loss of performance, and other issues.	使用模组可能导致错误、性能下降和其他问题。
+Activation signal channel converter. Converts red to green and vice versa.	激活信号频道转换器。把红色转换成绿色，反之亦然。
+A colourable laser pointer that becomes dangerous when powered.	可上色的激光笔，通电后会变得危险。
+If disabled, heat can only be transferred through heat pipes and direct contact.	关闭后，热量只能通过热管和直接接触传递。
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	手持火箭筒。发射威力相当于手榴弹的爆炸火箭。
+Activation signal channel converter. Converts blue to green and vice versa.	激活信号频道转换器。把蓝色转换成绿色，反之亦然。
+Activation signal channel converter. Converts blue to red and vice versa.	激活信号频道转换器。把蓝色转换成红色，反之亦然。
+Access environment settings. These will only last for the current session.	环境设置。只在本次会话中有效。
+Grenade that violently launches small spikes in random directions.	向随机方向猛烈射出小尖刺的手榴弹。
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	里面充满了一种神秘气体，比这个房间里的气体还轻。
+Wounds and injuries will slowly heal on living organisms when this is enabled.	开启后，生物的伤口和损伤会慢慢愈合。
+Toggle whether decals are created. Disabling decals may improve performance.	切换是否生成痕迹。关闭可能提升性能。
+Determines how much force is needed to crush a limb. Default is 100%.	决定压碎肢体所需的力。默认值为 100%。
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	冷却到 0 至 -273.15 °C 之间的可调目标温度。
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	鉴定液体。装入任意混合液（最多 2.5 L）后激活。
+Objects will retain a fraction of their mass, and completely ignore gravity.	物体保留部分质量，并完全无视重力。
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>建议保持开启。要求你关闭此项的模组应当举报。
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	首先它能止血，不过它也是一根相当有弹性的线。
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	加热到 0 至 1000 °C 之间的可调目标温度。
+Pins objects to the background or to other objects.  Allows rotation.	把物体钉在背景或其他物体上。允许旋转。
+A belt that wraps around two objects, transferring rotational energy.	缠绕两个物体并传递旋转能量的皮带。
+1L flask filled with nitroglycerine. Explosive and highly unstable.	装满硝化甘油的 1 L 烧瓶。易爆且极不稳定。
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	加快血液凝固的血清。能治愈所有出血的伤口。
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	会钻进活物体内。这是与 Mutilate-a-Doll 2 合作加入的物品。
+A little engine that only propels itself while submerged.	只在水下才会推进的小引擎。
+A link between two objects that allows them to phase through each other.	连接两个物体并让它们能互相穿过的链接。
+Handheld device that is capable of lifting objects from a great distance.	能从很远处举起物体的手持装置。
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>仅在关闭垂直同步时生效。
+Green signals toggle. Red signals open. Blue signals close.	绿色信号切换，红色信号打开，蓝色信号关闭。
+Indestructible cable that restricts positions and rotation on both objects.	不可摧毁的缆绳，会锁定两个物体的位置和旋转。
+1x1 brick rectangle. I know it says cube, but the game is 2D.	1x1 的砖块长方形。我知道名字写的是方块，但这游戏是 2D 的。
+Toggle whether wires block the context menu for the underlying object.	切换连线是否会挡住下方物体的右键菜单。
+Primitive pistol. Not very accurate, not very practical, and very loud.	原始手枪。不太准，不太实用，还非常吵。
+Handheld burst energy weapon that fires heat-seeking projectiles.	发射热追踪弹的手持连发能量武器。
+Determines how fast zooming using the mouse wheel is. Default is 1x.	决定鼠标滚轮缩放的速度。默认值为 1x。
+A metal square.  It says cube, I know. I've explained this before.	一块金属正方形。我知道写的是方块，我之前解释过了。
+An explosive with a large blast radius and a powerful shockwave.	爆炸范围大、冲击波强的炸药。
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	小型核爆炸物。会烧毁并摧毁半径 750 m 内的一切。
+Highly accurate blaster rifle that launches high speed bolts.	发射高速弹的高精度爆能步枪。
+Colourable LED bulb. Bright, efficient, and durable.	可上色的 LED 灯泡。明亮、节能又耐用。
+A wranch you can slam aganist Androids to repair them.	用来敲打机器人以修好它们的扳手。
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	用<color=orange>鼠标中键</color><color=green>平移</color>
+The will toggle relatively performance-heavy effects.	切换相对耗性能的效果。
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	按住<color=orange>鼠标左键</color>来<color=green>抓取</color>
+A chair that kind of looks like it belongs inside a bus.	一把看起来像是从公交车上拆下来的椅子。
+By submitting to the workshop, you agree to the terms of service.	提交到创意工坊即表示你同意服务条款。
+Controlled powerful explosive. Can only detonate by activation.	可控的强力炸药。只有激活时才会引爆。
+An electric bi-wheeled unicycle with no chain??? How does it work.	没有链条的电动双轮独轮车？？？这是怎么动起来的。
+Grenade that sticks to most things when armed.	激活后能粘在大多数东西上的手榴弹。
+This item is marked as once uploaded. How do you want to continue?	此物品已上传过。你想怎么做？
+Makes living beings more durable. Might cause immortality.	让生物更耐打。可能导致不死。
+<color=green>rotate</color> objects with <color=orange>A or D </color>	用<color=orange>A 或 D </color><color=green>旋转</color>物体
+A relatively small boulder. Supposedly made of minerals.	一块相对较小的石头。据说是由矿物构成的。
+<color=orange>Right Mouse</color> to <color=green>delete</color>	<color=orange>鼠标右键</color><color=green>删除</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	可开关的泛光灯。照亮周围，看起来阴森森的。
+A thermonuclear bomb. Easily the most powerful bomb available.	一颗热核弹。毫无疑问是最强的炸弹。
+Change the chance the artificial sky generates a lightning bolt.	修改人造天空产生闪电的概率。
+Displays the current framerate in the top-right of the screen.	在屏幕右上角显示当前帧率。
+Powerful laser cannon. It's missing all the pieces except for the barrel.	强大的激光炮。除了炮管，其他部件都没了。
+Extends or retracts when activated. Faster when charged.	激活时伸出或收回。充能后更快。
+Speed up rotation / uniform resizing / multiselect	加速旋转 / 等比缩放 / 多选
+A weapon that launches shells that explode on impact.	发射撞击即爆炮弹的武器。
+Melodic bell! Set the bell note via the context menu.	旋律铃！可在右键菜单中设置音符。
+Two objects attached by a ...long piston. Moves freely.	两个物体由一根……长活塞连接。可以自由移动。
+A device that, when activated, stays upright.	激活后会保持直立的装置。
+"Handheld" energy weapon. Emits bouncy balls of energy.	“手持”能量武器。发射会弹跳的能量球。
+This setting may decrease performance when enabled.	开启此设置可能会降低性能。
+A small thruster that propels itself forward when activated.	激活后向前推进的小型推进器。
+Heat will travel through the air when this is enabled.	开启后，热量会通过空气传递。
+A heavy container train wagon. Does not move on its own.	沉重的集装箱货车车厢。不会自己移动。
+Downscale the resolution that the game is being rendered at.	降低游戏的渲染分辨率。
+Saves the selected objects as one, to be loaded later.	把选中的物体保存为一个整体，以便之后加载。
+This save is from a different version. This might cause issues.	此存档来自其他版本，可能会出问题。
+<color=green>activate</color> objects with <color=orange>F</color>	用<color=orange>F</color><color=green>激活</color>物体
+Alert when mods significantly affect loading times	模组明显拖慢加载时提醒
+Small thruster. Weaker and lighter than the bigger ones.	小型推进器。比大的更弱、更轻。
+A humanoid robot. Larger, heavier, and more durable than a human.	人形机器人。比人类更大、更重、更耐打。
+A durable pane of glass. Much stronger than a regular glass pane.	结实的玻璃板。比普通玻璃坚固得多。
+Modify the final exposure value. Default is 100%	修改最终曝光值。默认值为 100%
+A very heavy combat tank that fires explosive shells.	发射爆炸炮弹的超重型坦克。
+Metal triangle. I know it says pyramid.	金属三角形。我知道写的是金字塔。
+One of those old torches. Prevents mobs from spawning.	那种老式火把。能防止怪物生成。
+A mirror that partially dissolves when powered.	通电后会部分消失的镜子。
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	用<color=orange>E 或 Q</color><color=green>生成</color>物体
+Generates incredible amounts of energy when activated.	激活后产生难以置信的大量能量。
+It's a torch but that name is already used by the other torch.	这是个火把，但这个名字已经被另一个火把用了。
+A platform that, when activated, propels itself in the air.	激活后会把自己推上空中的平台。
+It's a ball specifically designed for bowling. How thoughtful.	专门为保龄球设计的球。真贴心。
+How often should the thermal vision be updated?	热成像视野多久更新一次？
+A crossbow that lauches a sharp bolt at high speed.	高速射出尖锐弩箭的弩。
+Set timed gate duration in seconds.	设置定时门的持续时间（秒）。
+A wrench you can slam against Androids to repair them.	用来敲打机器人以修好它们的扳手。
+Adjust the intensity of the screenshake. Default is 1x.	调整屏幕震动的强度。默认值为 1x。
+Liquid chemicals and other items related to chemistry.	液态化学品以及其他与化学相关的物品。
+Continuously sends out activation signals if activated.	激活后持续发送激活信号。
+Handheld freezeray gun. Emits a cooling beam.	手持冷冻射线枪。发射冷却光束。
+The volume of the ambient hum and other background noises.	环境嗡嗡声和其他背景噪音的音量。
+Game version mismatch. This might cause problems.	游戏版本不一致，可能会出问题。
+Change what the display displays on its display.	修改显示屏在显示屏上显示的内容。
+A blade of energy contained in a material field.	封在物质场中的能量刃。
+An electronic display capable of showing any text.	能显示任意文字的电子显示屏。
+Anti-aliasing attempts to get rid of jagged edges.	抗锯齿会尽量消除边缘的锯齿。
+Device that measures how much power it is receiving.	测量自身接收功率的装置。
+A sentry turret that targets anything that seems to be alive.	瞄准一切看起来是活物的哨戒炮塔。
+Can only propagate an activation signal once.	只能传递一次激活信号。
+A destructible version of the blue propagation wire.	蓝色传导线的可破坏版本。
+A metal tube that is just a little taller than a human.	比人高一点的金属管。
+A destructible version of the green propagation wire.	绿色传导线的可破坏版本。
+A destructible version of the red propagation wire.	红色传导线的可破坏版本。
+The volume of all items and effects in the game.	游戏中所有物品和效果的音量。
+Repulse everything in a small radius around you.	推开你周围小范围内的一切。
+Target duration in seconds from 0.04s to 16s	目标持续时间（秒），0.04 秒到 16 秒
+Activate object under cursor / currently holding	激活光标下的物体 / 手中拿着的物体
+It's one of those red barrels that explode.	就是那种会爆炸的红色油桶。
+Very large and painful gun to use.	非常大、用起来很疼的枪。
+Relieves pain. Can be dangerous in high doses.	缓解疼痛。大剂量时可能有危险。
+Your contraption will be uploaded to the workshop.	你的装置将上传到创意工坊。
+Lift everything around you with infinite force.	用无限的力量举起你周围的一切。
+Identical to the big one apart from the size and weight.	除了大小和重量，和大的一样。
+Things that shoot a projectile somehow.	以某种方式发射弹丸的东西。
+1L flask full of Gorse blood. Do not ingest.	装满戈尔斯血液的 1 L 烧瓶。请勿饮用。
+Big automatic laser sentry turret.	大型自动激光哨戒炮塔。
+A drug that temporarily disables a person.	能让人暂时失去行动能力的药物。
+Attract everything in a small radius around you.	吸引你周围小范围内的一切。
+Soviet submachine gun with a high rate of fire.	射速很高的苏联冲锋枪。
+Set the upper translation limit for the winch.	设置绞盘行程的上限。
+Forces the resting animation override.	强制播放休息动画。
+A small holographic text display emitter.	小型全息文字发射器。
+A button that activates when pressed.	按下时激活的按钮。
+Zoom scroll wheel sensitivity	滚轮缩放灵敏度
+Handheld flamethrower. Not actually a flamethrower.	手持火焰喷射器。其实并不是火焰喷射器。
+Probably the worst thing to step on.	大概是最不该踩到的东西。
+Set the lower translation limit for the winch.	设置绞盘行程的下限。
+Objects will only collide with the walls.	物体只会与墙壁碰撞。
+Destructible non-conductive wire.	可破坏的绝缘线。
+A virus that turns living beings into zombies.	把生物变成僵尸的病毒。
+You install and use mods at your own risk.	安装和使用模组的风险由你自行承担。
+Classic automatic assault rifle.	经典全自动突击步枪。
+Determines the way the window is presented.	决定窗口的显示方式。
+Toggle between tools and powers	在工具和能力之间切换
+A large heavy truck with lots of space.	空间很大的重型大卡车。
+Box that dampens movement when activated.	激活后会抑制运动的箱子。
+1L flask full of human blood.	装满人类血液的 1 L 烧瓶。
+Indestructible, stiff metal spring.	不可破坏的硬金属弹簧。
+Pressurise the connected container.	给连接的容器加压。
+1L flask full of regular oil.	装满普通油的 1 L 烧瓶。
+Depressurise the connected container.	给连接的容器减压。
+Choose between different gore shaders	在不同的血腥着色器之间选择
+World war era German handgrenade.	世界大战时期的德国木柄手榴弹。
+Propagates a signal on the red channel.	在红色频道上传递信号。
+Destructible steel fixed wiring.	可破坏的钢制固定连接。
+Heavy anchor designed to sink.	专门用来沉底的重锚。
+Determine the upper bound of the framerate.	设置帧率上限。
+Drain the container of its contents.	排空容器里的东西。
+Extremely powerful and impractical handgun.	威力极大又极不实用的手枪。
+Destructible conductive wire.	可破坏的导电线。
+Propagates a signal on the blue channel.	在蓝色频道上传递信号。
+Forces the protection animation override.	强制播放防护动画。
+move forward, toggle lights, etc.	前进、开关灯等
+Wooden bat made to hit things.	用来打东西的木棒球棍。
+Make the camera track this object.	让镜头跟随这个物体。
+Change the way HDR colours are displayed.	修改 HDR 颜色的显示方式。
+Edit the current environment settings	编辑当前环境设置
+Launches objects placed on it in the air.	把放在上面的物体弹到空中。
+Automatic spike launching weapon.	发射尖刺的自动武器。
+A tall tree. It was never alive.	一棵高高的树。它从来没活过。
+Toggle hovering highlights	悬停高亮
+does not match your current username	与你当前的用户名不符
+Target height in meters from 0.5 m to 10 m	目标高度（米），0.5 m 到 10 m
+Set tint for selected objects	设置所选物体的色调
+From Wikipedia, the free encyclopedia.	摘自维基百科，自由的百科全书。
+Like a normal explosive but pink.	和普通炸药一样，只是粉色的。
+Should the floodlights be turned on?	要打开泛光灯吗？
+A crossbow bolt. Points to where it goes.	一支弩箭。指向它要去的地方。
+Target temperature in Celsius	目标温度（摄氏度）
+A lamp that does not offer comfort.	一盏毫无慰藉的灯。
+Organic or artificial beings.	有机或人造的生物。
+This should make the mech work.	这下机甲应该能动了。
+Set the target angle of the servo.	设置舵机的目标角度。
+Things built to go places.	用来去各种地方的东西。
+De staf van de goedheiligman zelf.	圣人本人的权杖。
+Sends an activation signal on impact.	受到撞击时发送激活信号。
+Change the ambient temperature.	修改环境温度。
+Chemical that eats bones.	会腐蚀骨头的化学品。
+Handheld heatray gun. Emits a heating beam.	手持热射线枪。发射加热光束。
+Set maximum power level.	设置最大功率等级。
+Small plastic-framed handgun.	塑料框架的小型手枪。
+Switches to the previous texture.	切换到上一个纹理。
+Indestructible loose cable.	不可破坏的松弛缆绳。
+. Are you sure you want to continue?	。确定要继续吗？
+The volume of the entire application.	整个应用程序的音量。
+Set key trigger description.	设置按键触发器的描述。
+Powerful semi-automatic rifle.	强力半自动步枪。
+Remove this contraption from the list.	从列表中移除此装置。
+Objects you saved on disk.	你保存在磁盘上的物体。
+Enable machine heat damage.	开启机器过热伤害。
+An automatic laser machine rifle.	全自动激光步枪。
+A wire that transfers blood between limbs.	在肢体之间输送血液的线。
+A suspended motorised wheel.	带悬挂的电动轮。
+Target delay in seconds from 0.04s to 60s	目标延迟（秒），0.04 秒到 60 秒
+Indestructible metal spring.	不可破坏的金属弹簧。
+Machines that do stuff.	会干点什么的机器。
+Switches to the next texture.	切换到下一个纹理。
+Resize selected objects	调整所选物体的大小
+Public transport bus.	公共交通巴士。
+Indestructible rigid connection.	不可破坏的刚性连接。
+Spawn right facing	朝右生成
+Maximum mod compilation time	模组最长编译时间
+Things to hit or stab with.	用来砸或捅的东西。
+Triggers the selected objects.	触发所选物体。
+Set tank to idle mode.	把罐子设为闲置模式。
+A small energy container.	小型储能容器。
+Set gate threshold.	设置门的阈值。
+Handheld rapid firing gatling gun.	手持高速加特林。
+Set tank to push mode.	把罐子设为推出模式。
+2 meter tall metal pole.	2 米高的金属杆。
+Industrial hinged spot light.	带铰链的工业射灯。
+Spawn left facing	朝左生成
+Kills living beings instantly.	瞬间杀死生物。
+Stop animation on damage	受伤时停止动画
+Ambient temperature transfer	环境温度传递
+Automatic assault rifle.	全自动突击步枪。
+Rapid firing submachine gun.	高射速冲锋枪。
+Reverses the polarity of the magnet.	反转磁铁的极性。
+Repair or break the engine	修理或破坏引擎
+Changed to Powers tab	已切换到能力标签页
+Set metronome rate in Hz.	设置节拍器频率（Hz）。
+2 meter tall wooden pillar.	2 米高的木柱。
+Pastes the copied objects.	粘贴已复制的物体。
+A larger, more powerful piston.	更大更强的活塞。
+Changed to Tools tab	已切换到工具标签页
+Selection target temperature	所选物体的目标温度
+The volume of UI elements.	界面元素的音量。
+Toggle gate behaviour.	切换门的行为。
+Toggle trigger behaviour.	切换触发方式。
+Publish to the Steam Workshop.	发布到 Steam 创意工坊。
+Disable machine heat damage	关闭机器过热伤害
+Drag and rotate objects.	拖动和旋转物体。
+Player statistics regarding the game.	与游戏相关的玩家统计。
+Set winch upper limit	设置绞盘上限
+Destructible red propagation wire	可破坏的红色传导线
+Forces the stumbling animation override.	强制播放踉跄动画。
+Thermal vision update rate	热成像更新频率
+Freezes the selected objects.	冻结所选物体。
+Toggle parking brakes	切换驻车制动
+Toggle invisibility.	切换隐身。
+Basic indestructible wooden wheel.	简单的不可破坏木轮。
+Disengage parking brakes	松开驻车制动
+Set tank to pull mode.	把罐子设为吸入模式。
+Set object temperature.	设置物体温度。
+Slowly heal injuries	伤势缓慢愈合
+Set winch lower limit	设置绞盘下限
+Stop affecting pressure.	不再影响压力。
+Physics iteration count	物理迭代次数
+Destructible blue propagation wire	可破坏的蓝色传导线
+It's just a metal circle.	只是个金属圆。
+View terms of service	查看服务条款
+Slow motion speed modifier	慢动作速度
+Copies the selected objects.	复制所选物体。
+Return to the toybox menu.	返回物品菜单。
+Threshold as percentage	阈值（百分比）
+Destructible rigid strut.	可破坏的刚性支杆。
+Ignites the selected objects.	点燃所选物体。
+Deletes the selected objects.	删除所选物体。
+Choose objects under cursor	选择光标下的物体
+Freeze selected objects	冻结所选物体
+Set the speed of the rotor.	设置转子速度。
+View item info.	查看物品信息。
+Slow motion disabled	慢动作已关闭
+A small fireworks rocket.	小型烟花火箭。
+An old jukebox.	一台老式点唱机。
+A semi automatic pistol.	一把半自动手枪。
+Reject suspicious mods	拒绝可疑模组
+Old filament light bulb.	老式白炽灯泡。
+Toggle indestructibility.	切换不可破坏。
+Its base is frozen when created.	创建时底座处于冻结状态。
+A pane made of fragile glass.	易碎的玻璃板。
+Locks a creature's joints.	锁住生物的关节。
+Giant hovering fan.	巨型悬浮风扇。
+Electricity Transformer	电力转换器
+Set detector range.	设置探测器范围。
+Log debug messages	显示调试信息
+Simple airfoil.	简单的翼型。
+It's a hovercraft.	这是一艘气垫船。
+Switch to 9th tool	切换到第 9 个工具
+Relatively small bush.	比较小的灌木。
+Switch to 7th tool	切换到第 7 个工具
+Switch to 6th tool	切换到第 6 个工具
+Switch to 5th tool	切换到第 5 个工具
+Switch to 4th tool	切换到第 4 个工具
+Switch to 3th tool	切换到第 3 个工具
+Detached Laser Cannon	拆下的激光炮
+Switch to 2th tool	切换到第 2 个工具
+Switch to 1th tool	切换到第 1 个工具
+Slow motion enabled	慢动作已开启
+Simplified background tiles	简化背景图块
+Switch to 8th tool	切换到第 8 个工具
+Change the colour of this object.	修改这个物体的颜色。
+Welcome to the playground!	欢迎来到游乐场！
+Toggle slow motion	切换慢动作
+Hammer made to fight with.	用来打架的锤子。
+Clears all debris and decals.	清除所有碎片和痕迹。
+A belt that conveys.	用来传送的传送带。
+Distant sound effects	远处音效
+Screenshake intensity	屏幕震动强度
+Upload to Steam Workshop	上传到 Steam 创意工坊
+Temperature unit	温度单位
+Forces the walking animation override.	强制播放行走动画。
+Detached Beam Cannon	拆下的光束炮
+Forces the sitting animation override.	强制播放坐下动画。
+Enter contraption name	输入装置名称
+Wires with context menu	带右键菜单的连线
+Reverse rotor.	反转转子。
+Red propagation wire	红色传导线
+Soviet Submachine Gun	苏联冲锋枪
+Mend or break bone.	接好或折断骨头。
+Toggle sidepanels	切换侧边栏
+Relatively large bush.	比较大的灌木。
+Toggle electricity.	开关电力。
+BG Signal Converter	蓝绿信号转换器
+Very powerful explosive.	威力极大的炸药。
+Ignite selected objects	点燃所选物体
+Reverse vehicle	车辆倒车
+RG Signal Converter	红绿信号转换器
+BR Signal Converter	蓝红信号转换器
+Bone Eating Syringe	噬骨注射器
+Toggle detail view	切换详细视图
+Large wooden pole.	大木杆。
+A human being, very fragile.	人类，非常脆弱。
+Clamp audio volume	限制音量
+Blood vessel wire	血管线
+Set lagbox delay	设置延迟盒延迟
+Set exact rotation.	设置精确旋转。
+Water Breathing Syringe	水下呼吸注射器
+Blue propagation wire	蓝色传导线
+It is disabled by default.	默认关闭。
+Soft plastic barrel.	软塑料桶。
+Drop on death	死亡时松手
+Steam is not initialised	Steam 未初始化
+Big metal beam.	大金属梁。
+Set timed gate duration	设置定时门时长
+Export game debug info	导出游戏调试信息
+An axe. Heavy and sharp.	一把斧头。又重又锋利。
+Double trigger gate	双重触发门
+Activation Transformer	激活转换器
+Giant Wooden Bowl	巨型木碗
+A sharp metal sword.	锋利的金属剑。
+Resets and restarts the map.	重置并重新开始地图。
+Fragmentation explosive.	破片炸药。
+Sharp crystal shard.	锋利的水晶碎片。
+Change the light colour.	修改灯光颜色。
+Mini Thruster	迷你推进器
+Purple cathode light	紫色阴极灯
+Small metal beam.	小金属梁。
+Detached 120mm Cannon	拆下的 120 mm 炮
+Resize object(s)	调整大小
+Set metronome rate	设置节拍器频率
+Set target temperature	设置目标温度
+Destructible propagation wire	可破坏的传导线
+User Interface	用户界面
+Set rotor speed	设置转子速度
+General Purpose Bomb	通用炸弹
+Light wooden stick.	轻木棍。
+Energy Vessel Explosive	能量容器炸药
+Nitroglycerine Flask	硝化甘油烧瓶
+Change the gravity	修改重力
+Toggle thermal vision	切换热成像
+Industrial Generator	工业发电机
+Set upper limit	设置上限
+Disable heat damage	关闭热伤害
+De staf van Sinterklaas	圣尼古拉的权杖
+Infrared Thermometer	红外测温仪
+Change the radio channel.	切换电台频道。
+Why are you doing this?	你为什么要这么做？
+Activation Toggle	激活开关
+A sniper rifle.	一把狙击步枪。
+internal bleeding	内出血
+Clears all "living" things.	清除所有“活着的”东西。
+Set hover height	设置悬浮高度
+Gyroscope Stabiliser	陀螺稳定器
+Set lower limit	设置下限
+A powerful tesla coil.	强大的特斯拉线圈。
+Set to idle	设为闲置
+What should it say?	要显示什么？
+Set to pull	设为吸入
+Enable electricity	开启电力
+CRT Television.	显像管电视。
+Ambient temperature	环境温度
+welke dag is het vandaag?	今天星期几？
+Holographic Display	全息显示屏
+Bulletproof Sheet	防弹板
+Rapid firing cannon.	速射炮。
+A conducting wire.	一根导电线。
+Enable heat damage	开启热伤害
+Plastic Explosive	塑性炸药
+Opens the pause menu.	打开暂停菜单。
+Motorised Wheel	电动轮
+Liquidentifier	液体鉴定仪
+1. FILL WITH LIQUID	1. 装入液体
+Giant sharp spike.	巨型尖刺。
+Set to push	设为推出
+Green cathode light	绿色阴极灯
+Show hovering highlights	显示悬停高亮
+It glows purple.	发出紫光。
+No mods required	无需模组
+Heating Element	加热元件
+Launches crystals.	发射水晶。
+Toggleable Mirror	可切换镜子
+Set laser colour	设置激光颜色
+Set temperature	设置温度
+Machine Blaster	连发爆能枪
+Classic handgun.	经典手枪。
+Yellow cathode light	黄色阴极灯
+Hover Thruster	悬浮推进器
+Painkiller Syringe	止痛注射器
+Red cathode light	红色阴极灯
+Industrial Gyrostabiliser	工业陀螺稳定器
+Liquid Pressuriser	液体加压器
+Enable collision	开启碰撞
+Do you want to upload	是否上传
+Limb crushing	肢体压碎
+Clears everything.	清除一切。
+Archelix Caster	阿克里克斯施法器
+Activation Fuse	激活保险丝
+Industrial Piston	工业活塞
+Update existing	更新现有项目
+Vsync	垂直同步
+Metal Pyramid	金属金字塔
+Fluorescent Lamp	荧光灯
+Open "Mods" folder in Explorer	在资源管理器中打开“Mods”文件夹
+gunshot wounds	枪伤
+White cathode light	白色阴极灯
+Metal rod.	金属棒。
+Thrusterbed	推进器平台
+Adrenaline Syringe	肾上腺素注射器
+Blue cathode light	蓝色阴极灯
+Maximum power	最大功率
+Ceramic plate.	陶瓷盘。
+Mending Syringe	修复注射器
+Pick a new map.	选择新地图。
+Open documentation in browser	在浏览器中打开文档
+Propagation wire	传导线
+Anti-aliasing (SMAA)	抗锯齿（SMAA）
+Previous texture	上一个纹理
+Zombie Syringe	僵尸注射器
+An adrenaline shot.	一针肾上腺素。
+saved with errors	保存时出现错误
+Click to edit	点击编辑
+Oil Flask	油烧瓶
+Make indestructible	设为不可破坏
+Tempered Glass Pane	钢化玻璃板
+Move camera right	镜头右移
+Tonemapping	色调映射
+Cooling Element	冷却元件
+Mechanical belt	机械皮带
+Engage parking brakes	拉上驻车制动
+Set description	设置描述
+Flare for signaling.	用来发信号的信号弹。
+Destructible wall.	可破坏的墙。
+G1 Submachine Gun	G1 冲锋枪
+It glows green.	发出绿光。
+Passenger car.	小汽车。
+Missile Launcher	导弹发射器
+Sniper Rifle	狙击步枪
+Shock Detector	冲击探测器
+It glows yellow.	发出黄光。
+Immobility Field	定身力场
+Flintlock Pistol	燧发手枪
+Life Detector	生命探测器
+limbs selected	个肢体已选中
+Ultra Strength Syringe	超强力量注射器
+Heals nearly anything.	几乎什么都能治。
+Leave the playground.	离开游乐场。
+Edit trigger key.	编辑触发按键。
+Resizable Housing	可调整大小的外壳
+Fixed cable	固定缆绳
+heart stopped	心跳停止
+Insulator	绝缘体
+Blaster Rifle	爆能步枪
+Metal Wheel	金属轮
+Rocket Launcher	火箭筒
+Steel binding	钢制连接
+It glows red.	发出红光。
+Saved in version	保存于版本
+Structural Pillar	结构柱
+Launch Platform	发射平台
+Gorse Blood Flask	戈尔斯血液烧瓶
+A submachine gun.	一把冲锋枪。
+Move camera left	镜头左移
+Wooden strut	木制支杆
+Upload as new	作为新项目上传
+Set to repulse	设为排斥
+Wooden Pillar	木柱
+Just a normal wheel.	就是个普通的轮子。
+Fancy effects	华丽效果
+Emergency siren.	紧急警报器。
+saved succesfully	保存成功
+Dampening Box	阻尼箱
+Laser sentry turret	激光哨戒炮塔
+It glows white.	发出白光。
+Resumes the game.	继续游戏。
+Repair engine	修理引擎
+Assault Rifle	突击步枪
+Lightning chance	闪电概率
+It glows blue.	发出蓝光。
+Destructible pin.	可破坏的销钉。
+Plastic Barrel	塑料桶
+Particle Projector	粒子投射器
+Single trigger	单次触发
+Make invisible	设为隐形
+blood pressure	血压
+Move camera down	镜头下移
+Laser Receiver	激光接收器
+Metal Pole	金属杆
+Move camera up	镜头上移
+Explosives	炸药
+Next texture	下一个纹理
+Render scale	渲染缩放
+Landmine	地雷
+Energy Sword	能量剑
+Ceiling Turret	天花板炮塔
+Firearms	枪械
+Exported to	已导出到
+Set range	设置范围
+Sentry Turret	哨戒炮塔
+Thruster	推进器
+Blood Tank	血液罐
+Collision quality	碰撞质量
+Heatray	热射线
+Detail view	详细视图
+Fusion Bomb	聚变炸弹
+What are you doing?	你在干什么？
+Fire Detector	火焰探测器
+Conveyor Belt	传送带
+Magnum Revolver	马格南左轮
+Set to drain	设为排空
+Restore weight	恢复重量
+Break engine	破坏引擎
+Pulse Drum	脉冲鼓
+Decimator	歼灭器
+Unfollow	取消跟随
+Wooden Wheel	木轮
+Submachine Gun	冲锋枪
+Liquid Valve	液体阀门
+Cleared living	已清除生物
+Hovercar	悬浮车
+Text Display	文字显示屏
+Angle in degrees	角度（度）
+Light Machine Gun	轻机枪
+Sound effects	音效
+Snap	吸附
+Motion Detector	运动探测器
+cosmetic rain	装饰雨
+Jukebox	点唱机
+Freezeray	冷冻射线
+Visual center	视觉中心
+Double trigger	双重触发
+cosmetic fog	装饰雾
+Clear living	清除生物
+Extinguishes fires.	扑灭火焰。
+blood amount	血量
+Cleared debris	已清除碎片
+Wooden crate.	木箱。
+Metal Cube	金属方块
+Set target angle	设置目标角度
+Transfers heat.	传递热量。
+Baseball Bat	棒球棍
+LED Bulb	LED 灯泡
+Signal Flare	信号弹
+Ion Thruster	离子推进器
+Small Button	小按钮
+Pressure Valve	压力阀
+Spike Grenade	尖刺手榴弹
+Context menu	右键菜单
+Stielhandgranate	木柄手榴弹
+Spike Rifle	尖刺步枪
+broken bones	骨折
+Freeze Syringe	冷冻注射器
+Glass Pane	玻璃板
+Trigger key	触发按键
+Bus Chair	公交座椅
+Timed Gate	定时门
+Crossbow Bolt	弩箭
+Laser Pointer	激光笔
+Enter value	输入数值
+Physics Gun	物理枪
+Strong spring	强力弹簧
+Detached 30mm HEAT Cannon	拆下的 30 mm 破甲弹炮
+Acid Syringe	酸液注射器
+internal temp	内部温度
+Environment	环境
+Container Wagon	集装箱车厢
+Destructible vase.	可破坏的花瓶。
+Small Boulder	小石块
+Bowling Ball	保龄球
+cosmetic snow	装饰雪
+Show in Explorer	在资源管理器中显示
+Small I-Beam	小工字梁
+Fire Extinguisher	灭火器
+Wooden Chair	木椅
+Open in Explorer	在资源管理器中打开
+Wooden Table	木桌
+Change key	更改按键
+Beam Rifle	光束步枪
+No mods found	未找到模组
+Toggle time	暂停/恢复时间
+Sticky Grenade	粘性手榴弹
+Metal Detector	金属探测器
+Channel name	频道名称
+Reflects light.	反射光线。
+An empty syringe.	一支空注射器。
+Delete object	删除物体
+to the Workshop?	到创意工坊吗？
+Depressurise	减压
+Concrete slab	混凝土板
+Scherbenwerfer	碎片投射器
+Toggle fire.	开关火焰。
+Power Gauge	功率计
+Rotate left	向左旋转
+Wooden Pole	木杆
+Cleared room	已清空房间
+Defibrillator	除颤器
+Substructure	下部结构
+Reconstructor	重构器
+A tonne of steel.	一吨钢。
+Edit channel	编辑频道
+Knockout Syringe	昏迷注射器
+Options menu.	选项菜单。
+Eats flesh.	吞噬血肉。
+Ambience	环境音
+Rotate right	向右旋转
+Brick Wall	砖墙
+Window mode	窗口模式
+Electromagnet	电磁铁
+Pink Explosive	粉色炸药
+Disable smoke	关闭烟雾
+EMP Generator	电磁脉冲发生器
+Regular table.	普通桌子。
+Change colour	修改颜色
+Pick a colour	选择颜色
+Handgrenade	手榴弹
+Small knife.	小刀。
+to the workshop	到创意工坊
+Rigid cable	刚性缆绳
+Enable fire	开启火焰
+Set angle	设置角度
+Blood Flask	血液烧瓶
+Boat Motor	船用马达
+Small Bush	小灌木
+Toggle smoke.	开关烟雾。
+Wooden pin	木销钉
+Power Hammer	动力锤
+Gate	门
+Local file	本地文件
+Show framerate	显示帧率
+Pink Syringe	粉色注射器
+The spooky food.	吓人的食物。
+Grenade Launcher	榴弹发射器
+broken bone	骨折
+Heat pipe	热管
+Death Syringe	死亡注射器
+Empty Syringe	空注射器
+Set threshold	设置阈值
+Disable all	全部禁用
+Edit text	编辑文字
+Sharp stick.	尖木棍。
+Sharp spear.	锋利的长矛。
+Disassembler	拆解器
+Tall Tree	高树
+Copper wire	铜线
+Ambience Highpass	环境音高通
+Red Barrel	红色油桶
+Clean cuboid.	规整的长方体。
+Tesla Coil	特斯拉线圈
+Master	主音量
+Entities	生物
+Phase link	相位链接
+Brick Cube	砖块方块
+Center of mass	质心
+Atom Bomb	原子弹
+Rigidifier	硬化器
+stab wounds	刺伤
+Gore shader	血腥着色器
+Paused	已暂停
+Lance	骑枪
+Destructible	可破坏
+bleeding	出血
+Realistic	写实
+Undo	撤销
+Enable all	全部启用
+Electronics	电子设备
+Heart Monitor	心率监护仪
+Large Bush	大灌木
+Ion Cannon	离子炮
+Worm Staff	蠕虫权杖
+heilekouwe	一整头牛
+Accumulator	蓄电器
+Handcannon	手炮
+Life Syringe	生命注射器
+The mod author	模组作者
+Fullscreen	全屏
+Balloon	气球
+Continuous	连续
+Television	电视机
+9mm Pistol	9 mm 手枪
+uploaded...	已上传……
+Framerate limit	帧率上限
+Drag	拖动
+Borderless	无边框
+Unpaused	已继续
+hello world!	你好，世界！
+information	信息
+Reverse gear	倒挡
+Accelerator	加速器
+Liquid Canister	液体桶
+integrity	完整度
+Floodlights	泛光灯
+It is a ramp.	这是一个斜坡。
+Publish	发布
+Centrifuge	离心机
+Pause menu	暂停菜单
+1000kg Weight	1000 kg 砝码
+dismembered	肢解
+brain-dead	脑死亡
+Consciousness	意识
+Adrenaline	肾上腺素
+Default	默认
+Thermometer	温度计
+Wrench	扳手
+Toogle	切换
+Battery	电池
+Generator	发电机
+Modern	现代
+hekserij	巫术
+controls	操作
+Discrete	离散
+Fahrenheit	华氏度
+Workshop	创意工坊
+Spot Light	聚光灯
+Toggle	切换
+Floodlight	泛光灯
+Outdated	已过时
+Gravity	重力
+Inspect.	检查。
+Blaster gun.	爆能枪。
+Dynamic	动态
+Machinery	机械
+Propeller	螺旋桨
+Fireworks	烟花
+Zoom in	放大
+A shotgun.	一把霰弹枪。
+Understood	明白
+Where are you?	你在哪？
+Building	建造
+Bicycle	自行车
+Chainsaw	电锯
+Disabled	已禁用
+Metronome	节拍器
+Flamethrower	火焰喷射器
+Melee	近战
+Key Trigger	按键触发器
+Legacy	旧版
+settings	设置
+Tools	工具
+Lighting	光照
+Revolver	左轮手枪
+Vehicles	载具
+Lightbulb	灯泡
+Stormbaan	特斯拉枪
+Servo	舵机
+Chemistry	化学
+Humongous	巨型
+Machine	机器
+Machine Gun	机枪
+Vehicle	载具
+Fun	娱乐
+Copy	复制
+Resistor	电阻
+Brightness	亮度
+Flashlight	手电筒
+Zoom out	缩小
+Upload	上传
+Pasted	已粘贴
+Crystal	水晶
+Enabled	已启用
+Shotgun	霰弹枪
+Apply	应用
+General	常规
+Small	小型
+Liquid Outlet	液体出口
+objects	个物体
+Fan	风扇
+OXygen	氧气
+Android	机器人
+Pistol	手枪
+iterations	次迭代
+Save	保存
+Tiny	微型
+Pressurise	加压
+rotted	腐烂
+INACTIVE	未激活
+Sit down.	坐下。
+Crossbow	弩
+Dynamite	炸药
+Lift	升降机
+Windowed	窗口化
+0 LITER	0 升
+Utility	实用工具
+Bloom	泛光
+Bowling Pin	保龄球瓶
+Rifle	步枪
+None	无
+Off	关闭
+Truck	卡车
+Local	本地
+Blaster	爆能枪
+Celsius	摄氏度
+Minigun	转管机枪
+Lightning	闪电
+Slider	滑块
+Lagbox	延迟盒
+numb	麻木
+Bottle	瓶子
+Spring	弹簧
+ACTIVE	已激活
+Decals	痕迹
+Detector	探测器
+Kelvin	开尔文
+Piston	活塞
+Ramp	斜坡
+Mirror	镜子
+PUSH	推出
+Human	人类
+Rod	棒
+Flush	冲洗
+Enter	进入
+Plate	盘子
+video	视频
+Bazooka	火箭筒
+Slanted	倾斜
+Winch	绞盘
+removed	已移除
+seconds	秒
+Brick.	砖块。
+Button	按钮
+bruise	瘀伤
+Hybrid	混合
+Void	虚空
+Misc.	杂项。
+filter	筛选
+Cancel	取消
+Rope	绳子
+Bell	铃铛
+Camera	摄像机
+Wheel	轮子
+Stunner	电击器
+Cable	电缆
+bruises	瘀伤
+Abyss	深渊
+Plank.	木板。
+Pumpkin	南瓜
+Fancy	华丽
+Bus	公交车
+Siren	警报器
+Blocks	方块
+Fast	快速
+Wire	电线
+Anchor	锚
+Hammer	锤子
+I-Beam	工字梁
+Radio	收音机
+Bandage	绷带
+Car	汽车
+Stick	木棍
+Spear	长矛
+Clamp	夹钳
+Tower	塔
+Torch	火把
+Flask	烧瓶
+Rotor	转子
+Powers	能力
+Bowl.	碗。
+back	返回
+Rain	雨
+Wing	机翼
+audio	音频
+Fog	雾
+Axe	斧头
+Crate	箱子
+Gorse	戈尔斯
+Pull	吸入
+Lava	熔岩
+AK-47	AK-47
+Soap	肥皂
+dead	死亡
+Vase	花瓶
+Tank	坦克
+Mods	模组
+Snow	雪地
+Knife	小刀
+Sea	海洋
+Shock	电击
+Spike	尖刺
+Sword	剑
+for	用于
+fps	fps
+Pin	销钉
+No	否
+Okay	好的
+Yes	是
+Hz	Hz
+Set lagbox delay in seconds.	设置延迟盒延迟（秒）。
+Set the gate maximum power	设置门的最大功率
+Set hover height in meters	设置悬浮高度（米）
+Limb crushing sensitivity	肢体压碎灵敏度
+Snap to center of mass	吸附到质心
+Set the gate threshold	设置门阈值
+Single trigger gate	单次触发门
+Coagulation Syringe	凝血注射器
+Bullet tracers	子弹曳光
+Open file	打开文件
+quit	退出
+play	开始
+resume	继续
+restart	重新开始
+choose map	选择地图
+player statistics	玩家统计
+main menu	主菜单
+gore	血腥
+visual effects	视觉效果
+Contraptions	装置
+Select a chamber	选择一个弹膛
+Paste	粘贴
+Delete	删除
+Follow	跟随
+Activate	激活
+Ignite	点燃
+Freeze	冻结
+Unfreeze	解冻
+Make weightless	使失重
+Resize	调整大小
+Stop resizing	停止调整大小
+Break bone	折断骨头
+Mend bone	接好骨头
+Stumble	踉跄
+Clear animation override	清除动画覆盖
+Walk	行走
+Cower	畏缩
+Flat pose	平躺姿势
+Clear debris	清除碎片
+Clear everything	清除一切
+Recompile	重新编译
+Safe mode is enabled. Mods cannot load.	安全模式已启用。无法加载模组。
+Open Mods folder in Explorer	在资源管理器中打开 Mods 文件夹
+Search	搜索
+Biohazard	生物危害
+Inanimate	无生命
+Decorations	装饰
+Drag object	拖动物体
+Switch to first tool	切换到第一个工具
+Switch to second tool	切换到第二个工具
+Switch to third tool	切换到第三个工具
+Edit layers of selected objects	编辑所选物体的图层
+Move layer down	图层下移
+Move layer up	图层上移
+Bring to front	置于顶层
+Send to back	置于底层
+Increment grid size	增大网格
+Decrement grid size	减小网格
+Increment angle snap	增大角度吸附
+Decrement angle snap	减小角度吸附
+Pause menu / back	暂停菜单 / 返回
+Toggle user interface	显示/隐藏界面
+Pan	平移镜头
+Mouse0	左键
+Mouse1	右键
+Mouse2	中键
+Mouse3	鼠标4
+Mouse4	鼠标5
+Space	空格
+Alpha{0}	{0}
+LeftShift	左 Shift
+RightShift	右 Shift
+LeftAlt	左 Alt
+RightAlt	右 Alt
+LeftControl	左 Ctrl
+RightControl	右 Ctrl
+Escape	Esc
+Return	回车
+RightArrow	→
+LeftArrow	←
+UpArrow	↑
+DownArrow	↓
+Collision calculations	碰撞计算
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	决定碰撞检测的质量。离散模式更快但不够精确。连续模式可防止物体在高速时互相穿透。
+Goreless	无血腥
+No blood or obvious gore will be rendered when this is enabled.	启用后将不显示血液和明显的血腥内容。
+Procedural fragments	程序化碎块
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	启用后，肢体被完全压碎时会程序化生成血肉和骨头碎块。大量肢体被摧毁时可能影响性能。
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	决定物理模拟的迭代次数。数值越高模拟越精确，但会降低性能。超过 128 后收益递减。默认为 32。
+{0} iterations	{0} 次迭代
+{0} fps	{0} fps
+{0} Hz	{0} Hz
+{0} m	{0} m
+{0} seconds	{0} 秒
+{0} degrees	{0} 度
+This setting may decrease performance when enabled. It is disabled by default.	启用此设置可能降低性能。默认关闭。
+Snap grid size	网格吸附间距
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	位置吸附所用网格点之间的距离。通过把物体吸附到最近的网格点，帮助更精确地对齐。默认为 0.25 m
+Angle snap size	角度吸附间距
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	旋转吸附所用的角度增量。通过把旋转吸附到该值最近的倍数，帮助更精确地对齐。默认为 15 度
+The maximum amount of seconds that a mod can compile for until it's skipped.	模组编译的最长秒数，超时将被跳过。
+Fragility multiplier	脆弱度倍率
+The higher this value is the more fragile entities become.	数值越高，生物越脆弱。
+Brain damage	脑损伤
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	切换是否会发生脑损伤。它会让生物偶尔昏厥、无法站立并出现抽搐。
+Extra shot impact particles	额外中弹粒子
+Limbs with enough flesh on them may eject chunky particles when shot.	肉足够多的肢体中弹时可能飞出肉块。
+Dismemberment loose tissue	肢解时的松散组织
+Dismemberment of limbs may expose loose stringy tissue.	肢体被肢解时可能露出松散的丝状组织。
+This will toggle relatively performance-heavy effects.	切换较耗性能的效果。
+Bullet cracks and whizzes	子弹破空声与呼啸声
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	启用后，超音速子弹会发出鞭响般的破空声和呼啸声。
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	使用模组可能导致错误、性能下降和其他问题。安装和使用模组的风险由你自行承担。
+No mod selected	未选择模组
+Submit	提交
+Problem description	问题描述
+Describe the issue	描述问题
+Steps to reproduce	复现步骤
+Fill this form and press "Submit" to report a bug.	填写此表单并点击"提交"来报告错误。
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	出于安全和效率考虑，报告中会包含你的 IP 地址、游戏日志、部分系统配置和已加载的模组。这些信息不会公开。
+By submitting the report, you agree to share this information with the developer of the game.	提交报告即表示你同意与游戏开发者分享这些信息。
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	请清楚描述如何复现该错误。无法复现的错误将被忽略
+version	版本
+[SAFE MODE]	[安全模式]
+(64 bit)	（64 位）
+(32 bit)	（32 位）
+PREVIEW BUILD	预览版
+you may encounter bugs and unfinished content	可能会遇到错误和未完成的内容
+Steam Workshop	Steam 创意工坊
+Retrieving subscriptions	正在获取订阅
+Entities killed	杀死的生物
+Entities revived	复活的生物
+Items spawned	生成的物品
+Nuclear explosions caused	引发的核爆炸
+Wires created	创建的电线
+Contraptions saved	保存的装置
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b>（2019），作者 mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	其他贡献：Aspa102 和 mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio，作者 Mark Heath (Ms-PL)
+Reactor A5	反应堆 A5
+Enter Tiny	进入微型
+Enter Small	进入小型
+Enter Tower	进入塔
+Enter Void	进入虚空
+Enter Substructure	进入下层结构
+Enter Lava	进入熔岩
+Enter Hybrid	进入混合
+Enter Humongous	进入巨型
+Enter Default	进入默认
+Enter Blocks	进入方块
+Enter Abyss	进入深渊
+Enter Slanted	进入倾斜
+Enter Snow	进入雪地
+Enter Sea	进入海洋
+Enter Reactor A5	进入反应堆 A5
+{0} bruise	{0} 处瘀伤
+{0} bruises	{0} 处瘀伤
+{0} gunshot wound	{0} 处枪伤
+{0} gunshot wounds	{0} 处枪伤
+{0} gunshots wounds	{0} 处枪伤
+{0} stab wound	{0} 处刺伤
+{0} stab wounds	{0} 处刺伤
+{0}% burnt	{0}% 烧伤
+{0}% acid damage	{0}% 酸蚀伤
+{0}% rotted	{0}% 腐烂
+{0}% skin damage	{0}% 皮肤损伤
+{0} limb selected	已选择 {0} 个肢体
+{0} limbs selected	已选择 {0} 个肢体
+Pasted {0} object	已粘贴 {0} 个物体
+Pasted {0} objects	已粘贴 {0} 个物体
+Enter a name for the contraption	输入装置名称
+Contraption name	装置名称
+Colour code	颜色代码
+Saved in version {0}.	保存于版本 {0}。
+Toggle frozen	切换冻结
+Thermal vision	热成像
+Toggle collisions	切换碰撞
+Edit the current environment settings\\nSome maps don't support some settings	编辑当前环境设置\\n部分地图不支持部分设置
+Edit layer	编辑图层
+Choose bell note	选择铃铛音符
+Disable collision	禁用碰撞
+Sit	坐下
+Mute	静音
+Next track	下一首
+Previous track	上一首
+Toggle sounds	切换声音
+Now playing <color=#ff54f9>{s}</color>	正在播放 <color=#ff54f9>{s}</color>
+Clear counter	清零计数器
+Set signal value	设置信号值
+Set stick distance	设置吸附距离
+Set tank to drain mode.	将罐子设为排放模式。
+Disable infinite source	关闭无限来源
+Toggle syringe infinite.	切换注射器无限。
+Repair	修理
+Fire lightning bolts by flicking across the screen.	在屏幕上快速划动以发射闪电。
+Pyrokinesis	控火术
+Fire powers.	火焰能力。
+Chain	锁链
+Wire but it looks like a chain.	看起来像锁链的电线。
+Liquid conduit	液体导管
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	在容器之间输送液体的导线。通常用来从人体抽血。
+Wooden binding	木质捆绑
+Destructible wooden fixed wiring.	可破坏的固定木质连接。
+Activator Electrode	激活电极
+Stone Brick	石砖
+Cobblestone Wall	鹅卵石墙
+Stone Brick Wall	石砖墙
+Cardiopulmonary Bypass Machine	体外循环机
+Counter	计数器
+Adhesive Coupler	粘合耦合器
+Decoupler	分离器
+Detached Ray Cannon	拆散的射线炮
+Naval Mine	水雷
+Liquid Duplicator	液体复制器
+Pointer	指针
+Office Chair	办公椅
+Office Computer	办公电脑
+Office Keyboard	办公键盘
+Office Monitor	办公显示器
+Office Table	办公桌
+Excalibur	王者之剑
+Jet Engine	喷气发动机
+Scope Attachment	配件：瞄准镜
+Capacitor Attachment	配件：电容器
+Explosive Rounds Attachment	配件：爆炸弹
+Incendiary Rounds Attachment	配件：燃烧弹
+Laser Attachment	配件：激光
+Flashlight Attachment	配件：手电筒
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	经典的全自动突击步枪。支持瞄准镜和枪管下挂配件。
+Automatic assault rifle. Supports scoped and underbarrel attachments.	全自动突击步枪。支持瞄准镜和枪管下挂配件。
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	威力极大且极不实用的手枪。支持瞄准镜和枪管下挂配件。
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	塑料框架的小型手枪。支持瞄准镜和枪管下挂配件。
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	原始手枪。不太准，不太实用，而且非常响。支持瞄准镜和枪管下挂配件。
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	全自动轻机枪。配有经典的无尽弹链。支持枪管下挂配件。
+A semi automatic pistol. Supports scoped and underbarrel attachments.	半自动手枪。支持瞄准镜和枪管下挂配件。
+Classic handgun. Supports scoped and underbarrel attachments.	经典手枪。支持瞄准镜和枪管下挂配件。
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	强力半自动步枪。支持瞄准镜和枪管下挂配件。
+A shotgun. Supports scoped and underbarrel attachments.	一把霰弹枪。支持瞄准镜和枪管下挂配件。
+A sniper rifle. Supports underbarrel attachments.	一把狙击步枪。支持枪管下挂配件。
+A submachine gun. Supports scoped and underbarrel attachments.	一把冲锋枪。支持瞄准镜和枪管下挂配件。
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	射速很快的冲锋枪。支持瞄准镜和枪管下挂配件。
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	高射速的苏联冲锋枪。支持瞄准镜和枪管下挂配件。
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	又大又痛的枪。支持瞄准镜和枪管下挂配件。
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	威力极大的射线炮。除了炮管，其他零件全都没了。
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	装在大多数枪械枪管下方的电容器。把枪的电荷传给子弹。
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	装在大多数枪械顶部的瞄准镜。稍微提高精度。
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	装在大多数枪械枪管下方的配件。不知怎么把子弹变成爆炸弹。
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	装在大多数枪械枪管下方的配件。不知怎么把子弹变成燃烧弹。
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	装在大多数枪械枪管下方的小型激光指示器。提高精度。
+A small flashlight that is slotted under the barrel of most guns.	装在大多数枪械枪管下方的小型手电筒。
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	手持式短程治疗汁喷射器。与<b>生命血清</b>不同，治疗汁无法治愈钝伤和枪伤。
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	传说之剑的复制品。剑刃是单分子的，能刺穿任何比它弱的材料。激活时会从剑尖机械地射出一个火球。
+This small wrench can repair most machinery with a few gentle taps.	这把小扳手轻轻敲几下就能修好大多数机器。
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	传统的触发式水雷，设计上要用锁链拴在锚上。按下其中一个触角就会猛烈爆炸。
+Brick made of stone.	石头做的砖。
+A brick wall that will stand the test of time. Very resistant and heavy building material.	经得起时间考验的砖墙。非常坚固且沉重的建筑材料。
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	用"天然"石头砌的原始墙。没什么结构强度、安全性和隔热性。
+Metal triangle. I <b>know</b> it says pyramid.	金属三角形。我<b>知道</b>上面写的是金字塔。
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	可储存 5 L 液体的罐子。激活会切换到下一个压力模式。<color=#FF4444>红色信号<color=#FFFFFF>切换回上一个模式。
+PUSH: Force liquid out of the tank	推出：把液体压出罐子
+PULL: Force liquid to flow in the tank	吸入：让液体流进罐子
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	空闲：由其他压力源决定，液体趋于平衡
+DRAIN: Pull and drain liquid.	排放：吸入并排掉液体。
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	收到<color=#44FF44>绿色信号<color=#FFFFFF>时数值加一，收到<color=#FF4444>红色信号<color=#FFFFFF>时减一，收到<color=#7777FF>蓝色信号<color=#FFFFFF>时清零的装置。
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	当数值达到可设置的"信号值"时，会发出激活信号并清零。
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	会不断调整角度、始终正对着你的转子。停用后角度会被锁定。
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	以可设置的速度旋转。收到<color=#FF4444>红色信号<color=#FFFFFF>时反转，否则切换激活状态。通电后扭矩增大，速度不变。
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	威力极大的推进器。启动和关闭都需要一段时间，但最终会以巨大的力量推进。发动机比较脆弱，被摧毁时会爆炸。
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	激活信号通道转换器。把<color=#7777FF>蓝色<color=#FFFFFF>转换为<color=#44FF44>绿色<color=#FFFFFF>，反之亦然。
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	激活信号通道转换器。把<color=#FF4444>红色<color=#FFFFFF>转换为<color=#44FF44>绿色<color=#FFFFFF>，反之亦然。
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	激活信号通道转换器。把<color=#7777FF>蓝色<color=#FFFFFF>转换为<color=#FF4444>红色<color=#FFFFFF>，反之亦然。
+Duplicates the liquids that are present upon activation.	激活时复制当前存在的液体。
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	从 0 度旋转到可设置目标角度的电动铰链。比较重，通电后力量更大。
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	激活发射器前方的任何东西。不要直视装置的工作端。
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	可以放出或收回缆绳的机器。激活可切换方向。通电才会移动。收到<color=#FF4444>红色激活信号<color=#FFFFFF>时切换内置电池。
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	用于悬浮在表面上方的推进器。通电后悬浮力增大。悬浮高度可在右键菜单中设置。<color=#FF4444>红色信号<color=#FFFFFF>升高悬浮高度，<color=#7777FF>蓝色信号<color=#FFFFFF>降低悬浮高度。
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	激活后会粘住小范围内的所有物体。再次激活则松开。
+Two objects that detach when activated.	激活后会分离的两个物体。
+A relatively outdated desktop computer.	一台有点过时的台式电脑。
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	对有些人太高、对有些人太矮的桌子，但因为多人共用，所以没法调节。
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	超高科技的无线薄膜键盘！有些键看起来比别的键磨损得更厉害。
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	连接到上躯干后，这台机器会代替心脏为生物体提供血压。
+A computer monitor that looks like it belongs in an office.	一台看起来就属于办公室的显示器。
+A chair that looks really comfortable but is actually a bit too small for most people.	看起来非常舒服，但其实对大多数人来说有点小的椅子。
+{0} BPM	{0} BPM
+Extended limb damage	扩展肢体伤害
+Causes limbs to become more fragile as they take more damage. Enabled by default.	肢体受到的伤害越多就越脆弱。默认开启。
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	调整子弹轨迹及类似效果的可见度。默认为 100%。
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	决定碎片的碰撞检测质量。离散更快但不够精确。连续可防止碎片在高速时互相穿透。
+Clamp brightness	限制亮度
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	减弱刺眼物体的泛光效果。如果你对强光敏感会很有用。
+Changes the displayed temperature unit across the game.	更改整个游戏中显示的温度单位。
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	启用后，按住细节视图键时会显示场景中每个物体的质心。便于搭建平衡的装置。
+UI volume	界面音量
+Adjust the volume of user interface sounds. Default is 100%.	调整界面音效的音量。默认为 100%。
+Ambience volume	环境音量
+Adjust the volume of ambient background sounds. Default is 100%.	调整背景环境音的音量。默认为 100%。
+Make sure to leave a review on Steam and join our Discord server if you like the game!	如果你喜欢这款游戏，记得在 Steam 上留下评价并加入我们的 Discord 服务器！
+Check out the official wiki for more information about the game.	查看官方百科，了解更多游戏信息。
+Third-party licenses:	第三方许可：
+texture packs	材质包
+Discord server	Discord 服务器
+Force refresh mod list	强制刷新模组列表
+Open source libraries	开源库
+map editor	地图编辑器
+report a bug	报告错误
+Update	更新
+Accept risk	接受风险
+The game failed to detect Steam. Some features may not work correctly.	游戏未能检测到 Steam。部分功能可能无法正常工作。
+Try restarting the game or the Steam client.	请尝试重启游戏或 Steam 客户端。
+limb status	肢体状态
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> 或 <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>生成所选物品</size>
+Hold <b>Mouse2</b> and drag	按住 <b>Mouse2</b> 并拖动
+<size=40>to move the camera around</size>	<size=40>移动镜头</size>
+slow motion	慢动作
+Invisible tools	隐藏工具
+Don't save anything and resume the game	不保存任何内容并继续游戏
+Toggle visibility of placed wires, cables, etc.	切换已放置电线、电缆等的可见性
+<b>Invisibility</b>	<b>隐形</b>
+Move one layer down	下移一层
+Increment order	顺序 +1
+<b>Use Wire</b>	<b>使用电线</b>
+Save to disk	保存到磁盘
+Increment layer	图层 +1
+Decrement order	顺序 -1
+Decrement layer	图层 -1
+View this item on the Workshop	在创意工坊查看
+Move one layer up	上移一层
+Arrange objects	排列物体
+Destructible spring	可破坏弹簧
+Destructible metal spring	可破坏金属弹簧
+World origin	世界原点
+<size=80%>This is where the player spawns	<size=80%>玩家在这里出生
+<b>Map settings</b>	<b>地图设置</b>
+Map properties	地图属性
+Reset	重置
+Save map	保存地图
+Properties	属性
+Remove everything in the map and start over. Map properties are untouched.	清除地图上的一切并重新开始。地图属性不受影响。
+Exit to the main menu.	退出到主菜单。
+You are not supposed to be here. This place isn't ready yet.	你不该来这里。这个地方还没准备好。
+Save the map	保存地图
+Edit the map properties	编辑地图属性
+Open the menu	打开菜单
+Extremely deep pit	极深的深坑
+A space scattered with floating rectangles	散布着漂浮矩形的空间
+Large open rectangular space	开阔的大型矩形空间
+This map is just way too large	这张地图实在太大了
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	有极深水体的山谷，右侧是平地，下方有一条隧道。
+Large map with two coasts and a body of lava	有两处海岸和一片熔岩的大地图
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	设施众多反应堆之一的复制品，连同周围的房间。
+Large map with two coasts and a body of water	有两处海岸和一片水域的大地图
+The ground is slanted	地面是倾斜的
+A decently sized room. Compared to the other maps, it's very small	大小还算可以的房间。和其他地图比起来非常小
+It's cold and slippery	又冷又滑
+A replica of an old subterranean part of the facility.	设施中一段旧地下区域的复制品。
+This map is designed to fit your monitor, it's that small	这张地图刚好能装进你的显示器，就这么小
+Large space with a tall tower in the middle	中间有一座高塔的大空间
+There is nothing	什么都没有
+Bell that rings the A4 note	发出 A4 音的铃铛
+Bell that rings the B4 note	发出 B4 音的铃铛
+Bell that rings the C4 note	发出 C4 音的铃铛
+Bell that rings the C5 note	发出 C5 音的铃铛
+Bell that rings the D4 note	发出 D4 音的铃铛
+Bell that rings the E4 note	发出 E4 音的铃铛
+Bell that rings the F4 note	发出 F4 音的铃铛
+Bell that rings the G4 note	发出 G4 音的铃铛
+Brighter, more efficient, more durable, and less painful to touch.	更亮、更高效、更耐用，摸起来也没那么烫手。
+128 tooth spur gear	128 齿直齿轮
+256 tooth spur gear	256 齿直齿轮
+32 tooth spur gear	32 齿直齿轮
+64 tooth spur gear	64 齿直齿轮
+Sends activation signals if the amount of liquid it contains is above a certain threshold	当内部液体量超过一定阈值时发出激活信号
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	数字温度计。能准确显示 -273 到 9999 摄氏度范围内的自身温度。可承受高达 3.4028235e38 摄氏度的温度！
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	检测到前方有水时发出激活信号。范围可在右键菜单中修改。
+(empty)	（空）
+Rest	休息
+Head	头部
+Fetus	胎儿姿势
+Flailing	挣扎
+Stumbling	踉跄
+Swimming	游泳
+In pain	疼痛
+Walking	行走
+Foot	脚
+Sitting	坐姿
+Flat	平躺
+Decerebrate	去大脑姿势
+Decorticate	去皮质姿势
+Bone	骨头
+Flesh	血肉
+Protective	防御姿势
+Decrease cooling	降低冷却
+Increase cooling	提高冷却
+Raise control rods	升起控制棒
+Lower control rods	降下控制棒
+STAND BY	待机
+Press E	按 E
+<b>CAPACITY</b>	<b>容量</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>反应堆数据</align>
+TEMPERATURE\t:	温度\t:
+PRESSURE\t\t:	压力\t\t:
+COOLING RODS\t:	冷却棒\t:
+OUTPUT POWER\t:	输出功率\t:
+<color=red>WARNING</color>	<color=red>警告</color>
+<b>Modded Categories</b>	<b>模组分类</b>
+Categories added by mods	模组添加的分类
+The most common map tile. A static indestructible rectangle that collides with everything.	最常见的地图块。一个与一切碰撞的静态不可破坏矩形。
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	全自动的光束成形能量武器。快速产生一连串短促的能量脉冲。
+Glowing tube filled with gas	充满气体的发光灯管
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	以超音速发射弹丸的手持动能武器。穿透力高，伤害低。弹丸几乎瞬间汽化，并留下一道电离空气的轨迹。
+Set colour for selected lights	设置所选灯光的颜色
+Use	使用
+Regenerate identity	重新生成身份
+Top	顶部
+Bottom	底部
+Speed	速度
+spring cable	弹簧缆绳
+Gorse blood	戈尔斯之血
+Nitroglycerine	硝化甘油
+Something happened. Please show this message to the developer:	出了点问题。请把这条消息给开发者看：
+Set detector threshold	设置探测器阈值
+Set the detector liquid threshold	设置探测器液体阈值
+Break	折断
+Set pointer speed	设置指针速度
+Set the speed of the pointer	设置指针的速度
+Set pointer speed from 0 to 10	指针速度 0 到 10
+Water	水
+Bounds	边界
+Unfulfilled mod requirements:	未满足的模组依赖：
+Select anyway	仍然选择
+This contraption is corrupted	该装置已损坏
+This contraption is incompatible with your current version	该装置与当前版本不兼容
+From the Steam Workshop	来自 Steam 创意工坊
+Selection mode	选择模式
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	决定用什么方式确定选中的物体。质量会选质量最小的物体，面积会选总面积最小的物体，深度会选排序层级最高的物体。简单说，通常会选中你最先看到的物体。
+Mass	质量
+Area	面积
+Depth	深度
+Liquid overflow limb exploding	液体过多时肢体爆裂
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	切换肢体装满液体时是否爆裂。默认关闭。仅在启用肢体压碎时生效。
+Slice	切割
+Angle snap set to {0} degrees	角度吸附设为 {0} 度
+Grid size set to {0} m	网格大小设为 {0} m
+Left Mouse	鼠标左键
+Right Mouse	鼠标右键
+Middle Mouse	鼠标中键
+Automatic	自动
+Make destructible	设为可破坏
+Untitled	未命名
+Vibrate	振动
+Set detector range in meters	设置探测器范围（米）
+Target distance in meters from 0.2 m to 40 m	目标距离 0.2 m 到 40 m
+Show beam	显示光束
+Hide beam	隐藏光束
+Show or hide the detector beam	显示或隐藏探测器光束
+Contraption directory malformed	装置目录已损坏
+Can't upload to Workshop	无法上传到创意工坊
+Close	关闭
+This item is marked as uploaded. How do you want to continue?	该物品已标记为已上传。你想怎么继续？
+Contraption does not exist.	装置不存在。
+Contraptions cannot be uploaded from family shared games.	无法从家庭共享的游戏上传装置。
+Could not create workshop item	无法创建创意工坊物品
+Unknown reason	未知原因
+By submitting to the workshop, you must agree to the terms of service.	提交到创意工坊前，你必须同意服务条款。
+{0}% uploaded...	已上传 {0}%……
+This puzzle requires an internet connection	此谜题需要网络连接
+Toggle cosmetic rain	切换装饰性降雨
+Toggle cosmetic snow	切换装饰性降雪
+Toggle cosmetic fog	切换装饰性雾
+Repair broken machinery	修理损坏的机器
+Double trigger receiver	双触发接收器
+Single trigger receiver	单触发接收器
+TEMPERATURE: {s}	温度：{s}
+COOLING PUMPS: {0}%	冷却泵：{0}%
+CONTROL ROD DEPTH: {0}%	控制棒深度：{0}%
+POWER OUTPUT: {0} E	输出功率：{0} E
+Basic	基础
+Ignored if animation is enabled	启用动画时忽略
+Animation	动画
+Clear counter value	清零计数器数值
+Set counter signal value	设置计数器信号值
+Set value at which to reset the counter and emit a signal	设置计数器清零并发出信号的数值
+Value from {0} to {1}	数值范围 {0} 到 {1}
+Connecting...	正在连接……
+Compiling	正在编译
+Client disconnected during compilation...	编译期间客户端断开连接……
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	编译超时！模组编译超过 {0} 秒，将被忽略。
+Set syringe to push mode	将注射器设为推出模式
+Set syringe to pull mode	将注射器设为吸入模式
+Set syringe to idle mode	将注射器设为空闲模式
+Enable infinite source	开启无限来源
+Move Gizmo	移动控件
+Resize Gizmo	缩放控件
+Background	背景
+Foreground	前景
+Outline	轮廓
+Set the distance the coupler can stick to objects	设置耦合器吸附物体的距离
+Distance	距离
+Unknown error occurred...	发生未知错误……
+Status	状态
+Resets the animation to be controlled by the algorithm again	将动画控制交还给算法
+Reset all animations	重置所有动画
+Deserialisation error! This contraption is incompatible.	反序列化错误！该装置不兼容。
+This may be a version mismatch or a missing mod.	可能是版本不一致或缺少模组。
+Loading maps	正在加载地图
+Press any button...	按任意键……
+Target height in meters from 0.5 m to 10 km	目标高度 0.5 m 到 10 km
+Set bell note	设置铃铛音符
+Could not find the selected piano key...	找不到所选的钢琴键……
+Increment bell note	升高铃铛音符
+Decrement bell note	降低铃铛音符
+Water breathing serum	水下呼吸血清
+Reanimation agent	复苏剂
+Coagulation serum	凝血血清
+Instant death poison	即死毒药
+Inert pink liquid	惰性粉色液体
+Vestibular poison	前庭毒药
+Muscle poison	肌肉毒药
+Numbing poison	麻痹毒药
+Mirrorising agent	镜面化剂
+Transparency agent	透明化剂
+Crushing poison	压碎毒药
+Mass agent	质量剂
+Explosion poison	爆炸毒药
+Durability serum	耐久血清
+Regeneration serum	再生血清
+Distortion poison	扭曲毒药
+Circulation poison	循环毒药
+Combustion agent	燃烧剂
+Tissue deconstruction agent	组织分解剂
+Enhancing serum	强化血清
+Immortality serum	不死血清
+Ultra strength serum	超级力量血清
+Life serum	生命血清
+Mending serum	愈合血清
+Knockout poison	昏迷毒药
+Joint lock poison	关节锁定毒药
+Painkiller	止痛药
+Human blood	人血
+Exotic liquid	奇异液体
+Inert liquid	惰性液体
+Beverage M04	饮料 M04
+Debug discoloration liquid	调试用褪色液体
+Coolant	冷却液
+Tritium	氚
+Acid	酸
+Gasoline	汽油
+Portal	传送门
+Save settings	保存设置
+Load settings	加载设置
+Set servo target angle	设置舵机目标角度
+Set servo delta	设置舵机增量
+Angle	角度
+Set servo speed	设置舵机速度
+Set the speed of the servo	设置舵机的速度
+Set servo speed from 0 to 10	舵机速度 0 到 10
+Damage	伤害
+Toggle key trigger behaviour	切换按键触发器行为
+Press {s} to {t}	按 {s} 来{t}
+Press {s}	按 {s}
+Cleared chamber	弹膛已清空
+Set to attract	设为吸引
+Could not save file.	无法保存文件。
+This mod has updated.	该模组已更新。
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	该模组包含可能有害的代码。你可以接受风险，但可能会后悔。
+Continue	继续
+Disable	禁用
+Enable	启用
+Enter your text here	在此输入文本
+Make visible	设为可见
+Pain	疼痛
+Create new pose	创建新姿势
+Initialise all poses	初始化所有姿势
+Loading Workshop items	正在加载创意工坊物品
+punctured lungs	肺部穿孔
+This will overwrite an existing contraption with the same name.	这将覆盖同名的已有装置。
+Some mods caused a {0}ms freeze!	部分模组造成了 {0} ms 的卡顿！
+Consider disabling some mods for faster load times.	可以考虑禁用部分模组以加快加载。
+Consider disabling these mods for faster load times:	可以考虑禁用以下模组以加快加载：
+Don't show this again	不再显示
+Menu	菜单
+INITIALISING...	初始化中……
+SCANNING...	扫描中……
+FLUSHING...	冲洗中……
+Flushed :)	已冲洗 :)
+ABRUPT SHUTDOWN RECOVERY	异常关机恢复
+Checking~	检查中~
+Incorrect	错误
+Receiving...	接收中……
+Flip object	翻转物体
+Toggle wire invisibility	切换电线隐形
+Activate object under cursor	激活光标下的物体
+Select multiple	多选
+Local space transformation	局部空间变换
+Sharp	锋利
+Loading	加载中
+Particle settings	粒子设置
+Decal settings	贴花设置
+Are you sure you want to permanently remove	确定要永久删除
+Are you sure you want to unsubscribe from	确定要取消订阅
+Unable to delete	无法删除
+Enter channel name	输入频道名称
+Metal	金属
+energy wire	能量线
+Set lower winch limit	设置绞盘下限
+Set upper winch limit	设置绞盘上限
+Translation in meters	位移（米）
+Invalid decimal input for winch limit!	绞盘限制的小数输入无效！
+Repair holes	修补漏洞
+Repairs holes in liquid container	修补液体容器上的漏洞
+Loading mods	正在加载模组
+Loading mod	正在加载模组
+Start	开始
+Preparing	准备中
+Workshop is disabled	创意工坊已禁用
+Sending request	正在发送请求
+Invalid decimal input	无效的小数输入
+Unmute	取消静音
+Unknown	未知
+Copied {0} objects	已复制 {0} 个物体
+Target rate in Hertz from 0.125 Hz to 32 Hz	目标频率 0.125 Hz 到 32 Hz
+Mechanism limits	机构限制
+Larger values can lead to instability if the mechanism is heavily loaded.	机构负载较大时，数值过大可能导致不稳定。
+Internal mechanism forces	机构内部力
+A one-shot impulse. Resets to 0 automatically each update.	一次性冲量。每次更新自动归零。
+A continuous tensioning force pushing the mechanism.	持续推动机构的张紧力。
+The target speed of the mechanism.	机构的目标速度。
+The degree to which the drive is engaged.	驱动的接合程度。
+Change what the display displays on its display	更改显示器在其显示屏上显示的内容
+Set maximum power level	设置最大功率等级
+Repair or break the engine.	修理或破坏发动机。
+Toggle trigger behaviour	切换触发方式
+Disable machine heat damage.	禁用机器过热损伤。
+Set object temperature	设置物体温度
+Set detector range	设置探测器范围
+Enable machine heat damage	启用机器过热损伤
+Set exact rotation	设置精确旋转
+Reverse rotor	反转转子
+User interface	界面
+Brick	砖块
+general	常规
+Push	推出
+Plank	木板
+mods	模组
+Set target temperature.	设置目标温度。
+Toggle parking brakes.	切换驻车制动。
+Set hover height.	设置悬浮高度。
+Reverse vehicle.	反转载具方向。
+Inspect	检查
+Mend or break bone	接好或折断骨头
+Toggle indestructibility	切换不可破坏
+(EMPTY)	（空）

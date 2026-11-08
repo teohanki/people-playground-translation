@@ -1,0 +1,7 @@
+build/
+*.zip
+*.exe
+untranslated*.txt
+.DS_Store
+deps/
+dist/

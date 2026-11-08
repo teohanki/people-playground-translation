@@ -1,0 +1,240 @@
+Drag object	Перетащить объект
+Switch to first tool	Первый инструмент
+Switch to second tool	Второй инструмент
+Switch to third tool	Третий инструмент
+Edit layers of selected objects	Изменить слои выделенных объектов
+Move layer down	Слой ниже
+Move layer up	Слой выше
+Bring to front	На передний план
+Send to back	На задний план
+Increment grid size	Увеличить шаг сетки
+Decrement grid size	Уменьшить шаг сетки
+Increment angle snap	Увеличить шаг угла
+Decrement angle snap	Уменьшить шаг угла
+Pause menu / back	Меню паузы / назад
+Toggle user interface	Скрыть/показать интерфейс
+Pan	Перемещение камеры
+Mouse0	ЛКМ
+Mouse1	ПКМ
+Mouse2	СКМ
+Mouse3	Мышь 4
+Mouse4	Мышь 5
+Space	Пробел
+Alpha{0}	{0}
+LeftShift	Левый Shift
+RightShift	Правый Shift
+LeftAlt	Левый Alt
+RightAlt	Правый Alt
+LeftControl	Левый Ctrl
+RightControl	Правый Ctrl
+Escape	Esc
+Return	Enter
+RightArrow	Вправо
+LeftArrow	Влево
+UpArrow	Вверх
+DownArrow	Вниз
+Collision calculations	Расчёт столкновений
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	Определяет качество обнаружения столкновений. Дискретный режим быстрее, но менее точный. Непрерывный не даёт объектам проходить сквозь друг друга на высоких скоростях.
+Goreless	Без жестокости
+No blood or obvious gore will be rendered when this is enabled.	Если включено, кровь и явная жестокость не отображаются.
+Procedural fragments	Процедурные фрагменты
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	При полном раздавливании конечности появляются процедурные фрагменты плоти и костей. Если уничтожается много конечностей, это может снизить производительность.
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	Определяет количество итераций физической симуляции. Чем выше значение, тем точнее симуляция, но ниже производительность. Значения выше 128 почти не дают прироста. По умолчанию 32.
+{0} iterations	{0} итер.
+{0} fps	{0} кадр/с
+{0} Hz	{0} Гц
+{0} m	{0} м
+{0} seconds	{0} с
+{0} degrees	{0}°
+This setting may decrease performance when enabled. It is disabled by default.	Если включено, может снизить производительность. По умолчанию выключено.
+Snap grid size	Шаг сетки привязки
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	Расстояние между узлами сетки при привязке перемещения. Помогает точнее выравнивать объекты, привязывая их к ближайшему узлу. По умолчанию 0.25 м
+Angle snap size	Шаг привязки угла
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	Шаг угла при привязке поворота. Помогает точнее выравнивать объекты, округляя поворот до ближайшего кратного этому значению. По умолчанию 15°
+The maximum amount of seconds that a mod can compile for until it's skipped.	Сколько секунд мод может компилироваться, прежде чем его пропустят.
+Fragility multiplier	Множитель хрупкости
+The higher this value is the more fragile entities become.	Чем выше значение, тем более хрупкими становятся существа.
+Brain damage	Повреждение мозга
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	Включает возможность повреждения мозга. Из-за него организмы иногда теряют сознание, не могут стоять прямо и бьются в судорогах.
+Extra shot impact particles	Доп. частицы от попаданий
+Limbs with enough flesh on them may eject chunky particles when shot.	Мясистые конечности при попадании могут разбрасывать крупные ошмётки.
+Dismemberment loose tissue	Свисающие ткани при расчленении
+Dismemberment of limbs may expose loose stringy tissue.	При отрыве конечностей могут свисать волокнистые ткани.
+This will toggle relatively performance-heavy effects.	Включает или выключает эффекты, которые относительно сильно нагружают систему.
+Bullet cracks and whizzes	Щелчки и свист пуль
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	Если включено, сверхзвуковые пули издают щелчок и свист при пролёте.
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	Моды могут вызывать ошибки, падение производительности и другие проблемы. Вы устанавливаете и используете их на свой страх и риск.
+No mod selected	Мод не выбран
+Submit	Отправить
+Problem description	Описание проблемы
+Describe the issue	Опишите проблему
+Steps to reproduce	Шаги для воспроизведения
+Fill this form and press "Submit" to report a bug.	Заполните форму и нажмите «Отправить», чтобы сообщить об ошибке.
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	Ваш IP-адрес, лог игры, краткие сведения о системе и загруженные моды прикладываются к отчёту ради безопасности и пользы дела. Публично они не видны.
+By submitting the report, you agree to share this information with the developer of the game.	Отправляя отчёт, вы соглашаетесь передать эти данные разработчику игры.
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	Чётко опишите, как воспроизвести ошибку. Если её не удастся воспроизвести, отчёт будет проигнорирован
+version	версия
+[SAFE MODE]	[БЕЗОПАСНЫЙ РЕЖИМ]
+(64 bit)	(64 бит)
+(32 bit)	(32 бит)
+PREVIEW BUILD	ТЕСТОВАЯ СБОРКА
+you may encounter bugs and unfinished content	возможны ошибки и недоделанный контент
+Steam Workshop	Мастерская Steam
+Retrieving subscriptions	Получение подписок
+Entities killed	Убито существ
+Entities revived	Оживлено существ
+Items spawned	Создано предметов
+Nuclear explosions caused	Ядерных взрывов
+Wires created	Создано проводов
+Contraptions saved	Сохранено построек
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b> (2019), авторы: mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	Также работали: Aspa102 и mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio, автор Mark Heath (Ms-PL)
+Reactor A5	Реактор A5
+Enter Tiny	Играть: Крошечная
+Enter Small	Играть: Маленькая
+Enter Tower	Играть: Башня
+Enter Void	Играть: Пустота
+Enter Substructure	Играть: Подконструкция
+Enter Lava	Играть: Лава
+Enter Hybrid	Играть: Гибрид
+Enter Humongous	Играть: Огромная
+Enter Default	Играть: Стандартная
+Enter Blocks	Играть: Блоки
+Enter Abyss	Играть: Бездна
+Enter Slanted	Играть: Наклон
+Enter Snow	Играть: Снег
+Enter Sea	Играть: Море
+Enter Reactor A5	Играть: Реактор A5
+{0} bruise	Синяки: {0}
+{0} bruises	Синяки: {0}
+{0} gunshot wound	Огнестрельные раны: {0}
+{0} gunshot wounds	Огнестрельные раны: {0}
+{0} gunshots wounds	Огнестрельные раны: {0}
+{0} stab wound	Колотые раны: {0}
+{0} stab wounds	Колотые раны: {0}
+{0}% burnt	Ожоги: {0}%
+{0}% acid damage	Кислотные повреждения: {0}%
+{0}% rotted	Гниение: {0}%
+{0}% skin damage	Повреждение кожи: {0}%
+{0} limb selected	Выбрано конечностей: {0}
+{0} limbs selected	Выбрано конечностей: {0}
+Pasted {0} object	Вставлено объектов: {0}
+Pasted {0} objects	Вставлено объектов: {0}
+Enter a name for the contraption	Введите название постройки
+Contraption name	Название постройки
+Colour code	Код цвета
+Saved in version {0}.	Сохранено в версии {0}.
+Toggle frozen	Заморозить/разморозить
+Thermal vision	Тепловизор
+Toggle collisions	Вкл/выкл столкновения
+Edit the current environment settings\\nSome maps don't support some settings	Изменить настройки окружения на этой карте\\nНекоторые карты поддерживают не все настройки
+Edit layer	Изменить слой
+Choose bell note	Выбрать ноту колокола
+Disable collision	Отключить столкновения
+Sit	Сесть
+Mend or break bone	Вылечить или сломать кость
+Mute	Без звука
+Next track	Следующий трек
+Previous track	Предыдущий трек
+Toggle sounds	Вкл/выкл звук
+Now playing <color=#ff54f9>{s}</color>	Сейчас играет <color=#ff54f9>{s}</color>
+Clear counter	Сбросить счётчик
+Set signal value	Задать значение сигнала
+Set stick distance	Задать радиус прилипания
+Toggle indestructibility	Вкл/выкл неразрушимость
+Set tank to drain mode.	Перевести бак в режим слива.
+Disable infinite source	Отключить бесконечный источник
+Toggle syringe infinite.	Вкл/выкл бесконечный шприц.
+Repair	Починить
+Fire lightning bolts by flicking across the screen.	Метайте молнии резким движением мыши по экрану.
+Pyrokinesis	Пирокинез
+Fire powers.	Огненные способности.
+Chain	Цепь
+Wire but it looks like a chain.	Провод, но выглядит как цепь.
+Liquid conduit	Шланг для жидкости
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	Провод, который перекачивает жидкость между ёмкостями. Обычно им выкачивают кровь из людей.
+Wooden binding	Деревянное крепление
+Destructible wooden fixed wiring.	Разрушаемое жёсткое деревянное крепление.
+Activator Electrode	Активирующий электрод
+Stone Brick	Каменный кирпич
+Cobblestone Wall	Стена из булыжника
+Stone Brick Wall	Стена из каменного кирпича
+Cardiopulmonary Bypass Machine	Аппарат искусственного кровообращения
+Counter	Счётчик
+Adhesive Coupler	Клейкий соединитель
+Decoupler	Расцепитель
+Detached Ray Cannon	Отсоединённая лучевая пушка
+Naval Mine	Морская мина
+Liquid Duplicator	Дубликатор жидкости
+Pointer	Указатель
+Office Chair	Офисное кресло
+Office Computer	Офисный компьютер
+Office Keyboard	Офисная клавиатура
+Office Monitor	Офисный монитор
+Office Table	Офисный стол
+Excalibur	Экскалибур
+Jet Engine	Реактивный двигатель
+Scope Attachment	Оптический прицел
+Capacitor Attachment	Подствольный конденсатор
+Explosive Rounds Attachment	Модуль разрывных патронов
+Incendiary Rounds Attachment	Модуль зажигательных патронов
+Laser Attachment	Лазерный целеуказатель
+Flashlight Attachment	Подствольный фонарь
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	Классическая автоматическая штурмовая винтовка. Поддерживает прицел и подствольные модули.
+Automatic assault rifle. Supports scoped and underbarrel attachments.	Автоматическая штурмовая винтовка. Поддерживает прицел и подствольные модули.
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	Чрезвычайно мощный и непрактичный пистолет. Поддерживает прицел и подствольные модули.
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	Небольшой пистолет с пластиковой рамкой. Поддерживает прицел и подствольные модули.
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	Примитивный пистолет. Не очень точный, не очень практичный и очень громкий. Поддерживает прицел и подствольные модули.
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	Полностью автоматический ручной пулемёт с классической бесконечной лентой. Поддерживает подствольные модули.
+A semi automatic pistol. Supports scoped and underbarrel attachments.	Полуавтоматический пистолет. Поддерживает прицел и подствольные модули.
+Classic handgun. Supports scoped and underbarrel attachments.	Классический пистолет. Поддерживает прицел и подствольные модули.
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	Мощная полуавтоматическая винтовка. Поддерживает прицел и подствольные модули.
+A shotgun. Supports scoped and underbarrel attachments.	Дробовик. Поддерживает прицел и подствольные модули.
+A sniper rifle. Supports underbarrel attachments.	Снайперская винтовка. Поддерживает подствольные модули.
+A submachine gun. Supports scoped and underbarrel attachments.	Пистолет-пулемёт. Поддерживает прицел и подствольные модули.
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	Скорострельный пистолет-пулемёт. Поддерживает прицел и подствольные модули.
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	Советский пистолет-пулемёт с высокой скорострельностью. Поддерживает прицел и подствольные модули.
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	Очень большой пистолет, стрелять из которого больно. Поддерживает прицел и подствольные модули.
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	Чрезвычайно мощная лучевая пушка. От неё остался только ствол.
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	Конденсатор, который ставится под ствол большинства пушек. Передаёт заряд оружия пулям.
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	Прицел, который ставится сверху на большинство пушек. Немного повышает точность.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	Модуль, который ставится под ствол большинства пушек. Каким-то образом делает патроны разрывными.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	Модуль, который ставится под ствол большинства пушек. Каким-то образом делает патроны зажигательными.
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	Небольшой лазерный целеуказатель, который ставится под ствол большинства пушек. Повышает точность.
+A small flashlight that is slotted under the barrel of most guns.	Небольшой фонарь, который ставится под ствол большинства пушек.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	Ручной распылитель целебного сока ближнего действия. В отличие от <b>сыворотки жизни</b>, целебный сок не лечит ушибы и пулевые ранения.
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	Копия мифического меча. Клинок мономолекулярный и пробивает любой материал слабее себя. Активация выпускает огненный шар с острия клинка.
+This small wrench can repair most machinery with a few gentle taps.	Этот небольшой гаечный ключ чинит большинство механизмов парой лёгких постукиваний.
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	Классическая морская контактная мина, которую крепят цепью к якорю. Мощно взрывается, если нажать на один из её рожков.
+Brick made of stone.	Кирпич из камня.
+A brick wall that will stand the test of time. Very resistant and heavy building material.	Кирпичная стена, которая выдержит испытание временем. Очень прочный и тяжёлый строительный материал.
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	Примитивная стена из «природного» камня. Особой прочности, безопасности и изоляции не даёт.
+Metal triangle. I <b>know</b> it says pyramid.	Металлический треугольник. Я <b>знаю</b>, что написано «пирамида».
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	Бак на 5 л жидкости. Активация переключает на следующий режим давления, <color=#FF4444>красный сигнал<color=#FFFFFF> - на предыдущий.
+PUSH: Force liquid out of the tank	ВЫТАЛКИВАНИЕ: выдавливать жидкость из бака
+PULL: Force liquid to flow in the tank	ВТЯГИВАНИЕ: закачивать жидкость в бак
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	ПОКОЙ: давление задают другие источники, жидкость стремится к равновесию
+DRAIN: Pull and drain liquid.	СЛИВ: втягивать и сливать жидкость.
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	Устройство, которое увеличивает значение при <color=#44FF44>зелёном сигнале<color=#FFFFFF>, уменьшает при <color=#FF4444>красном<color=#FFFFFF> и сбрасывает при <color=#7777FF>синем<color=#FFFFFF>.
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	Когда значение достигает заданного «значения сигнала», отправляется сигнал активации и счёт сбрасывается.
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	Ротор, который всё время поворачивается к вам (к курсору). При деактивации угол фиксируется.
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Вращается с настраиваемой скоростью. <color=#FF4444>Красный сигнал<color=#FFFFFF> меняет направление, остальные включают и выключают вращение. С питанием растёт крутящий момент, скорость остаётся прежней.
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	Чрезвычайно мощный двигатель. Долго запускается и останавливается, но в итоге толкает себя с огромной силой. Довольно хрупкий и взрывается при разрушении.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Преобразователь канала сигнала активации. Превращает <color=#7777FF>синий<color=#FFFFFF> в <color=#44FF44>зелёный<color=#FFFFFF> и обратно.
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Преобразователь канала сигнала активации. Превращает <color=#FF4444>красный<color=#FFFFFF> в <color=#44FF44>зелёный<color=#FFFFFF> и обратно.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	Преобразователь канала сигнала активации. Превращает <color=#7777FF>синий<color=#FFFFFF> в <color=#FF4444>красный<color=#FFFFFF> и обратно.
+Duplicates the liquids that are present upon activation.	При активации копирует жидкости, которые находятся внутри.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	Моторизованный шарнир, поворачивается от 0° до заданного угла. Довольно тяжёлый, с питанием становится мощнее.
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	Активирует всё, что находится перед излучателем. Не смотрите в рабочий конец устройства.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	Механизм, который выпускает и втягивает трос. Активация меняет направление, питание приводит в движение. При питании <color=#FF4444>красным сигналом активации<color=#FFFFFF> включает и выключает встроенную батарею.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	Двигатель для парения над поверхностью. С питанием сила парения растёт. Высоту парения можно задать в контекстном меню. <color=#FF4444>Красные сигналы<color=#FFFFFF> поднимают её, <color=#7777FF>синие<color=#FFFFFF> опускают.
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	При активации прилипает ко всем объектам в небольшом радиусе. Повторная активация отпускает их.
+Two objects that detach when activated.	Два объекта, которые расцепляются при активации.
+A relatively outdated desktop computer.	Довольно устаревший настольный компьютер.
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	Стол, который одним слишком высокий, другим слишком низкий, но подстроить его нельзя: им пользуются сразу несколько человек.
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	Супертехнологичная беспроводная мембранная клавиатура! Некоторые клавиши стёрты сильнее остальных.
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	Если подключить этот аппарат к верхней части торса, он возьмёт на себя работу сердца и будет поддерживать давление крови в организме.
+A computer monitor that looks like it belongs in an office.	Монитор, которому самое место в офисе.
+A chair that looks really comfortable but is actually a bit too small for most people.	Кресло выглядит очень удобным, но на деле маловато для большинства людей.
+{0} BPM	{0} уд/мин

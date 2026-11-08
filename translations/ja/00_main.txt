@@ -1,0 +1,1668 @@
+# English<TAB>日本語
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	物理シミュレーションの反復回数を決めます。値を上げるとシミュレーションが正確になりますが、パフォーマンスが落ちます。ラグドールは16を前提に作られているため、別の値にすると挙動が変わることがあります。デフォルトは16です。
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	液体容器を加圧または減圧します。押し出しモードは液体を外へ押し出し、吸い込みモードは中へ吸い込みます。液体はためられません。血管ワイヤーで容器につないで使います。
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	衝突判定の品質を決めます。ディスクリートはかなり速いですが精度が落ちます。コンティニュアスは高速時に物体がすり抜けるのを防ぎます。ダイナミックは速度に応じて両者を切り替えます。
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	地面の上を浮遊するためのスラスター。通電すると浮力が強まります。浮遊する高さはコンテキストメニューで設定します。赤の信号で高く、青の信号で低くなります。
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	液体用の遠心分離機。容器から濃度の最も低い液体を取り除きます。左のランプは中に入っている液体の種類の数を示します。一番下のランプだけが点いたら、それ以上は分離されません。
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	ライティングは暗い場所を本当に暗くし、光る物体を役立つものにします。オフにするとすべてが最大の明るさになります。パフォーマンスへの影響はごくわずかです。
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	ハイパスカットオフ。この周波数より低い環境音は再生されません。音がパチパチする場合に役立ちます。90 Hzがデフォルトかつ推奨値です。
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	携帯型の原子分解兵器。極小の弾を撃ち出し、物体に刺さると周囲の分子構造を分解しようとします。柔らかい物体に最も効きます。
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	パッドの片方を胸の上部に当てて起動すると、心臓が再び動き出します。死後まもなくなら蘇生に使えます。傷は治りません。
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	ケーブルを伸ばしたり巻き取ったりできる機械。起動で方向を切り替え、通電で動きます。赤の起動信号で内蔵バッテリーのオン/オフを切り替えます。
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	設定した速度で回転します。赤の信号で逆回転、それ以外の信号でオン/オフを切り替えます。通電するとトルクが上がりますが、速度は変わりません。
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	小型版の10倍の出力を持つ発電機。とてつもなく不安定で危険なため、予期しない挙動を起こすことがあります。注意して使ってください。
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	チャージ式エネルギー兵器。飛行中に周囲の物体へアークを放ちながらエネルギーを徐々に放出する爆発弾を撃ちます。長く構えるほど出力が上がります。
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	手持ちの短射程硬化液ディスペンサー。凍結毒とは違い、硬化液は血液で広がらず、皮膚の一部を硬く青くします。
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	音量が設定の上限を超えることがあります。聴覚を守るため、オンのままにしておくことをおすすめします。オフにするのは自己責任で!
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	エミッターから強力な衝撃波を放ちます。前方の物体は自身の質量に比例した力を受けます。つまり、重い物ほど強く押されます。
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	オンにすると、人間やアンドロイドは腕で物を支えられなくなったときに手放します。たいていは死んだときか腕を撃たれたときです。デフォルトはオンです。
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	デジタル温度計。-273～9999 °Cの範囲なら自分の温度を正確に表示します。3.4028235e38 °Cまで耐えられる設計です!
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	手持ちの短射程硬化液ディスペンサー。<b>凍結毒</b>とは違い、硬化液は血液で広がらず、皮膚の一部を硬く青くします。
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	デバッグメッセージがゲーム内の通知として表示されます。警告、エラー、未処理の例外が含まれます。オフのままにしておくことをおすすめします。
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	手持ちの短射程治癒液ディスペンサー。<b>生命の血清</b>とは違い、治癒液は肉の傷を治しませんが、凍結毒と硬化液を打ち消します。
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	オンにすると、爆発や銃声が遠くで反響して聞こえます。オフにすると音声処理が少し軽くなります。
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	可変抵抗器。レバーで調整します。レバーが左ならエネルギーを0%、右なら100%通します。
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	起動するたびに開閉が切り替わる圧力バルブ。圧力だけを通します。血管ワイヤーでつなぐと液体の圧力の流れを止められます。
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	物体から物体へ起動信号を伝えます。ワイヤーをつなぐ向きが重要です。信号は緑(メイン)チャンネルで送られます。
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	電磁パルスを発生させます。たぶん自分も壊れます。パルスは半径82.39700374531835メートル以内の電子機器をほぼ確実に停止させます。やけに細かい。
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	背景を簡略化すると、画面録画の圧縮ノイズが減ることがあります。パフォーマンスは上がりません。
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	起動信号が通過するまでの時間を調整できる装置。デフォルトは通常の0.1秒ではなく1秒です。
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	設定に応じて、指定したキーを押したとき、または離したときに起動信号を送ります。自分のキー設定と干渉することがあります。
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	1 Hzで刻みます。周波数はコンテキストメニューで変更できます。同じ間隔で起動信号を送ります。通電すると予測不能になります。
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	液体を5 L入れられるタンク。起動すると次の圧力モードに、赤の信号で前のモードに切り替わります。
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	自分で進みます。なぜかこのおもちゃは扇風機というよりスラスターに近いです。扇風機と違い、プロペラは振動せず、他の物体を押しのけません。
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	弾丸に飛行時間を持たせて曳光を表示するかを切り替えます。パフォーマンスが落ちます。デフォルトはオフです。
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	トリガーの動作を切り替えます。ダブルトリガーでは、キーを押したときに加えて離したときにも1回発動します。
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	オンにすると、ダメージを受けた生物は強制アニメーションを解除します。たとえば撃たれた人間は歩くのをやめます。
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	四肢を完全に破壊できるかを切り替えます。オンにすると、極端な圧力で四肢が赤い霧になります。
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	0度から設定した目標角度まで回転するモーター付きヒンジ。かなり重く、通電すると速くなります。
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	空のフラスコ。作者たちが「ポリメタクリル酸メチル」と呼ぶ、壊れない神聖な物質でできています。容量は1リットル。
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	垂直同期をオンにすると、フレームレートがモニターのリフレッシュレートに制限されます。画面のティアリングを抑えます。
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	最大射程7メートルの赤外線温度計。赤外線が当たった物体の温度を表示します。
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	手持ちの誘導ミサイルランチャー。目標を追いかけるミサイルを発射します。ロックオンは音と表示で知らせます。
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	MODをクリックしてオン/オフを切り替えます。壊れたMODは有効にできません。無効または壊れたMODは実行されません。
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	消滅フィールドを放つ装置。フィールドは物体を原子単位に分解し、存在そのものを消し去ります。
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	ボウリングのピンは、テンピン、ファイブピン、ダックピン、キャンドルピンなど様々なボウリングでボールの的になります。
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	前方に金属を検知すると起動信号を出します。距離はコンテキストメニューで変更できます。
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	この注射器の中身は誰にもわかりません。効果は一定せず、注射器ごとに違うようです。ピンク色です。
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	前方に燃えている物体を検知すると起動信号を出します。距離はコンテキストメニューで変更できます。
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	起動するたびに開閉が切り替わるバルブ。血管ワイヤーでつなぐと液体の流れを止められます。
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	前方に生物を検知すると起動信号を出します。距離はコンテキストメニューで変更できます。
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	タイマーがゼロになるまで起動信号をせき止めます。タイマーは…起動すると始まります。
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	350 mlの小さなボトル。使い続けると、口の先にあるものへ中身を移します。
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	前方に何かを検知すると起動信号を出します。距離はコンテキストメニューで変更できます。
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	生き物の心拍数を表示します。血管ワイヤーでモニターを四肢につないでください。
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	前方に動きを検知すると起動信号を出します。距離はコンテキストメニューで変更できます。
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	電気信号を起動信号に変換します。つまり、電気を入れると起動が出てきます。
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	シンプルな手持ちロケットランチャー。通常のロケットランチャーよりロケットが速く、威力は低めです。
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	とても重い金属のハンマー。正体不明のエネルギーで、打ち付けると強力な衝撃波を生みます。
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	大容量(25 L)の液体容器。液体が入っていなければ水に浮きます。
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	オンにすると、怪しいコードを含むMODを拒否します。再起動後に反映されます。
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	起動信号を電気に変換します。つまり、起動を入れると電気が出てきます。
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	非常に強力なビーム砲。チャージするとさらに強くなります。砲身以外の部品はすべてありません。
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	木を楽に切るための道具。このゲームでは木を切れません。
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	電気を生み出します。バッテリーより強く、発電機より弱いです。触っても安全です。
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	MODのコンパイルにかけられる最大秒数。超えると処理が中止されます。
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	自動の天井タレット。半径20メートル以内の生物を探し、殺します。
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	比較的小さく、おぞましい生き物。ゴースは賢く、悪意に満ちています。それに焦げた接着剤のにおいがしがちです。
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	人間を動けなくするエネルギー弾を撃ちます。ちょっとメガホンっぽい見た目です。
+An explosive that absorbs all energy in the environment and violently releases it.	周囲のエネルギーをすべて吸収し、一気に放出する爆発物。
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	起動信号を送受信します。同じチャンネルの装置とだけ通信します。
+Regular gate. It lets signals through when its power level is above the set threshold.	普通のゲート。電力レベルが設定したしきい値を超えると信号を通します。
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	弾丸を止めるための小さな板。貫通しないわけではありませんが、とても頑丈です。
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	背が高く、比較的軽いコンクリート板。もろいですが、重さのおかげで建物に使えます。
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	血中を巡っている間、水中で呼吸できるようになる血清。
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	見た目だけのパーティクルを出します。煙、炎、電気を放出できます。
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	ビームを形成するエネルギー兵器。濃縮された強いエネルギーの短いパルスを放ちます。
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	選択、フリーズ、ワイヤーのハイライトを描画するかを切り替えます。録画に便利です。
+An object that allows something to slide in between. Only the coloured parts collide.	間に何かを滑り込ませられる物体。色の付いた部分だけが衝突します。
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	断熱・絶縁材の板。温度と電気を遮断します。
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	フルオートの軽機関銃。おなじみの無限弾帯付き。
+Things too specific or generic to be catergorised.	分類するには特殊すぎる、または一般的すぎるもの。
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	起動すると回転を固定する装置。ほぼ回せなくなります。
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	スローモーション時に時間がどれだけ遅くなるかを決めます。デフォルトは20%です。
+When enabled, an alert will appear when mods cause increased loading times.	オンにすると、MODで読み込みが長くなったときに警告を表示します。
+You might want to add some tags to make your contraption more visible to your target audience.	タグを付けると、作品が見てほしい人に届きやすくなります。
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	ブルームは物体がとても明るく見えるようにするポストプロセス効果です。
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	ほぼシャワーヘッド。どんな液体でも受け入れ、すぐに下から出します。
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	衝突判定を<b>ディスクリート</b>にすると、パフォーマンスが大きく上がります!
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	熱を出さず、何も燃やさず、振動もしない、比較的弱いスラスター。
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	なぜか動く30 mm HEAT砲。砲身以外の部品はすべてありません。
+Mod compilation complete, make sure to restart the map to apply activated mods!	MODのコンパイルが完了しました。有効にしたMODを反映するにはマップを再起動してください!
+You can set your collision settings to discrete for a significant performance gain!	衝突判定をディスクリートにすると、パフォーマンスが大きく上がります!
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>ウィンドウモードがボーダーレスまたはフルスクリーンのときのみ有効です。
+Casts a small field that holds objects in place relative to the emitter.	エミッターに対して物体をその場に固定する小さなフィールドを張ります。
+Determines the temperature unit used throughout the game. Celsius by default.	ゲーム全体で使う温度の単位を決めます。デフォルトは摂氏です。
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	四肢の強度を上げ、出血を遅らせ、腐敗を元に戻そうとします。
+This device emits an activation signal when it detects a laser pointer beam.	レーザーポインターの光を検知すると起動信号を出す装置。
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	起動すると半径15メートル以内の磁性体を引き寄せる電磁石。
+Different kinds of explosives each with different properties and strengths.	それぞれ性質と威力が異なる、様々な爆発物。
+This will toggle relatively expensive particle and decal effects.	比較的重いパーティクルと痕跡のエフェクトを切り替えます。
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	なぜか動く120 mm砲。砲身以外の部品はすべてありません。
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	手持ちのテスラコイル兵器。長く構えるほど強くなります。
+A colourable foreground element that keeps its texture unstretched when resized.	サイズを変えてもテクスチャが伸びない、色を変えられる前景パーツ。
+Modding your game may cause bugs, loss of performance, and other issues.	MODを使うと、バグやパフォーマンス低下などの問題が起きることがあります。
+Activation signal channel converter. Converts red to green and vice versa.	起動信号のチャンネル変換器。赤を緑に、緑を赤に変換します。
+A colourable laser pointer that becomes dangerous when powered.	色を変えられるレーザーポインター。通電すると危険になります。
+If disabled, heat can only be transferred through heat pipes and direct contact.	オフにすると、熱はヒートパイプと直接の接触でしか伝わりません。
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	手持ちロケットランチャー。手榴弾並みの威力の爆発ロケットを撃ちます。
+Activation signal channel converter. Converts blue to green and vice versa.	起動信号のチャンネル変換器。青を緑に、緑を青に変換します。
+Activation signal channel converter. Converts blue to red and vice versa.	起動信号のチャンネル変換器。青を赤に、赤を青に変換します。
+Access environment settings. These will only last for the current session.	環境設定。現在のセッション中だけ有効です。
+Grenade that violently launches small spikes in random directions.	小さなトゲをランダムな方向に激しく撒き散らす手榴弾。
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	この部屋を満たしているガスより軽い、謎のガスで満たされています。
+Wounds and injuries will slowly heal on living organisms when this is enabled.	オンにすると、生物の傷やケガがゆっくり治ります。
+Toggle whether decals are created. Disabling decals may improve performance.	痕跡を作るかを切り替えます。オフにするとパフォーマンスが上がることがあります。
+Determines how much force is needed to crush a limb. Default is 100%.	四肢を潰すのに必要な力を決めます。デフォルトは100%です。
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	0～-273.15 °Cの範囲で設定した目標温度まで冷えます。
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	液体を識別します。好きな混合液(最大2.5 L)を入れて起動してください。
+Objects will retain a fraction of their mass, and completely ignore gravity.	物体は質量の一部を保ち、重力を完全に無視します。
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>オンのままにしておくことをおすすめします。これをオフにするよう求めるMODは報告してください。
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	何よりもまず出血を止めますが、かなりよく伸びるワイヤーでもあります。
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	0～1000 °Cの範囲で設定した目標温度まで熱くなります。
+Pins objects to the background or to other objects.  Allows rotation.	物体を背景や他の物体に留めます。回転はできます。
+A belt that wraps around two objects, transferring rotational energy.	2つの物体に巻き付けて回転を伝えるベルト。
+1L flask filled with nitroglycerine. Explosive and highly unstable.	ニトログリセリン入りの1 Lフラスコ。爆発性があり、非常に不安定です。
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	血液の凝固を早める血清。出血している傷をすべて治します。
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	生きているアイテムに潜り込みます。Mutilate-a-Doll 2とのコラボで追加されたアイテムです。
+A little engine that only propels itself while submerged.	水中でだけ進む小さなエンジン。
+A link between two objects that allows them to phase through each other.	2つの物体をつなぎ、互いにすり抜けられるようにするリンク。
+Handheld device that is capable of lifting objects from a great distance.	遠くの物体を持ち上げられる手持ちの装置。
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>垂直同期がオフのときだけ有効です。
+Green signals toggle. Red signals open. Blue signals close.	緑の信号で切り替え、赤で開き、青で閉じます。
+Indestructible cable that restricts positions and rotation on both objects.	両方の物体の位置と回転を固定する壊れないケーブル。
+1x1 brick rectangle. I know it says cube, but the game is 2D.	1x1のレンガの長方形。キューブって書いてあるのは知ってるけど、このゲームは2Dなんです。
+Toggle whether wires block the context menu for the underlying object.	ワイヤーが下にある物体のコンテキストメニューを遮るかを切り替えます。
+Primitive pistol. Not very accurate, not very practical, and very loud.	原始的なピストル。命中率も実用性もいまいちで、とてもうるさいです。
+Handheld burst energy weapon that fires heat-seeking projectiles.	熱追尾弾をバースト射撃する手持ちのエネルギー兵器。
+Determines how fast zooming using the mouse wheel is. Default is 1x.	マウスホイールでのズームの速さを決めます。デフォルトは1xです。
+A metal square.  It says cube, I know. I've explained this before.	金属の正方形。キューブって書いてあるのは知ってます。前にも説明しました。
+An explosive with a large blast radius and a powerful shockwave.	爆発範囲が広く、衝撃波も強力な爆発物。
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	小型の核爆弾。半径750 m以内のすべてを焼き尽くして破壊します。
+Highly accurate blaster rifle that launches high speed bolts.	高速の弾を撃つ、高精度のブラスターライフル。
+Colourable LED bulb. Bright, efficient, and durable.	色を変えられるLED電球。明るく、省エネで、長持ちします。
+A wranch you can slam aganist Androids to repair them.	アンドロイドに叩きつけて修理するためのレンチ。
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	<color=orange>マウス中ボタン</color>で<color=green>視点移動</color>
+The will toggle relatively performance-heavy effects.	比較的重いエフェクトを切り替えます。
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	<color=orange>左クリック</color>長押しで<color=green>つかむ</color>
+A chair that kind of looks like it belongs inside a bus.	バスの中にありそうな椅子。
+By submitting to the workshop, you agree to the terms of service.	ワークショップに投稿すると、利用規約に同意したことになります。
+Controlled powerful explosive. Can only detonate by activation.	制御された強力な爆発物。起動したときだけ爆発します。
+An electric bi-wheeled unicycle with no chain??? How does it work.	チェーンのない電動の二輪一輪車???どうやって動くの。
+Grenade that sticks to most things when armed.	起動すると、ほとんどの物にくっつく手榴弾。
+This item is marked as once uploaded. How do you want to continue?	このアイテムはすでにアップロード済みです。どうしますか?
+Makes living beings more durable. Might cause immortality.	生き物を頑丈にします。不死身になることもあります。
+<color=green>rotate</color> objects with <color=orange>A or D </color>	<color=orange>A か D </color>で物体を<color=green>回転</color>
+A relatively small boulder. Supposedly made of minerals.	比較的小さな岩。鉱物でできているらしいです。
+<color=orange>Right Mouse</color> to <color=green>delete</color>	<color=orange>右クリック</color>で<color=green>削除</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	オン/オフできる投光器。辺りを明るく照らし、不気味な雰囲気です。
+A thermonuclear bomb. Easily the most powerful bomb available.	熱核爆弾。間違いなく、使える中で最強の爆弾です。
+Change the chance the artificial sky generates a lightning bolt.	人工の空から雷が落ちる確率を変えます。
+Displays the current framerate in the top-right of the screen.	画面右上に現在のフレームレートを表示します。
+Powerful laser cannon. It's missing all the pieces except for the barrel.	強力なレーザー砲。砲身以外の部品はすべてありません。
+Extends or retracts when activated. Faster when charged.	起動すると伸びるか縮みます。チャージすると速くなります。
+Speed up rotation / uniform resizing / multiselect	回転を速くする / 縦横比を保ってサイズ変更 / 複数選択
+A weapon that launches shells that explode on impact.	着弾すると爆発する砲弾を撃つ武器。
+Melodic bell! Set the bell note via the context menu.	メロディーベル! コンテキストメニューで音程を設定できます。
+Two objects attached by a ...long piston. Moves freely.	2つの物体を…長いピストンでつないだもの。自由に動きます。
+A device that, when activated, stays upright.	起動すると直立を保つ装置。
+"Handheld" energy weapon. Emits bouncy balls of energy.	「手持ち」エネルギー兵器。弾むエネルギー球を放ちます。
+This setting may decrease performance when enabled.	オンにするとパフォーマンスが落ちることがあります。
+A small thruster that propels itself forward when activated.	起動すると前へ進む小型スラスター。
+Heat will travel through the air when this is enabled.	オンにすると、熱が空気を通して伝わります。
+A heavy container train wagon. Does not move on its own.	重いコンテナ貨車。自分では動きません。
+Downscale the resolution that the game is being rendered at.	ゲームを描画する解像度を下げます。
+Saves the selected objects as one, to be loaded later.	選択した物体を1つにまとめて保存し、あとで読み込めるようにします。
+This save is from a different version. This might cause issues.	このセーブデータは別のバージョンのものです。問題が起きる可能性があります。
+<color=green>activate</color> objects with <color=orange>F</color>	<color=orange>F</color>で物体を<color=green>起動</color>
+Alert when mods significantly affect loading times	MODで読み込みが大きく遅れたら警告する
+Small thruster. Weaker and lighter than the bigger ones.	小型スラスター。大きいものより弱くて軽いです。
+A humanoid robot. Larger, heavier, and more durable than a human.	人型ロボット。人間より大きく、重く、頑丈です。
+A durable pane of glass. Much stronger than a regular glass pane.	丈夫な板ガラス。普通のガラスよりずっと強いです。
+Modify the final exposure value. Default is 100%	最終的な露出を変更します。デフォルトは100%
+A very heavy combat tank that fires explosive shells.	爆発する砲弾を撃つ、非常に重い戦車。
+Metal triangle. I know it says pyramid.	金属の三角形。ピラミッドって書いてあるのは知ってます。
+One of those old torches. Prevents mobs from spawning.	昔ながらの松明。モブが湧くのを防ぎます。
+A mirror that partially dissolves when powered.	通電すると一部が消える鏡。
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	<color=orange>E か Q</color>で物体を<color=green>出現</color>
+Generates incredible amounts of energy when activated.	起動すると、とてつもない量のエネルギーを生み出します。
+It's a torch but that name is already used by the other torch.	松明ですが、その名前はもう別の松明に使われています。
+A platform that, when activated, propels itself in the air.	起動すると空中へ飛び上がるプラットフォーム。
+It's a ball specifically designed for bowling. How thoughtful.	ボウリング専用に作られたボール。気が利いてますね。
+How often should the thermal vision be updated?	サーマルビジョンをどのくらいの頻度で更新しますか?
+A crossbow that lauches a sharp bolt at high speed.	鋭いボルトを高速で撃ち出すクロスボウ。
+Set timed gate duration in seconds.	タイマーゲートの時間を秒で設定します。
+A wrench you can slam against Androids to repair them.	アンドロイドに叩きつけて修理するためのレンチ。
+Adjust the intensity of the screenshake. Default is 1x.	画面の揺れの強さを調整します。デフォルトは1xです。
+Liquid chemicals and other items related to chemistry.	液体の化学物質や、化学に関するアイテム。
+Continuously sends out activation signals if activated.	起動すると、起動信号を送り続けます。
+Handheld freezeray gun. Emits a cooling beam.	手持ちのフリーズレイ銃。冷却ビームを放ちます。
+The volume of the ambient hum and other background noises.	環境のうなり音やその他の背景音の音量。
+Game version mismatch. This might cause problems.	ゲームのバージョンが一致しません。問題が起きる可能性があります。
+Change what the display displays on its display.	ディスプレイがディスプレイに表示する内容を変えます。
+A blade of energy contained in a material field.	物質フィールドに閉じ込められたエネルギーの刃。
+An electronic display capable of showing any text.	どんな文字でも表示できる電子ディスプレイ。
+Anti-aliasing attempts to get rid of jagged edges.	アンチエイリアスはギザギザの縁をなめらかにします。
+Device that measures how much power it is receiving.	受け取っている電力量を測る装置。
+A sentry turret that targets anything that seems to be alive.	生きているように見えるものを何でも狙うセントリータレット。
+Can only propagate an activation signal once.	起動信号を一度だけ伝えられます。
+A destructible version of the blue propagation wire.	青の伝達ワイヤーの壊れるバージョン。
+A metal tube that is just a little taller than a human.	人間より少しだけ高い金属の筒。
+A destructible version of the green propagation wire.	緑の伝達ワイヤーの壊れるバージョン。
+A destructible version of the red propagation wire.	赤の伝達ワイヤーの壊れるバージョン。
+The volume of all items and effects in the game.	ゲーム内のすべてのアイテムと効果音の音量。
+Repulse everything in a small radius around you.	周囲の狭い範囲にあるものをすべて押しのけます。
+Target duration in seconds from 0.04s to 16s	目標時間(秒)、0.04秒～16秒
+Activate object under cursor / currently holding	カーソル下の物体 / 手に持っている物体を起動
+It's one of those red barrels that explode.	爆発する、あの赤いドラム缶です。
+Very large and painful gun to use.	とても大きく、撃つと痛い銃。
+Relieves pain. Can be dangerous in high doses.	痛みを和らげます。大量に使うと危険です。
+Your contraption will be uploaded to the workshop.	作品がワークショップにアップロードされます。
+Lift everything around you with infinite force.	周りのものを無限の力で持ち上げます。
+Identical to the big one apart from the size and weight.	大きさと重さ以外は大きいものと同じです。
+Things that shoot a projectile somehow.	なんらかの方法で弾を撃つもの。
+1L flask full of Gorse blood. Do not ingest.	ゴースの血が入った1 Lフラスコ。飲まないでください。
+Big automatic laser sentry turret.	大型の自動レーザーセントリータレット。
+A drug that temporarily disables a person.	人を一時的に動けなくする薬。
+Attract everything in a small radius around you.	周囲の狭い範囲にあるものをすべて引き寄せます。
+Soviet submachine gun with a high rate of fire.	連射速度の速いソ連製サブマシンガン。
+Set the upper translation limit for the winch.	ウインチの移動の上限を設定します。
+Forces the resting animation override.	休憩アニメーションを強制します。
+A small holographic text display emitter.	小型のホログラム文字表示装置。
+A button that activates when pressed.	押すと起動するボタン。
+Zoom scroll wheel sensitivity	ズームのマウスホイール感度
+Handheld flamethrower. Not actually a flamethrower.	手持ち火炎放射器。実は火炎放射器ではありません。
+Probably the worst thing to step on.	たぶん踏んだら一番まずいもの。
+Set the lower translation limit for the winch.	ウインチの移動の下限を設定します。
+Objects will only collide with the walls.	物体は壁とだけ衝突します。
+Destructible non-conductive wire.	電気を通さない壊れるワイヤー。
+A virus that turns living beings into zombies.	生き物をゾンビに変えるウイルス。
+You install and use mods at your own risk.	MODの導入と使用は自己責任です。
+Classic automatic assault rifle.	定番の全自動アサルトライフル。
+Determines the way the window is presented.	ウィンドウの表示方法を決めます。
+Toggle between tools and powers	ツールとパワーを切り替え
+A large heavy truck with lots of space.	荷台の広い、大きくて重いトラック。
+Box that dampens movement when activated.	起動すると動きを抑える箱。
+1L flask full of human blood.	人間の血が入った1 Lフラスコ。
+Indestructible, stiff metal spring.	壊れない硬い金属ばね。
+Pressurise the connected container.	接続した容器を加圧します。
+1L flask full of regular oil.	普通の油が入った1 Lフラスコ。
+Depressurise the connected container.	接続した容器を減圧します。
+Choose between different gore shaders	ゴア表現のシェーダーを選びます
+World war era German handgrenade.	世界大戦時代のドイツ製柄付き手榴弾。
+Propagates a signal on the red channel.	赤チャンネルで信号を伝えます。
+Destructible steel fixed wiring.	壊れる鋼鉄の固定接続。
+Heavy anchor designed to sink.	沈むために作られた重い錨。
+Determine the upper bound of the framerate.	フレームレートの上限を決めます。
+Drain the container of its contents.	容器の中身を空にします。
+Extremely powerful and impractical handgun.	とんでもなく強力で実用性のないハンドガン。
+Destructible conductive wire.	電気を通す壊れるワイヤー。
+Propagates a signal on the blue channel.	青チャンネルで信号を伝えます。
+Forces the protection animation override.	防御アニメーションを強制します。
+move forward, toggle lights, etc.	前進、ライトの切り替えなど
+Wooden bat made to hit things.	物を叩くための木製バット。
+Make the camera track this object.	カメラでこの物体を追いかけます。
+Change the way HDR colours are displayed.	HDRの色の表示方法を変えます。
+Edit the current environment settings	現在の環境設定を編集
+Launches objects placed on it in the air.	上に置いた物体を空中に打ち上げます。
+Automatic spike launching weapon.	トゲを撃ち出す自動兵器。
+A tall tree. It was never alive.	背の高い木。一度も生きていたことはありません。
+Toggle hovering highlights	マウスオーバーのハイライト
+does not match your current username	は現在のユーザー名と一致しません
+Target height in meters from 0.5 m to 10 m	目標の高さ(メートル)、0.5 m～10 m
+Set tint for selected objects	選択した物体の色合いを設定
+From Wikipedia, the free encyclopedia.	出典: フリー百科事典『ウィキペディア』
+Like a normal explosive but pink.	普通の爆発物と同じ。でもピンク。
+Should the floodlights be turned on?	投光器をつけますか?
+A crossbow bolt. Points to where it goes.	クロスボウの矢。飛んでいく方向を指しています。
+Target temperature in Celsius	目標温度(摂氏)
+A lamp that does not offer comfort.	まったく心が安らがないランプ。
+Organic or artificial beings.	有機物または人工の存在。
+This should make the mech work.	これでメカが動くはず。
+Set the target angle of the servo.	サーボの目標角度を設定します。
+Things built to go places.	どこかへ行くためのもの。
+De staf van de goedheiligman zelf.	聖人ご本人の杖。
+Sends an activation signal on impact.	衝撃を受けると起動信号を送ります。
+Change the ambient temperature.	周囲の温度を変えます。
+Chemical that eats bones.	骨を溶かす薬品。
+Handheld heatray gun. Emits a heating beam.	手持ちのヒートレイ銃。加熱ビームを放ちます。
+Set maximum power level.	最大電力レベルを設定します。
+Small plastic-framed handgun.	樹脂フレームの小型ハンドガン。
+Switches to the previous texture.	前のテクスチャに切り替えます。
+Indestructible loose cable.	壊れないゆるいケーブル。
+. Are you sure you want to continue?	。本当に続けますか?
+The volume of the entire application.	アプリケーション全体の音量。
+Set key trigger description.	キートリガーの説明を設定します。
+Powerful semi-automatic rifle.	強力なセミオートライフル。
+Remove this contraption from the list.	この作品をリストから削除します。
+Objects you saved on disk.	ディスクに保存した物体。
+Enable machine heat damage.	機械の熱ダメージを有効にします。
+An automatic laser machine rifle.	全自動レーザーライフル。
+A wire that transfers blood between limbs.	四肢の間で血液を移すワイヤー。
+A suspended motorised wheel.	サスペンション付きの電動ホイール。
+Target delay in seconds from 0.04s to 60s	目標の遅延(秒)、0.04秒～60秒
+Indestructible metal spring.	壊れない金属ばね。
+Machines that do stuff.	何かをする機械。
+Switches to the next texture.	次のテクスチャに切り替えます。
+Resize selected objects	選択した物体のサイズ変更
+Public transport bus.	路線バス。
+Indestructible rigid connection.	壊れない固定接続。
+Spawn right facing	右向きで出現
+Maximum mod compilation time	MODのコンパイル最大時間
+Things to hit or stab with.	叩いたり刺したりするもの。
+Triggers the selected objects.	選択した物体を起動します。
+Set tank to idle mode.	タンクを待機モードにします。
+A small energy container.	小型のエネルギー容器。
+Set gate threshold.	ゲートのしきい値を設定します。
+Handheld rapid firing gatling gun.	手持ちの高速連射ガトリング。
+Set tank to push mode.	タンクを押し出しモードにします。
+2 meter tall metal pole.	高さ2メートルの金属ポール。
+Industrial hinged spot light.	産業用の可動スポットライト。
+Spawn left facing	左向きで出現
+Kills living beings instantly.	生き物を即死させます。
+Stop animation on damage	ダメージでアニメーションを止める
+Ambient temperature transfer	周囲への熱の伝わり
+Automatic assault rifle.	全自動アサルトライフル。
+Rapid firing submachine gun.	高速連射のサブマシンガン。
+Reverses the polarity of the magnet.	磁石の極性を反転させます。
+Repair or break the engine	エンジンを直す・壊す
+Changed to Powers tab	パワータブに切り替えました
+Set metronome rate in Hz.	メトロノームの速さをHzで設定します。
+2 meter tall wooden pillar.	高さ2メートルの木の柱。
+Pastes the copied objects.	コピーした物体を貼り付けます。
+A larger, more powerful piston.	より大きく強力なピストン。
+Changed to Tools tab	ツールタブに切り替えました
+Selection target temperature	選択範囲の目標温度
+The volume of UI elements.	UI要素の音量。
+Toggle gate behaviour.	ゲートの動作を切り替えます。
+Toggle trigger behaviour.	トリガーの動作を切り替えます。
+Publish to the Steam Workshop.	Steamワークショップに公開します。
+Disable machine heat damage	機械の熱ダメージを無効化
+Drag and rotate objects.	物体をドラッグして回転させます。
+Player statistics regarding the game.	このゲームでのプレイヤー統計。
+Set winch upper limit	ウインチの上限を設定
+Destructible red propagation wire	壊れる赤の伝達ワイヤー
+Forces the stumbling animation override.	よろめきアニメーションを強制します。
+Thermal vision update rate	サーマルビジョンの更新頻度
+Freezes the selected objects.	選択した物体をフリーズします。
+Toggle parking brakes	パーキングブレーキを切り替え
+Toggle invisibility.	透明化を切り替えます。
+Basic indestructible wooden wheel.	シンプルな壊れない木の車輪。
+Disengage parking brakes	パーキングブレーキを解除
+Set tank to pull mode.	タンクを吸い込みモードにします。
+Set object temperature.	物体の温度を設定します。
+Slowly heal injuries	ケガがゆっくり治る
+Set winch lower limit	ウインチの下限を設定
+Stop affecting pressure.	圧力への影響を止めます。
+Physics iteration count	物理演算の反復回数
+Destructible blue propagation wire	壊れる青の伝達ワイヤー
+It's just a metal circle.	ただの金属の円です。
+View terms of service	利用規約を見る
+Slow motion speed modifier	スローモーションの速さ
+Copies the selected objects.	選択した物体をコピーします。
+Return to the toybox menu.	アイテムメニューに戻ります。
+Threshold as percentage	しきい値(%)
+Destructible rigid strut.	壊れる固定支柱。
+Ignites the selected objects.	選択した物体に火をつけます。
+Deletes the selected objects.	選択した物体を削除します。
+Choose objects under cursor	カーソル下の物体を選ぶ
+Freeze selected objects	選択した物体をフリーズ
+Set the speed of the rotor.	ローターの速さを設定します。
+View item info.	アイテム情報を見る。
+Slow motion disabled	スローモーション: オフ
+A small fireworks rocket.	小さな打ち上げ花火。
+An old jukebox.	古いジュークボックス。
+A semi automatic pistol.	セミオートピストル。
+Reject suspicious mods	怪しいMODを拒否する
+Old filament light bulb.	古いフィラメント電球。
+Toggle indestructibility.	破壊不能を切り替えます。
+Its base is frozen when created.	作成時は土台が固定されています。
+A pane made of fragile glass.	割れやすいガラスの板。
+Locks a creature's joints.	生き物の関節を固めます。
+Giant hovering fan.	巨大な浮遊ファン。
+Electricity Transformer	電気トランスフォーマー
+Set detector range.	センサーの距離を設定します。
+Log debug messages	デバッグメッセージを表示
+Simple airfoil.	シンプルな翼。
+It's a hovercraft.	ホバークラフトです。
+Switch to 9th tool	ツール9に切り替え
+Relatively small bush.	比較的小さな茂み。
+Switch to 7th tool	ツール7に切り替え
+Switch to 6th tool	ツール6に切り替え
+Switch to 5th tool	ツール5に切り替え
+Switch to 4th tool	ツール4に切り替え
+Switch to 3th tool	ツール3に切り替え
+Detached Laser Cannon	取り外したレーザー砲
+Switch to 2th tool	ツール2に切り替え
+Switch to 1th tool	ツール1に切り替え
+Slow motion enabled	スローモーション: オン
+Simplified background tiles	簡易背景タイル
+Switch to 8th tool	ツール8に切り替え
+Change the colour of this object.	この物体の色を変えます。
+Welcome to the playground!	プレイグラウンドへようこそ!
+Toggle slow motion	スローモーションを切り替え
+Hammer made to fight with.	戦うために作られたハンマー。
+Clears all debris and decals.	瓦礫と痕跡をすべて消します。
+A belt that conveys.	物を運ぶベルト。
+Distant sound effects	遠くの効果音
+Screenshake intensity	画面の揺れの強さ
+Upload to Steam Workshop	Steamワークショップにアップロード
+Temperature unit	温度の単位
+Forces the walking animation override.	歩行アニメーションを強制します。
+Detached Beam Cannon	取り外したビーム砲
+Forces the sitting animation override.	座りアニメーションを強制します。
+Enter contraption name	作品の名前を入力
+Wires with context menu	コンテキストメニュー付きワイヤー
+Reverse rotor.	ローターを逆回転。
+Red propagation wire	赤の伝達ワイヤー
+Soviet Submachine Gun	ソ連製サブマシンガン
+Mend or break bone.	骨を治す・折る。
+Toggle sidepanels	サイドパネルを切り替え
+Relatively large bush.	比較的大きな茂み。
+Toggle electricity.	電気のオン/オフを切り替えます。
+BG Signal Converter	青緑信号コンバーター
+Very powerful explosive.	非常に強力な爆発物。
+Ignite selected objects	選択した物体に火をつける
+Reverse vehicle	車両を後退させる
+RG Signal Converter	赤緑信号コンバーター
+BR Signal Converter	青赤信号コンバーター
+Bone Eating Syringe	骨溶かしの注射器
+Toggle detail view	詳細表示を切り替え
+Large wooden pole.	大きな木のポール。
+A human being, very fragile.	人間。とても壊れやすい。
+Clamp audio volume	音量を制限する
+Blood vessel wire	血管ワイヤー
+Set lagbox delay	ラグボックスの遅延を設定
+Set exact rotation.	正確な回転を設定します。
+Water Breathing Syringe	水中呼吸の注射器
+Blue propagation wire	青の伝達ワイヤー
+It is disabled by default.	デフォルトはオフです。
+Soft plastic barrel.	柔らかいプラスチックの樽。
+Drop on death	死んだら手放す
+Steam is not initialised	Steamが初期化されていません
+Big metal beam.	大きな金属の梁。
+Set timed gate duration	タイマーゲートの時間を設定
+Export game debug info	デバッグ情報をエクスポート
+An axe. Heavy and sharp.	斧。重くて鋭い。
+Double trigger gate	ダブルトリガーゲート
+Activation Transformer	起動トランスフォーマー
+Giant Wooden Bowl	巨大な木のボウル
+A sharp metal sword.	鋭い金属の剣。
+Resets and restarts the map.	マップをリセットして再スタートします。
+Fragmentation explosive.	破片爆弾。
+Sharp crystal shard.	鋭い水晶の破片。
+Change the light colour.	光の色を変えます。
+Mini Thruster	ミニスラスター
+Purple cathode light	紫の陰極灯
+Small metal beam.	小さな金属の梁。
+Detached 120mm Cannon	取り外した120 mm砲
+Resize object(s)	サイズ変更
+Set metronome rate	メトロノームの速さを設定
+Set target temperature	目標温度を設定
+Destructible propagation wire	壊れる伝達ワイヤー
+User Interface	ユーザーインターフェース
+Set rotor speed	ローターの速さを設定
+General Purpose Bomb	汎用爆弾
+Light wooden stick.	軽い木の棒。
+Energy Vessel Explosive	エネルギー容器爆弾
+Nitroglycerine Flask	ニトログリセリンのフラスコ
+Change the gravity	重力を変える
+Toggle thermal vision	サーマルビジョンを切り替え
+Industrial Generator	産業用発電機
+Set upper limit	上限を設定
+Disable heat damage	熱ダメージを無効化
+De staf van Sinterklaas	シンタクラースの杖
+Infrared Thermometer	赤外線温度計
+Change the radio channel.	ラジオのチャンネルを変えます。
+Why are you doing this?	なぜこんなことを?
+Activation Toggle	起動トグル
+A sniper rifle.	スナイパーライフル。
+internal bleeding	内出血
+Clears all "living" things.	「生きている」ものをすべて消します。
+Set hover height	浮遊する高さを設定
+Gyroscope Stabiliser	ジャイロスタビライザー
+Set lower limit	下限を設定
+A powerful tesla coil.	強力なテスラコイル。
+Set to idle	待機にする
+What should it say?	何と表示しますか?
+Set to pull	吸い込みにする
+Enable electricity	電気を有効化
+CRT Television.	ブラウン管テレビ。
+Ambient temperature	周囲の温度
+welke dag is het vandaag?	今日は何曜日?
+Holographic Display	ホログラムディスプレイ
+Bulletproof Sheet	防弾シート
+Rapid firing cannon.	速射砲。
+A conducting wire.	電気を通すワイヤー。
+Enable heat damage	熱ダメージを有効化
+Plastic Explosive	プラスチック爆弾
+Opens the pause menu.	ポーズメニューを開きます。
+Motorised Wheel	電動ホイール
+Liquidentifier	液体識別機
+1. FILL WITH LIQUID	1. 液体を入れる
+Giant sharp spike.	巨大な鋭いトゲ。
+Set to push	押し出しにする
+Green cathode light	緑の陰極灯
+Show hovering highlights	マウスオーバーのハイライトを表示
+It glows purple.	紫色に光ります。
+No mods required	MOD不要
+Heating Element	加熱エレメント
+Launches crystals.	水晶を撃ち出します。
+Toggleable Mirror	切り替え式の鏡
+Set laser colour	レーザーの色を設定
+Set temperature	温度を設定
+Machine Blaster	マシンブラスター
+Classic handgun.	定番のハンドガン。
+Yellow cathode light	黄色の陰極灯
+Hover Thruster	ホバースラスター
+Painkiller Syringe	鎮痛剤の注射器
+Red cathode light	赤の陰極灯
+Industrial Gyrostabiliser	産業用ジャイロスタビライザー
+Liquid Pressuriser	液体加圧器
+Enable collision	衝突を有効化
+Do you want to upload	アップロードしますか:
+Limb crushing	四肢の圧壊
+Clears everything.	すべて消します。
+Archelix Caster	アーケリックス・キャスター
+Activation Fuse	起動ヒューズ
+Industrial Piston	産業用ピストン
+Update existing	既存のものを更新
+Vsync	垂直同期
+Metal Pyramid	金属のピラミッド
+Fluorescent Lamp	蛍光灯
+Open "Mods" folder in Explorer	「Mods」フォルダーをエクスプローラーで開く
+gunshot wounds	銃創
+White cathode light	白の陰極灯
+Metal rod.	金属の棒。
+Thrusterbed	スラスター台
+Adrenaline Syringe	アドレナリンの注射器
+Blue cathode light	青の陰極灯
+Maximum power	最大電力
+Ceramic plate.	陶器の皿。
+Mending Syringe	修復の注射器
+Pick a new map.	別のマップを選びます。
+Open documentation in browser	ドキュメントをブラウザで開く
+Propagation wire	伝達ワイヤー
+Anti-aliasing (SMAA)	アンチエイリアス(SMAA)
+Previous texture	前のテクスチャ
+Zombie Syringe	ゾンビの注射器
+An adrenaline shot.	アドレナリンの注射。
+saved with errors	エラーありで保存されました
+Click to edit	クリックして編集
+Oil Flask	油のフラスコ
+Make indestructible	破壊不能にする
+Tempered Glass Pane	強化ガラスの板
+Move camera right	カメラを右へ
+Tonemapping	トーンマッピング
+Cooling Element	冷却エレメント
+Mechanical belt	機械ベルト
+Engage parking brakes	パーキングブレーキをかける
+Set description	説明を設定
+Flare for signaling.	合図用の発煙筒。
+Destructible wall.	壊せる壁。
+G1 Submachine Gun	G1サブマシンガン
+It glows green.	緑色に光ります。
+Passenger car.	乗用車。
+Missile Launcher	ミサイルランチャー
+Sniper Rifle	スナイパーライフル
+Shock Detector	衝撃センサー
+It glows yellow.	黄色に光ります。
+Immobility Field	拘束フィールド
+Flintlock Pistol	フリントロック・ピストル
+Life Detector	生体センサー
+limbs selected	個の四肢を選択中
+Ultra Strength Syringe	超筋力の注射器
+Heals nearly anything.	ほとんど何でも治します。
+Leave the playground.	プレイグラウンドを出ます。
+Edit trigger key.	トリガーキーを編集します。
+Resizable Housing	サイズ変更できるケース
+Fixed cable	固定ケーブル
+heart stopped	心停止
+Insulator	絶縁体
+Blaster Rifle	ブラスターライフル
+Metal Wheel	金属の車輪
+Rocket Launcher	ロケットランチャー
+Steel binding	鋼鉄の固定具
+It glows red.	赤く光ります。
+Saved in version	保存したバージョン
+Structural Pillar	構造柱
+Launch Platform	発射台
+Gorse Blood Flask	ゴースの血のフラスコ
+A submachine gun.	サブマシンガン。
+Move camera left	カメラを左へ
+Wooden strut	木の支柱
+Upload as new	新規としてアップロード
+Set to repulse	反発にする
+Wooden Pillar	木の柱
+Just a normal wheel.	ごく普通の車輪。
+Fancy effects	豪華なエフェクト
+Emergency siren.	緊急サイレン。
+saved succesfully	保存しました
+Dampening Box	ダンパーボックス
+Laser sentry turret	レーザーセントリータレット
+It glows white.	白く光ります。
+Resumes the game.	ゲームを再開します。
+Repair engine	エンジンを直す
+Assault Rifle	アサルトライフル
+Lightning chance	落雷の確率
+It glows blue.	青く光ります。
+Destructible pin.	壊れるピン。
+Plastic Barrel	プラスチックの樽
+Particle Projector	パーティクルプロジェクター
+Single trigger	シングルトリガー
+Make invisible	透明にする
+blood pressure	血圧
+Move camera down	カメラを下へ
+Laser Receiver	レーザー受信機
+Metal Pole	金属ポール
+Move camera up	カメラを上へ
+Explosives	爆発物
+Next texture	次のテクスチャ
+Render scale	描画スケール
+Landmine	地雷
+Energy Sword	エネルギーソード
+Ceiling Turret	天井タレット
+Firearms	銃器
+Exported to	エクスポート先
+Set range	範囲を設定
+Sentry Turret	セントリータレット
+Thruster	スラスター
+Blood Tank	血液タンク
+Collision quality	衝突判定の品質
+Heatray	ヒートレイ
+Detail view	詳細表示
+Fusion Bomb	核融合爆弾
+What are you doing?	何をしているんですか?
+Fire Detector	火災センサー
+Conveyor Belt	ベルトコンベア
+Magnum Revolver	マグナムリボルバー
+Set to drain	排出にする
+Restore weight	重さを戻す
+Break engine	エンジンを壊す
+Pulse Drum	パルスドラム
+Decimator	デシメーター
+Unfollow	追従をやめる
+Wooden Wheel	木の車輪
+Submachine Gun	サブマシンガン
+Liquid Valve	液体バルブ
+Cleared living	生き物を消しました
+Hovercar	ホバーカー
+Text Display	テキストディスプレイ
+Angle in degrees	角度(度)
+Light Machine Gun	軽機関銃
+Sound effects	効果音
+Snap	スナップ
+Motion Detector	モーションセンサー
+cosmetic rain	飾りの雨
+Jukebox	ジュークボックス
+Freezeray	フリーズレイ
+Visual center	見た目の中心
+Double trigger	ダブルトリガー
+cosmetic fog	飾りの霧
+Clear living	生き物を消す
+Extinguishes fires.	火を消します。
+blood amount	血液量
+Cleared debris	瓦礫を消しました
+Wooden crate.	木箱。
+Metal Cube	金属のキューブ
+Set target angle	目標角度を設定
+Transfers heat.	熱を伝えます。
+Baseball Bat	野球バット
+LED Bulb	LED電球
+Signal Flare	信号弾
+Ion Thruster	イオンスラスター
+Small Button	小さなボタン
+Pressure Valve	圧力バルブ
+Spike Grenade	トゲ手榴弾
+Context menu	コンテキストメニュー
+Stielhandgranate	柄付き手榴弾
+Spike Rifle	スパイクライフル
+broken bones	骨折
+Freeze Syringe	凍結の注射器
+Glass Pane	ガラスの板
+Trigger key	トリガーキー
+Bus Chair	バスの座席
+Timed Gate	タイマーゲート
+Crossbow Bolt	クロスボウの矢
+Laser Pointer	レーザーポインター
+Enter value	値を入力
+Physics Gun	フィジックスガン
+Strong spring	強いばね
+Detached 30mm HEAT Cannon	取り外した30 mm HEAT砲
+Acid Syringe	酸の注射器
+internal temp	内部温度
+Environment	環境
+Container Wagon	コンテナ貨車
+Destructible vase.	壊せる花瓶。
+Small Boulder	小さな岩
+Bowling Ball	ボウリングのボール
+cosmetic snow	飾りの雪
+Show in Explorer	エクスプローラーで表示
+Small I-Beam	小さなI形鋼
+Fire Extinguisher	消火器
+Wooden Chair	木の椅子
+Open in Explorer	エクスプローラーで開く
+Wooden Table	木のテーブル
+Change key	キーを変更
+Beam Rifle	ビームライフル
+No mods found	MODが見つかりません
+Toggle time	時間の停止/再開
+Sticky Grenade	粘着手榴弾
+Metal Detector	金属探知機
+Channel name	チャンネル名
+Reflects light.	光を反射します。
+An empty syringe.	空の注射器。
+Delete object	物体を削除
+to the Workshop?	をワークショップに?
+Depressurise	減圧
+Concrete slab	コンクリート板
+Scherbenwerfer	破片投射機
+Toggle fire.	火のオン/オフを切り替えます。
+Power Gauge	電力計
+Rotate left	左に回転
+Wooden Pole	木の棒
+Cleared room	部屋を片付けました
+Defibrillator	除細動器
+Substructure	下部構造
+Reconstructor	再構築機
+A tonne of steel.	鋼鉄1トン。
+Edit channel	チャンネルを編集
+Knockout Syringe	眠り薬の注射器
+Options menu.	オプションメニュー。
+Eats flesh.	肉を食べます。
+Ambience	環境音
+Rotate right	右に回転
+Brick Wall	レンガの壁
+Window mode	ウィンドウモード
+Electromagnet	電磁石
+Pink Explosive	ピンクの爆発物
+Disable smoke	煙を無効化
+EMP Generator	EMP発生装置
+Regular table.	普通のテーブル。
+Change colour	色を変更
+Pick a colour	色を選ぶ
+Handgrenade	手榴弾
+Small knife.	小さなナイフ。
+to the workshop	ワークショップに
+Rigid cable	硬いケーブル
+Enable fire	火を有効化
+Set angle	角度を設定
+Blood Flask	血液のフラスコ
+Boat Motor	ボートのモーター
+Small Bush	小さな茂み
+Toggle smoke.	煙のオン/オフを切り替えます。
+Wooden pin	木のピン
+Power Hammer	パワーハンマー
+Gate	ゲート
+Local file	ローカルファイル
+Show framerate	フレームレートを表示
+Pink Syringe	ピンクの注射器
+The spooky food.	不気味な食べ物。
+Grenade Launcher	グレネードランチャー
+broken bone	骨折
+Heat pipe	ヒートパイプ
+Death Syringe	死の注射器
+Empty Syringe	空の注射器
+Set threshold	しきい値を設定
+Disable all	すべて無効化
+Edit text	テキストを編集
+Sharp stick.	とがった棒。
+Sharp spear.	鋭い槍。
+Disassembler	分解機
+Tall Tree	背の高い木
+Copper wire	銅線
+Ambience Highpass	環境音のハイパス
+Red Barrel	赤いドラム缶
+Clean cuboid.	きれいな直方体。
+Tesla Coil	テスラコイル
+Master	マスター
+Entities	生物
+Phase link	位相リンク
+Brick Cube	レンガのキューブ
+Center of mass	重心
+Atom Bomb	原子爆弾
+Rigidifier	硬化装置
+stab wounds	刺し傷
+Gore shader	ゴア表現のシェーダー
+Paused	一時停止中
+Lance	ランス
+Destructible	破壊可能
+bleeding	出血
+Realistic	リアル
+Undo	元に戻す
+Enable all	すべて有効化
+Electronics	電子機器
+Heart Monitor	心拍モニター
+Large Bush	大きな茂み
+Ion Cannon	イオン砲
+Worm Staff	ワームの杖
+heilekouwe	牛一頭
+Accumulator	蓄電器
+Handcannon	ハンドキャノン
+Life Syringe	生命の注射器
+The mod author	MODの作者
+Fullscreen	フルスクリーン
+Balloon	風船
+Continuous	コンティニュアス
+Television	テレビ
+9mm Pistol	9 mmピストル
+uploaded...	アップロード済み...
+Framerate limit	フレームレート上限
+Drag	ドラッグ
+Borderless	ボーダーレス
+Unpaused	再開しました
+hello world!	Hello world!
+information	情報
+Reverse gear	後退
+Accelerator	アクセル
+Liquid Canister	液体容器
+integrity	耐久度
+Floodlights	投光器
+It is a ramp.	スロープです。
+Publish	公開
+Centrifuge	遠心分離機
+Pause menu	ポーズメニュー
+1000kg Weight	1000 kgの重り
+dismembered	切断
+brain-dead	脳死
+Consciousness	意識
+Adrenaline	アドレナリン
+Default	デフォルト
+Thermometer	温度計
+Wrench	レンチ
+Toogle	切り替え
+Battery	バッテリー
+Generator	発電機
+Modern	モダン
+hekserij	魔術
+controls	操作
+Discrete	ディスクリート
+Fahrenheit	華氏
+Workshop	ワークショップ
+Spot Light	スポットライト
+Toggle	切り替え
+Floodlight	投光器
+Outdated	古いバージョン
+Gravity	重力
+Inspect.	調べる。
+Blaster gun.	ブラスター銃。
+Dynamic	ダイナミック
+Machinery	機械
+Propeller	プロペラ
+Fireworks	花火
+Zoom in	ズームイン
+A shotgun.	ショットガン。
+Understood	了解
+Where are you?	どこにいるの?
+Building	建築
+Bicycle	自転車
+Chainsaw	チェーンソー
+Disabled	無効
+Metronome	メトロノーム
+Flamethrower	火炎放射器
+Melee	近接武器
+Key Trigger	キートリガー
+Legacy	レガシー
+settings	設定
+Tools	ツール
+Lighting	ライティング
+Revolver	リボルバー
+Vehicles	乗り物
+Lightbulb	電球
+Stormbaan	テスラガン
+Servo	サーボ
+Chemistry	化学
+Humongous	巨大
+Machine	機械
+Machine Gun	マシンガン
+Vehicle	乗り物
+Fun	お楽しみ
+Copy	コピー
+Resistor	抵抗器
+Brightness	明るさ
+Flashlight	懐中電灯
+Zoom out	ズームアウト
+Upload	アップロード
+Pasted	貼り付けました
+Crystal	水晶
+Enabled	有効
+Shotgun	ショットガン
+Apply	適用
+General	全般
+Small	小
+Liquid Outlet	液体の出口
+objects	個の物体
+Fan	扇風機
+OXygen	酸素
+Android	アンドロイド
+Pistol	ピストル
+iterations	回
+Save	保存
+Tiny	極小
+Pressurise	加圧
+rotted	腐敗
+INACTIVE	停止中
+Sit down.	座る。
+Crossbow	クロスボウ
+Dynamite	ダイナマイト
+Lift	リフト
+Windowed	ウィンドウ
+0 LITER	0 L
+Utility	ユーティリティ
+Bloom	ブルーム
+Bowling Pin	ボウリングのピン
+Rifle	ライフル
+None	なし
+Off	オフ
+Truck	トラック
+Local	ローカル
+Blaster	ブラスター
+Celsius	摂氏
+Minigun	ミニガン
+Lightning	稲妻
+Slider	スライダー
+Lagbox	ラグボックス
+numb	しびれ
+Bottle	ボトル
+Spring	ばね
+ACTIVE	稼働中
+Decals	痕跡
+Detector	センサー
+Kelvin	ケルビン
+Piston	ピストン
+Ramp	スロープ
+Mirror	鏡
+PUSH	押し出し
+Human	人間
+Rod	棒
+Flush	洗い流す
+Enter	入る
+Plate	皿
+video	グラフィック
+Bazooka	バズーカ
+Slanted	傾斜
+Winch	ウインチ
+removed	削除しました
+seconds	秒
+Brick.	レンガ。
+Button	ボタン
+bruise	あざ
+Hybrid	ハイブリッド
+Void	虚空
+Misc.	その他。
+filter	フィルター
+Cancel	キャンセル
+Rope	ロープ
+Bell	ベル
+Camera	カメラ
+Wheel	車輪
+Stunner	スタンガン
+Cable	ケーブル
+bruises	あざ
+Abyss	深淵
+Plank.	板。
+Pumpkin	カボチャ
+Fancy	豪華
+Bus	バス
+Siren	サイレン
+Blocks	ブロック
+Fast	高速
+Wire	ワイヤー
+Anchor	錨
+Hammer	ハンマー
+I-Beam	I形鋼
+Radio	ラジオ
+Bandage	包帯
+Car	車
+Stick	棒
+Spear	槍
+Clamp	クランプ
+Tower	塔
+Torch	松明
+Flask	フラスコ
+Rotor	ローター
+Powers	パワー
+Bowl.	ボウル。
+back	戻る
+Rain	雨
+Wing	翼
+audio	サウンド
+Fog	霧
+Axe	斧
+Crate	木箱
+Gorse	ゴース
+Pull	吸い込み
+Lava	溶岩
+AK-47	AK-47
+Soap	石鹸
+dead	死亡
+Vase	花瓶
+Tank	戦車
+Mods	MOD
+Snow	雪
+Knife	ナイフ
+Sea	海
+Shock	ショック
+Spike	スパイク
+Sword	剣
+for	対象
+fps	fps
+Pin	ピン
+No	いいえ
+Okay	OK
+Yes	はい
+Hz	Hz
+Set lagbox delay in seconds.	ラグボックスの遅延（秒）。
+Set the gate maximum power	ゲートの最大出力
+Set hover height in meters	ホバーの高さ（m）
+Limb crushing sensitivity	手足の圧壊感度
+Snap to center of mass	重心にスナップ
+Set the gate threshold	ゲートのしきい値
+Single trigger gate	単発トリガーゲート
+Coagulation Syringe	凝固の注射器
+Bullet tracers	曳光弾
+Open file	ファイルを開く
+quit	終了
+play	プレイ
+resume	再開
+restart	リスタート
+choose map	マップ選択
+player statistics	プレイヤー統計
+main menu	メインメニュー
+gore	ゴア
+visual effects	視覚効果
+Contraptions	からくり
+Select a chamber	薬室を選択
+Paste	貼り付け
+Delete	削除
+Follow	追従
+Activate	起動
+Ignite	着火
+Freeze	固定
+Unfreeze	固定解除
+Make weightless	無重量にする
+Resize	サイズ変更
+Stop resizing	サイズ変更をやめる
+Break bone	骨を折る
+Mend bone	骨を治す
+Stumble	よろめく
+Clear animation override	アニメーション上書きを解除
+Walk	歩く
+Cower	すくむ
+Flat pose	平らなポーズ
+Clear debris	破片を消去
+Clear everything	すべて消去
+Recompile	再コンパイル
+Safe mode is enabled. Mods cannot load.	セーフモードが有効です。MODは読み込まれません。
+Open Mods folder in Explorer	エクスプローラーでModsフォルダーを開く
+Search	検索
+Biohazard	バイオハザード
+Inanimate	無生物
+Decorations	装飾
+Drag object	物体をドラッグ
+Switch to first tool	1番目のツールに切り替え
+Switch to second tool	2番目のツールに切り替え
+Switch to third tool	3番目のツールに切り替え
+Edit layers of selected objects	選択した物体のレイヤーを編集
+Move layer down	レイヤーを下げる
+Move layer up	レイヤーを上げる
+Bring to front	最前面へ
+Send to back	最背面へ
+Increment grid size	グリッドを大きく
+Decrement grid size	グリッドを小さく
+Increment angle snap	角度スナップを大きく
+Decrement angle snap	角度スナップを小さく
+Pause menu / back	ポーズメニュー / 戻る
+Toggle user interface	UIの表示切り替え
+Pan	カメラ移動
+Mouse0	左クリック
+Mouse1	右クリック
+Mouse2	中クリック
+Mouse3	マウス4
+Mouse4	マウス5
+Space	スペース
+Alpha{0}	{0}
+LeftShift	左Shift
+RightShift	右Shift
+LeftAlt	左Alt
+RightAlt	右Alt
+LeftControl	左Ctrl
+RightControl	右Ctrl
+Escape	Esc
+Return	Enter
+RightArrow	→
+LeftArrow	←
+UpArrow	↑
+DownArrow	↓
+Collision calculations	衝突計算
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	衝突判定の精度を決めます。ディスクリートは速いですが精度が低めです。コンティニュアスは高速で動く物体どうしのすり抜けを防ぎます。
+Goreless	ゴアなし
+No blood or obvious gore will be rendered when this is enabled.	有効にすると、血や露骨なゴア表現が描画されません。
+Procedural fragments	プロシージャル破片
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	手足が完全に潰れたとき、肉と骨の破片をプロシージャル生成します。多くの手足が破壊されると重くなることがあります。
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	物理シミュレーションの反復回数を決めます。値が大きいほど精度が上がりますが、動作が重くなります。128を超えると効果はあまり伸びません。デフォルトは32です。
+{0} iterations	{0}回
+{0} fps	{0} fps
+{0} Hz	{0} Hz
+{0} m	{0} m
+{0} seconds	{0}秒
+{0} degrees	{0}度
+This setting may decrease performance when enabled. It is disabled by default.	有効にすると動作が重くなる場合があります。デフォルトでは無効です。
+Snap grid size	グリッドの間隔
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	位置スナップに使うグリッド点の間隔です。物体を最も近いグリッド点に合わせることで、正確に配置できます。デフォルトは0.25 mです。
+Angle snap size	角度スナップの間隔
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	回転時のスナップに使う角度の刻みです。回転をこの値の最も近い倍数に合わせることで、正確に配置できます。デフォルトは15度です。
+The maximum amount of seconds that a mod can compile for until it's skipped.	MODのコンパイルを打ち切るまでの最大秒数です。
+Fragility multiplier	もろさの倍率
+The higher this value is the more fragile entities become.	値が大きいほど生き物がもろくなります。
+Brain damage	脳損傷
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	脳損傷が起きるかどうかを切り替えます。生き物がときどき気絶したり、立てなくなったり、けいれんを起こしたりします。
+Extra shot impact particles	追加の着弾パーティクル
+Limbs with enough flesh on them may eject chunky particles when shot.	肉の多い手足は、撃たれると肉片を飛ばすことがあります。
+Dismemberment loose tissue	切断時の垂れ下がる組織
+Dismemberment of limbs may expose loose stringy tissue.	手足が切断されると、垂れ下がった筋状の組織が見えることがあります。
+This will toggle relatively performance-heavy effects.	比較的重いエフェクトを切り替えます。
+Bullet cracks and whizzes	弾の衝撃波音と風切り音
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	有効にすると、超音速の弾が衝撃波音や風切り音を立てます。
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	MODの使用はバグや動作の低下などの問題を起こす可能性があります。MODの導入と使用は自己責任で行ってください。
+No mod selected	MODが選択されていません
+Submit	送信
+Problem description	問題の説明
+Describe the issue	問題を説明してください
+Steps to reproduce	再現手順
+Fill this form and press "Submit" to report a bug.	バグを報告するには、このフォームに記入して「送信」を押してください。
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	安全性と対応効率のため、IPアドレス、ゲームのログ、一部のシステム情報、読み込まれたMODがレポートに含まれます。これらは公開されません。
+By submitting the report, you agree to share this information with the developer of the game.	レポートを送信すると、これらの情報をゲームの開発者と共有することに同意したことになります。
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	バグの再現方法をはっきり書いてください。再現できないバグは無視されます
+version	バージョン
+[SAFE MODE]	[セーフモード]
+(64 bit)	（64ビット）
+(32 bit)	（32ビット）
+PREVIEW BUILD	プレビュー版
+you may encounter bugs and unfinished content	バグや未完成のコンテンツがある場合があります
+Steam Workshop	Steamワークショップ
+Retrieving subscriptions	サブスクリプションを取得中
+Entities killed	倒した生き物
+Entities revived	蘇生した生き物
+Items spawned	出したアイテム
+Nuclear explosions caused	起こした核爆発
+Wires created	作ったワイヤー
+Contraptions saved	保存したからくり
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b>（2019）mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	協力：Aspa102、mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio：Mark Heath (Ms-PL)
+Reactor A5	リアクターA5
+Enter Tiny	極小に入る
+Enter Small	小に入る
+Enter Tower	塔に入る
+Enter Void	虚空に入る
+Enter Substructure	下部構造に入る
+Enter Lava	溶岩に入る
+Enter Hybrid	ハイブリッドに入る
+Enter Humongous	超巨大に入る
+Enter Default	デフォルトに入る
+Enter Blocks	ブロックに入る
+Enter Abyss	深淵に入る
+Enter Slanted	傾斜に入る
+Enter Snow	雪に入る
+Enter Sea	海に入る
+Enter Reactor A5	リアクターA5に入る
+{0} bruise	あざ{0}か所
+{0} bruises	あざ{0}か所
+{0} gunshot wound	銃創{0}か所
+{0} gunshot wounds	銃創{0}か所
+{0} gunshots wounds	銃創{0}か所
+{0} stab wound	刺し傷{0}か所
+{0} stab wounds	刺し傷{0}か所
+{0}% burnt	{0}% 火傷
+{0}% acid damage	{0}% 酸による損傷
+{0}% rotted	{0}% 腐敗
+{0}% skin damage	{0}% 皮膚の損傷
+{0} limb selected	{0}個の部位を選択中
+{0} limbs selected	{0}個の部位を選択中
+Pasted {0} object	{0}個の物体を貼り付けました
+Pasted {0} objects	{0}個の物体を貼り付けました
+Enter a name for the contraption	からくりの名前を入力
+Contraption name	からくりの名前
+Colour code	カラーコード
+Saved in version {0}.	バージョン{0}で保存。
+Toggle frozen	固定の切り替え
+Thermal vision	サーマルビジョン
+Toggle collisions	衝突の切り替え
+Edit the current environment settings\\nSome maps don't support some settings	現在の環境設定を編集\\n一部のマップは一部の設定に対応していません
+Edit layer	レイヤーを編集
+Choose bell note	ベルの音を選ぶ
+Disable collision	衝突を無効化
+Sit	座る
+Mute	ミュート
+Next track	次の曲
+Previous track	前の曲
+Toggle sounds	サウンドの切り替え
+Now playing <color=#ff54f9>{s}</color>	再生中 <color=#ff54f9>{s}</color>
+Clear counter	カウンターをリセット
+Set signal value	シグナル値を設定
+Set stick distance	吸着距離を設定
+Set tank to drain mode.	タンクを排出モードにする。
+Disable infinite source	無限供給を無効化
+Toggle syringe infinite.	注射器の無限化を切り替え。
+Repair	修理
+Fire lightning bolts by flicking across the screen.	画面を素早くなぞって稲妻を放つ。
+Pyrokinesis	パイロキネシス
+Fire powers.	炎の力。
+Chain	チェーン
+Wire but it looks like a chain.	見た目が鎖のワイヤー。
+Liquid conduit	液体導管
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	容器どうしで液体を移すワイヤー。主に人間から血を抜くのに使われる。
+Wooden binding	木製の結束
+Destructible wooden fixed wiring.	壊れる木製の固定接続。
+Activator Electrode	起動電極
+Stone Brick	石レンガ
+Cobblestone Wall	石畳の壁
+Stone Brick Wall	石レンガの壁
+Cardiopulmonary Bypass Machine	人工心肺装置
+Counter	カウンター
+Adhesive Coupler	粘着カプラー
+Decoupler	切り離し装置
+Detached Ray Cannon	分解されたレイキャノン
+Naval Mine	機雷
+Liquid Duplicator	液体複製機
+Pointer	ポインター
+Office Chair	オフィスチェア
+Office Computer	オフィス用パソコン
+Office Keyboard	オフィス用キーボード
+Office Monitor	オフィス用モニター
+Office Table	オフィス用デスク
+Excalibur	エクスカリバー
+Jet Engine	ジェットエンジン
+Scope Attachment	アタッチメント：スコープ
+Capacitor Attachment	アタッチメント：コンデンサー
+Explosive Rounds Attachment	アタッチメント：炸裂弾
+Incendiary Rounds Attachment	アタッチメント：焼夷弾
+Laser Attachment	アタッチメント：レーザー
+Flashlight Attachment	アタッチメント：フラッシュライト
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	定番の全自動アサルトライフル。スコープとアンダーバレルのアタッチメントに対応。
+Automatic assault rifle. Supports scoped and underbarrel attachments.	全自動アサルトライフル。スコープとアンダーバレルのアタッチメントに対応。
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	威力が極めて高く実用性の低い拳銃。スコープとアンダーバレルのアタッチメントに対応。
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	樹脂フレームの小型拳銃。スコープとアンダーバレルのアタッチメントに対応。
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	原始的なピストル。精度も実用性も低く、とてもうるさい。スコープとアンダーバレルのアタッチメントに対応。
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	全自動の軽機関銃。おなじみの無限弾帯付き。アンダーバレルのアタッチメントに対応。
+A semi automatic pistol. Supports scoped and underbarrel attachments.	セミオートピストル。スコープとアンダーバレルのアタッチメントに対応。
+Classic handgun. Supports scoped and underbarrel attachments.	定番の拳銃。スコープとアンダーバレルのアタッチメントに対応。
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	強力なセミオートライフル。スコープとアンダーバレルのアタッチメントに対応。
+A shotgun. Supports scoped and underbarrel attachments.	ショットガン。スコープとアンダーバレルのアタッチメントに対応。
+A sniper rifle. Supports underbarrel attachments.	狙撃銃。アンダーバレルのアタッチメントに対応。
+A submachine gun. Supports scoped and underbarrel attachments.	サブマシンガン。スコープとアンダーバレルのアタッチメントに対応。
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	連射の速いサブマシンガン。スコープとアンダーバレルのアタッチメントに対応。
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	発射速度の高いソ連製サブマシンガン。スコープとアンダーバレルのアタッチメントに対応。
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	とても大きく、使うと痛い銃。スコープとアンダーバレルのアタッチメントに対応。
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	極めて強力なレイキャノン。砲身以外の部品がすべて欠けている。
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	多くの銃の銃身下に取り付けるコンデンサー。銃の電荷を弾に与える。
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	多くの銃の上部に取り付けるスコープ。精度が少し上がる。
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	多くの銃の銃身下に取り付けるアタッチメント。なぜか弾を炸裂弾に変える。
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	多くの銃の銃身下に取り付けるアタッチメント。なぜか弾を焼夷弾に変える。
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	多くの銃の銃身下に取り付ける小型レーザーポインター。精度が上がる。
+A small flashlight that is slotted under the barrel of most guns.	多くの銃の銃身下に取り付ける小型フラッシュライト。
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	手持ち式の短射程回復ジュース噴射器。<b>生命の血清</b>と違い、回復ジュースは打撲や銃創を治せない。
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	伝説の剣のレプリカ。刃は単分子で、自分より弱いあらゆる素材を貫く。起動すると刃先から機械式で火の玉を放つ。
+This small wrench can repair most machinery with a few gentle taps.	この小さなレンチで軽く叩けば、たいていの機械は直る。
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	錨に鎖でつなぐ前提の伝統的な触発機雷。角のひとつが押し込まれると激しく爆発する。
+Brick made of stone.	石でできたレンガ。
+A brick wall that will stand the test of time. Very resistant and heavy building material.	時の試練に耐えるレンガの壁。非常に頑丈で重い建材。
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	「自然の」石でできた原始的な壁。強度も安全性も断熱性もあまりない。
+Metal triangle. I <b>know</b> it says pyramid.	金属の三角形。ピラミッドと書いてあるのは<b>わかってる</b>。
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	液体を5 L貯められるタンク。起動すると次の圧力モードに切り替わる。<color=#FF4444>赤シグナル<color=#FFFFFF>で前のモードに戻る。
+PUSH: Force liquid out of the tank	押し出し：タンクから液体を押し出す
+PULL: Force liquid to flow in the tank	吸い込み：タンクに液体を流し込む
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	待機：他の圧力源に任せる。液体は釣り合いを保とうとする
+DRAIN: Pull and drain liquid.	排出：液体を吸い込んで捨てる。
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	<color=#44FF44>緑シグナル<color=#FFFFFF>を受けると値を増やし、<color=#FF4444>赤シグナル<color=#FFFFFF>で減らし、<color=#7777FF>青シグナル<color=#FFFFFF>でリセットする装置。
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	値が設定した「シグナル値」に達すると起動シグナルを送り、値をリセットする。
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	常にあなたの方を向くように角度を調整するローター。停止すると角度が固定される。
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	設定した速度で回転する。<color=#FF4444>赤シグナル<color=#FFFFFF>で逆回転、それ以外は起動状態を切り替える。通電するとトルクが増すが、速度は変わらない。
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	極めて強力な推進器。起動と停止に時間がかかるが、やがて凄まじい力で進む。エンジンは比較的もろく、壊れると爆発する。
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	起動シグナルのチャンネル変換器。<color=#7777FF>青<color=#FFFFFF>を<color=#44FF44>緑<color=#FFFFFF>に、またその逆に変換する。
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	起動シグナルのチャンネル変換器。<color=#FF4444>赤<color=#FFFFFF>を<color=#44FF44>緑<color=#FFFFFF>に、またその逆に変換する。
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	起動シグナルのチャンネル変換器。<color=#7777FF>青<color=#FFFFFF>を<color=#FF4444>赤<color=#FFFFFF>に、またその逆に変換する。
+Duplicates the liquids that are present upon activation.	起動時に入っている液体を複製する。
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	0度から設定した目標角度まで回転する電動ヒンジ。比較的重く、通電すると力が増す。
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	エミッターの前にあるものを起動する。装置の作動部をのぞき込まないこと。
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	ケーブルを伸ばしたり巻き取ったりする機械。起動で方向を切り替える。動かすには通電が必要。<color=#FF4444>赤の起動シグナル<color=#FFFFFF>で内蔵バッテリーを切り替える。
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	地面の上でホバリングするための推進器。通電するとホバー力が増す。高さはコンテキストメニューで設定できる。<color=#FF4444>赤シグナル<color=#FFFFFF>で高く、<color=#7777FF>青シグナル<color=#FFFFFF>で低くなる。
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	起動すると周囲の狭い範囲にあるすべての物体にくっつく。もう一度起動すると離す。
+Two objects that detach when activated.	起動すると分離する2つの物体。
+A relatively outdated desktop computer.	少し時代遅れのデスクトップパソコン。
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	ある人には高すぎ、ある人には低すぎる机。何人かで共用しているので調整できない。
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	超ハイテクなワイヤレスのメンブレンキーボード！一部のキーだけやけにすり減っている。
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	上半身につなぐと心臓の代わりに血圧を供給する機械。
+A computer monitor that looks like it belongs in an office.	いかにもオフィスにありそうなモニター。
+A chair that looks really comfortable but is actually a bit too small for most people.	とても座り心地がよさそうに見えるが、実はたいていの人には少し小さい椅子。
+{0} BPM	{0} BPM
+Extended limb damage	手足の追加ダメージ
+Causes limbs to become more fragile as they take more damage. Enabled by default.	手足はダメージを受けるほどもろくなります。デフォルトで有効。
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	弾道の軌跡などのエフェクトの見え方を調整します。デフォルトは100%。
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	破片の衝突判定の精度を決めます。ディスクリートは速いですが精度が低めです。コンティニュアスは高速の破片どうしのすり抜けを防ぎます。
+Clamp brightness	明るさを制限
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	まぶしすぎる物体のブルームを弱めます。強い光が苦手な人に便利です。
+Changes the displayed temperature unit across the game.	ゲーム全体で表示する温度の単位を変更します。
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	有効にすると、詳細表示キーを押している間、シーン内のすべての物体の重心が表示されます。バランスのよいからくり作りに便利です。
+UI volume	UIの音量
+Adjust the volume of user interface sounds. Default is 100%.	インターフェース音の音量を調整します。デフォルトは100%。
+Ambience volume	環境音の音量
+Adjust the volume of ambient background sounds. Default is 100%.	背景の環境音の音量を調整します。デフォルトは100%。
+Make sure to leave a review on Steam and join our Discord server if you like the game!	ゲームが気に入ったら、Steamでレビューを書いて、Discordサーバーに参加してください！
+Check out the official wiki for more information about the game.	ゲームの詳しい情報は公式Wikiをご覧ください。
+Third-party licenses:	サードパーティライセンス：
+texture packs	テクスチャパック
+Discord server	Discordサーバー
+Force refresh mod list	MODリストを強制更新
+Open source libraries	オープンソースライブラリ
+map editor	マップエディター
+report a bug	バグを報告
+Update	更新
+Accept risk	リスクを受け入れる
+The game failed to detect Steam. Some features may not work correctly.	Steamを検出できませんでした。一部の機能が正しく動かない可能性があります。
+Try restarting the game or the Steam client.	ゲームかSteamクライアントを再起動してみてください。
+limb status	部位の状態
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> または <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>で選択したアイテムを出す</size>
+Hold <b>Mouse2</b> and drag	<b>Mouse2</b>を押したままドラッグ
+<size=40>to move the camera around</size>	<size=40>でカメラを動かす</size>
+slow motion	スローモーション
+Invisible tools	ツールを非表示
+Don't save anything and resume the game	何も保存せずにゲームに戻る
+Toggle visibility of placed wires, cables, etc.	設置したワイヤーやケーブルなどの表示を切り替え
+<b>Invisibility</b>	<b>透明化</b>
+Move one layer down	1つ下のレイヤーへ
+Increment order	順序 +1
+<b>Use Wire</b>	<b>ワイヤーを使う</b>
+Save to disk	ディスクに保存
+Increment layer	レイヤー +1
+Decrement order	順序 -1
+Decrement layer	レイヤー -1
+View this item on the Workshop	ワークショップで見る
+Move one layer up	1つ上のレイヤーへ
+Arrange objects	物体を整列
+Destructible spring	壊れるばね
+Destructible metal spring	壊れる金属ばね
+World origin	ワールド原点
+<size=80%>This is where the player spawns	<size=80%>プレイヤーはここに出現します
+<b>Map settings</b>	<b>マップ設定</b>
+Map properties	マップのプロパティ
+Reset	リセット
+Save map	マップを保存
+Properties	プロパティ
+Remove everything in the map and start over. Map properties are untouched.	マップ上のものをすべて消してやり直します。マップのプロパティは変わりません。
+Exit to the main menu.	メインメニューに戻る。
+You are not supposed to be here. This place isn't ready yet.	ここに来てはいけません。この場所はまだ準備中です。
+Save the map	マップを保存
+Edit the map properties	マップのプロパティを編集
+Open the menu	メニューを開く
+Extremely deep pit	とてつもなく深い穴
+A space scattered with floating rectangles	浮かぶ長方形が散らばる空間
+Large open rectangular space	広く開けた長方形の空間
+This map is just way too large	このマップはとにかく大きすぎる
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	非常に深い水域と右側に平地がある谷。下にトンネルが通っている。
+Large map with two coasts and a body of lava	2つの海岸と溶岩の湖がある大きなマップ
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	施設に数多くある原子炉のひとつを周囲の部屋ごと再現したもの。
+Large map with two coasts and a body of water	2つの海岸と水域がある大きなマップ
+The ground is slanted	地面が傾いている
+A decently sized room. Compared to the other maps, it's very small	そこそこの広さの部屋。他のマップと比べるとかなり小さい
+It's cold and slippery	寒くて滑りやすい
+A replica of an old subterranean part of the facility.	施設の古い地下区画を再現したもの。
+This map is designed to fit your monitor, it's that small	モニターに収まるサイズのマップ。それくらい小さい
+Large space with a tall tower in the middle	中央に高い塔がある広い空間
+There is nothing	何もない
+Bell that rings the A4 note	ラ4の音が鳴るベル
+Bell that rings the B4 note	シ4の音が鳴るベル
+Bell that rings the C4 note	ド4の音が鳴るベル
+Bell that rings the C5 note	ド5の音が鳴るベル
+Bell that rings the D4 note	レ4の音が鳴るベル
+Bell that rings the E4 note	ミ4の音が鳴るベル
+Bell that rings the F4 note	ファ4の音が鳴るベル
+Bell that rings the G4 note	ソ4の音が鳴るベル
+Brighter, more efficient, more durable, and less painful to touch.	より明るく、効率的で、長持ちし、触っても痛くない。
+128 tooth spur gear	128歯の平歯車
+256 tooth spur gear	256歯の平歯車
+32 tooth spur gear	32歯の平歯車
+64 tooth spur gear	64歯の平歯車
+Sends activation signals if the amount of liquid it contains is above a certain threshold	中の液体の量が一定のしきい値を超えると起動シグナルを送る
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	デジタル温度計。-273～9999℃の範囲で自身の温度を正確に表示する。3.4028235e38℃まで耐えられる設計！
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	前方に水を検知すると起動シグナルを出す。範囲はコンテキストメニューで変更できる。
+(empty)	（空）
+Rest	休息
+Head	頭
+Fetus	胎児の姿勢
+Flailing	もがく
+Stumbling	よろめく
+Swimming	泳ぐ
+In pain	苦痛
+Walking	歩行
+Foot	足
+Sitting	座る
+Flat	平ら
+Decerebrate	除脳姿勢
+Decorticate	除皮質姿勢
+Bone	骨
+Flesh	肉
+Protective	防御姿勢
+Decrease cooling	冷却を下げる
+Increase cooling	冷却を上げる
+Raise control rods	制御棒を上げる
+Lower control rods	制御棒を下げる
+STAND BY	待機中
+Press E	Eを押す
+<b>CAPACITY</b>	<b>容量</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>原子炉データ</align>
+TEMPERATURE\t:	温度\t:
+PRESSURE\t\t:	圧力\t\t:
+COOLING RODS\t:	冷却棒\t:
+OUTPUT POWER\t:	出力\t:
+<color=red>WARNING</color>	<color=red>警告</color>
+<b>Modded Categories</b>	<b>MODのカテゴリー</b>
+Categories added by mods	MODが追加したカテゴリー
+The most common map tile. A static indestructible rectangle that collides with everything.	最も一般的なマップタイル。何とでも衝突する、動かず壊れない長方形。
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	全自動のビーム形成エネルギー兵器。短いエネルギーパルスを高速で連続して生み出す。
+Glowing tube filled with gas	ガスが詰まった光る管
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	弾丸を超音速で撃ち出す携帯型の運動エネルギー兵器。貫通力は高いがダメージは低い。弾はほぼ即座に蒸発し、電離した空気の跡を残す。
+Set colour for selected lights	選択したライトの色を設定
+Use	使う
+Regenerate identity	個体情報を再生成
+Top	上
+Bottom	下
+Speed	速度
+spring cable	ばねケーブル
+Gorse blood	ゴースの血
+Nitroglycerine	ニトログリセリン
+Something happened. Please show this message to the developer:	問題が発生しました。このメッセージを開発者に見せてください：
+Set detector threshold	検知器のしきい値を設定
+Set the detector liquid threshold	検知器の液体しきい値を設定
+Break	折る
+Set pointer speed	ポインターの速度を設定
+Set the speed of the pointer	ポインターの速度を設定
+Set pointer speed from 0 to 10	ポインターの速度（0～10）
+Water	水
+Bounds	境界
+Unfulfilled mod requirements:	満たされていないMODの要件：
+Select anyway	それでも選択
+This contraption is corrupted	このからくりは破損しています
+This contraption is incompatible with your current version	このからくりは現在のバージョンと互換性がありません
+From the Steam Workshop	Steamワークショップから
+Selection mode	選択モード
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	どの物体を選択するかの決め方です。質量は質量が最も小さい物体を、面積は全体の面積が最も小さい物体を、深度は描画順が最も高い物体を選びます。要するに、たいていは最初に見える物体が選ばれます。
+Mass	質量
+Area	面積
+Depth	深度
+Liquid overflow limb exploding	液体の入れすぎで手足が破裂
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	液体を入れすぎたときに手足を破裂させるかを切り替えます。デフォルトでは無効。手足の圧壊が有効な場合のみ機能します。
+Slice	切る
+Angle snap set to {0} degrees	角度スナップ：{0}度
+Grid size set to {0} m	グリッド：{0} m
+Left Mouse	左クリック
+Right Mouse	右クリック
+Middle Mouse	中クリック
+Automatic	自動
+Make destructible	破壊可能にする
+Untitled	無題
+Vibrate	振動
+Set detector range in meters	検知器の範囲をメートルで設定
+Target distance in meters from 0.2 m to 40 m	目標距離（0.2 m～40 m）
+Show beam	ビームを表示
+Hide beam	ビームを隠す
+Show or hide the detector beam	検知器のビームを表示/非表示
+Contraption directory malformed	からくりのフォルダーが破損しています
+Can't upload to Workshop	ワークショップにアップロードできません
+Close	閉じる
+This item is marked as uploaded. How do you want to continue?	このアイテムはアップロード済みになっています。どうしますか？
+Contraption does not exist.	からくりが存在しません。
+Contraptions cannot be uploaded from family shared games.	ファミリーシェアのゲームからはからくりをアップロードできません。
+Could not create workshop item	ワークショップアイテムを作成できませんでした
+Unknown reason	不明な理由
+By submitting to the workshop, you must agree to the terms of service.	ワークショップに投稿するには利用規約に同意する必要があります。
+{0}% uploaded...	{0}% アップロード済み...
+This puzzle requires an internet connection	このパズルにはインターネット接続が必要です
+Toggle cosmetic rain	演出の雨を切り替え
+Toggle cosmetic snow	演出の雪を切り替え
+Toggle cosmetic fog	演出の霧を切り替え
+Repair broken machinery	壊れた機械を修理
+Double trigger receiver	ダブルトリガー受信機
+Single trigger receiver	シングルトリガー受信機
+TEMPERATURE: {s}	温度：{s}
+COOLING PUMPS: {0}%	冷却ポンプ：{0}%
+CONTROL ROD DEPTH: {0}%	制御棒深度：{0}%
+POWER OUTPUT: {0} E	出力：{0} E
+Basic	基本
+Ignored if animation is enabled	アニメーションが有効な場合は無視されます
+Animation	アニメーション
+Clear counter value	カウンターの値をリセット
+Set counter signal value	カウンターのシグナル値を設定
+Set value at which to reset the counter and emit a signal	カウンターをリセットしてシグナルを出す値を設定
+Value from {0} to {1}	{0}～{1}の値
+Connecting...	接続中...
+Compiling	コンパイル中
+Client disconnected during compilation...	コンパイル中にクライアントが切断されました...
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	コンパイルがタイムアウトしました！MODのコンパイルに{0}秒以上かかったため無視されます。
+Set syringe to push mode	注射器を押し出しモードにする
+Set syringe to pull mode	注射器を吸い込みモードにする
+Set syringe to idle mode	注射器を待機モードにする
+Enable infinite source	無限供給を有効化
+Move Gizmo	移動ギズモ
+Resize Gizmo	サイズギズモ
+Background	背景
+Foreground	前景
+Outline	輪郭
+Set the distance the coupler can stick to objects	カプラーが物体にくっつく距離を設定
+Distance	距離
+Unknown error occurred...	不明なエラーが発生しました...
+Status	状態
+Resets the animation to be controlled by the algorithm again	アニメーションの制御をアルゴリズムに戻します
+Reset all animations	すべてのアニメーションをリセット
+Deserialisation error! This contraption is incompatible.	デシリアライズエラー！このからくりは互換性がありません。
+This may be a version mismatch or a missing mod.	バージョンの違いか、MODの不足が原因かもしれません。
+Loading maps	マップを読み込み中
+Press any button...	いずれかのボタンを押してください...
+Target height in meters from 0.5 m to 10 km	目標の高さ（0.5 m～10 km）
+Set bell note	ベルの音を設定
+Could not find the selected piano key...	選択したピアノの鍵盤が見つかりませんでした...
+Increment bell note	ベルの音を上げる
+Decrement bell note	ベルの音を下げる
+Water breathing serum	水中呼吸の血清
+Reanimation agent	蘇生剤
+Coagulation serum	凝固の血清
+Instant death poison	即死毒
+Inert pink liquid	不活性のピンクの液体
+Vestibular poison	平衡感覚の毒
+Muscle poison	筋肉毒
+Numbing poison	麻痺毒
+Mirrorising agent	鏡化剤
+Transparency agent	透明化剤
+Crushing poison	圧壊毒
+Mass agent	質量剤
+Explosion poison	爆発毒
+Durability serum	耐久の血清
+Regeneration serum	再生の血清
+Distortion poison	歪みの毒
+Circulation poison	循環毒
+Combustion agent	燃焼剤
+Tissue deconstruction agent	組織分解剤
+Enhancing serum	強化の血清
+Immortality serum	不死の血清
+Ultra strength serum	超筋力の血清
+Life serum	生命の血清
+Mending serum	治癒の血清
+Knockout poison	気絶毒
+Joint lock poison	関節固定毒
+Painkiller	鎮痛剤
+Human blood	人間の血
+Exotic liquid	特殊な液体
+Inert liquid	不活性の液体
+Beverage M04	飲料M04
+Debug discoloration liquid	デバッグ用脱色液
+Coolant	冷却材
+Tritium	トリチウム
+Acid	酸
+Gasoline	ガソリン
+Portal	ポータル
+Save settings	設定を保存
+Load settings	設定を読み込む
+Set servo target angle	サーボの目標角度を設定
+Set servo delta	サーボのデルタを設定
+Angle	角度
+Set servo speed	サーボの速度を設定
+Set the speed of the servo	サーボの速度を設定
+Set servo speed from 0 to 10	サーボの速度（0～10）
+Damage	ダメージ
+Toggle key trigger behaviour	キートリガーの動作を切り替え
+Press {s} to {t}	{s}を押して{t}
+Press {s}	{s}を押す
+Cleared chamber	薬室を空にしました
+Set to attract	引き寄せに設定
+Could not save file.	ファイルを保存できませんでした。
+This mod has updated.	このMODは更新されました。
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	このMODには有害な可能性のあるコードが含まれています。リスクを受け入れることもできますが、後悔するかもしれません。
+Continue	続ける
+Disable	無効にする
+Enable	有効にする
+Enter your text here	ここにテキストを入力
+Make visible	表示する
+Pain	痛み
+Create new pose	新しいポーズを作成
+Initialise all poses	すべてのポーズを初期化
+Loading Workshop items	ワークショップのアイテムを読み込み中
+punctured lungs	肺の穿孔
+This will overwrite an existing contraption with the same name.	同じ名前の既存のからくりを上書きします。
+Some mods caused a {0}ms freeze!	一部のMODで{0}msのフリーズが発生しました！
+Consider disabling some mods for faster load times.	読み込みを速くするために、一部のMODの無効化を検討してください。
+Consider disabling these mods for faster load times:	読み込みを速くするために、次のMODの無効化を検討してください：
+Don't show this again	今後表示しない
+Menu	メニュー
+INITIALISING...	初期化中...
+SCANNING...	スキャン中...
+FLUSHING...	洗浄中...
+Flushed :)	洗浄完了 :)
+ABRUPT SHUTDOWN RECOVERY	緊急停止からの復旧
+Checking~	確認中～
+Incorrect	不正解
+Receiving...	受信中...
+Flip object	物体を反転
+Toggle wire invisibility	ワイヤーの非表示を切り替え
+Activate object under cursor	カーソル下の物体を起動
+Select multiple	複数選択
+Local space transformation	ローカル座標で変形
+Sharp	鋭利
+Loading	読み込み中
+Particle settings	パーティクル設定
+Decal settings	デカール設定
+Are you sure you want to permanently remove	完全に削除してもよろしいですか：
+Are you sure you want to unsubscribe from	サブスクライブを解除してもよろしいですか：
+Unable to delete	削除できません
+Enter channel name	チャンネル名を入力
+Metal	金属
+energy wire	エネルギーワイヤー
+Set lower winch limit	ウインチの下限を設定
+Set upper winch limit	ウインチの上限を設定
+Translation in meters	移動量（m）
+Invalid decimal input for winch limit!	ウインチの制限値に無効な小数が入力されました！
+Repair holes	穴を修理
+Repairs holes in liquid container	液体容器の穴を修理する
+Loading mods	MODを読み込み中
+Loading mod	MODを読み込み中
+Start	開始
+Preparing	準備中
+Workshop is disabled	ワークショップは無効です
+Sending request	リクエストを送信中
+Invalid decimal input	無効な小数です
+Unmute	ミュート解除
+Unknown	不明
+Copied {0} objects	{0}個の物体をコピーしました
+Target rate in Hertz from 0.125 Hz to 32 Hz	目標周波数（0.125 Hz～32 Hz）
+Mechanism limits	機構の制限
+Larger values can lead to instability if the mechanism is heavily loaded.	機構に大きな負荷がかかっていると、大きな値は不安定の原因になります。
+Internal mechanism forces	機構の内部の力
+A one-shot impulse. Resets to 0 automatically each update.	単発の衝撃。更新のたびに自動で0に戻ります。
+A continuous tensioning force pushing the mechanism.	機構を押し続ける張力。
+The target speed of the mechanism.	機構の目標速度。
+The degree to which the drive is engaged.	駆動の接続度合い。
+Change what the display displays on its display	ディスプレイがディスプレイに表示する内容を変更
+Set maximum power level	最大出力レベルを設定
+Repair or break the engine.	エンジンを修理または破壊する。
+Toggle trigger behaviour	トリガーの動作を切り替え
+Disable machine heat damage.	機械の熱ダメージを無効化。
+Set object temperature	物体の温度を設定
+Set detector range	検知器の範囲を設定
+Enable machine heat damage	機械の熱ダメージを有効化
+Set exact rotation	正確な回転を設定
+Reverse rotor	ローターを逆回転
+User interface	インターフェース
+Brick	レンガ
+general	全般
+Push	押し出し
+Plank	板
+mods	MOD
+Set target temperature.	目標温度を設定。
+Toggle parking brakes.	パーキングブレーキを切り替え。
+Set hover height.	ホバーの高さを設定。
+Reverse vehicle.	車両の進行方向を反転。
+Inspect	調べる
+Mend or break bone	骨を治すか折る
+Toggle indestructibility	破壊不能を切り替え
+(EMPTY)	（空）

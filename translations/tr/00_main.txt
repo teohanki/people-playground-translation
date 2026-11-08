@@ -1,0 +1,1668 @@
+# English<TAB>Türkçe
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	Fizik simülasyonunun yineleme sayısını belirler. Yüksek değerler simülasyonu daha doğru yapar ama performansı düşürür. Ragdoll'lar 16 değerine göre tasarlanmıştır, farklı bir değerde davranışları değişebilir. Varsayılan 16.
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	Bir sıvı kabına basınç verir ya da basıncını boşaltır. İtme modu sıvıyı dışarı basar, çekme modu içeri çeker. Kendisi sıvı tutmaz. Kaba bir kan damarı kablosuyla bağlanır.
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	Çarpışma algılamanın kalitesini belirler. Ayrık mod çok daha hızlıdır ama daha az doğrudur. Sürekli mod, yüksek hızda nesnelerin birbirinin içinden geçmesini önler. Dinamik mod hıza göre ikisi arasında geçiş yapar.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	Bir yüzeyin üzerinde süzülmek için yapılmış bir itici. Güç verilince süzülme kuvveti artar. Süzülme yüksekliği bağlam menüsünden ayarlanır. Kırmızı sinyaller yüksekliği artırır, mavi sinyaller azaltır.
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	Sıvı santrifüjü. Kaptaki en düşük yoğunluklu sıvıları ayırır. Soldaki ışıklar içeride kaç farklı sıvı olduğunu gösterir. Yalnızca en alttaki ışık yanıyorsa artık süzme yapılmaz.
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	Aydınlatma sistemi karanlık yerleri gerçekten karanlık yapar ve ışık saçan nesneleri işe yarar hâle getirir. Kapatılırsa her yer tam aydınlık olur. Aydınlatmanın performansa etkisi çok azdır.
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	Yüksek geçiren filtre. Ortam sesleri bu frekansın altında çalınmaz. Seste cızırtı varsa işe yarar. Varsayılan ve önerilen değer 90 Hz.
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	Taşınabilir atomize edici silah. Nesneye saplandığında çevresindeki molekül yapısını bozmaya çalışan minicik bir mermi atar. En iyi yumuşak nesnelerde işe yarar.
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	Pedlerden birini göğsün üst kısmına tutup etkinleştir. Kalp yeniden çalışır. Ölümden kısa süre sonra insanları diriltmek için kullanılabilir. Yaraları iyileştirmez.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	Halatını uzatıp toplayabilen bir makine. Etkinleştirince yön değiştirir. Hareket için güç ver. Kırmızı aktivasyon sinyali dahili bataryayı açıp kapatır.
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Ayarlanabilir hızla döner. Kırmızı sinyal yönünü ters çevirir, diğer sinyaller açıp kapatır. Güç verilince torku artar, hız aynı kalır.
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	Küçük sürümden on kat güçlü bir jeneratör. O kadar dengesiz ve tehlikeli ki istenmeyen davranışlara yol açabilir. Dikkatli kullan.
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	Şarjlı enerji silahı. Uçarken yakındaki nesnelere arklar saçarak enerjisini yavaşça bırakan patlayıcı bir mermi atar. Ne kadar uzun tutulursa o kadar güçlenir.
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Elde taşınan, kısa menzilli sertleştirici sıvı püskürtücü. Dondurucu zehirden farklı olarak sertleştirici sıvı kanla yayılmaz, derinin bir kısmını sert ve mavi yapar.
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	Ses, ayarlanan sınırları aşacak kadar yüksek çalabilir. Duyma hasarını önlemek için bunu açık tutman önerilir. Kapatmak kendi sorumluluğunda!
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	Yayıcısından güçlü bir şok dalgası gönderir. Önündeki her nesne kendi kütlesiyle orantılı bir kuvvet alır. Kısacası: ağır nesneler daha sert itilir.
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	Açıkken insanlar ve androidler kolları artık tutamadığında nesneleri düşürür. Bu genelde öldüklerinde ya da kollarından vurulduklarında olur. Varsayılan olarak açık.
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	Dijital bir termometre. -273 ile 9999 °C arasındaki kendi sıcaklığını doğru gösterir. 3.4028235e38 °C'ye kadar dayanacak şekilde tasarlanmıştır!
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Elde taşınan, kısa menzilli sertleştirici sıvı püskürtücü. <b>Dondurucu zehirden</b> farklı olarak sertleştirici sıvı kanla yayılmaz, derinin bir kısmını sert ve mavi yapar.
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	Hata ayıklama mesajları oyunda bildirim olarak gösterilir: uyarılar, hatalar ve yakalanmamış istisnalar. Kapalı tutman önerilir.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	Elde taşınan, kısa menzilli iyileştirici sıvı püskürtücü. <b>Yaşam serumundan</b> farklı olarak et yaralarını kapatmaz, ama dondurucu zehri ve sertleştirici sıvıyı etkisiz kılar.
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	Açıkken patlamalar ve silah sesleri uzaklarda yankılanır. Kapatmak ses işlemeyi biraz hafifletir.
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	Ayarlı direnç. Kol çekilerek ayarlanır. Kol soldayken enerjinin %0'ını, sağdayken %100'ünü geçirir.
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	Etkinleştirildiğinde açılıp kapanan bir basınç vanası. Yalnızca basıncı geçirir. Kan damarı kablolarıyla bağlanınca sıvı basıncı akışını kesebilir.
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	Bir nesneden diğerine aktivasyon sinyali iletir. Kabloları hangi yönde bağladığın önemlidir. Sinyal yeşil (ana) kanaldan gider.
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	Elektromanyetik darbe üretir. Bunu yaparken muhtemelen kendini de yok eder. Darbe büyük ihtimalle 82.39700374531835 metre yarıçaptaki tüm elektroniği devre dışı bırakır. Çok net.
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	Basitleştirilmiş arka plan, ekran kayıtlarındaki sıkıştırma bozulmalarını azaltabilir. Performansı artırmaz.
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	Aktivasyon sinyallerinin içinden geçme süresini ayarlar. Varsayılan, olağan 0,1 saniye yerine 1 saniyedir.
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	Ayara göre belirlenen tuşa basıldığında ya da bırakıldığında aktivasyon sinyali gönderir. Kendi tuş atamalarınla çakışabilir.
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	1 Hz hızında tıklar. Frekans bağlam menüsünden değiştirilir. Aynı hızda aktivasyon sinyali gönderir. Güç verilince öngörülemez olur.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	5 L sıvı alan bir tank. Etkinleştirme sonraki basınç moduna geçer, kırmızı sinyal öncekine döner.
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	Kendini iter. Bu oyuncak bir fandan çok bir iticiye benziyor. Fanlardan farklı olarak pervaneler titremez ve başka nesneleri itmez.
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	Mermilerin uçuş süresi olup olmadığını ve iz gösterip göstermediğini belirler. Performansı düşürür. Varsayılan olarak kapalı.
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	Tetikleme davranışını değiştirir. Çift tetiklemede tuşa basınca ve ayrıca bırakınca tetiklenir.
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	Açıkken canlılar hasar alınca zorlanmış animasyonlarını bırakır. Örneğin vurulan bir insan yürümeyi keser.
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	Uzuvların tamamen yok edilebilir olup olmadığını belirler. Açıkken uzuvlar aşırı baskı altında kırmızı sise dönüşür.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	0 dereceden ayarlanabilir bir hedef açıya dönen motorlu menteşe. Oldukça ağırdır, güç verilince hızlanır.
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	Boş şişe. Yapımcılarının "polimetilmetakrilat" dediği yok edilemez kutsal bir maddeden yapılmıştır. Bir litre alır.
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	Dikey senkronizasyon açıkken kare hızı monitörün yenileme hızıyla sınırlanır. Ekran yırtılmasını azaltır.
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	En fazla 7 metre menzilli kızılötesi termometre. Kızılötesi ışının çarptığı nesnenin sıcaklığını gösterir.
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	Elde taşınan güdümlü füze atar. Hedefi takip eden bir füze fırlatır. Kilitlenme sesli ve görsel olarak bildirilir.
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	Açıp kapatmak için bir moda tıkla. Bozuk modlar açılamaz. Kapalı ve bozuk modlar çalıştırılmaz.
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	Yok etme alanı yayan bir cihaz. Alan, nesneleri atomlarına ayırarak varlıktan siler.
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	Lobut, tenpin, five-pin, duckpin ve candlepin gibi çeşitli bowling oyunlarında topun hedefidir.
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	Önünde metal bir şey algıladığında aktivasyon sinyali gönderir. Menzil bağlam menüsünden ayarlanır.
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	Bu şırıngada ne olduğunu kimse bilmiyor. Etkileri tutarsız ve her şırıngada farklı görünüyor. Pembe.
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	Önünde yanan nesneler algıladığında aktivasyon sinyali gönderir. Menzil bağlam menüsünden ayarlanır.
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	Etkinleştirildiğinde açılıp kapanan bir vana. Kan damarı kablolarıyla bağlanınca sıvı akışını kesebilir.
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	Önünde canlı madde algıladığında aktivasyon sinyali gönderir. Menzil bağlam menüsünden ayarlanır.
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	Zamanlayıcı sıfıra inene kadar aktivasyon sinyallerini engeller. Zamanlayıcı... etkinleştirilince başlar.
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	Küçük bir 350 ml şişe. Sürekli kullanılırsa içindekini ağzındaki şeye aktarır.
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	Önünde herhangi bir şey algıladığında aktivasyon sinyali gönderir. Menzil bağlam menüsünden ayarlanır.
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	Canlıların kalp atışını gösterir. Monitörü bir uzva kan damarı kablosuyla bağla.
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	Önünde hareket algıladığında aktivasyon sinyali gönderir. Menzil bağlam menüsünden ayarlanır.
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	Elektrik sinyalini aktivasyon sinyaline çevirir. Kısacası: enerji girer, aktivasyon çıkar.
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	Basit bir el roketatarı. Roketleri standart roketatarınkilerden daha hızlı ama daha zayıftır.
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	Çok ağır metal çekiç. Çarptığında bilinmeyen bir enerji kaynağıyla güçlü şok dalgaları yaratır.
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	Yüksek kapasiteli (25 L) sıvı bidonu. Sıvıyla dolu değilken suda yüzer.
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	Açıkken oyun şüpheli kod içeren modları reddeder. Yeniden başlatınca geçerli olur.
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	Aktivasyon sinyallerini elektriğe çevirir. Kısacası: aktivasyon girer, elektrik çıkar.
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	Çok güçlü ışın topu. Şarj edilince daha da güçlenir. Namlu dışında bütün parçaları eksik.
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	Odunu kolayca kesmek için yapılmış alet. Bu oyunda odun kesemiyor.
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	Elektrik üretir. Bataryadan güçlü, jeneratörden zayıf. Dokunmak güvenli.
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	Bir modun derlenmesi için verilen en uzun süre (saniye). Süre aşılırsa işlem durdurulur.
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	Otomatik tavan tareti. Çevresindeki 20 metre yarıçapta canlı organizma arar ve öldürür.
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	Görece küçük, korkunç bir yaratık. Gorse'lar zeki ve kötü niyetlidir. Ayrıca genelde yanık tutkal gibi kokarlar.
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	İnsanları hareketsiz bırakabilen bir enerji paketi fırlatır. Biraz megafona benziyor.
+An explosive that absorbs all energy in the environment and violently releases it.	Çevredeki tüm enerjiyi emip şiddetle salan bir patlayıcı.
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	Aktivasyon sinyalleri gönderir ve alır. Yalnızca aynı kanaldaki cihazlarla iletişim kurar.
+Regular gate. It lets signals through when its power level is above the set threshold.	Normal geçit. Güç seviyesi belirlenen eşiğin üstündeyken sinyalleri geçirir.
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	Mermileri durdurmak için yapılmış küçük bir levha. Delinmez değil ama çok dayanıklı.
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	Uzun, görece hafif beton levha. Kırılgandır ama ağırlığı yapılar için işe yarar.
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	Kanda dolaştığı sürece su altında nefes almayı sağlayan bir serum.
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	Tamamen görsel parçacıklar yansıtır. Duman, ateş ve elektrik çıkarabilir.
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	Işın oluşturan enerji silahı. Kısa, yoğun ve odaklanmış bir enerji darbesi üretir.
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	Seçim, dondurma ve kablo vurgularının çizilip çizilmeyeceğini belirler. Kayıt için kullanışlı.
+An object that allows something to slide in between. Only the coloured parts collide.	Parçalarının arasına bir şey kaydırılabilen bir nesne. Yalnızca renkli kısımlar çarpışır.
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	Yalıtım malzemesinden bir levha. Isıya ve elektriğe karşı yalıtır.
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	Tam otomatik hafif makineli tüfek. Klasik bitmeyen mermi kuşağıyla gelir.
+Things too specific or generic to be catergorised.	Bir kategoriye girmeyecek kadar özel ya da genel şeyler.
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	Etkinleştirildiğinde dönüşünü sabit tutan bir cihaz. Döndürmek neredeyse imkânsızdır.
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	Ağır çekim modunda zamanın ne kadar yavaş akacağını belirler. Varsayılan %20.
+When enabled, an alert will appear when mods cause increased loading times.	Açıkken modlar yükleme süresini uzattığında uyarı çıkar.
+You might want to add some tags to make your contraption more visible to your target audience.	Düzeneğinin hedef kitlende daha görünür olması için birkaç etiket eklemek isteyebilirsin.
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	Bloom, nesnelerin aşırı parlak olduğu yanılsamasını veren bir son işleme efektidir.
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	Neredeyse bir duş başlığı. Her sıvıyı alır ve hemen alttan boşaltır.
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	Ciddi performans kazancı için çarpışma ayarını <b>ayrık</b> yapabilirsin!
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	Isınmayan, hiçbir şeyi yakmayan ve titremeyen görece zayıf bir itici.
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	Bir şekilde çalışan 30 mm HEAT topu. Namlu dışında bütün parçaları eksik.
+Mod compilation complete, make sure to restart the map to apply activated mods!	Mod derlemesi bitti. Etkin modların uygulanması için haritayı yeniden başlat!
+You can set your collision settings to discrete for a significant performance gain!	Ciddi performans kazancı için çarpışma ayarını ayrık yapabilirsin!
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>Yalnızca pencere modu Kenarlık yok ya da Tam ekran olduğunda geçerlidir.
+Casts a small field that holds objects in place relative to the emitter.	Nesneleri yayıcıya göre yerinde tutan küçük bir alan oluşturur.
+Determines the temperature unit used throughout the game. Celsius by default.	Oyun boyunca kullanılan sıcaklık birimini belirler. Varsayılan Celsius.
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	Uzuvları sağlamlaştırır, kanamayı yavaşlatır ve çürümeyi geri almaya çalışır.
+This device emits an activation signal when it detects a laser pointer beam.	Bu cihaz bir lazer işaretçi ışını algıladığında aktivasyon sinyali gönderir.
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	Etkinleştirildiğinde 15 metre yarıçaptaki manyetik nesneleri çeken bir elektromıknatıs.
+Different kinds of explosives each with different properties and strengths.	Her biri farklı özellik ve güçte çeşitli patlayıcılar.
+This will toggle relatively expensive particle and decal effects.	Görece ağır parçacık ve iz efektlerini açıp kapatır.
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	Bir şekilde çalışan 120 mm top. Namlu dışında bütün parçaları eksik.
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	Elde taşınan Tesla bobini silahı. Ne kadar uzun tutulursa o kadar güçlenir.
+A colourable foreground element that keeps its texture unstretched when resized.	Boyutu değişince dokusu esnemeyen, boyanabilir ön plan öğesi.
+Modding your game may cause bugs, loss of performance, and other issues.	Mod kullanmak hatalara, performans kaybına ve başka sorunlara yol açabilir.
+Activation signal channel converter. Converts red to green and vice versa.	Aktivasyon sinyali kanal dönüştürücüsü. Kırmızıyı yeşile, yeşili kırmızıya çevirir.
+A colourable laser pointer that becomes dangerous when powered.	Güç verilince tehlikeli olan, boyanabilir lazer işaretçi.
+If disabled, heat can only be transferred through heat pipes and direct contact.	Kapalıyken ısı yalnızca ısı boruları ve doğrudan temasla aktarılır.
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	El roketatarı. El bombası kadar güçlü patlayıcı roketler atar.
+Activation signal channel converter. Converts blue to green and vice versa.	Aktivasyon sinyali kanal dönüştürücüsü. Maviyi yeşile, yeşili maviye çevirir.
+Activation signal channel converter. Converts blue to red and vice versa.	Aktivasyon sinyali kanal dönüştürücüsü. Maviyi kırmızıya, kırmızıyı maviye çevirir.
+Access environment settings. These will only last for the current session.	Ortam ayarları. Yalnızca bu oturum boyunca geçerlidir.
+Grenade that violently launches small spikes in random directions.	Rastgele yönlere şiddetle küçük dikenler fırlatan el bombası.
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	Bu odayı dolduran gazdan daha hafif gizemli bir gazla dolu.
+Wounds and injuries will slowly heal on living organisms when this is enabled.	Açıkken canlıların yara ve yaralanmaları yavaş yavaş iyileşir.
+Toggle whether decals are created. Disabling decals may improve performance.	İzlerin oluşup oluşmayacağını belirler. Kapatmak performansı artırabilir.
+Determines how much force is needed to crush a limb. Default is 100%.	Bir uzvu ezmek için ne kadar kuvvet gerektiğini belirler. Varsayılan %100.
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	0 ile -273,15 °C arasında ayarlanabilir bir hedef sıcaklığa kadar soğur.
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	Sıvıları tanımlar. Herhangi bir karışımla doldur (en fazla 2,5 L) ve etkinleştir.
+Objects will retain a fraction of their mass, and completely ignore gravity.	Nesneler kütlelerinin bir kısmını korur ve yerçekimini tamamen yok sayar.
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>Bunu açık tutman önerilir. Kapatmanı isteyen modları bildirmelisin.
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	Her şeyden önce kanamayı durdurur ama aynı zamanda epey esnek bir kablodur.
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	0 ile 1000 °C arasında ayarlanabilir bir hedef sıcaklığa kadar ısınır.
+Pins objects to the background or to other objects.  Allows rotation.	Nesneleri arka plana ya da başka nesnelere iğneler. Dönmeye izin verir.
+A belt that wraps around two objects, transferring rotational energy.	İki nesneye sarılıp dönme enerjisini aktaran bir kayış.
+1L flask filled with nitroglycerine. Explosive and highly unstable.	Nitrogliserinle dolu 1 L'lik şişe. Patlayıcı ve son derece dengesiz.
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	Kan pıhtılaşmasını hızlandıran bir serum. Kanayan tüm yaraları iyileştirir.
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	Canlı nesnelerin içine oyulur. Mutilate-a-Doll 2 ile ortak eklenen bir eşya.
+A little engine that only propels itself while submerged.	Yalnızca su altındayken kendini iten küçük bir motor.
+A link between two objects that allows them to phase through each other.	İki nesnenin birbirinin içinden geçmesini sağlayan bir bağlantı.
+Handheld device that is capable of lifting objects from a great distance.	Nesneleri çok uzaktan kaldırabilen el cihazı.
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>Yalnızca dikey senkronizasyon kapalıyken etkili olur.
+Green signals toggle. Red signals open. Blue signals close.	Yeşil sinyaller açıp kapatır. Kırmızılar açar. Maviler kapatır.
+Indestructible cable that restricts positions and rotation on both objects.	İki nesnenin konumunu ve dönüşünü kısıtlayan yok edilemez halat.
+1x1 brick rectangle. I know it says cube, but the game is 2D.	1x1 tuğla dikdörtgen. Biliyorum, küp yazıyor ama oyun 2D.
+Toggle whether wires block the context menu for the underlying object.	Kabloların altlarındaki nesnenin bağlam menüsünü engelleyip engellemeyeceğini belirler.
+Primitive pistol. Not very accurate, not very practical, and very loud.	İlkel tabanca. Pek isabetli değil, pek kullanışlı değil ve çok gürültülü.
+Handheld burst energy weapon that fires heat-seeking projectiles.	Isı güdümlü mermiler atan, elde taşınan seri atışlı enerji silahı.
+Determines how fast zooming using the mouse wheel is. Default is 1x.	Fare tekerleğiyle yakınlaştırma hızını belirler. Varsayılan 1x.
+A metal square.  It says cube, I know. I've explained this before.	Metal bir kare. Küp yazıyor, biliyorum. Bunu daha önce açıkladım.
+An explosive with a large blast radius and a powerful shockwave.	Geniş patlama yarıçaplı ve güçlü şok dalgalı bir patlayıcı.
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	Küçük nükleer patlayıcı. 750 m yarıçaptaki her şeyi yakar ve yok eder.
+Highly accurate blaster rifle that launches high speed bolts.	Yüksek hızlı atışlar yapan, çok isabetli blaster tüfeği.
+Colourable LED bulb. Bright, efficient, and durable.	Boyanabilir LED ampul. Parlak, verimli ve dayanıklı.
+A wranch you can slam aganist Androids to repair them.	Androidlere vurarak onları tamir etmeye yarayan bir İngiliz anahtarı.
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	<color=orange>Orta fare tuşuyla</color> <color=green>kaydır</color>
+The will toggle relatively performance-heavy effects.	Görece ağır efektleri açıp kapatır.
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	<color=green>tutmak</color> için <color=orange>sol fare tuşunu</color> basılı tut
+A chair that kind of looks like it belongs inside a bus.	Otobüsten sökülmüş gibi görünen bir koltuk.
+By submitting to the workshop, you agree to the terms of service.	Atölye'ye göndererek hizmet şartlarını kabul etmiş olursun.
+Controlled powerful explosive. Can only detonate by activation.	Kontrollü güçlü patlayıcı. Yalnızca etkinleştirilince patlar.
+An electric bi-wheeled unicycle with no chain??? How does it work.	İki tekerlekli ve zincirsiz elektrikli tek teker??? Bu nasıl çalışıyor.
+Grenade that sticks to most things when armed.	Kurulduğunda neredeyse her şeye yapışan el bombası.
+This item is marked as once uploaded. How do you want to continue?	Bu eşya daha önce yüklenmiş. Nasıl devam etmek istersin?
+Makes living beings more durable. Might cause immortality.	Canlıları daha dayanıklı yapar. Ölümsüzlüğe yol açabilir.
+<color=green>rotate</color> objects with <color=orange>A or D </color>	Nesneleri <color=orange>A ya da D </color> ile <color=green>döndür</color>
+A relatively small boulder. Supposedly made of minerals.	Görece küçük bir kaya. Güya minerallerden yapılmış.
+<color=orange>Right Mouse</color> to <color=green>delete</color>	<color=green>Silmek</color> için <color=orange>sağ fare tuşu</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	Açılıp kapanan projektör. Etrafı aydınlatır ve uğursuz görünür.
+A thermonuclear bomb. Easily the most powerful bomb available.	Termonükleer bomba. Tartışmasız mevcut en güçlü bomba.
+Change the chance the artificial sky generates a lightning bolt.	Yapay gökyüzünün şimşek üretme ihtimalini değiştirir.
+Displays the current framerate in the top-right of the screen.	Ekranın sağ üst köşesinde mevcut kare hızını gösterir.
+Powerful laser cannon. It's missing all the pieces except for the barrel.	Güçlü lazer topu. Namlu dışında bütün parçaları eksik.
+Extends or retracts when activated. Faster when charged.	Etkinleştirilince uzar ya da kısalır. Şarjlıyken daha hızlı.
+Speed up rotation / uniform resizing / multiselect	Hızlı döndürme / orantılı boyutlandırma / çoklu seçim
+A weapon that launches shells that explode on impact.	Çarpınca patlayan mermiler atan bir silah.
+Melodic bell! Set the bell note via the context menu.	Melodili zil! Notayı bağlam menüsünden ayarla.
+Two objects attached by a ...long piston. Moves freely.	Bir... uzun pistonla bağlı iki nesne. Serbestçe hareket eder.
+A device that, when activated, stays upright.	Etkinleştirildiğinde dik duran bir cihaz.
+"Handheld" energy weapon. Emits bouncy balls of energy.	"Elde taşınan" enerji silahı. Seken enerji topları fırlatır.
+This setting may decrease performance when enabled.	Bu ayar açıkken performansı düşürebilir.
+A small thruster that propels itself forward when activated.	Etkinleştirildiğinde kendini ileri iten küçük bir itici.
+Heat will travel through the air when this is enabled.	Açıkken ısı hava yoluyla yayılır.
+A heavy container train wagon. Does not move on its own.	Ağır bir konteyner vagonu. Kendi kendine hareket etmez.
+Downscale the resolution that the game is being rendered at.	Oyunun işlendiği çözünürlüğü düşürür.
+Saves the selected objects as one, to be loaded later.	Seçili nesneleri daha sonra yüklemek üzere tek parça olarak kaydeder.
+This save is from a different version. This might cause issues.	Bu kayıt başka bir sürümden. Sorun çıkarabilir.
+<color=green>activate</color> objects with <color=orange>F</color>	Nesneleri <color=orange>F</color> ile <color=green>etkinleştir</color>
+Alert when mods significantly affect loading times	Modlar yüklemeyi ciddi şekilde yavaşlatınca uyar
+Small thruster. Weaker and lighter than the bigger ones.	Küçük itici. Büyüklerden daha zayıf ve hafif.
+A humanoid robot. Larger, heavier, and more durable than a human.	İnsansı bir robot. İnsandan daha büyük, ağır ve dayanıklı.
+A durable pane of glass. Much stronger than a regular glass pane.	Dayanıklı bir cam levha. Normal camdan çok daha sağlam.
+Modify the final exposure value. Default is 100%	Son pozlama değerini değiştirir. Varsayılan %100
+A very heavy combat tank that fires explosive shells.	Patlayıcı mermiler atan çok ağır bir muharebe tankı.
+Metal triangle. I know it says pyramid.	Metal üçgen. Biliyorum, piramit yazıyor.
+One of those old torches. Prevents mobs from spawning.	O eski meşalelerden biri. Mob'ların doğmasını engeller.
+A mirror that partially dissolves when powered.	Güç verilince kısmen kaybolan bir ayna.
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	Nesneleri <color=green>oluşturmak</color> için <color=orange>E ya da Q</color>
+Generates incredible amounts of energy when activated.	Etkinleştirildiğinde inanılmaz miktarda enerji üretir.
+It's a torch but that name is already used by the other torch.	Bu bir meşale ama o isim zaten diğer meşalenin.
+A platform that, when activated, propels itself in the air.	Etkinleştirildiğinde kendini havaya fırlatan bir platform.
+It's a ball specifically designed for bowling. How thoughtful.	Özellikle bowling için yapılmış bir top. Ne düşünceli.
+How often should the thermal vision be updated?	Termal görüş ne sıklıkla güncellensin?
+A crossbow that lauches a sharp bolt at high speed.	Yüksek hızda keskin bir ok fırlatan arbalet.
+Set timed gate duration in seconds.	Zamanlı geçidin süresini saniye cinsinden ayarla.
+A wrench you can slam against Androids to repair them.	Androidlere vurarak onları tamir etmeye yarayan bir İngiliz anahtarı.
+Adjust the intensity of the screenshake. Default is 1x.	Ekran sarsıntısının şiddetini ayarla. Varsayılan 1x.
+Liquid chemicals and other items related to chemistry.	Sıvı kimyasallar ve kimyayla ilgili diğer eşyalar.
+Continuously sends out activation signals if activated.	Etkinleştirilince sürekli aktivasyon sinyali gönderir.
+Handheld freezeray gun. Emits a cooling beam.	Elde taşınan dondurucu ışın silahı. Soğutucu bir ışın yayar.
+The volume of the ambient hum and other background noises.	Ortam uğultusunun ve diğer arka plan seslerinin seviyesi.
+Game version mismatch. This might cause problems.	Oyun sürümü uyuşmuyor. Sorun çıkabilir.
+Change what the display displays on its display.	Ekranın ekranında gösterdiği şeyi değiştir.
+A blade of energy contained in a material field.	Madde alanının içinde tutulan bir enerji bıçağı.
+An electronic display capable of showing any text.	Her türlü metni gösterebilen elektronik ekran.
+Anti-aliasing attempts to get rid of jagged edges.	Kenar yumuşatma, tırtıklı kenarları gidermeye çalışır.
+Device that measures how much power it is receiving.	Ne kadar güç aldığını ölçen cihaz.
+A sentry turret that targets anything that seems to be alive.	Canlı görünen her şeyi hedef alan nöbetçi taret.
+Can only propagate an activation signal once.	Aktivasyon sinyalini yalnızca bir kez iletebilir.
+A destructible version of the blue propagation wire.	Mavi iletim kablosunun yok edilebilir sürümü.
+A metal tube that is just a little taller than a human.	Bir insandan biraz uzun metal boru.
+A destructible version of the green propagation wire.	Yeşil iletim kablosunun yok edilebilir sürümü.
+A destructible version of the red propagation wire.	Kırmızı iletim kablosunun yok edilebilir sürümü.
+The volume of all items and effects in the game.	Oyundaki tüm eşyaların ve efektlerin ses seviyesi.
+Repulse everything in a small radius around you.	Etrafındaki küçük bir alandaki her şeyi iter.
+Target duration in seconds from 0.04s to 16s	Hedef süre (saniye), 0,04 sn ile 16 sn arası
+Activate object under cursor / currently holding	İmlecin altındaki / tuttuğun nesneyi etkinleştir
+It's one of those red barrels that explode.	Patlayan o kırmızı varillerden biri.
+Very large and painful gun to use.	Kullanması çok acı veren kocaman bir silah.
+Relieves pain. Can be dangerous in high doses.	Ağrıyı dindirir. Yüksek dozda tehlikeli olabilir.
+Your contraption will be uploaded to the workshop.	Düzeneğin Atölye'ye yüklenecek.
+Lift everything around you with infinite force.	Etrafındaki her şeyi sonsuz güçle kaldırır.
+Identical to the big one apart from the size and weight.	Boyutu ve ağırlığı dışında büyüğüyle aynı.
+Things that shoot a projectile somehow.	Bir şekilde mermi atan şeyler.
+1L flask full of Gorse blood. Do not ingest.	Gorse kanıyla dolu 1 L'lik şişe. İçmeyin.
+Big automatic laser sentry turret.	Büyük otomatik lazer nöbetçi taret.
+A drug that temporarily disables a person.	Bir insanı geçici olarak etkisiz bırakan ilaç.
+Attract everything in a small radius around you.	Etrafındaki küçük bir alandaki her şeyi çeker.
+Soviet submachine gun with a high rate of fire.	Yüksek atış hızlı Sovyet hafif makineli tabancası.
+Set the upper translation limit for the winch.	Vincin üst hareket sınırını ayarla.
+Forces the resting animation override.	Dinlenme animasyonunu zorlar.
+A small holographic text display emitter.	Küçük bir holografik metin yayıcı.
+A button that activates when pressed.	Basıldığında etkinleşen bir düğme.
+Zoom scroll wheel sensitivity	Yakınlaştırma için fare tekerleği hassasiyeti
+Handheld flamethrower. Not actually a flamethrower.	El alev silahı. Aslında alev silahı değil.
+Probably the worst thing to step on.	Muhtemelen üstüne basılabilecek en kötü şey.
+Set the lower translation limit for the winch.	Vincin alt hareket sınırını ayarla.
+Objects will only collide with the walls.	Nesneler yalnızca duvarlarla çarpışır.
+Destructible non-conductive wire.	Yok edilebilir, iletken olmayan kablo.
+A virus that turns living beings into zombies.	Canlıları zombiye çeviren bir virüs.
+You install and use mods at your own risk.	Modları kendi sorumluluğunda kurup kullanırsın.
+Classic automatic assault rifle.	Klasik otomatik saldırı tüfeği.
+Determines the way the window is presented.	Pencerenin nasıl gösterileceğini belirler.
+Toggle between tools and powers	Aletler ve güçler arasında geçiş yap
+A large heavy truck with lots of space.	Bol yer olan büyük, ağır bir kamyon.
+Box that dampens movement when activated.	Etkinleştirildiğinde hareketi sönümleyen kutu.
+1L flask full of human blood.	İnsan kanıyla dolu 1 L'lik şişe.
+Indestructible, stiff metal spring.	Yok edilemez, sert metal yay.
+Pressurise the connected container.	Bağlı kaba basınç verir.
+1L flask full of regular oil.	Normal yağla dolu 1 L'lik şişe.
+Depressurise the connected container.	Bağlı kabın basıncını boşaltır.
+Choose between different gore shaders	Farklı vahşet gölgelendiricileri arasından seç
+World war era German handgrenade.	Dünya savaşı döneminden Alman el bombası.
+Propagates a signal on the red channel.	Kırmızı kanaldan sinyal iletir.
+Destructible steel fixed wiring.	Yok edilebilir sabit çelik bağlantı.
+Heavy anchor designed to sink.	Batmak için yapılmış ağır çapa.
+Determine the upper bound of the framerate.	Kare hızının üst sınırını belirle.
+Drain the container of its contents.	Kabın içindekileri boşaltır.
+Extremely powerful and impractical handgun.	Aşırı güçlü ve kullanışsız tabanca.
+Destructible conductive wire.	Yok edilebilir iletken kablo.
+Propagates a signal on the blue channel.	Mavi kanaldan sinyal iletir.
+Forces the protection animation override.	Korunma animasyonunu zorlar.
+move forward, toggle lights, etc.	ileri git, ışıkları aç/kapat vb.
+Wooden bat made to hit things.	Bir şeylere vurmak için tahta sopa.
+Make the camera track this object.	Kamerayı bu nesneyi takip ettir.
+Change the way HDR colours are displayed.	HDR renklerinin gösterim şeklini değiştir.
+Edit the current environment settings	Mevcut ortam ayarlarını düzenle
+Launches objects placed on it in the air.	Üzerine konan nesneleri havaya fırlatır.
+Automatic spike launching weapon.	Diken fırlatan otomatik silah.
+A tall tree. It was never alive.	Uzun bir ağaç. Hiç canlı olmadı.
+Toggle hovering highlights	Üzerine gelince vurgula
+does not match your current username	mevcut kullanıcı adınla eşleşmiyor
+Target height in meters from 0.5 m to 10 m	Hedef yükseklik (metre), 0,5 m ile 10 m arası
+Set tint for selected objects	Seçili nesnelerin renk tonunu ayarla
+From Wikipedia, the free encyclopedia.	Özgür ansiklopedi Vikipedi'den.
+Like a normal explosive but pink.	Normal patlayıcı gibi, ama pembe.
+Should the floodlights be turned on?	Projektörler açılsın mı?
+A crossbow bolt. Points to where it goes.	Bir arbalet oku. Gittiği yeri gösterir.
+Target temperature in Celsius	Hedef sıcaklık (Celsius)
+A lamp that does not offer comfort.	Hiç teselli vermeyen bir lamba.
+Organic or artificial beings.	Organik ya da yapay varlıklar.
+This should make the mech work.	Bu, mech'i çalıştırmalı.
+Set the target angle of the servo.	Servonun hedef açısını ayarla.
+Things built to go places.	Bir yerlere gitmek için yapılmış şeyler.
+De staf van de goedheiligman zelf.	Bizzat aziz adamın asası.
+Sends an activation signal on impact.	Çarpmada aktivasyon sinyali gönderir.
+Change the ambient temperature.	Ortam sıcaklığını değiştir.
+Chemical that eats bones.	Kemik eriten kimyasal.
+Handheld heatray gun. Emits a heating beam.	El ısı ışını silahı. Isıtan bir ışın yayar.
+Set maximum power level.	En yüksek güç seviyesini ayarla.
+Small plastic-framed handgun.	Plastik gövdeli küçük tabanca.
+Switches to the previous texture.	Önceki dokuya geçer.
+Indestructible loose cable.	Yok edilemez gevşek halat.
+. Are you sure you want to continue?	. Devam etmek istediğine emin misin?
+The volume of the entire application.	Tüm uygulamanın ses seviyesi.
+Set key trigger description.	Tuş tetikleyici açıklamasını ayarla.
+Powerful semi-automatic rifle.	Güçlü yarı otomatik tüfek.
+Remove this contraption from the list.	Bu düzeneği listeden kaldır.
+Objects you saved on disk.	Diske kaydettiğin nesneler.
+Enable machine heat damage.	Makinelere ısı hasarını aç.
+An automatic laser machine rifle.	Otomatik lazer tüfeği.
+A wire that transfers blood between limbs.	Uzuvlar arasında kan aktaran kablo.
+A suspended motorised wheel.	Süspansiyonlu motorlu tekerlek.
+Target delay in seconds from 0.04s to 60s	Hedef gecikme (saniye), 0,04 sn ile 60 sn arası
+Indestructible metal spring.	Yok edilemez metal yay.
+Machines that do stuff.	Bir şeyler yapan makineler.
+Switches to the next texture.	Sonraki dokuya geçer.
+Resize selected objects	Seçili nesneleri yeniden boyutlandır
+Public transport bus.	Toplu taşıma otobüsü.
+Indestructible rigid connection.	Yok edilemez sabit bağlantı.
+Spawn right facing	Sağa bakarak oluştur
+Maximum mod compilation time	En uzun mod derleme süresi
+Things to hit or stab with.	Vurmak ya da bıçaklamak için şeyler.
+Triggers the selected objects.	Seçili nesneleri tetikler.
+Set tank to idle mode.	Tankı bekleme moduna al.
+A small energy container.	Küçük bir enerji kabı.
+Set gate threshold.	Geçit eşiğini ayarla.
+Handheld rapid firing gatling gun.	Elde taşınan hızlı atışlı gatling.
+Set tank to push mode.	Tankı itme moduna al.
+2 meter tall metal pole.	2 metre yüksekliğinde metal direk.
+Industrial hinged spot light.	Endüstriyel menteşeli spot ışık.
+Spawn left facing	Sola bakarak oluştur
+Kills living beings instantly.	Canlıları anında öldürür.
+Stop animation on damage	Hasar alınca animasyonu durdur
+Ambient temperature transfer	Ortam sıcaklık aktarımı
+Automatic assault rifle.	Otomatik saldırı tüfeği.
+Rapid firing submachine gun.	Hızlı atışlı hafif makineli tabanca.
+Reverses the polarity of the magnet.	Mıknatısın kutuplarını ters çevirir.
+Repair or break the engine	Motoru tamir et ya da boz
+Changed to Powers tab	Güçler sekmesine geçildi
+Set metronome rate in Hz.	Metronom hızını Hz cinsinden ayarla.
+2 meter tall wooden pillar.	2 metre yüksekliğinde ahşap sütun.
+Pastes the copied objects.	Kopyalanan nesneleri yapıştırır.
+A larger, more powerful piston.	Daha büyük, daha güçlü bir piston.
+Changed to Tools tab	Aletler sekmesine geçildi
+Selection target temperature	Seçimin hedef sıcaklığı
+The volume of UI elements.	Arayüz öğelerinin ses seviyesi.
+Toggle gate behaviour.	Geçit davranışını değiştir.
+Toggle trigger behaviour.	Tetikleme davranışını değiştir.
+Publish to the Steam Workshop.	Steam Atölyesi'nde yayınla.
+Disable machine heat damage	Makinelerde ısı hasarını kapat
+Drag and rotate objects.	Nesneleri sürükle ve döndür.
+Player statistics regarding the game.	Oyunla ilgili oyuncu istatistikleri.
+Set winch upper limit	Vinç üst sınırını ayarla
+Destructible red propagation wire	Yok edilebilir kırmızı iletim kablosu
+Forces the stumbling animation override.	Tökezleme animasyonunu zorlar.
+Thermal vision update rate	Termal görüş güncelleme hızı
+Freezes the selected objects.	Seçili nesneleri dondurur.
+Toggle parking brakes	El frenini değiştir
+Toggle invisibility.	Görünmezliği açar ya da kapatır.
+Basic indestructible wooden wheel.	Basit, yok edilemez ahşap tekerlek.
+Disengage parking brakes	El frenini indir
+Set tank to pull mode.	Tankı çekme moduna al.
+Set object temperature.	Nesnenin sıcaklığını ayarla.
+Slowly heal injuries	Yaraları yavaşça iyileştir
+Set winch lower limit	Vinç alt sınırını ayarla
+Stop affecting pressure.	Basıncı etkilemeyi bırak.
+Physics iteration count	Fizik yineleme sayısı
+Destructible blue propagation wire	Yok edilebilir mavi iletim kablosu
+It's just a metal circle.	Sadece metal bir daire.
+View terms of service	Hizmet şartlarını gör
+Slow motion speed modifier	Ağır çekim hızı
+Copies the selected objects.	Seçili nesneleri kopyalar.
+Return to the toybox menu.	Eşya menüsüne dön.
+Threshold as percentage	Yüzde olarak eşik
+Destructible rigid strut.	Yok edilebilir sabit destek.
+Ignites the selected objects.	Seçili nesneleri tutuşturur.
+Deletes the selected objects.	Seçili nesneleri siler.
+Choose objects under cursor	İmlecin altındaki nesneleri seç
+Freeze selected objects	Seçili nesneleri dondur
+Set the speed of the rotor.	Rotorun hızını ayarla.
+View item info.	Eşya bilgisini gör.
+Slow motion disabled	Ağır çekim kapalı
+A small fireworks rocket.	Küçük bir havai fişek roketi.
+An old jukebox.	Eski bir müzik kutusu.
+A semi automatic pistol.	Yarı otomatik bir tabanca.
+Reject suspicious mods	Şüpheli modları reddet
+Old filament light bulb.	Eski akkor ampul.
+Toggle indestructibility.	Yok edilemezliği açar ya da kapatır.
+Its base is frozen when created.	Oluşturulduğunda tabanı dondurulmuştur.
+A pane made of fragile glass.	Kırılgan camdan bir levha.
+Locks a creature's joints.	Bir canlının eklemlerini kilitler.
+Giant hovering fan.	Dev, havada duran vantilatör.
+Electricity Transformer	Elektrik dönüştürücü
+Set detector range.	Algılayıcı menzilini ayarla.
+Log debug messages	Hata ayıklama mesajlarını göster
+Simple airfoil.	Basit kanat profili.
+It's a hovercraft.	Bu bir hovercraft.
+Switch to 9th tool	9. alete geç
+Relatively small bush.	Görece küçük bir çalı.
+Switch to 7th tool	7. alete geç
+Switch to 6th tool	6. alete geç
+Switch to 5th tool	5. alete geç
+Switch to 4th tool	4. alete geç
+Switch to 3th tool	3. alete geç
+Detached Laser Cannon	Sökülmüş lazer topu
+Switch to 2th tool	2. alete geç
+Switch to 1th tool	1. alete geç
+Slow motion enabled	Ağır çekim açık
+Simplified background tiles	Basit arka plan
+Switch to 8th tool	8. alete geç
+Change the colour of this object.	Bu nesnenin rengini değiştir.
+Welcome to the playground!	Oyun alanına hoş geldin!
+Toggle slow motion	Ağır çekimi aç/kapat
+Hammer made to fight with.	Dövüşmek için yapılmış çekiç.
+Clears all debris and decals.	Tüm enkazı ve izleri temizler.
+A belt that conveys.	Taşıyan bir bant.
+Distant sound effects	Uzak ses efektleri
+Screenshake intensity	Ekran sarsıntısı şiddeti
+Upload to Steam Workshop	Steam Atölyesi'ne yükle
+Temperature unit	Sıcaklık birimi
+Forces the walking animation override.	Yürüme animasyonunu zorlar.
+Detached Beam Cannon	Sökülmüş ışın topu
+Forces the sitting animation override.	Oturma animasyonunu zorlar.
+Enter contraption name	Düzenek adını gir
+Wires with context menu	Bağlam menülü kablolar
+Reverse rotor.	Rotoru ters çevir.
+Red propagation wire	Kırmızı iletim kablosu
+Soviet Submachine Gun	Sovyet hafif makineli tabancası
+Mend or break bone.	Kemiği iyileştir ya da kır.
+Toggle sidepanels	Yan panelleri aç/kapat
+Relatively large bush.	Görece büyük bir çalı.
+Toggle electricity.	Elektriği açar ya da kapatır.
+BG Signal Converter	MY sinyal dönüştürücü
+Very powerful explosive.	Çok güçlü patlayıcı.
+Ignite selected objects	Seçili nesneleri tutuştur
+Reverse vehicle	Aracı geri vitese al
+RG Signal Converter	KY sinyal dönüştürücü
+BR Signal Converter	MK sinyal dönüştürücü
+Bone Eating Syringe	Kemik yiyen şırınga
+Toggle detail view	Ayrıntılı görünümü aç/kapat
+Large wooden pole.	Büyük tahta direk.
+A human being, very fragile.	Bir insan. Çok kırılgan.
+Clamp audio volume	Ses seviyesini sınırla
+Blood vessel wire	Kan damarı kablosu
+Set lagbox delay	Lagbox gecikmesini ayarla
+Set exact rotation.	Tam dönüşü ayarla.
+Water Breathing Syringe	Su altında nefes şırıngası
+Blue propagation wire	Mavi iletim kablosu
+It is disabled by default.	Varsayılan olarak kapalı.
+Soft plastic barrel.	Yumuşak plastik varil.
+Drop on death	Ölünce düşür
+Steam is not initialised	Steam başlatılmadı
+Big metal beam.	Büyük metal kiriş.
+Set timed gate duration	Zamanlı geçit süresini ayarla
+Export game debug info	Hata ayıklama bilgisini dışa aktar
+An axe. Heavy and sharp.	Bir balta. Ağır ve keskin.
+Double trigger gate	Çift tetiklemeli geçit
+Activation Transformer	Aktivasyon dönüştürücü
+Giant Wooden Bowl	Dev tahta kase
+A sharp metal sword.	Keskin metal kılıç.
+Resets and restarts the map.	Haritayı sıfırlar ve yeniden başlatır.
+Fragmentation explosive.	Parçacıklı patlayıcı.
+Sharp crystal shard.	Keskin kristal parçası.
+Change the light colour.	Işığın rengini değiştir.
+Mini Thruster	Mini itici
+Purple cathode light	Mor katot ışığı
+Small metal beam.	Küçük metal kiriş.
+Detached 120mm Cannon	Sökülmüş 120 mm top
+Resize object(s)	Boyutlandır
+Set metronome rate	Metronom hızını ayarla
+Set target temperature	Hedef sıcaklığı ayarla
+Destructible propagation wire	Yok edilebilir iletim kablosu
+User Interface	Arayüz
+Set rotor speed	Rotor hızını ayarla
+General Purpose Bomb	Genel amaçlı bomba
+Light wooden stick.	Hafif tahta sopa.
+Energy Vessel Explosive	Enerji kabı patlayıcısı
+Nitroglycerine Flask	Nitrogliserin şişesi
+Change the gravity	Yerçekimini değiştir
+Toggle thermal vision	Termal görüşü aç/kapat
+Industrial Generator	Endüstriyel jeneratör
+Set upper limit	Üst sınırı ayarla
+Disable heat damage	Isı hasarını kapat
+De staf van Sinterklaas	Sinterklaas'ın asası
+Infrared Thermometer	Kızılötesi termometre
+Change the radio channel.	Radyo kanalını değiştir.
+Why are you doing this?	Bunu neden yapıyorsun?
+Activation Toggle	Aktivasyon anahtarı
+A sniper rifle.	Bir keskin nişancı tüfeği.
+internal bleeding	iç kanama
+Clears all "living" things.	Tüm "canlı" şeyleri temizler.
+Set hover height	Süzülme yüksekliğini ayarla
+Gyroscope Stabiliser	Jiroskop dengeleyici
+Set lower limit	Alt sınırı ayarla
+A powerful tesla coil.	Güçlü bir Tesla bobini.
+Set to idle	Bekleme modu
+What should it say?	Ne yazsın?
+Set to pull	Çekme modu
+Enable electricity	Elektriği aç
+CRT Television.	Tüplü televizyon.
+Ambient temperature	Ortam sıcaklığı
+welke dag is het vandaag?	Bugün günlerden ne?
+Holographic Display	Holografik ekran
+Bulletproof Sheet	Kurşun geçirmez levha
+Rapid firing cannon.	Hızlı atışlı top.
+A conducting wire.	İletken bir kablo.
+Enable heat damage	Isı hasarını aç
+Plastic Explosive	Plastik patlayıcı
+Opens the pause menu.	Duraklatma menüsünü açar.
+Motorised Wheel	Motorlu tekerlek
+Liquidentifier	Sıvı tanımlayıcı
+1. FILL WITH LIQUID	1. SIVIYLA DOLDUR
+Giant sharp spike.	Dev keskin diken.
+Set to push	İtme modu
+Green cathode light	Yeşil katot ışığı
+Show hovering highlights	Üzerine gelince vurgula
+It glows purple.	Mor parlar.
+No mods required	Mod gerekmez
+Heating Element	Isıtıcı eleman
+Launches crystals.	Kristal fırlatır.
+Toggleable Mirror	Açılıp kapanan ayna
+Set laser colour	Lazer rengini ayarla
+Set temperature	Sıcaklığı ayarla
+Machine Blaster	Makineli blaster
+Classic handgun.	Klasik tabanca.
+Yellow cathode light	Sarı katot ışığı
+Hover Thruster	Süzülme iticisi
+Painkiller Syringe	Ağrı kesici şırınga
+Red cathode light	Kırmızı katot ışığı
+Industrial Gyrostabiliser	Endüstriyel jiroskop dengeleyici
+Liquid Pressuriser	Sıvı basınçlandırıcı
+Enable collision	Çarpışmayı aç
+Do you want to upload	Yüklemek istiyor musun:
+Limb crushing	Uzuv ezme
+Clears everything.	Her şeyi temizler.
+Archelix Caster	Archelix fırlatıcı
+Activation Fuse	Aktivasyon sigortası
+Industrial Piston	Endüstriyel piston
+Update existing	Mevcut olanı güncelle
+Vsync	Dikey senkronizasyon
+Metal Pyramid	Metal piramit
+Fluorescent Lamp	Floresan lamba
+Open "Mods" folder in Explorer	"Mods" klasörünü Gezgin'de aç
+gunshot wounds	kurşun yaraları
+White cathode light	Beyaz katot ışığı
+Metal rod.	Metal çubuk.
+Thrusterbed	İtici platform
+Adrenaline Syringe	Adrenalin şırıngası
+Blue cathode light	Mavi katot ışığı
+Maximum power	En yüksek güç
+Ceramic plate.	Seramik tabak.
+Mending Syringe	Onarıcı şırınga
+Pick a new map.	Yeni bir harita seç.
+Open documentation in browser	Belgeleri tarayıcıda aç
+Propagation wire	İletim kablosu
+Anti-aliasing (SMAA)	Kenar yumuşatma (SMAA)
+Previous texture	Önceki doku
+Zombie Syringe	Zombi şırıngası
+An adrenaline shot.	Bir adrenalin iğnesi.
+saved with errors	hatalarla kaydedildi
+Click to edit	Düzenlemek için tıkla
+Oil Flask	Yağ şişesi
+Make indestructible	Yok edilemez yap
+Tempered Glass Pane	Temperli cam levha
+Move camera right	Kamerayı sağa kaydır
+Tonemapping	Ton eşleme
+Cooling Element	Soğutucu eleman
+Mechanical belt	Mekanik kayış
+Engage parking brakes	El frenini çek
+Set description	Açıklamayı ayarla
+Flare for signaling.	İşaret vermek için işaret fişeği.
+Destructible wall.	Yok edilebilir duvar.
+G1 Submachine Gun	G1 hafif makineli tabanca
+It glows green.	Yeşil parlar.
+Passenger car.	Binek otomobil.
+Missile Launcher	Füze rampası
+Sniper Rifle	Keskin nişancı tüfeği
+Shock Detector	Darbe algılayıcı
+It glows yellow.	Sarı parlar.
+Immobility Field	Hareketsizlik alanı
+Flintlock Pistol	Çakmaklı tabanca
+Life Detector	Yaşam algılayıcı
+limbs selected	uzuv seçildi
+Ultra Strength Syringe	Süper güç şırıngası
+Heals nearly anything.	Neredeyse her şeyi iyileştirir.
+Leave the playground.	Oyun alanından ayrıl.
+Edit trigger key.	Tetikleyici tuşu düzenle.
+Resizable Housing	Boyutlandırılabilir gövde
+Fixed cable	Sabit halat
+heart stopped	kalp durdu
+Insulator	Yalıtkan
+Blaster Rifle	Blaster tüfeği
+Metal Wheel	Metal tekerlek
+Rocket Launcher	Roketatar
+Steel binding	Çelik bağlantı
+It glows red.	Kırmızı parlar.
+Saved in version	Kaydedildiği sürüm
+Structural Pillar	Taşıyıcı sütun
+Launch Platform	Fırlatma platformu
+Gorse Blood Flask	Gorse kanı şişesi
+A submachine gun.	Bir hafif makineli tabanca.
+Move camera left	Kamerayı sola kaydır
+Wooden strut	Ahşap destek
+Upload as new	Yeni olarak yükle
+Set to repulse	İtme moduna al
+Wooden Pillar	Ahşap sütun
+Just a normal wheel.	Sıradan bir tekerlek.
+Fancy effects	Gösterişli efektler
+Emergency siren.	Acil durum sireni.
+saved succesfully	başarıyla kaydedildi
+Dampening Box	Sönümleme kutusu
+Laser sentry turret	Lazer nöbetçi taret
+It glows white.	Beyaz parlar.
+Resumes the game.	Oyuna devam eder.
+Repair engine	Motoru tamir et
+Assault Rifle	Saldırı tüfeği
+Lightning chance	Şimşek ihtimali
+It glows blue.	Mavi parlar.
+Destructible pin.	Yok edilebilir pim.
+Plastic Barrel	Plastik varil
+Particle Projector	Parçacık projektörü
+Single trigger	Tek tetikleme
+Make invisible	Görünmez yap
+blood pressure	kan basıncı
+Move camera down	Kamerayı aşağı kaydır
+Laser Receiver	Lazer alıcı
+Metal Pole	Metal direk
+Move camera up	Kamerayı yukarı kaydır
+Explosives	Patlayıcılar
+Next texture	Sonraki doku
+Render scale	İşleme ölçeği
+Landmine	Kara mayını
+Energy Sword	Enerji kılıcı
+Ceiling Turret	Tavan tareti
+Firearms	Ateşli silahlar
+Exported to	Dışa aktarıldığı yer
+Set range	Menzili ayarla
+Sentry Turret	Nöbetçi taret
+Thruster	İtici
+Blood Tank	Kan tankı
+Collision quality	Çarpışma kalitesi
+Heatray	Isı ışını
+Detail view	Ayrıntılı görünüm
+Fusion Bomb	Füzyon bombası
+What are you doing?	Ne yapıyorsun?
+Fire Detector	Ateş algılayıcı
+Conveyor Belt	Konveyör bant
+Magnum Revolver	Magnum tabanca
+Set to drain	Boşaltma modu
+Restore weight	Ağırlığı geri getir
+Break engine	Motoru boz
+Pulse Drum	Darbe davulu
+Decimator	Yok edici
+Unfollow	Takibi bırak
+Wooden Wheel	Ahşap tekerlek
+Submachine Gun	Hafif makineli tabanca
+Liquid Valve	Sıvı vanası
+Cleared living	Canlılar temizlendi
+Hovercar	Uçan araba
+Text Display	Metin ekranı
+Angle in degrees	Derece cinsinden açı
+Light Machine Gun	Hafif makineli tüfek
+Sound effects	Ses efektleri
+Snap	Hizalama
+Motion Detector	Hareket algılayıcı
+cosmetic rain	süs yağmuru
+Jukebox	Müzik kutusu
+Freezeray	Dondurucu ışın
+Visual center	Görsel merkez
+Double trigger	Çift tetikleme
+cosmetic fog	süs sisi
+Clear living	Canlıları temizle
+Extinguishes fires.	Yangınları söndürür.
+blood amount	kan miktarı
+Cleared debris	Enkaz temizlendi
+Wooden crate.	Tahta sandık.
+Metal Cube	Metal küp
+Set target angle	Hedef açıyı ayarla
+Transfers heat.	Isı iletir.
+Baseball Bat	Beyzbol sopası
+LED Bulb	LED ampul
+Signal Flare	İşaret fişeği
+Ion Thruster	İyon iticisi
+Small Button	Küçük düğme
+Pressure Valve	Basınç vanası
+Spike Grenade	Dikenli el bombası
+Context menu	Bağlam menüsü
+Stielhandgranate	Saplı el bombası
+Spike Rifle	Dikenli tüfek
+broken bones	kırık kemikler
+Freeze Syringe	Dondurucu şırınga
+Glass Pane	Cam levha
+Trigger key	Tetikleyici tuş
+Bus Chair	Otobüs koltuğu
+Timed Gate	Zamanlı geçit
+Crossbow Bolt	Arbalet oku
+Laser Pointer	Lazer işaretçi
+Enter value	Değer gir
+Physics Gun	Fizik silahı
+Strong spring	Güçlü yay
+Detached 30mm HEAT Cannon	Sökülmüş 30 mm HEAT topu
+Acid Syringe	Asit şırıngası
+internal temp	iç sıcaklık
+Environment	Ortam
+Container Wagon	Konteyner vagonu
+Destructible vase.	Yok edilebilir vazo.
+Small Boulder	Küçük kaya
+Bowling Ball	Bowling topu
+cosmetic snow	süs karı
+Show in Explorer	Gezgin'de göster
+Small I-Beam	Küçük I kiriş
+Fire Extinguisher	Yangın söndürücü
+Wooden Chair	Tahta sandalye
+Open in Explorer	Gezgin'de aç
+Wooden Table	Tahta masa
+Change key	Tuşu değiştir
+Beam Rifle	Işın tüfeği
+No mods found	Mod bulunamadı
+Toggle time	Zamanı durdur/başlat
+Sticky Grenade	Yapışkan el bombası
+Metal Detector	Metal algılayıcı
+Channel name	Kanal adı
+Reflects light.	Işığı yansıtır.
+An empty syringe.	Boş bir şırınga.
+Delete object	Nesneyi sil
+to the Workshop?	Atölye'ye?
+Depressurise	Basıncı boşalt
+Concrete slab	Beton levha
+Scherbenwerfer	Şarapnel atar
+Toggle fire.	Ateşi açar ya da kapatır.
+Power Gauge	Güç ölçer
+Rotate left	Sola döndür
+Wooden Pole	Tahta direk
+Cleared room	Oda temizlendi
+Defibrillator	Defibrilatör
+Substructure	Alt yapı
+Reconstructor	Yeniden yapılandırıcı
+A tonne of steel.	Bir ton çelik.
+Edit channel	Kanalı düzenle
+Knockout Syringe	Bayıltıcı şırınga
+Options menu.	Seçenekler menüsü.
+Eats flesh.	Et yer.
+Ambience	Ortam sesleri
+Rotate right	Sağa döndür
+Brick Wall	Tuğla duvar
+Window mode	Pencere modu
+Electromagnet	Elektromıknatıs
+Pink Explosive	Pembe patlayıcı
+Disable smoke	Dumanı kapat
+EMP Generator	EMP jeneratörü
+Regular table.	Sıradan bir masa.
+Change colour	Rengi değiştir
+Pick a colour	Bir renk seç
+Handgrenade	El bombası
+Small knife.	Küçük bıçak.
+to the workshop	Atölye'ye
+Rigid cable	Sert halat
+Enable fire	Ateşi aç
+Set angle	Açıyı ayarla
+Blood Flask	Kan şişesi
+Boat Motor	Tekne motoru
+Small Bush	Küçük çalı
+Toggle smoke.	Dumanı açar ya da kapatır.
+Wooden pin	Tahta pim
+Power Hammer	Güç çekici
+Gate	Geçit
+Local file	Yerel dosya
+Show framerate	Kare hızını göster
+Pink Syringe	Pembe şırınga
+The spooky food.	Ürkütücü yiyecek.
+Grenade Launcher	Bomba atar
+broken bone	kırık kemik
+Heat pipe	Isı borusu
+Death Syringe	Ölüm şırıngası
+Empty Syringe	Boş şırınga
+Set threshold	Eşiği ayarla
+Disable all	Hepsini kapat
+Edit text	Metni düzenle
+Sharp stick.	Sivri sopa.
+Sharp spear.	Sivri mızrak.
+Disassembler	Sökücü
+Tall Tree	Uzun ağaç
+Copper wire	Bakır tel
+Ambience Highpass	Ortam yüksek geçiren filtresi
+Red Barrel	Kırmızı varil
+Clean cuboid.	Düzgün dikdörtgen prizma.
+Tesla Coil	Tesla bobini
+Master	Ana ses
+Entities	Varlıklar
+Phase link	Faz bağlantısı
+Brick Cube	Tuğla küp
+Center of mass	Kütle merkezi
+Atom Bomb	Atom bombası
+Rigidifier	Sertleştirici
+stab wounds	bıçak yaraları
+Gore shader	Vahşet gölgelendiricisi
+Paused	Duraklatıldı
+Lance	Mızrak
+Destructible	Yok edilebilir
+bleeding	kanama
+Realistic	Gerçekçi
+Undo	Geri al
+Enable all	Hepsini aç
+Electronics	Elektronik
+Heart Monitor	Kalp monitörü
+Large Bush	Büyük çalı
+Ion Cannon	İyon topu
+Worm Staff	Solucan asası
+heilekouwe	koca bir inek
+Accumulator	Akümülatör
+Handcannon	El topu
+Life Syringe	Yaşam şırıngası
+The mod author	Mod yapımcısı
+Fullscreen	Tam ekran
+Balloon	Balon
+Continuous	Sürekli
+Television	Televizyon
+9mm Pistol	9 mm tabanca
+uploaded...	yüklendi...
+Framerate limit	Kare hızı sınırı
+Drag	Sürükle
+Borderless	Kenarlık yok
+Unpaused	Devam ediyor
+hello world!	Merhaba dünya!
+information	bilgi
+Reverse gear	Geri vites
+Accelerator	Hızlandırıcı
+Liquid Canister	Sıvı bidonu
+integrity	sağlamlık
+Floodlights	Projektörler
+It is a ramp.	Bu bir rampa.
+Publish	Yayınla
+Centrifuge	Santrifüj
+Pause menu	Duraklatma menüsü
+1000kg Weight	1000 kg ağırlık
+dismembered	parçalanmış
+brain-dead	beyin ölümü
+Consciousness	Bilinç
+Adrenaline	Adrenalin
+Default	Varsayılan
+Thermometer	Termometre
+Wrench	İngiliz anahtarı
+Toogle	Aç/Kapat
+Battery	Pil
+Generator	Jeneratör
+Modern	Modern
+hekserij	büyücülük
+controls	kontroller
+Discrete	Ayrık
+Fahrenheit	Fahrenheit
+Workshop	Atölye
+Spot Light	Spot ışık
+Toggle	Aç/Kapat
+Floodlight	Projektör
+Outdated	Eski sürüm
+Gravity	Yerçekimi
+Inspect.	İncele.
+Blaster gun.	Blaster tabancası.
+Dynamic	Dinamik
+Machinery	Makineler
+Propeller	Pervane
+Fireworks	Havai fişek
+Zoom in	Yakınlaştır
+A shotgun.	Bir pompalı tüfek.
+Understood	Anlaşıldı
+Where are you?	Neredesin?
+Building	İnşa
+Bicycle	Bisiklet
+Chainsaw	Motorlu testere
+Disabled	Kapalı
+Metronome	Metronom
+Flamethrower	Alev silahı
+Melee	Yakın dövüş
+Key Trigger	Tuş tetikleyici
+Legacy	Eski
+settings	ayarlar
+Tools	Aletler
+Lighting	Aydınlatma
+Revolver	Revolver
+Vehicles	Araçlar
+Lightbulb	Ampul
+Stormbaan	Tesla silahı
+Servo	Servo
+Chemistry	Kimya
+Humongous	Devasa
+Machine	Makine
+Machine Gun	Makineli tüfek
+Vehicle	Araç
+Fun	Eğlence
+Copy	Kopyala
+Resistor	Direnç
+Brightness	Parlaklık
+Flashlight	El feneri
+Zoom out	Uzaklaştır
+Upload	Yükle
+Pasted	Yapıştırıldı
+Crystal	Kristal
+Enabled	Açık
+Shotgun	Pompalı tüfek
+Apply	Uygula
+General	Genel
+Small	Küçük
+Liquid Outlet	Sıvı çıkışı
+objects	nesne
+Fan	Vantilatör
+OXygen	Oksijen
+Android	Android
+Pistol	Tabanca
+iterations	yineleme
+Save	Kaydet
+Tiny	Minicik
+Pressurise	Basınç ver
+rotted	çürümüş
+INACTIVE	PASİF
+Sit down.	Otur.
+Crossbow	Arbalet
+Dynamite	Dinamit
+Lift	Asansör
+Windowed	Pencereli
+0 LITER	0 LİTRE
+Utility	Araç gereç
+Bloom	Bloom
+Bowling Pin	Bowling lobutu
+Rifle	Tüfek
+None	Yok
+Off	Kapalı
+Truck	Kamyon
+Local	Yerel
+Blaster	Blaster
+Celsius	Celsius
+Minigun	Minigun
+Lightning	Şimşek
+Slider	Kaydırıcı
+Lagbox	Lagbox
+numb	uyuşma
+Bottle	Şişe
+Spring	Yay
+ACTIVE	ETKİN
+Decals	İzler
+Detector	Algılayıcı
+Kelvin	Kelvin
+Piston	Piston
+Ramp	Rampa
+Mirror	Ayna
+PUSH	İTME
+Human	İnsan
+Rod	Çubuk
+Flush	Boşalt
+Enter	Gir
+Plate	Tabak
+video	görüntü
+Bazooka	Bazuka
+Slanted	Eğik
+Winch	Vinç
+removed	kaldırıldı
+seconds	saniye
+Brick.	Tuğla.
+Button	Düğme
+bruise	morluk
+Hybrid	Karma
+Void	Boşluk
+Misc.	Çeşitli.
+filter	filtre
+Cancel	İptal
+Rope	İp
+Bell	Zil
+Camera	Kamera
+Wheel	Tekerlek
+Stunner	Şok cihazı
+Cable	Kablo
+bruises	morluklar
+Abyss	Uçurum
+Plank.	Kalas.
+Pumpkin	Balkabağı
+Fancy	Gösterişli
+Bus	Otobüs
+Siren	Siren
+Blocks	Bloklar
+Fast	Hızlı
+Wire	Kablo
+Anchor	Çapa
+Hammer	Çekiç
+I-Beam	I kiriş
+Radio	Radyo
+Bandage	Bandaj
+Car	Araba
+Stick	Sopa
+Spear	Mızrak
+Clamp	Kelepçe
+Tower	Kule
+Torch	Meşale
+Flask	Şişe
+Rotor	Rotor
+Powers	Güçler
+Bowl.	Kase.
+back	geri
+Rain	Yağmur
+Wing	Kanat
+audio	ses
+Fog	Sis
+Axe	Balta
+Crate	Sandık
+Gorse	Gorse
+Pull	Çekme
+Lava	Lav
+AK-47	AK-47
+Soap	Sabun
+dead	ölü
+Vase	Vazo
+Tank	Tank
+Mods	Modlar
+Snow	Kar
+Knife	Bıçak
+Sea	Deniz
+Shock	Şok
+Spike	Diken
+Sword	Kılıç
+for	için
+fps	FPS
+Pin	Pim
+No	Hayır
+Okay	Tamam
+Yes	Evet
+Hz	Hz
+Set lagbox delay in seconds.	Lagbox gecikmesi (saniye).
+Set the gate maximum power	Kapının en yüksek gücü
+Set hover height in meters	Süzülme yüksekliği (metre)
+Limb crushing sensitivity	Uzuv ezilme hassasiyeti
+Snap to center of mass	Kütle merkezine hizala
+Set the gate threshold	Kapı eşiği
+Single trigger gate	Tek tetiklemeli kapı
+Coagulation Syringe	Pıhtılaşma şırıngası
+Bullet tracers	Mermi izleri
+Open file	Dosya aç
+quit	çık
+play	oyna
+resume	devam et
+restart	yeniden başlat
+choose map	harita seç
+player statistics	oyuncu istatistikleri
+main menu	ana menü
+gore	vahşet
+visual effects	görsel efektler
+Contraptions	Düzenekler
+Select a chamber	Bir hazne seç
+Paste	Yapıştır
+Delete	Sil
+Follow	Takip et
+Activate	Etkinleştir
+Ignite	Tutuştur
+Freeze	Dondur
+Unfreeze	Çöz
+Make weightless	Ağırlıksız yap
+Resize	Boyutlandır
+Stop resizing	Boyutlandırmayı bırak
+Break bone	Kemiği kır
+Mend bone	Kemiği onar
+Stumble	Sendele
+Clear animation override	Zorunlu animasyonu kaldır
+Walk	Yürü
+Cower	Sinmek
+Flat pose	Düz poz
+Clear debris	Enkazı temizle
+Clear everything	Her şeyi temizle
+Recompile	Yeniden derle
+Safe mode is enabled. Mods cannot load.	Güvenli mod açık. Modlar yüklenemez.
+Open Mods folder in Explorer	Mods klasörünü gezginde aç
+Search	Ara
+Biohazard	Biyolojik tehlike
+Inanimate	Cansız
+Decorations	Süslemeler
+Drag object	Nesneyi sürükle
+Switch to first tool	Birinci alete geç
+Switch to second tool	İkinci alete geç
+Switch to third tool	Üçüncü alete geç
+Edit layers of selected objects	Seçili nesnelerin katmanlarını düzenle
+Move layer down	Katmanı aşağı al
+Move layer up	Katmanı yukarı al
+Bring to front	En öne getir
+Send to back	En arkaya gönder
+Increment grid size	Izgara boyutunu artır
+Decrement grid size	Izgara boyutunu azalt
+Increment angle snap	Açı adımını artır
+Decrement angle snap	Açı adımını azalt
+Pause menu / back	Duraklatma menüsü / geri
+Toggle user interface	Arayüzü göster/gizle
+Pan	Kamerayı kaydır
+Mouse0	Sol tık
+Mouse1	Sağ tık
+Mouse2	Orta tık
+Mouse3	Fare 4
+Mouse4	Fare 5
+Space	Boşluk
+Alpha{0}	{0}
+LeftShift	Sol Shift
+RightShift	Sağ Shift
+LeftAlt	Sol Alt
+RightAlt	Sağ Alt
+LeftControl	Sol Ctrl
+RightControl	Sağ Ctrl
+Escape	Esc
+Return	Enter
+RightArrow	Sağ ok
+LeftArrow	Sol ok
+UpArrow	Yukarı ok
+DownArrow	Aşağı ok
+Collision calculations	Çarpışma hesaplaması
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	Çarpışma algılamanın kalitesini belirler. Ayrık mod daha hızlı ama daha az hassastır. Sürekli mod, yüksek hızlarda nesnelerin birbirinin içinden geçmesini engeller.
+Goreless	Vahşetsiz
+No blood or obvious gore will be rendered when this is enabled.	Açıkken kan ve belirgin vahşet gösterilmez.
+Procedural fragments	Prosedürel parçalar
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	Bir uzuv tamamen ezildiğinde prosedürel et ve kemik parçaları oluşturulur. Çok sayıda uzuv yok edildiğinde performansı düşürebilir.
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	Fizik simülasyonunun yineleme sayısını belirler. Yüksek değerler simülasyonu daha doğru yapar ama performansı düşürür. 128'in üstünde fayda giderek azalır. Varsayılan: 32.
+{0} iterations	{0} yineleme
+{0} fps	{0} FPS
+{0} Hz	{0} Hz
+{0} m	{0} m
+{0} seconds	{0} saniye
+{0} degrees	{0} derece
+This setting may decrease performance when enabled. It is disabled by default.	Bu ayar açıkken performansı düşürebilir. Varsayılan olarak kapalıdır.
+Snap grid size	Izgara boyutu
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	Konum hizalamada kullanılan ızgara noktaları arasındaki mesafe. Nesneleri en yakın noktaya oturtarak hassas hizalamaya yardımcı olur. Varsayılan: 0.25 m
+Angle snap size	Açı adımı
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	Döndürürken hizalama için kullanılan açı artışı. Dönüşü bu değerin en yakın katına yuvarlayarak nesneleri hassas hizalamaya yardımcı olur. Varsayılan: 15 derece
+The maximum amount of seconds that a mod can compile for until it's skipped.	Bir modun atlanmadan önce derlenebileceği en uzun süre (saniye).
+Fragility multiplier	Kırılganlık çarpanı
+The higher this value is the more fragile entities become.	Değer ne kadar yüksekse canlılar o kadar kırılgan olur.
+Brain damage	Beyin hasarı
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	Beyin hasarının oluşup oluşmayacağını belirler. Canlıların ara sıra bayılmasına, ayakta duramamasına ve nöbet geçirmesine yol açar.
+Extra shot impact particles	Ek vuruş parçacıkları
+Limbs with enough flesh on them may eject chunky particles when shot.	Yeterince etli uzuvlar vurulduğunda parça fırlatabilir.
+Dismemberment loose tissue	Kopmada gevşek doku
+Dismemberment of limbs may expose loose stringy tissue.	Uzuvların kopması gevşek, lifli dokuyu açığa çıkarabilir.
+This will toggle relatively performance-heavy effects.	Görece ağır efektleri açar veya kapatır.
+Bullet cracks and whizzes	Mermi çatırtıları ve vızıltıları
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	Açıkken ses üstü mermiler kırbaç gibi çatırtı ve vızıltı sesleri çıkarır.
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	Mod kullanmak hatalara, performans kaybına ve başka sorunlara yol açabilir. Modları kendi sorumluluğunda kurar ve kullanırsın.
+No mod selected	Mod seçilmedi
+Submit	Gönder
+Problem description	Sorun açıklaması
+Describe the issue	Sorunu açıkla
+Steps to reproduce	Yeniden oluşturma adımları
+Fill this form and press "Submit" to report a bug.	Hata bildirmek için bu formu doldur ve "Gönder"e bas.
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	IP adresin, oyun günlüğü, sınırlı sistem bilgileri ve yüklü modlar güvenlik ve verimlilik için rapora eklenir. Herkese açık değildir.
+By submitting the report, you agree to share this information with the developer of the game.	Raporu göndererek bu bilgileri oyunun geliştiricisiyle paylaşmayı kabul edersin.
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	Hatanın nasıl yeniden oluşturulacağını açıkça yaz. Yeniden oluşturulamayan hatalar dikkate alınmaz
+version	sürüm
+[SAFE MODE]	[GÜVENLİ MOD]
+(64 bit)	(64 bit)
+(32 bit)	(32 bit)
+PREVIEW BUILD	ÖN İZLEME SÜRÜMÜ
+you may encounter bugs and unfinished content	hatalar ve bitmemiş içerikle karşılaşabilirsin
+Steam Workshop	Steam Atölyesi
+Retrieving subscriptions	Abonelikler alınıyor
+Entities killed	Öldürülen canlılar
+Entities revived	Diriltilen canlılar
+Items spawned	Oluşturulan eşyalar
+Nuclear explosions caused	Yol açılan nükleer patlamalar
+Wires created	Oluşturulan kablolar
+Contraptions saved	Kaydedilen düzenekler
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b> (2019), mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	Ek çalışma: Aspa102 ve mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio, Mark Heath (Ms-PL)
+Reactor A5	Reaktör A5
+Enter Tiny	Minicik'e gir
+Enter Small	Küçük'e gir
+Enter Tower	Kule'ye gir
+Enter Void	Boşluk'a gir
+Enter Substructure	Alt yapı'ya gir
+Enter Lava	Lav'a gir
+Enter Hybrid	Karma'ya gir
+Enter Humongous	Devasa'ya gir
+Enter Default	Varsayılan'a gir
+Enter Blocks	Bloklar'a gir
+Enter Abyss	Uçurum'a gir
+Enter Slanted	Eğik'e gir
+Enter Snow	Kar'a gir
+Enter Sea	Deniz'e gir
+Enter Reactor A5	Reaktör A5'e gir
+{0} bruise	{0} morluk
+{0} bruises	{0} morluk
+{0} gunshot wound	{0} kurşun yarası
+{0} gunshot wounds	{0} kurşun yarası
+{0} gunshots wounds	{0} kurşun yarası
+{0} stab wound	{0} bıçak yarası
+{0} stab wounds	{0} bıçak yarası
+{0}% burnt	%{0} yanık
+{0}% acid damage	%{0} asit hasarı
+{0}% rotted	%{0} çürümüş
+{0}% skin damage	%{0} deri hasarı
+{0} limb selected	{0} uzuv seçildi
+{0} limbs selected	{0} uzuv seçildi
+Pasted {0} object	{0} nesne yapıştırıldı
+Pasted {0} objects	{0} nesne yapıştırıldı
+Enter a name for the contraption	Düzenek için bir ad gir
+Contraption name	Düzenek adı
+Colour code	Renk kodu
+Saved in version {0}.	{0} sürümünde kaydedildi.
+Toggle frozen	Dondur/çöz
+Thermal vision	Termal görüş
+Toggle collisions	Çarpışmaları aç/kapat
+Edit the current environment settings\\nSome maps don't support some settings	Geçerli ortam ayarlarını düzenle\\nBazı haritalar her ayarı desteklemez
+Edit layer	Katmanı düzenle
+Choose bell note	Zil notasını seç
+Disable collision	Çarpışmayı kapat
+Sit	Otur
+Mute	Sessiz
+Next track	Sonraki parça
+Previous track	Önceki parça
+Toggle sounds	Sesleri aç/kapat
+Now playing <color=#ff54f9>{s}</color>	Şimdi çalıyor: <color=#ff54f9>{s}</color>
+Clear counter	Sayacı sıfırla
+Set signal value	Sinyal değerini ayarla
+Set stick distance	Yapışma mesafesini ayarla
+Set tank to drain mode.	Tankı boşaltma moduna al.
+Disable infinite source	Sonsuz kaynağı kapat
+Toggle syringe infinite.	Sonsuz şırıngayı aç/kapat.
+Repair	Onar
+Fire lightning bolts by flicking across the screen.	Ekranda hızlıca kaydırarak şimşek fırlat.
+Pyrokinesis	Pirokinezi
+Fire powers.	Ateş güçleri.
+Chain	Zincir
+Wire but it looks like a chain.	Zincir gibi görünen bir kablo.
+Liquid conduit	Sıvı borusu
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	Kaplar arasında sıvı aktaran bir kablo. Genelde insanlardan kan çekmek için kullanılır.
+Wooden binding	Ahşap bağlantı
+Destructible wooden fixed wiring.	Yok edilebilir sabit ahşap bağlantı.
+Activator Electrode	Etkinleştirme elektrodu
+Stone Brick	Taş tuğla
+Cobblestone Wall	Arnavut kaldırımı duvar
+Stone Brick Wall	Taş tuğla duvar
+Cardiopulmonary Bypass Machine	Kalp-akciğer makinesi
+Counter	Sayaç
+Adhesive Coupler	Yapışkan bağlayıcı
+Decoupler	Ayırıcı
+Detached Ray Cannon	Sökülmüş ışın topu
+Naval Mine	Deniz mayını
+Liquid Duplicator	Sıvı çoğaltıcı
+Pointer	İşaretçi
+Office Chair	Ofis sandalyesi
+Office Computer	Ofis bilgisayarı
+Office Keyboard	Ofis klavyesi
+Office Monitor	Ofis monitörü
+Office Table	Ofis masası
+Excalibur	Excalibur
+Jet Engine	Jet motoru
+Scope Attachment	Ek: dürbün
+Capacitor Attachment	Ek: kondansatör
+Explosive Rounds Attachment	Ek: patlayıcı mermi
+Incendiary Rounds Attachment	Ek: yanıcı mermi
+Laser Attachment	Ek: lazer
+Flashlight Attachment	Ek: fener
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	Klasik otomatik saldırı tüfeği. Dürbün ve namlu altı ekleri destekler.
+Automatic assault rifle. Supports scoped and underbarrel attachments.	Otomatik saldırı tüfeği. Dürbün ve namlu altı ekleri destekler.
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	Son derece güçlü ve kullanışsız bir tabanca. Dürbün ve namlu altı ekleri destekler.
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	Plastik gövdeli küçük tabanca. Dürbün ve namlu altı ekleri destekler.
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	İlkel tabanca. Pek isabetli değil, pek kullanışlı değil ve çok gürültülü. Dürbün ve namlu altı ekleri destekler.
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	Tam otomatik hafif makineli tüfek. Klasik bitmeyen mermi şeridiyle gelir. Namlu altı ekleri destekler.
+A semi automatic pistol. Supports scoped and underbarrel attachments.	Yarı otomatik tabanca. Dürbün ve namlu altı ekleri destekler.
+Classic handgun. Supports scoped and underbarrel attachments.	Klasik tabanca. Dürbün ve namlu altı ekleri destekler.
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	Güçlü yarı otomatik tüfek. Dürbün ve namlu altı ekleri destekler.
+A shotgun. Supports scoped and underbarrel attachments.	Bir pompalı tüfek. Dürbün ve namlu altı ekleri destekler.
+A sniper rifle. Supports underbarrel attachments.	Bir keskin nişancı tüfeği. Namlu altı ekleri destekler.
+A submachine gun. Supports scoped and underbarrel attachments.	Bir hafif makineli tabanca. Dürbün ve namlu altı ekleri destekler.
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	Seri atışlı hafif makineli tabanca. Dürbün ve namlu altı ekleri destekler.
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	Yüksek atış hızlı Sovyet hafif makineli tabancası. Dürbün ve namlu altı ekleri destekler.
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	Çok büyük ve kullanması acı veren bir silah. Dürbün ve namlu altı ekleri destekler.
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	Son derece güçlü ışın topu. Namlu dışında bütün parçaları eksik.
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	Çoğu silahın namlusu altına takılan bir kondansatör. Silahın yükünü mermilere aktarır.
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	Çoğu silahın üstüne takılan bir dürbün. İsabeti biraz artırır.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	Çoğu silahın namlusu altına takılan bir ek. Mermileri bir şekilde patlayıcıya çevirir.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	Çoğu silahın namlusu altına takılan bir ek. Mermileri bir şekilde yanıcıya çevirir.
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	Çoğu silahın namlusu altına takılan küçük bir lazer işaretçi. İsabeti artırır.
+A small flashlight that is slotted under the barrel of most guns.	Çoğu silahın namlusu altına takılan küçük bir fener.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	Elde taşınan, kısa menzilli iyileştirici özsu püskürtücüsü. <b>Yaşam serumu</b>nun aksine iyileştirici özsu darbe yaralarını ve kurşun yaralarını onarmaz.
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	Efsanevi bir kılıcın kopyası. Tek moleküllü bıçak, kendinden zayıf her malzemeyi deler. Etkinleştirildiğinde bıçağın ucundan mekanik olarak bir ateş topu fırlatır.
+This small wrench can repair most machinery with a few gentle taps.	Bu küçük İngiliz anahtarı birkaç hafif vuruşla çoğu makineyi onarır.
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	Bir çapaya zincirlenmek üzere tasarlanmış geleneksel temaslı deniz mayını. Boynuzlarından birine bastırıldığında şiddetle patlar.
+Brick made of stone.	Taştan yapılmış tuğla.
+A brick wall that will stand the test of time. Very resistant and heavy building material.	Zamana meydan okuyacak bir tuğla duvar. Çok dayanıklı ve ağır yapı malzemesi.
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	"Doğal" taştan ilkel duvar. Pek sağlamlık, güvenlik veya yalıtım sağlamaz.
+Metal triangle. I <b>know</b> it says pyramid.	Metal üçgen. Piramit yazdığını <b>biliyorum</b>.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	5 L sıvı alan bir tank. Etkinleştirme bir sonraki basınç moduna geçer. <color=#FF4444>Kırmızı sinyal<color=#FFFFFF> bir öncekine döner.
+PUSH: Force liquid out of the tank	İTME: Sıvıyı tanktan dışarı bas
+PULL: Force liquid to flow in the tank	ÇEKME: Sıvıyı tankın içine çek
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	BEKLEME: Diğer basınç kaynakları karar versin, sıvı dengeye ulaşmaya çalışır
+DRAIN: Pull and drain liquid.	BOŞALTMA: Sıvıyı çek ve boşalt.
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	<color=#44FF44>Yeşil sinyal<color=#FFFFFF> aldığında değeri artıran, <color=#FF4444>kırmızı sinyal<color=#FFFFFF> aldığında azaltan ve <color=#7777FF>mavi sinyal<color=#FFFFFF> aldığında sıfırlayan bir cihaz.
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	Değer ayarlanabilir "sinyal değerine" ulaştığında bir etkinleştirme sinyali gönderilir ve değer sıfırlanır.
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	Açısını sürekli doğrudan sana bakacak şekilde ayarlayan bir rotor. Kapatıldığında açı sabitlenir.
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Ayarlanabilir hızla döner. <color=#FF4444>Kırmızı sinyal<color=#FFFFFF> yönü tersine çevirir, diğerleri etkinliği açıp kapatır. Güç verilince tork artar, hız aynı kalır.
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	Son derece güçlü bir itici. Çalışması ve durması biraz zaman alır ama sonunda muazzam bir kuvvetle ilerler. Motor görece kırılgandır ve yok edildiğinde patlar.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Etkinleştirme sinyali kanal dönüştürücüsü. <color=#7777FF>Maviyi<color=#FFFFFF> <color=#44FF44>yeşile<color=#FFFFFF> çevirir, tersini de yapar.
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Etkinleştirme sinyali kanal dönüştürücüsü. <color=#FF4444>Kırmızıyı<color=#FFFFFF> <color=#44FF44>yeşile<color=#FFFFFF> çevirir, tersini de yapar.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	Etkinleştirme sinyali kanal dönüştürücüsü. <color=#7777FF>Maviyi<color=#FFFFFF> <color=#FF4444>kırmızıya<color=#FFFFFF> çevirir, tersini de yapar.
+Duplicates the liquids that are present upon activation.	Etkinleştirildiği anda içindeki sıvıları çoğaltır.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	0 dereceden ayarlanabilir hedef açıya dönen motorlu menteşe. Görece ağırdır, güç verilince güçlenir.
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	Yayıcının önündeki her şeyi etkinleştirir. Cihazın çalışan ucuna bakma.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	Kablosunu uzatıp toplayabilen makine. Yön değiştirmek için etkinleştir. Hareket için güç ver. <color=#FF4444>Kırmızı etkinleştirme sinyali<color=#FFFFFF> dahili bir pili açıp kapatır.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	Bir yüzeyin üzerinde süzülmek için tasarlanmış itici. Güç verilince süzülme kuvveti artar. Yükseklik bağlam menüsünden ayarlanır. <color=#FF4444>Kırmızı sinyaller<color=#FFFFFF> yüksekliği artırır. <color=#7777FF>Mavi sinyaller<color=#FFFFFF> azaltır.
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	Etkinleştirildiğinde küçük bir yarıçaptaki tüm nesnelere yapışır. Tekrar etkinleştirilince bırakır.
+Two objects that detach when activated.	Etkinleştirildiğinde ayrılan iki nesne.
+A relatively outdated desktop computer.	Biraz eskimiş bir masaüstü bilgisayar.
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	Kimine göre fazla yüksek, kimine göre fazla alçak bir masa; ama birkaç kişi paylaştığı için ayarlanamıyor.
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	Süper ileri teknoloji kablosuz membran klavye! Bazı tuşlar diğerlerinden daha aşınmış görünüyor.
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	Üst gövdeye bağlandığında kalbin işlevini üstlenip organizmaya kan basıncı sağlayan makine.
+A computer monitor that looks like it belongs in an office.	Bir ofise aitmiş gibi görünen bir monitör.
+A chair that looks really comfortable but is actually a bit too small for most people.	Çok rahat görünen ama aslında çoğu kişi için biraz küçük olan bir sandalye.
+{0} BPM	{0} BPM
+Extended limb damage	Gelişmiş uzuv hasarı
+Causes limbs to become more fragile as they take more damage. Enabled by default.	Uzuvlar hasar aldıkça daha kırılgan hale gelir. Varsayılan olarak açık.
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	Mermi izleri ve benzeri efektlerin görünürlüğünü ayarlar. Varsayılan: %100.
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	Enkazın çarpışma algılama kalitesini belirler. Ayrık hızlıdır ama daha az hassastır. Sürekli, yüksek hızlarda enkazın birbirinin içinden geçmesini engeller.
+Clamp brightness	Parlaklığı sınırla
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	Göz alan parlak nesnelerde bloom efektini yumuşatır. Parlak ışıklara hassassan işe yarar.
+Changes the displayed temperature unit across the game.	Oyun genelinde gösterilen sıcaklık birimini değiştirir.
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	Açıkken Ayrıntılı Görünüm tuşuna basılı tutunca sahnedeki her nesnenin kütle merkezi gösterilir. Dengeli düzenekler kurmak için kullanışlı.
+UI volume	Arayüz ses düzeyi
+Adjust the volume of user interface sounds. Default is 100%.	Arayüz seslerinin düzeyini ayarlar. Varsayılan: %100.
+Ambience volume	Ortam ses düzeyi
+Adjust the volume of ambient background sounds. Default is 100%.	Arka plan ortam seslerinin düzeyini ayarlar. Varsayılan: %100.
+Make sure to leave a review on Steam and join our Discord server if you like the game!	Oyunu beğendiysen Steam'de inceleme bırakmayı ve Discord sunucumuza katılmayı unutma!
+Check out the official wiki for more information about the game.	Oyun hakkında daha fazla bilgi için resmi wikiye göz at.
+Third-party licenses:	Üçüncü taraf lisansları:
+texture packs	doku paketleri
+Discord server	Discord sunucusu
+Force refresh mod list	Mod listesini zorla yenile
+Open source libraries	Açık kaynak kütüphaneler
+map editor	harita düzenleyici
+report a bug	hata bildir
+Update	Güncelle
+Accept risk	Riski kabul et
+The game failed to detect Steam. Some features may not work correctly.	Oyun Steam'i algılayamadı. Bazı özellikler düzgün çalışmayabilir.
+Try restarting the game or the Steam client.	Oyunu veya Steam istemcisini yeniden başlatmayı dene.
+limb status	uzuv durumu
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> veya <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>seçili eşyayı oluşturmak için</size>
+Hold <b>Mouse2</b> and drag	<b>Mouse2</b> basılı tut ve sürükle
+<size=40>to move the camera around</size>	<size=40>kamerayı hareket ettirmek için</size>
+slow motion	ağır çekim
+Invisible tools	Görünmez aletler
+Don't save anything and resume the game	Hiçbir şey kaydetme ve oyuna dön
+Toggle visibility of placed wires, cables, etc.	Döşenmiş kabloların vb. görünürlüğünü aç/kapat
+<b>Invisibility</b>	<b>Görünmezlik</b>
+Move one layer down	Bir katman aşağı
+Increment order	Sıra +1
+<b>Use Wire</b>	<b>Kablo kullan</b>
+Save to disk	Diske kaydet
+Increment layer	Katman +1
+Decrement order	Sıra -1
+Decrement layer	Katman -1
+View this item on the Workshop	Bu eşyayı Atölye'de görüntüle
+Move one layer up	Bir katman yukarı
+Arrange objects	Nesneleri düzenle
+Destructible spring	Yok edilebilir yay
+Destructible metal spring	Yok edilebilir metal yay
+World origin	Dünya merkezi
+<size=80%>This is where the player spawns	<size=80%>Oyuncu burada doğar
+<b>Map settings</b>	<b>Harita ayarları</b>
+Map properties	Harita özellikleri
+Reset	Sıfırla
+Save map	Haritayı kaydet
+Properties	Özellikler
+Remove everything in the map and start over. Map properties are untouched.	Haritadaki her şeyi kaldırır ve baştan başlar. Harita özellikleri değişmez.
+Exit to the main menu.	Ana menüye çık.
+You are not supposed to be here. This place isn't ready yet.	Burada olmaman gerekiyor. Bu yer henüz hazır değil.
+Save the map	Haritayı kaydet
+Edit the map properties	Harita özelliklerini düzenle
+Open the menu	Menüyü aç
+Extremely deep pit	Son derece derin çukur
+A space scattered with floating rectangles	Yüzen dikdörtgenlerle dolu bir alan
+Large open rectangular space	Geniş, açık dikdörtgen alan
+This map is just way too large	Bu harita fazlasıyla büyük
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	Son derece derin bir su kütlesi ve sağda düz bir yüzeye sahip vadi. Altından bir tünel geçiyor.
+Large map with two coasts and a body of lava	İki kıyısı ve bir lav gölü olan büyük harita
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	Tesisin birçok reaktöründen birinin, çevresindeki odalarla birlikte kopyası.
+Large map with two coasts and a body of water	İki kıyısı ve bir su kütlesi olan büyük harita
+The ground is slanted	Zemin eğimli
+A decently sized room. Compared to the other maps, it's very small	Makul büyüklükte bir oda. Diğer haritalara göre çok küçük
+It's cold and slippery	Soğuk ve kaygan
+A replica of an old subterranean part of the facility.	Tesisin eski bir yeraltı bölümünün kopyası.
+This map is designed to fit your monitor, it's that small	Bu harita monitörüne sığacak şekilde tasarlandı, o kadar küçük
+Large space with a tall tower in the middle	Ortasında yüksek bir kule olan geniş alan
+There is nothing	Hiçbir şey yok
+Bell that rings the A4 note	La4 notasını çalan zil
+Bell that rings the B4 note	Si4 notasını çalan zil
+Bell that rings the C4 note	Do4 notasını çalan zil
+Bell that rings the C5 note	Do5 notasını çalan zil
+Bell that rings the D4 note	Re4 notasını çalan zil
+Bell that rings the E4 note	Mi4 notasını çalan zil
+Bell that rings the F4 note	Fa4 notasını çalan zil
+Bell that rings the G4 note	Sol4 notasını çalan zil
+Brighter, more efficient, more durable, and less painful to touch.	Daha parlak, daha verimli, daha dayanıklı ve dokunması daha az acı veren.
+128 tooth spur gear	128 dişli düz dişli
+256 tooth spur gear	256 dişli düz dişli
+32 tooth spur gear	32 dişli düz dişli
+64 tooth spur gear	64 dişli düz dişli
+Sends activation signals if the amount of liquid it contains is above a certain threshold	İçindeki sıvı miktarı belirli bir eşiği geçerse etkinleştirme sinyali gönderir
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	Dijital termometre. -273 ile 9999 santigrat derece arasında kendi sıcaklığını doğru gösterir. 3.4028235e38 santigrat dereceye kadar dayanacak şekilde tasarlandı!
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	Önünde su algıladığında etkinleştirme sinyali tetikler. Menzil bağlam menüsünden ayarlanabilir.
+(empty)	(boş)
+Rest	Dinlenme
+Head	Baş
+Fetus	Cenin pozisyonu
+Flailing	Çırpınma
+Stumbling	Sendeleme
+Swimming	Yüzme
+In pain	Acı içinde
+Walking	Yürüme
+Foot	Ayak
+Sitting	Oturma
+Flat	Düz
+Decerebrate	Deserebre
+Decorticate	Dekortike
+Bone	Kemik
+Flesh	Et
+Protective	Korunma
+Decrease cooling	Soğutmayı azalt
+Increase cooling	Soğutmayı artır
+Raise control rods	Kontrol çubuklarını kaldır
+Lower control rods	Kontrol çubuklarını indir
+STAND BY	BEKLEMEDE
+Press E	E'ye bas
+<b>CAPACITY</b>	<b>KAPASİTE</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>REAKTÖR VERİLERİ</align>
+TEMPERATURE\t:	SICAKLIK\t:
+PRESSURE\t\t:	BASINÇ\t\t:
+COOLING RODS\t:	SOĞUTMA\t:
+OUTPUT POWER\t:	GÜÇ\t:
+<color=red>WARNING</color>	<color=red>UYARI</color>
+<b>Modded Categories</b>	<b>Mod kategorileri</b>
+Categories added by mods	Modların eklediği kategoriler
+The most common map tile. A static indestructible rectangle that collides with everything.	En yaygın harita parçası. Her şeyle çarpışan, sabit ve yok edilemez bir dikdörtgen.
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	Tam otomatik ışın oluşturan enerji silahı. Hızlı bir kısa enerji darbeleri dizisi üretir.
+Glowing tube filled with gas	Gazla dolu parlayan tüp
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	Bir mermiyi ses üstü hızda fırlatan el tipi kinetik silah. Yüksek delme, düşük hasar. Mermi neredeyse anında buharlaşır ve arkasında iyonize hava izi bırakır.
+Set colour for selected lights	Seçili ışıkların rengini ayarla
+Use	Kullan
+Regenerate identity	Kimliği yeniden oluştur
+Top	Üst
+Bottom	Alt
+Speed	Hız
+spring cable	yaylı kablo
+Gorse blood	Gorse kanı
+Nitroglycerine	Nitrogliserin
+Something happened. Please show this message to the developer:	Bir şeyler oldu. Lütfen bu mesajı geliştiriciye göster:
+Set detector threshold	Algılayıcı eşiğini ayarla
+Set the detector liquid threshold	Algılayıcının sıvı eşiğini ayarla
+Break	Kır
+Set pointer speed	İşaretçi hızını ayarla
+Set the speed of the pointer	İşaretçinin hızını ayarla
+Set pointer speed from 0 to 10	İşaretçi hızı 0 ile 10 arası
+Water	Su
+Bounds	Sınırlar
+Unfulfilled mod requirements:	Karşılanmayan mod gereksinimleri:
+Select anyway	Yine de seç
+This contraption is corrupted	Bu düzenek bozuk
+This contraption is incompatible with your current version	Bu düzenek mevcut sürümünle uyumlu değil
+From the Steam Workshop	Steam Atölyesi'nden
+Selection mode	Seçim modu
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	Seçili nesnenin nasıl belirleneceğini ayarlar. Kütle, en küçük kütleli nesneyi seçer. Alan, toplam alanı en küçük olanı seçer. Derinlik, sıralama düzeni en yüksek olanı seçer. Kısacası genelde gördüğün ilk nesneyi seçer.
+Mass	Kütle
+Area	Alan
+Depth	Derinlik
+Liquid overflow limb exploding	Fazla sıvıyla dolan uzuvların patlaması
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	Uzuvların fazla sıvıyla dolunca patlayıp patlamayacağını belirler. Varsayılan olarak kapalı. Yalnızca uzuv ezilmesi açıksa etkili olur.
+Slice	Dilimle
+Angle snap set to {0} degrees	Açı adımı {0} derece
+Grid size set to {0} m	Izgara boyutu {0} m
+Left Mouse	Sol fare tuşu
+Right Mouse	Sağ fare tuşu
+Middle Mouse	Orta fare tuşu
+Automatic	Otomatik
+Make destructible	Yok edilebilir yap
+Untitled	Adsız
+Vibrate	Titret
+Set detector range in meters	Algılayıcı menzilini metre olarak ayarla
+Target distance in meters from 0.2 m to 40 m	Hedef mesafe 0.2 m ile 40 m arası
+Show beam	Işını göster
+Hide beam	Işını gizle
+Show or hide the detector beam	Algılayıcı ışınını göster veya gizle
+Contraption directory malformed	Düzenek klasörü bozuk
+Can't upload to Workshop	Atölye'ye yüklenemiyor
+Close	Kapat
+This item is marked as uploaded. How do you want to continue?	Bu eşya yüklenmiş olarak işaretli. Nasıl devam etmek istersin?
+Contraption does not exist.	Düzenek mevcut değil.
+Contraptions cannot be uploaded from family shared games.	Aile paylaşımlı oyunlardan düzenek yüklenemez.
+Could not create workshop item	Atölye eşyası oluşturulamadı
+Unknown reason	Bilinmeyen neden
+By submitting to the workshop, you must agree to the terms of service.	Atölye'ye göndermek için hizmet koşullarını kabul etmelisin.
+{0}% uploaded...	%{0} yüklendi...
+This puzzle requires an internet connection	Bu bulmaca internet bağlantısı gerektirir
+Toggle cosmetic rain	Dekoratif yağmuru aç/kapat
+Toggle cosmetic snow	Dekoratif karı aç/kapat
+Toggle cosmetic fog	Dekoratif sisi aç/kapat
+Repair broken machinery	Bozuk makineleri onar
+Double trigger receiver	Çift tetiklemeli alıcı
+Single trigger receiver	Tek tetiklemeli alıcı
+TEMPERATURE: {s}	SICAKLIK: {s}
+COOLING PUMPS: {0}%	POMPALAR: %{0}
+CONTROL ROD DEPTH: {0}%	ÇUBUKLAR: %{0}
+POWER OUTPUT: {0} E	GÜÇ: {0} E
+Basic	Temel
+Ignored if animation is enabled	Animasyon açıksa yok sayılır
+Animation	Animasyon
+Clear counter value	Sayaç değerini sıfırla
+Set counter signal value	Sayaç sinyal değerini ayarla
+Set value at which to reset the counter and emit a signal	Sayacın sıfırlanıp sinyal göndereceği değeri ayarla
+Value from {0} to {1}	{0} ile {1} arası değer
+Connecting...	Bağlanıyor...
+Compiling	Derleniyor
+Client disconnected during compilation...	İstemci derleme sırasında bağlantıyı kesti...
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	Derleme zaman aşımı! Mod {0} saniyeden uzun sürede derlendi ve yok sayılacak.
+Set syringe to push mode	Şırıngayı itme moduna al
+Set syringe to pull mode	Şırıngayı çekme moduna al
+Set syringe to idle mode	Şırıngayı bekleme moduna al
+Enable infinite source	Sonsuz kaynağı aç
+Move Gizmo	Taşıma aracı
+Resize Gizmo	Boyut aracı
+Background	Arka plan
+Foreground	Ön plan
+Outline	Dış hat
+Set the distance the coupler can stick to objects	Bağlayıcının nesnelere yapışabileceği mesafeyi ayarla
+Distance	Mesafe
+Unknown error occurred...	Bilinmeyen bir hata oluştu...
+Status	Durum
+Resets the animation to be controlled by the algorithm again	Animasyonun kontrolünü yeniden algoritmaya verir
+Reset all animations	Tüm animasyonları sıfırla
+Deserialisation error! This contraption is incompatible.	Seriden çıkarma hatası! Bu düzenek uyumsuz.
+This may be a version mismatch or a missing mod.	Sürüm uyuşmazlığı veya eksik bir mod olabilir.
+Loading maps	Haritalar yükleniyor
+Press any button...	Herhangi bir tuşa bas...
+Target height in meters from 0.5 m to 10 km	Hedef yükseklik 0.5 m ile 10 km arası
+Set bell note	Zil notasını ayarla
+Could not find the selected piano key...	Seçili piyano tuşu bulunamadı...
+Increment bell note	Zil notasını yükselt
+Decrement bell note	Zil notasını alçalt
+Water breathing serum	Su altında solunum serumu
+Reanimation agent	Diriltme ajanı
+Coagulation serum	Pıhtılaşma serumu
+Instant death poison	Anında ölüm zehri
+Inert pink liquid	Etkisiz pembe sıvı
+Vestibular poison	Denge zehri
+Muscle poison	Kas zehri
+Numbing poison	Uyuşturucu zehir
+Mirrorising agent	Aynalaştırma ajanı
+Transparency agent	Saydamlık ajanı
+Crushing poison	Ezme zehri
+Mass agent	Kütle ajanı
+Explosion poison	Patlama zehri
+Durability serum	Dayanıklılık serumu
+Regeneration serum	Yenilenme serumu
+Distortion poison	Bozulma zehri
+Circulation poison	Dolaşım zehri
+Combustion agent	Yanma ajanı
+Tissue deconstruction agent	Doku çözme ajanı
+Enhancing serum	Güçlendirme serumu
+Immortality serum	Ölümsüzlük serumu
+Ultra strength serum	Süper güç serumu
+Life serum	Yaşam serumu
+Mending serum	Onarım serumu
+Knockout poison	Bayıltma zehri
+Joint lock poison	Eklem kilitleme zehri
+Painkiller	Ağrı kesici
+Human blood	İnsan kanı
+Exotic liquid	Egzotik sıvı
+Inert liquid	Etkisiz sıvı
+Beverage M04	İçecek M04
+Debug discoloration liquid	Hata ayıklama renk giderici sıvı
+Coolant	Soğutucu
+Tritium	Trityum
+Acid	Asit
+Gasoline	Benzin
+Portal	Portal
+Save settings	Ayarları kaydet
+Load settings	Ayarları yükle
+Set servo target angle	Servo hedef açısını ayarla
+Set servo delta	Servo deltasını ayarla
+Angle	Açı
+Set servo speed	Servo hızını ayarla
+Set the speed of the servo	Servonun hızını ayarla
+Set servo speed from 0 to 10	Servo hızı 0 ile 10 arası
+Damage	Hasar
+Toggle key trigger behaviour	Tuş tetikleyici davranışını değiştir
+Press {s} to {t}	{t} için {s} tuşuna bas
+Press {s}	{s} tuşuna bas
+Cleared chamber	Hazne boşaltıldı
+Set to attract	Çekme moduna alındı
+Could not save file.	Dosya kaydedilemedi.
+This mod has updated.	Bu mod güncellendi.
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	Bu mod zararlı olabilecek kod içeriyor. Riski kabul edebilirsin ama pişman olabilirsin.
+Continue	Devam
+Disable	Kapat
+Enable	Aç
+Enter your text here	Metnini buraya yaz
+Make visible	Görünür yap
+Pain	Acı
+Create new pose	Yeni poz oluştur
+Initialise all poses	Tüm pozları başlat
+Loading Workshop items	Atölye eşyaları yükleniyor
+punctured lungs	delinmiş akciğerler
+This will overwrite an existing contraption with the same name.	Bu, aynı adlı mevcut bir düzeneğin üzerine yazacak.
+Some mods caused a {0}ms freeze!	Bazı modlar {0} ms donmaya yol açtı!
+Consider disabling some mods for faster load times.	Daha hızlı yükleme için bazı modları kapatmayı düşün.
+Consider disabling these mods for faster load times:	Daha hızlı yükleme için bu modları kapatmayı düşün:
+Don't show this again	Bir daha gösterme
+Menu	Menü
+INITIALISING...	BAŞLATILIYOR...
+SCANNING...	TARANIYOR...
+FLUSHING...	BOŞALTILIYOR...
+Flushed :)	Boşaltıldı :)
+ABRUPT SHUTDOWN RECOVERY	ANİ KAPANMA KURTARMA
+Checking~	Kontrol ediliyor~
+Incorrect	Yanlış
+Receiving...	Alınıyor...
+Flip object	Nesneyi çevir
+Toggle wire invisibility	Kablo görünmezliğini aç/kapat
+Activate object under cursor	İmlecin altındaki nesneyi etkinleştir
+Select multiple	Çoklu seçim
+Local space transformation	Yerel uzayda dönüşüm
+Sharp	Keskin
+Loading	Yükleniyor
+Particle settings	Parçacık ayarları
+Decal settings	Çıkartma ayarları
+Are you sure you want to permanently remove	Kalıcı olarak kaldırmak istediğine emin misin:
+Are you sure you want to unsubscribe from	Aboneliği iptal etmek istediğine emin misin:
+Unable to delete	Silinemiyor
+Enter channel name	Kanal adını gir
+Metal	Metal
+energy wire	enerji kablosu
+Set lower winch limit	Vinç alt sınırını ayarla
+Set upper winch limit	Vinç üst sınırını ayarla
+Translation in meters	Metre cinsinden öteleme
+Invalid decimal input for winch limit!	Vinç sınırı için geçersiz ondalık değer!
+Repair holes	Delikleri onar
+Repairs holes in liquid container	Sıvı kabındaki delikleri onarır
+Loading mods	Modlar yükleniyor
+Loading mod	Mod yükleniyor
+Start	Başlat
+Preparing	Hazırlanıyor
+Workshop is disabled	Atölye devre dışı
+Sending request	İstek gönderiliyor
+Invalid decimal input	Geçersiz ondalık değer
+Unmute	Sesi aç
+Unknown	Bilinmiyor
+Copied {0} objects	{0} nesne kopyalandı
+Target rate in Hertz from 0.125 Hz to 32 Hz	Hedef frekans 0.125 Hz ile 32 Hz arası
+Mechanism limits	Mekanizma sınırları
+Larger values can lead to instability if the mechanism is heavily loaded.	Mekanizma ağır yük altındaysa büyük değerler kararsızlığa yol açabilir.
+Internal mechanism forces	Mekanizmanın iç kuvvetleri
+A one-shot impulse. Resets to 0 automatically each update.	Tek seferlik itme. Her güncellemede otomatik olarak 0'a döner.
+A continuous tensioning force pushing the mechanism.	Mekanizmayı iten sürekli bir gerilme kuvveti.
+The target speed of the mechanism.	Mekanizmanın hedef hızı.
+The degree to which the drive is engaged.	Tahrikin ne kadar devrede olduğu.
+Change what the display displays on its display	Ekranın ekranında ne gösterdiğini değiştir
+Set maximum power level	En yüksek güç seviyesini ayarla
+Repair or break the engine.	Motoru onar veya boz.
+Toggle trigger behaviour	Tetikleme davranışını değiştir
+Disable machine heat damage.	Makinelerin ısı hasarını kapat.
+Set object temperature	Nesne sıcaklığını ayarla
+Set detector range	Algılayıcı menzilini ayarla
+Enable machine heat damage	Makinelerin ısı hasarını aç
+Set exact rotation	Tam dönüşü ayarla
+Reverse rotor	Rotoru ters çevir
+User interface	Arayüz
+Brick	Tuğla
+general	genel
+Push	İtme
+Plank	Kalas
+mods	modlar
+Set target temperature.	Hedef sıcaklığı ayarla.
+Toggle parking brakes.	El frenini aç/kapat.
+Set hover height.	Süzülme yüksekliğini ayarla.
+Reverse vehicle.	Aracın yönünü değiştir.
+Inspect	İncele
+Mend or break bone	Kemiği onar veya kır
+Toggle indestructibility	Yok edilemezliği aç/kapat
+(EMPTY)	(BOŞ)

@@ -1,0 +1,331 @@
+texture packs	наборы текстур
+Discord server	Сервер Discord
+Force refresh mod list	Обновить список модов
+Open source libraries	Библиотеки с открытым кодом
+map editor	редактор карт
+report a bug	сообщить об ошибке
+Update	Обновить
+Accept risk	Принять риск
+The game failed to detect Steam. Some features may not work correctly.	Игра не нашла Steam. Некоторые функции могут работать неправильно.
+Try restarting the game or the Steam client.	Попробуйте перезапустить игру или клиент Steam.
+limb status	состояние конечности
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> или <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>чтобы создать выбранный предмет</size>
+Hold <b>Mouse2</b> and drag	Зажмите <b>Mouse2</b> и тяните
+<size=40>to move the camera around</size>	<size=40>чтобы двигать камеру</size>
+slow motion	замедление
+Invisible tools	Невидимые инструменты
+Don't save anything and resume the game	Ничего не сохранять и продолжить игру
+Toggle visibility of placed wires, cables, etc.	Показать или скрыть установленные провода, тросы и т.п.
+<b>Invisibility</b>	<b>Невидимость</b>
+Move one layer down	На слой ниже
+Increment order	Порядок +1
+<b>Use Wire</b>	<b>Провод активации</b>
+Save to disk	Сохранить на диск
+Increment layer	Слой +1
+Decrement order	Порядок -1
+Decrement layer	Слой -1
+View this item on the Workshop	Открыть в Мастерской
+Move one layer up	На слой выше
+Arrange objects	Расположить объекты
+Destructible spring	Разрушаемая пружина
+Destructible metal spring	Разрушаемая металлическая пружина
+World origin	Начало координат
+<size=80%>This is where the player spawns	<size=80%>Здесь появляется игрок
+<b>Map settings</b>	<b>Настройки карты</b>
+Map properties	Свойства карты
+Reset	Сброс
+Save map	Сохранить карту
+Properties	Свойства
+Remove everything in the map and start over. Map properties are untouched.	Убрать всё с карты и начать заново. Свойства карты не меняются.
+Exit to the main menu.	Выйти в главное меню.
+You are not supposed to be here. This place isn't ready yet.	Вам сюда пока нельзя. Тут ещё не всё готово.
+Save the map	Сохранить карту
+Edit the map properties	Изменить свойства карты
+Open the menu	Открыть меню
+Extremely deep pit	Очень глубокая яма
+A space scattered with floating rectangles	Пространство с парящими прямоугольниками
+Large open rectangular space	Большое открытое прямоугольное пространство
+This map is just way too large	Эта карта просто слишком большая
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	Долина с очень глубоким водоёмом и ровной площадкой справа. Под ней проходит туннель.
+Large map with two coasts and a body of lava	Большая карта с двумя берегами и озером лавы
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	Копия одного из реакторов комплекса вместе с соседними помещениями.
+Large map with two coasts and a body of water	Большая карта с двумя берегами и водоёмом
+The ground is slanted	Земля под наклоном
+A decently sized room. Compared to the other maps, it's very small	Комната среднего размера. По сравнению с другими картами очень маленькая
+It's cold and slippery	Холодно и скользко
+A replica of an old subterranean part of the facility.	Копия старой подземной части комплекса.
+This map is designed to fit your monitor, it's that small	Карта влезает в ваш монитор, настолько она маленькая
+Large space with a tall tower in the middle	Большое пространство с высокой башней посередине
+There is nothing	Здесь ничего нет
+Bell that rings the A4 note	Колокольчик с нотой ля первой октавы
+Bell that rings the B4 note	Колокольчик с нотой си первой октавы
+Bell that rings the C4 note	Колокольчик с нотой до первой октавы
+Bell that rings the C5 note	Колокольчик с нотой до второй октавы
+Bell that rings the D4 note	Колокольчик с нотой ре первой октавы
+Bell that rings the E4 note	Колокольчик с нотой ми первой октавы
+Bell that rings the F4 note	Колокольчик с нотой фа первой октавы
+Bell that rings the G4 note	Колокольчик с нотой соль первой октавы
+Brighter, more efficient, more durable, and less painful to touch.	Ярче, экономичнее, долговечнее и не так больно обжигает.
+128 tooth spur gear	Прямозубая шестерня на 128 зубьев
+256 tooth spur gear	Прямозубая шестерня на 256 зубьев
+32 tooth spur gear	Прямозубая шестерня на 32 зуба
+64 tooth spur gear	Прямозубая шестерня на 64 зуба
+Sends activation signals if the amount of liquid it contains is above a certain threshold	Посылает сигналы активации, если жидкости внутри больше заданного порога
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	Цифровой термометр. Точно показывает собственную температуру в пределах от -273 до 9999 °C. Выдерживает температуру до 3.4028235e38 °C!
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит перед собой воду. Дальность настраивается в контекстном меню.
+(empty)	(пусто)
+Rest	Покой
+Head	Голова
+Fetus	Поза эмбриона
+Flailing	Барахтаться
+Stumbling	Спотыкаться
+Swimming	Плыть
+In pain	От боли
+Walking	Ходьба
+Foot	Стопа
+Sitting	Сидеть
+Flat	Лёжа
+Decerebrate	Децеребрационная поза
+Decorticate	Декортикационная поза
+Bone	Кость
+Flesh	Плоть
+Protective	Защитная поза
+Decrease cooling	Уменьшить охлаждение
+Increase cooling	Увеличить охлаждение
+Raise control rods	Поднять регулирующие стержни
+Lower control rods	Опустить регулирующие стержни
+STAND BY	ОЖИДАНИЕ
+Press E	Нажмите E
+<b>CAPACITY</b>	<b>ГРУЗ</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>ДАННЫЕ РЕАКТОРА</align>
+TEMPERATURE\t:	ТЕМПЕРАТУРА\t:
+PRESSURE\t\t:	ДАВЛЕНИЕ\t\t:
+COOLING RODS\t:	ОХЛАЖДЕНИЕ\t:
+OUTPUT POWER\t:	МОЩНОСТЬ\t:
+<color=red>WARNING</color>	<color=red>ВНИМАНИЕ</color>
+<b>Modded Categories</b>	<b>Категории из модов</b>
+Categories added by mods	Категории, добавленные модами
+The most common map tile. A static indestructible rectangle that collides with everything.	Самый обычный элемент карты. Неподвижный неразрушимый прямоугольник, с которым сталкивается всё.
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	Автоматическое лучевое энергетическое оружие. Выпускает быструю серию коротких энергетических импульсов.
+Glowing tube filled with gas	Светящаяся трубка с газом
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	Ручное кинетическое оружие, которое выпускает болванку на сверхзвуковой скорости. Пробивает сильно, ранит слабо. Снаряд почти сразу испаряется и оставляет за собой след ионизированного воздуха.
+Set colour for selected lights	Задать цвет выделенных ламп
+Use	Использовать
+Regenerate identity	Сменить личность
+Top	Верх
+Bottom	Низ
+Speed	Скорость
+spring cable	пружинный трос
+Gorse blood	Кровь горса
+Nitroglycerine	Нитроглицерин
+Something happened. Please show this message to the developer:	Что-то пошло не так. Покажите это сообщение разработчику:
+Set detector threshold	Задать порог датчика
+Set the detector liquid threshold	Задать порог жидкости для датчика
+Break	Сломать
+Set pointer speed	Задать скорость стрелки
+Set the speed of the pointer	Задать скорость стрелки
+Set pointer speed from 0 to 10	Скорость стрелки от 0 до 10
+Water	Вода
+Bounds	Границы
+Unfulfilled mod requirements:	Не хватает модов:
+Select anyway	Всё равно выбрать
+This contraption is corrupted	Постройка повреждена
+This contraption is incompatible with your current version	Постройка несовместима с вашей версией игры
+From the Steam Workshop	Из Мастерской Steam
+Selection mode	Режим выбора
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	Определяет, какой объект выбирается под курсором. «Масса» берёт объект с наименьшей массой. «Площадь» берёт объект с наименьшей площадью. «Глубина» берёт объект, который отрисован сверху, то есть обычно тот, который вы видите первым.
+Mass	Масса
+Area	Площадь
+Depth	Глубина
+Liquid overflow limb exploding	Взрыв переполненных конечностей
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	Определяет, взрываются ли конечности, переполненные жидкостью. По умолчанию выключено. Работает, только если включено раздавливание конечностей.
+Slice	Разрезать
+Angle snap set to {0} degrees	Шаг поворота: {0}°
+Grid size set to {0} m	Шаг сетки: {0} м
+Left Mouse	Левая кнопка мыши
+Right Mouse	Правая кнопка мыши
+Middle Mouse	Колёсико мыши
+Automatic	Автоматически
+Make destructible	Сделать разрушаемым
+Untitled	Без названия
+Vibrate	Вибрация
+Set detector range in meters	Задать дальность датчика в метрах
+Target distance in meters from 0.2 m to 40 m	Дальность в метрах, от 0,2 до 40 м
+Show beam	Показать луч
+Hide beam	Скрыть луч
+Show or hide the detector beam	Показать или скрыть луч датчика
+Contraption directory malformed	Папка постройки повреждена
+Can't upload to Workshop	Не удалось загрузить в Мастерскую
+Close	Закрыть
+This item is marked as uploaded. How do you want to continue?	Эта постройка уже загружалась. Что сделать?
+Contraption does not exist.	Постройка не найдена.
+Contraptions cannot be uploaded from family shared games.	Из игры, полученной через семейный доступ, постройки загружать нельзя.
+Could not create workshop item	Не удалось создать предмет в Мастерской
+Unknown reason	Причина неизвестна
+By submitting to the workshop, you must agree to the terms of service.	Чтобы отправить постройку в Мастерскую, нужно принять условия использования.
+{0}% uploaded...	Загружено {0}%...
+This puzzle requires an internet connection	Для этой головоломки нужен интернет
+Toggle cosmetic rain	Вкл/выкл декоративный дождь
+Toggle cosmetic snow	Вкл/выкл декоративный снег
+Toggle cosmetic fog	Вкл/выкл декоративный туман
+Repair broken machinery	Починить сломанные механизмы
+Double trigger receiver	Приёмник с двойным срабатыванием
+Single trigger receiver	Приёмник с одиночным срабатыванием
+TEMPERATURE: {s}	ТЕМПЕРАТУРА: {s}
+COOLING PUMPS: {0}%	НАСОСЫ ОХЛАЖДЕНИЯ: {0}%
+CONTROL ROD DEPTH: {0}%	ГЛУБИНА СТЕРЖНЕЙ: {0}%
+POWER OUTPUT: {0} E	МОЩНОСТЬ: {0} E
+Basic	Основное
+Ignored if animation is enabled	Не действует, если включена анимация
+Animation	Анимация
+Clear counter value	Сбросить счётчик
+Set counter signal value	Задать значение счётчика для сигнала
+Set value at which to reset the counter and emit a signal	Задать значение, на котором счётчик сбрасывается и подаёт сигнал
+Value from {0} to {1}	Значение от {0} до {1}
+Connecting...	Подключение...
+Compiling	Компиляция
+Client disconnected during compilation...	Клиент отключился во время компиляции...
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	Время компиляции вышло! Мод компилировался дольше {0} с и будет пропущен.
+Set syringe to push mode	Режим шприца: впрыск
+Set syringe to pull mode	Режим шприца: забор
+Set syringe to idle mode	Режим шприца: покой
+Enable infinite source	Включить бесконечный запас
+Move Gizmo	Маркер перемещения
+Resize Gizmo	Маркер размера
+Background	Задний план
+Foreground	Передний план
+Outline	Контур
+Set the distance the coupler can stick to objects	Задать расстояние, на котором сцепка цепляется к объектам
+Distance	Расстояние
+Unknown error occurred...	Произошла неизвестная ошибка...
+Status	Состояние
+Resets the animation to be controlled by the algorithm again	Возвращает управление анимацией обратно алгоритму
+Reset all animations	Сбросить все анимации
+Deserialisation error! This contraption is incompatible.	Ошибка загрузки! Постройка несовместима.
+This may be a version mismatch or a missing mod.	Возможно, она из другой версии игры или для неё нужен мод.
+Loading maps	Загрузка карт
+Press any button...	Нажмите любую клавишу...
+Target height in meters from 0.5 m to 10 km	Нужная высота в метрах, от 0,5 м до 10 км
+Set bell note	Задать ноту колокольчика
+Could not find the selected piano key...	Не удалось найти выбранную клавишу...
+Increment bell note	Нота выше
+Decrement bell note	Нота ниже
+Water breathing serum	Сыворотка подводного дыхания
+Reanimation agent	Реанимирующее вещество
+Coagulation serum	Сыворотка свёртывания
+Instant death poison	Яд мгновенной смерти
+Inert pink liquid	Инертная розовая жидкость
+Vestibular poison	Вестибулярный яд
+Muscle poison	Мышечный яд
+Numbing poison	Обезболивающий яд
+Mirrorising agent	Зеркальное вещество
+Transparency agent	Вещество прозрачности
+Crushing poison	Сдавливающий яд
+Mass agent	Вещество массы
+Explosion poison	Взрывной яд
+Durability serum	Сыворотка прочности
+Regeneration serum	Сыворотка регенерации
+Distortion poison	Искажающий яд
+Circulation poison	Яд кровообращения
+Combustion agent	Горючее вещество
+Tissue deconstruction agent	Вещество, разрушающее ткани
+Enhancing serum	Усиливающая сыворотка
+Immortality serum	Сыворотка бессмертия
+Ultra strength serum	Сыворотка сверхсилы
+Life serum	Сыворотка жизни
+Mending serum	Восстанавливающая сыворотка
+Knockout poison	Усыпляющий яд
+Joint lock poison	Яд, сковывающий суставы
+Painkiller	Обезболивающее
+Human blood	Человеческая кровь
+Exotic liquid	Экзотическая жидкость
+Inert liquid	Инертная жидкость
+Beverage M04	Напиток M04
+Debug discoloration liquid	Отладочная обесцвечивающая жидкость
+Coolant	Охлаждающая жидкость
+Tritium	Тритий
+Acid	Кислота
+Gasoline	Бензин
+Portal	Портал
+Save settings	Сохранить настройки
+Load settings	Загрузить настройки
+Set servo target angle	Задать угол сервопривода
+Set servo delta	Задать шаг сервопривода
+Angle	Угол
+Set servo speed	Задать скорость сервопривода
+Set the speed of the servo	Задать скорость сервопривода
+Set servo speed from 0 to 10	Скорость сервопривода от 0 до 10
+Damage	Урон
+Toggle key trigger behaviour	Переключить режим клавиши-триггера
+Press {s} to {t}	Нажмите {s}, чтобы {t}
+Press {s}	Нажмите {s}
+Cleared chamber	Камера очищена
+Set to attract	Режим притяжения
+Could not save file.	Не удалось сохранить файл.
+This mod has updated.	Мод обновился.
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	В этом моде есть потенциально опасный код. Можно принять риск, но потом можно и пожалеть.
+Continue	Продолжить
+Disable	Выключить
+Enable	Включить
+Enter your text here	Введите текст
+Make visible	Сделать видимым
+Pain	Боль
+Create new pose	Создать позу
+Initialise all poses	Инициализировать все позы
+Loading Workshop items	Загрузка предметов из Мастерской
+punctured lungs	пробитые лёгкие
+This will overwrite an existing contraption with the same name.	Постройка с таким названием будет перезаписана.
+Some mods caused a {0}ms freeze!	Некоторые моды подвесили игру на {0} мс!
+Consider disabling some mods for faster load times.	Отключите часть модов, чтобы игра загружалась быстрее.
+Consider disabling these mods for faster load times:	Отключите эти моды, чтобы игра загружалась быстрее:
+Don't show this again	Больше не показывать
+Menu	Меню
+INITIALISING...	ЗАПУСК...
+SCANNING...	АНАЛИЗ...
+(EMPTY)	(ПУСТО)
+FLUSHING...	ПРОМЫВКА...
+Flushed :)	Промыто :)
+ABRUPT SHUTDOWN RECOVERY	ВОССТАНОВЛЕНИЕ ПОСЛЕ СБОЯ
+Checking~	Проверка~
+Incorrect	Неверно
+Receiving...	Получение...
+Flip object	Отразить объект
+Toggle wire invisibility	Вкл/выкл невидимость проводов
+Activate object under cursor	Активировать объект под курсором
+Select multiple	Выделить несколько
+Local space transformation	Трансформация в локальных координатах
+Sharp	Острый
+Loading	Загрузка
+Particle settings	Настройки частиц
+Decal settings	Настройки следов
+Are you sure you want to permanently remove	Вы точно хотите навсегда удалить
+Are you sure you want to unsubscribe from	Вы точно хотите отписаться от
+Unable to delete	Не удалось удалить
+Enter channel name	Введите название канала
+Metal	Металл
+energy wire	энергетический провод
+Set lower winch limit	Задать нижний предел лебёдки
+Set upper winch limit	Задать верхний предел лебёдки
+Translation in meters	Ход в метрах
+Invalid decimal input for winch limit!	Неверное число для предела лебёдки!
+Repair holes	Заделать дыры
+Repairs holes in liquid container	Заделывает дыры в ёмкости с жидкостью
+Loading mods	Загрузка модов
+Loading mod	Загрузка мода
+Start	Старт
+Preparing	Подготовка
+Workshop is disabled	Мастерская отключена
+Sending request	Отправка запроса
+Invalid decimal input	Неверное число
+Unmute	Включить звук
+Unknown	Неизвестно
+Copied {0} objects	Скопировано объектов: {0}
+Target rate in Hertz from 0.125 Hz to 32 Hz	Нужная частота в герцах, от 0,125 до 32 Гц
+Mechanism limits	Пределы механизма
+Larger values can lead to instability if the mechanism is heavily loaded.	Если механизм сильно нагружен, большие значения могут сделать его неустойчивым.
+Internal mechanism forces	Внутренние силы механизма
+A one-shot impulse. Resets to 0 automatically each update.	Разовый импульс. Каждый кадр сбрасывается в 0.
+A continuous tensioning force pushing the mechanism.	Постоянная сила натяжения, которая толкает механизм.
+The target speed of the mechanism.	Нужная скорость механизма.
+The degree to which the drive is engaged.	Насколько включён привод.

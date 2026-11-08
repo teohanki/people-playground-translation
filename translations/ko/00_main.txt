@@ -1,0 +1,1668 @@
+# English<TAB>한국어
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	물리 시뮬레이션의 반복 횟수를 정합니다. 값이 높을수록 시뮬레이션이 정확해지지만 성능이 떨어집니다. 래그돌은 16에 맞춰 만들어져서 다른 값에서는 움직임이 달라질 수 있습니다. 기본값은 16입니다.
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	액체 용기에 압력을 넣거나 뺍니다. 밀기 모드는 액체를 밖으로 밀어내고, 당기기 모드는 안으로 빨아들입니다. 액체를 저장하지는 못합니다. 혈관 와이어로 용기에 연결해서 씁니다.
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	충돌 감지의 품질을 정합니다. 불연속 모드는 훨씬 빠르지만 덜 정확합니다. 연속 모드는 빠른 속도에서 물체가 서로 통과하지 않게 합니다. 동적 모드는 속도에 따라 둘을 오갑니다.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	표면 위에 떠 있도록 만든 추진기입니다. 전력을 받으면 부양력이 세집니다. 높이는 컨텍스트 메뉴에서 설정합니다. 빨간 신호는 높이를 올리고 파란 신호는 낮춥니다.
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	액체 원심분리기입니다. 용기에서 농도가 가장 낮은 액체를 걸러냅니다. 왼쪽 불빛은 안에 든 액체 종류의 수를 보여줍니다. 맨 아래 불빛만 켜지면 더 이상 거르지 않습니다.
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	조명 시스템은 어두운 곳을 정말 어둡게 하고 빛을 내는 물체를 쓸모 있게 만듭니다. 끄면 모든 것이 최대 밝기가 됩니다. 성능에는 거의 영향을 주지 않습니다.
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	하이패스 컷오프입니다. 이 주파수보다 낮은 주변 소리는 재생하지 않습니다. 소리가 지직거릴 때 도움이 됩니다. 기본값이자 권장값은 90 Hz입니다.
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	휴대용 원자화 무기입니다. 아주 작은 탄을 쏘며, 물체에 박히면 주변의 분자 구조를 분해하려 합니다. 부드러운 물체에 가장 잘 듣습니다.
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	패드 하나를 가슴 위쪽에 대고 작동하세요. 심장이 다시 뜁니다. 죽은 직후라면 사람을 되살릴 수 있습니다. 상처는 치료하지 않습니다.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	케이블을 풀거나 감을 수 있는 기계입니다. 작동하면 방향이 바뀌고, 전력을 주면 움직입니다. 빨간 작동 신호를 받으면 내장 배터리를 켜거나 끕니다.
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	설정한 속도로 회전합니다. 빨간 신호는 회전 방향을 바꾸고, 다른 신호는 켜고 끕니다. 전력을 받으면 토크가 커지지만 속도는 그대로입니다.
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	작은 버전보다 열 배 강력한 발전기입니다. 엄청나게 불안정하고 위험해서 원치 않는 일이 생길 수 있습니다. 조심해서 쓰세요.
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	충전식 에너지 무기입니다. 날아가는 동안 근처 물체에 전기 아크를 튀기며 에너지를 서서히 내뿜는 폭발탄을 쏩니다. 오래 들고 있을수록 강해집니다.
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	손에 드는 단거리 경화액 분사기입니다. 동결 독과 달리 경화액은 피를 타고 퍼지지 않고, 피부 일부를 딱딱하고 파랗게 만듭니다.
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	소리가 설정한 한도를 넘어설 수 있습니다. 청력 보호를 위해 켜 두는 것을 권장합니다. 끄는 것은 본인 책임입니다!
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	방출기에서 강력한 충격파를 내보냅니다. 앞에 있는 물체는 자기 질량에 비례하는 힘을 받습니다. 한마디로, 무거운 물체일수록 세게 밀려납니다.
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	켜면 인간과 안드로이드가 팔로 더 이상 버틸 수 없을 때 물건을 떨어뜨립니다. 보통 죽거나 팔에 총을 맞았을 때입니다. 기본값은 켜짐입니다.
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	디지털 온도계입니다. -273~9999 °C 범위에서 자기 온도를 정확히 표시합니다. 3.4028235e38 °C까지 견디도록 설계되었습니다!
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	손에 드는 단거리 경화액 분사기입니다. <b>동결 독</b>과 달리 경화액은 피를 타고 퍼지지 않고, 피부 일부를 딱딱하고 파랗게 만듭니다.
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	디버그 메시지가 게임 안 알림으로 표시됩니다. 경고, 오류, 처리되지 않은 예외가 포함됩니다. 꺼 두는 것을 권장합니다.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	손에 드는 단거리 치유액 분사기입니다. <b>생명 혈청</b>과 달리 치유액은 살의 상처를 아물게 하지 않지만, 동결 독과 경화액을 무효화합니다.
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	켜면 폭발과 총소리가 멀리서 울리고 메아리칩니다. 끄면 오디오 처리가 조금 가벼워집니다.
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	가변 저항입니다. 레버를 당겨 조절합니다. 레버가 왼쪽이면 에너지를 0%, 오른쪽이면 100% 통과시킵니다.
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	작동할 때마다 열림과 닫힘이 바뀌는 압력 밸브입니다. 압력만 통과시킵니다. 혈관 와이어로 연결하면 액체 압력의 흐름을 막을 수 있습니다.
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	한 물체에서 다른 물체로 작동 신호를 전달합니다. 연결하는 방향이 중요합니다. 신호는 초록(기본) 채널로 갑니다.
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	전자기 펄스를 일으킵니다. 그러면서 아마 스스로도 망가집니다. 펄스는 반경 82.39700374531835미터 안의 전자 장치를 거의 확실히 멈춥니다. 정말 정확하네요.
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	배경을 단순하게 하면 화면 녹화의 압축 깨짐이 줄어들 수 있습니다. 성능은 좋아지지 않습니다.
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	작동 신호가 통과하는 데 걸리는 시간을 조절하는 장치입니다. 기본값은 평소의 0.1초가 아닌 1초입니다.
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	설정에 따라 지정한 키를 누르거나 뗄 때 작동 신호를 보냅니다. 사용자가 지정한 키와 겹칠 수 있습니다.
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	1 Hz로 똑딱입니다. 주파수는 컨텍스트 메뉴에서 바꿉니다. 같은 간격으로 작동 신호를 보냅니다. 전력을 받으면 예측할 수 없게 됩니다.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	액체 5 L를 담는 탱크입니다. 작동하면 다음 압력 모드로, 빨간 신호를 받으면 이전 모드로 바뀝니다.
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	스스로 나아갑니다. 어째서인지 이 장난감은 선풍기보다 추진기에 가깝습니다. 선풍기와 달리 프로펠러는 진동하지 않고 다른 물체를 밀어내지 않습니다.
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	총알에 비행 시간을 주고 예광탄을 표시할지 정합니다. 성능이 떨어집니다. 기본값은 꺼짐입니다.
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	트리거 동작을 바꿉니다. 이중 트리거는 키를 누를 때뿐 아니라 뗄 때도 한 번 더 발동합니다.
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	켜면 생명체가 피해를 입을 때 강제 애니메이션을 멈춥니다. 예를 들어 총에 맞은 사람은 걷기를 멈춥니다.
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	팔다리를 완전히 파괴할 수 있는지 정합니다. 켜면 극심한 압력을 받은 팔다리가 붉은 안개로 변합니다.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	0도에서 설정한 목표 각도까지 회전하는 전동 경첩입니다. 꽤 무겁고 전력을 받으면 빨라집니다.
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	빈 플라스크입니다. 제작자들이 "폴리메틸메타크릴레이트"라고 부르는 부서지지 않는 신성한 물질로 만들어졌습니다. 용량은 1리터입니다.
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	수직 동기화를 켜면 프레임 속도가 모니터 주사율로 제한됩니다. 화면 찢어짐을 줄여 줍니다.
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	최대 사거리 7미터의 적외선 온도계입니다. 적외선이 닿은 물체의 온도를 보여줍니다.
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	손에 드는 유도 미사일 발사기입니다. 목표를 따라가는 미사일을 쏩니다. 조준 고정은 소리와 화면으로 알려줍니다.
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	모드를 클릭하면 켜고 끌 수 있습니다. 손상된 모드는 켤 수 없습니다. 꺼졌거나 손상된 모드는 실행되지 않습니다.
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	소멸장을 방출하는 장치입니다. 이 장은 물체를 원자 단위로 분해해 존재 자체를 지워버립니다.
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	볼링 핀은 텐핀, 파이브핀, 덕핀, 캔들핀 등 여러 볼링 경기에서 공의 목표물입니다.
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	앞에서 금속을 감지하면 작동 신호를 보냅니다. 범위는 컨텍스트 메뉴에서 바꿀 수 있습니다.
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	이 주사기에 뭐가 들었는지 아무도 모릅니다. 효과가 들쭉날쭉하고 주사기마다 다른 것 같습니다. 분홍색입니다.
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	앞에서 불타는 물체를 감지하면 작동 신호를 보냅니다. 범위는 컨텍스트 메뉴에서 바꿀 수 있습니다.
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	작동할 때마다 열림과 닫힘이 바뀌는 밸브입니다. 혈관 와이어로 연결하면 액체 흐름을 막을 수 있습니다.
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	앞에서 생물을 감지하면 작동 신호를 보냅니다. 범위는 컨텍스트 메뉴에서 바꿀 수 있습니다.
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	타이머가 0이 될 때까지 작동 신호를 막습니다. 타이머는... 작동하면 시작됩니다.
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	350 ml짜리 작은 병입니다. 계속 사용하면 입구 쪽에 있는 것에 내용물을 옮깁니다.
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	앞에서 무엇이든 감지하면 작동 신호를 보냅니다. 범위는 컨텍스트 메뉴에서 바꿀 수 있습니다.
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	생명체의 심박수를 보여줍니다. 혈관 와이어로 모니터를 팔다리에 연결하세요.
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	앞에서 움직임을 감지하면 작동 신호를 보냅니다. 범위는 컨텍스트 메뉴에서 바꿀 수 있습니다.
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	전기 신호를 작동 신호로 바꿉니다. 한마디로, 전기가 들어가면 작동이 나옵니다.
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	간단한 휴대용 로켓 발사기입니다. 일반 로켓 발사기보다 로켓이 빠르지만 약합니다.
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	아주 무거운 금속 망치입니다. 정체불명의 에너지로 부딪힐 때 강력한 충격파를 만듭니다.
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	대용량(25 L) 액체 통입니다. 액체가 차 있지 않으면 물에 뜹니다.
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	켜면 의심스러운 코드가 있는 모드를 거부합니다. 재시작 후 적용됩니다.
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	작동 신호를 전기로 바꿉니다. 한마디로, 작동이 들어가면 전기가 나옵니다.
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	매우 강력한 빔 캐논입니다. 충전하면 더 강해집니다. 포신 말고는 부품이 하나도 없습니다.
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	나무를 쉽게 자르기 위한 도구입니다. 이 게임에서는 나무를 자를 수 없습니다.
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	전기를 만듭니다. 배터리보다 강하고 발전기보다 약합니다. 만져도 안전합니다.
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	모드 컴파일에 쓸 수 있는 최대 시간(초)입니다. 넘으면 작업이 중단됩니다.
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	자동 천장 터렛입니다. 반경 20미터 안의 생명체를 찾아 죽입니다.
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	비교적 작고 끔찍한 생물입니다. 고스는 똑똑하고 악의적입니다. 게다가 대개 탄 접착제 냄새가 납니다.
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	사람을 움직이지 못하게 하는 에너지 덩어리를 쏩니다. 확성기처럼 생겼습니다.
+An explosive that absorbs all energy in the environment and violently releases it.	주변의 모든 에너지를 빨아들였다가 격렬하게 터뜨리는 폭발물입니다.
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	작동 신호를 보내고 받습니다. 같은 채널의 장치와만 통신합니다.
+Regular gate. It lets signals through when its power level is above the set threshold.	일반 게이트입니다. 전력 수준이 설정한 기준보다 높으면 신호를 통과시킵니다.
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	총알을 막도록 만든 작은 판입니다. 뚫리지 않는 건 아니지만 매우 튼튼합니다.
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	높고 비교적 가벼운 콘크리트 판입니다. 잘 부서지지만 무게 덕분에 건물에 쓸모가 있습니다.
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	혈액 속을 도는 동안 물속에서 숨을 쉴 수 있게 해주는 혈청입니다.
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	보기만 하는 파티클을 내보냅니다. 연기, 불, 전기를 뿜을 수 있습니다.
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	빔을 만드는 에너지 무기입니다. 짧고 강하게 집중된 에너지 펄스를 냅니다.
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	선택, 고정, 와이어 강조 표시를 그릴지 정합니다. 녹화할 때 유용합니다.
+An object that allows something to slide in between. Only the coloured parts collide.	사이에 무언가를 끼울 수 있는 물체입니다. 색칠된 부분만 충돌합니다.
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	단열 소재로 된 판입니다. 온도와 전기를 차단합니다.
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	완전 자동 경기관총입니다. 끝없는 탄띠도 그대로 달려 있습니다.
+Things too specific or generic to be catergorised.	분류하기에는 너무 특이하거나 너무 평범한 것들입니다.
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	작동하면 회전이 고정되는 장치입니다. 거의 돌릴 수 없습니다.
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	슬로 모션에서 시간이 얼마나 느려질지 정합니다. 기본값은 20%입니다.
+When enabled, an alert will appear when mods cause increased loading times.	켜면 모드 때문에 로딩이 길어질 때 알림이 뜹니다.
+You might want to add some tags to make your contraption more visible to your target audience.	태그를 달면 장치가 원하는 사람들에게 더 잘 보입니다.
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	블룸은 물체가 아주 밝게 빛나는 듯한 착시를 주는 후처리 효과입니다.
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	사실상 샤워기 헤드입니다. 어떤 액체든 받아서 바로 아래로 쏟아냅니다.
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	충돌 설정을 <b>불연속</b>으로 바꾸면 성능이 크게 좋아집니다!
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	열을 내지 않고, 아무것도 태우지 않고, 진동하지 않는 비교적 약한 추진기입니다.
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	어째서인지 작동하는 30 mm 대전차 고폭탄 포입니다. 포신 말고는 부품이 하나도 없습니다.
+Mod compilation complete, make sure to restart the map to apply activated mods!	모드 컴파일이 끝났습니다. 켠 모드를 적용하려면 맵을 다시 시작하세요!
+You can set your collision settings to discrete for a significant performance gain!	충돌 설정을 불연속으로 바꾸면 성능이 크게 좋아집니다!
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>창 모드가 테두리 없음이나 전체 화면일 때만 적용됩니다.
+Casts a small field that holds objects in place relative to the emitter.	방출기를 기준으로 물체를 제자리에 붙잡아 두는 작은 장을 펼칩니다.
+Determines the temperature unit used throughout the game. Celsius by default.	게임 전체에서 쓰는 온도 단위를 정합니다. 기본값은 섭씨입니다.
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	팔다리를 튼튼하게 하고, 출혈을 늦추고, 부패를 되돌리려 합니다.
+This device emits an activation signal when it detects a laser pointer beam.	레이저 포인터 빛을 감지하면 작동 신호를 보내는 장치입니다.
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	작동하면 반경 15미터 안의 자성 물체를 끌어당기는 전자석입니다.
+Different kinds of explosives each with different properties and strengths.	성질과 위력이 저마다 다른 여러 종류의 폭발물입니다.
+This will toggle relatively expensive particle and decal effects.	비교적 무거운 파티클과 자국 효과를 켜고 끕니다.
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	어째서인지 작동하는 120 mm 포입니다. 포신 말고는 부품이 하나도 없습니다.
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	손에 드는 테슬라 코일 무기입니다. 오래 들고 있을수록 강해집니다.
+A colourable foreground element that keeps its texture unstretched when resized.	크기를 바꿔도 텍스처가 늘어나지 않는, 색을 바꿀 수 있는 전경 요소입니다.
+Modding your game may cause bugs, loss of performance, and other issues.	모드를 쓰면 버그, 성능 저하 등 문제가 생길 수 있습니다.
+Activation signal channel converter. Converts red to green and vice versa.	작동 신호 채널 변환기입니다. 빨강을 초록으로, 초록을 빨강으로 바꿉니다.
+A colourable laser pointer that becomes dangerous when powered.	색을 바꿀 수 있는 레이저 포인터입니다. 전력을 받으면 위험해집니다.
+If disabled, heat can only be transferred through heat pipes and direct contact.	끄면 열은 히트 파이프와 직접 접촉으로만 전달됩니다.
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	휴대용 로켓 발사기입니다. 수류탄만큼 강한 폭발 로켓을 쏩니다.
+Activation signal channel converter. Converts blue to green and vice versa.	작동 신호 채널 변환기입니다. 파랑을 초록으로, 초록을 파랑으로 바꿉니다.
+Activation signal channel converter. Converts blue to red and vice versa.	작동 신호 채널 변환기입니다. 파랑을 빨강으로, 빨강을 파랑으로 바꿉니다.
+Access environment settings. These will only last for the current session.	환경 설정입니다. 현재 세션 동안만 유지됩니다.
+Grenade that violently launches small spikes in random directions.	작은 가시를 무작위 방향으로 거세게 흩뿌리는 수류탄입니다.
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	이 방을 채운 기체보다 가벼운 수수께끼의 기체로 가득 차 있습니다.
+Wounds and injuries will slowly heal on living organisms when this is enabled.	켜면 생명체의 상처와 부상이 천천히 낫습니다.
+Toggle whether decals are created. Disabling decals may improve performance.	자국을 만들지 정합니다. 끄면 성능이 좋아질 수 있습니다.
+Determines how much force is needed to crush a limb. Default is 100%.	팔다리를 짓이기는 데 필요한 힘을 정합니다. 기본값은 100%입니다.
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	0~-273.15 °C 범위에서 설정한 목표 온도까지 차가워집니다.
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	액체를 식별합니다. 아무 혼합액(최대 2.5 L)이나 채우고 작동하세요.
+Objects will retain a fraction of their mass, and completely ignore gravity.	물체는 질량 일부를 유지하고 중력을 완전히 무시합니다.
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>켜 두는 것을 권장합니다. 이 설정을 끄라고 하는 모드는 신고해 주세요.
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	무엇보다 출혈을 멈추지만, 꽤 잘 늘어나는 와이어이기도 합니다.
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	0~1000 °C 범위에서 설정한 목표 온도까지 뜨거워집니다.
+Pins objects to the background or to other objects.  Allows rotation.	물체를 배경이나 다른 물체에 고정합니다. 회전은 가능합니다.
+A belt that wraps around two objects, transferring rotational energy.	두 물체를 감아 회전 에너지를 전달하는 벨트입니다.
+1L flask filled with nitroglycerine. Explosive and highly unstable.	니트로글리세린이 든 1 L 플라스크입니다. 폭발성이 있고 매우 불안정합니다.
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	혈액 응고를 빠르게 하는 혈청입니다. 피가 나는 상처를 모두 낫게 합니다.
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	살아 있는 아이템 속으로 파고듭니다. Mutilate-a-Doll 2와의 협업으로 추가된 아이템입니다.
+A little engine that only propels itself while submerged.	물속에서만 나아가는 작은 엔진입니다.
+A link between two objects that allows them to phase through each other.	두 물체를 이어 서로 통과할 수 있게 하는 연결입니다.
+Handheld device that is capable of lifting objects from a great distance.	먼 곳의 물체를 들어 올릴 수 있는 휴대용 장치입니다.
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>수직 동기화가 꺼져 있을 때만 적용됩니다.
+Green signals toggle. Red signals open. Blue signals close.	초록 신호는 전환, 빨간 신호는 열기, 파란 신호는 닫기입니다.
+Indestructible cable that restricts positions and rotation on both objects.	두 물체의 위치와 회전을 고정하는 부서지지 않는 케이블입니다.
+1x1 brick rectangle. I know it says cube, but the game is 2D.	1x1 벽돌 직사각형입니다. 큐브라고 써 있는 건 알지만, 이 게임은 2D입니다.
+Toggle whether wires block the context menu for the underlying object.	와이어가 아래 물체의 컨텍스트 메뉴를 가릴지 정합니다.
+Primitive pistol. Not very accurate, not very practical, and very loud.	원시적인 권총입니다. 명중률도 실용성도 별로고 아주 시끄럽습니다.
+Handheld burst energy weapon that fires heat-seeking projectiles.	열추적탄을 점사하는 휴대용 에너지 무기입니다.
+Determines how fast zooming using the mouse wheel is. Default is 1x.	마우스 휠로 확대/축소하는 속도를 정합니다. 기본값은 1x입니다.
+A metal square.  It says cube, I know. I've explained this before.	금속 정사각형입니다. 큐브라고 써 있는 거 압니다. 전에도 설명했어요.
+An explosive with a large blast radius and a powerful shockwave.	폭발 범위가 넓고 충격파가 강한 폭발물입니다.
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	소형 핵폭탄입니다. 반경 750 m 안의 모든 것을 태우고 파괴합니다.
+Highly accurate blaster rifle that launches high speed bolts.	고속탄을 쏘는 고정밀 블래스터 라이플입니다.
+Colourable LED bulb. Bright, efficient, and durable.	색을 바꿀 수 있는 LED 전구입니다. 밝고 효율적이며 오래갑니다.
+A wranch you can slam aganist Androids to repair them.	안드로이드를 두들겨서 수리하는 렌치입니다.
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	<color=orange>마우스 가운데 버튼</color>으로 <color=green>화면 이동</color>
+The will toggle relatively performance-heavy effects.	비교적 무거운 효과를 켜고 끕니다.
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	<color=orange>마우스 왼쪽 버튼</color>을 누르고 있으면 <color=green>잡기</color>
+A chair that kind of looks like it belongs inside a bus.	버스 안에 있을 법한 의자입니다.
+By submitting to the workshop, you agree to the terms of service.	창작마당에 올리면 서비스 약관에 동의하는 것입니다.
+Controlled powerful explosive. Can only detonate by activation.	제어형 강력 폭발물입니다. 작동해야만 터집니다.
+An electric bi-wheeled unicycle with no chain??? How does it work.	체인 없는 전동 두 바퀴 외발자전거??? 이게 어떻게 움직이죠.
+Grenade that sticks to most things when armed.	작동하면 거의 모든 것에 달라붙는 수류탄입니다.
+This item is marked as once uploaded. How do you want to continue?	이 아이템은 이미 업로드된 적이 있습니다. 어떻게 할까요?
+Makes living beings more durable. Might cause immortality.	생명체를 더 튼튼하게 만듭니다. 불사신이 될 수도 있습니다.
+<color=green>rotate</color> objects with <color=orange>A or D </color>	<color=orange>A 또는 D </color>로 물체 <color=green>회전</color>
+A relatively small boulder. Supposedly made of minerals.	비교적 작은 바위입니다. 광물로 이루어졌다고 합니다.
+<color=orange>Right Mouse</color> to <color=green>delete</color>	<color=orange>마우스 오른쪽 버튼</color>으로 <color=green>삭제</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	켜고 끌 수 있는 투광등입니다. 주변을 밝히고 으스스한 분위기를 냅니다.
+A thermonuclear bomb. Easily the most powerful bomb available.	열핵폭탄입니다. 쓸 수 있는 폭탄 중 단연 가장 강력합니다.
+Change the chance the artificial sky generates a lightning bolt.	인공 하늘에서 번개가 칠 확률을 바꿉니다.
+Displays the current framerate in the top-right of the screen.	화면 오른쪽 위에 현재 프레임 속도를 표시합니다.
+Powerful laser cannon. It's missing all the pieces except for the barrel.	강력한 레이저 포입니다. 포신 말고는 부품이 하나도 없습니다.
+Extends or retracts when activated. Faster when charged.	작동하면 늘어나거나 줄어듭니다. 충전하면 더 빨라집니다.
+Speed up rotation / uniform resizing / multiselect	빠른 회전 / 비율 유지 크기 조절 / 다중 선택
+A weapon that launches shells that explode on impact.	부딪히면 터지는 포탄을 쏘는 무기입니다.
+Melodic bell! Set the bell note via the context menu.	멜로디 종! 컨텍스트 메뉴에서 음을 정하세요.
+Two objects attached by a ...long piston. Moves freely.	두 물체를... 긴 피스톤으로 연결했습니다. 자유롭게 움직입니다.
+A device that, when activated, stays upright.	작동하면 똑바로 서 있는 장치입니다.
+"Handheld" energy weapon. Emits bouncy balls of energy.	"휴대용" 에너지 무기입니다. 튀어 다니는 에너지 구체를 쏩니다.
+This setting may decrease performance when enabled.	이 설정을 켜면 성능이 떨어질 수 있습니다.
+A small thruster that propels itself forward when activated.	작동하면 앞으로 나아가는 작은 추진기입니다.
+Heat will travel through the air when this is enabled.	켜면 열이 공기를 통해 전달됩니다.
+A heavy container train wagon. Does not move on its own.	무거운 컨테이너 화차입니다. 스스로 움직이지 않습니다.
+Downscale the resolution that the game is being rendered at.	게임을 렌더링하는 해상도를 낮춥니다.
+Saves the selected objects as one, to be loaded later.	선택한 물체를 하나로 저장해 나중에 불러올 수 있게 합니다.
+This save is from a different version. This might cause issues.	다른 버전의 저장 파일입니다. 문제가 생길 수 있습니다.
+<color=green>activate</color> objects with <color=orange>F</color>	<color=orange>F</color>로 물체 <color=green>작동</color>
+Alert when mods significantly affect loading times	모드 때문에 로딩이 크게 길어지면 알리기
+Small thruster. Weaker and lighter than the bigger ones.	작은 추진기입니다. 큰 것보다 약하고 가볍습니다.
+A humanoid robot. Larger, heavier, and more durable than a human.	인간형 로봇입니다. 사람보다 크고, 무겁고, 튼튼합니다.
+A durable pane of glass. Much stronger than a regular glass pane.	튼튼한 판유리입니다. 일반 유리보다 훨씬 강합니다.
+Modify the final exposure value. Default is 100%	최종 노출 값을 바꿉니다. 기본값은 100%
+A very heavy combat tank that fires explosive shells.	폭발하는 포탄을 쏘는 아주 무거운 전차입니다.
+Metal triangle. I know it says pyramid.	금속 삼각형입니다. 피라미드라고 써 있는 거 압니다.
+One of those old torches. Prevents mobs from spawning.	그 옛날 횃불입니다. 몹이 생기지 않게 막아 줍니다.
+A mirror that partially dissolves when powered.	전력을 받으면 일부가 사라지는 거울입니다.
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	<color=orange>E 또는 Q</color>로 물체 <color=green>생성</color>
+Generates incredible amounts of energy when activated.	작동하면 엄청난 양의 에너지를 만듭니다.
+It's a torch but that name is already used by the other torch.	횃불이지만, 그 이름은 이미 다른 횃불이 쓰고 있습니다.
+A platform that, when activated, propels itself in the air.	작동하면 공중으로 솟구치는 발판입니다.
+It's a ball specifically designed for bowling. How thoughtful.	볼링을 위해 특별히 만든 공입니다. 참 세심하네요.
+How often should the thermal vision be updated?	열화상 화면을 얼마나 자주 갱신할까요?
+A crossbow that lauches a sharp bolt at high speed.	날카로운 화살을 빠르게 쏘는 석궁입니다.
+Set timed gate duration in seconds.	타이머 게이트의 시간을 초 단위로 정합니다.
+A wrench you can slam against Androids to repair them.	안드로이드를 두들겨서 수리하는 렌치입니다.
+Adjust the intensity of the screenshake. Default is 1x.	화면 흔들림의 세기를 조절합니다. 기본값은 1x입니다.
+Liquid chemicals and other items related to chemistry.	액체 화학 물질과 화학 관련 아이템입니다.
+Continuously sends out activation signals if activated.	작동하면 작동 신호를 계속 보냅니다.
+Handheld freezeray gun. Emits a cooling beam.	휴대용 동결 광선총입니다. 냉각 빔을 쏩니다.
+The volume of the ambient hum and other background noises.	주변 웅웅거림과 기타 배경 소음의 음량입니다.
+Game version mismatch. This might cause problems.	게임 버전이 맞지 않습니다. 문제가 생길 수 있습니다.
+Change what the display displays on its display.	디스플레이가 디스플레이에 표시하는 내용을 바꿉니다.
+A blade of energy contained in a material field.	물질장 안에 담긴 에너지 칼날입니다.
+An electronic display capable of showing any text.	어떤 글자든 보여줄 수 있는 전자 디스플레이입니다.
+Anti-aliasing attempts to get rid of jagged edges.	안티앨리어싱은 계단 모양의 가장자리를 없애 줍니다.
+Device that measures how much power it is receiving.	받고 있는 전력을 측정하는 장치입니다.
+A sentry turret that targets anything that seems to be alive.	살아 있어 보이는 것은 무엇이든 노리는 센트리 터렛입니다.
+Can only propagate an activation signal once.	작동 신호를 한 번만 전달할 수 있습니다.
+A destructible version of the blue propagation wire.	파란 전달 와이어의 파괴 가능한 버전입니다.
+A metal tube that is just a little taller than a human.	사람보다 조금 더 큰 금속 관입니다.
+A destructible version of the green propagation wire.	초록 전달 와이어의 파괴 가능한 버전입니다.
+A destructible version of the red propagation wire.	빨간 전달 와이어의 파괴 가능한 버전입니다.
+The volume of all items and effects in the game.	게임 안 모든 아이템과 효과의 음량입니다.
+Repulse everything in a small radius around you.	주변 좁은 범위의 모든 것을 밀어냅니다.
+Target duration in seconds from 0.04s to 16s	목표 시간(초), 0.04초~16초
+Activate object under cursor / currently holding	커서 아래 물체 / 들고 있는 물체 작동
+It's one of those red barrels that explode.	폭발하는 그 빨간 드럼통입니다.
+Very large and painful gun to use.	아주 크고 쏘면 아픈 총입니다.
+Relieves pain. Can be dangerous in high doses.	통증을 덜어 줍니다. 많이 쓰면 위험할 수 있습니다.
+Your contraption will be uploaded to the workshop.	장치가 창작마당에 업로드됩니다.
+Lift everything around you with infinite force.	주변의 모든 것을 무한한 힘으로 들어 올립니다.
+Identical to the big one apart from the size and weight.	크기와 무게만 빼면 큰 것과 같습니다.
+Things that shoot a projectile somehow.	어떻게든 탄을 쏘는 것들입니다.
+1L flask full of Gorse blood. Do not ingest.	고스의 피가 가득 든 1 L 플라스크입니다. 마시지 마세요.
+Big automatic laser sentry turret.	대형 자동 레이저 센트리 터렛입니다.
+A drug that temporarily disables a person.	사람을 잠시 무력화하는 약물입니다.
+Attract everything in a small radius around you.	주변 좁은 범위의 모든 것을 끌어당깁니다.
+Soviet submachine gun with a high rate of fire.	연사력이 높은 소련제 기관단총입니다.
+Set the upper translation limit for the winch.	윈치가 움직이는 상한을 정합니다.
+Forces the resting animation override.	휴식 애니메이션을 강제합니다.
+A small holographic text display emitter.	작은 홀로그램 문자 표시기입니다.
+A button that activates when pressed.	누르면 작동하는 버튼입니다.
+Zoom scroll wheel sensitivity	확대/축소 마우스 휠 감도
+Handheld flamethrower. Not actually a flamethrower.	휴대용 화염방사기입니다. 사실 화염방사기는 아닙니다.
+Probably the worst thing to step on.	아마 밟을 수 있는 것 중 최악일 겁니다.
+Set the lower translation limit for the winch.	윈치가 움직이는 하한을 정합니다.
+Objects will only collide with the walls.	물체는 벽하고만 충돌합니다.
+Destructible non-conductive wire.	전기가 통하지 않는 파괴 가능한 와이어입니다.
+A virus that turns living beings into zombies.	생명체를 좀비로 만드는 바이러스입니다.
+You install and use mods at your own risk.	모드 설치와 사용은 본인 책임입니다.
+Classic automatic assault rifle.	고전적인 자동 돌격 소총입니다.
+Determines the way the window is presented.	창을 어떻게 표시할지 정합니다.
+Toggle between tools and powers	도구와 능력 사이 전환
+A large heavy truck with lots of space.	공간이 넉넉한 크고 무거운 트럭입니다.
+Box that dampens movement when activated.	작동하면 움직임을 줄이는 상자입니다.
+1L flask full of human blood.	사람의 피가 가득 든 1 L 플라스크입니다.
+Indestructible, stiff metal spring.	부서지지 않는 단단한 금속 스프링입니다.
+Pressurise the connected container.	연결된 용기에 압력을 넣습니다.
+1L flask full of regular oil.	일반 기름이 가득 든 1 L 플라스크입니다.
+Depressurise the connected container.	연결된 용기의 압력을 뺍니다.
+Choose between different gore shaders	여러 고어 셰이더 중에서 고르기
+World war era German handgrenade.	세계대전 시절 독일 막대형 수류탄입니다.
+Propagates a signal on the red channel.	빨간 채널로 신호를 전달합니다.
+Destructible steel fixed wiring.	파괴 가능한 강철 고정 연결입니다.
+Heavy anchor designed to sink.	가라앉으라고 만든 무거운 닻입니다.
+Determine the upper bound of the framerate.	프레임 속도의 상한을 정합니다.
+Drain the container of its contents.	용기 안의 내용물을 비웁니다.
+Extremely powerful and impractical handgun.	엄청나게 강력하고 비실용적인 권총입니다.
+Destructible conductive wire.	전기가 통하는 파괴 가능한 와이어입니다.
+Propagates a signal on the blue channel.	파란 채널로 신호를 전달합니다.
+Forces the protection animation override.	방어 애니메이션을 강제합니다.
+move forward, toggle lights, etc.	앞으로 가기, 조명 켜고 끄기 등
+Wooden bat made to hit things.	무언가를 때리려고 만든 나무 배트입니다.
+Make the camera track this object.	카메라가 이 물체를 따라가게 합니다.
+Change the way HDR colours are displayed.	HDR 색을 표시하는 방식을 바꿉니다.
+Edit the current environment settings	현재 환경 설정 편집
+Launches objects placed on it in the air.	위에 올려둔 물체를 공중으로 날려 보냅니다.
+Automatic spike launching weapon.	가시를 발사하는 자동 무기입니다.
+A tall tree. It was never alive.	키 큰 나무입니다. 살아 있었던 적은 없습니다.
+Toggle hovering highlights	마우스 오버 강조 표시
+does not match your current username	현재 사용자 이름과 일치하지 않습니다
+Target height in meters from 0.5 m to 10 m	목표 높이(미터), 0.5 m~10 m
+Set tint for selected objects	선택한 물체의 색조 설정
+From Wikipedia, the free encyclopedia.	위키백과, 우리 모두의 백과사전.
+Like a normal explosive but pink.	평범한 폭발물과 같지만 분홍색입니다.
+Should the floodlights be turned on?	투광등을 켤까요?
+A crossbow bolt. Points to where it goes.	석궁 화살입니다. 날아가는 방향을 가리킵니다.
+Target temperature in Celsius	목표 온도(섭씨)
+A lamp that does not offer comfort.	전혀 위안이 되지 않는 램프입니다.
+Organic or artificial beings.	유기체 또는 인공 존재입니다.
+This should make the mech work.	이걸로 메카가 움직일 겁니다.
+Set the target angle of the servo.	서보의 목표 각도를 정합니다.
+Things built to go places.	어딘가로 가려고 만든 것들입니다.
+De staf van de goedheiligman zelf.	성인 본인의 지팡이입니다.
+Sends an activation signal on impact.	충격을 받으면 작동 신호를 보냅니다.
+Change the ambient temperature.	주변 온도를 바꿉니다.
+Chemical that eats bones.	뼈를 녹이는 화학 물질입니다.
+Handheld heatray gun. Emits a heating beam.	휴대용 열선총입니다. 가열 빔을 쏩니다.
+Set maximum power level.	최대 전력 수준을 정합니다.
+Small plastic-framed handgun.	플라스틱 프레임의 작은 권총입니다.
+Switches to the previous texture.	이전 텍스처로 바꿉니다.
+Indestructible loose cable.	부서지지 않는 느슨한 케이블입니다.
+. Are you sure you want to continue?	. 정말 계속할까요?
+The volume of the entire application.	애플리케이션 전체의 음량입니다.
+Set key trigger description.	키 트리거 설명을 정합니다.
+Powerful semi-automatic rifle.	강력한 반자동 소총입니다.
+Remove this contraption from the list.	이 장치를 목록에서 지웁니다.
+Objects you saved on disk.	디스크에 저장한 물체입니다.
+Enable machine heat damage.	기계의 열 피해를 켭니다.
+An automatic laser machine rifle.	자동 레이저 소총입니다.
+A wire that transfers blood between limbs.	팔다리 사이로 피를 옮기는 와이어입니다.
+A suspended motorised wheel.	서스펜션이 달린 전동 바퀴입니다.
+Target delay in seconds from 0.04s to 60s	목표 지연(초), 0.04초~60초
+Indestructible metal spring.	부서지지 않는 금속 스프링입니다.
+Machines that do stuff.	무언가를 하는 기계들입니다.
+Switches to the next texture.	다음 텍스처로 바꿉니다.
+Resize selected objects	선택한 물체 크기 조절
+Public transport bus.	대중교통 버스입니다.
+Indestructible rigid connection.	부서지지 않는 고정 연결입니다.
+Spawn right facing	오른쪽을 보게 생성
+Maximum mod compilation time	모드 최대 컴파일 시간
+Things to hit or stab with.	때리거나 찌르는 것들입니다.
+Triggers the selected objects.	선택한 물체를 작동합니다.
+Set tank to idle mode.	탱크를 대기 모드로 바꿉니다.
+A small energy container.	작은 에너지 저장 장치입니다.
+Set gate threshold.	게이트 기준값을 정합니다.
+Handheld rapid firing gatling gun.	손에 드는 고속 연사 개틀링입니다.
+Set tank to push mode.	탱크를 밀기 모드로 바꿉니다.
+2 meter tall metal pole.	높이 2미터의 금속 기둥입니다.
+Industrial hinged spot light.	관절이 달린 산업용 스포트라이트입니다.
+Spawn left facing	왼쪽을 보게 생성
+Kills living beings instantly.	생명체를 즉시 죽입니다.
+Stop animation on damage	피해를 입으면 애니메이션 중지
+Ambient temperature transfer	주변 온도 전달
+Automatic assault rifle.	자동 돌격 소총입니다.
+Rapid firing submachine gun.	고속 연사 기관단총입니다.
+Reverses the polarity of the magnet.	자석의 극성을 뒤집습니다.
+Repair or break the engine	엔진 수리 또는 고장
+Changed to Powers tab	능력 탭으로 전환했습니다
+Set metronome rate in Hz.	메트로놈 속도를 Hz로 정합니다.
+2 meter tall wooden pillar.	높이 2미터의 나무 기둥입니다.
+Pastes the copied objects.	복사한 물체를 붙여 넣습니다.
+A larger, more powerful piston.	더 크고 강력한 피스톤입니다.
+Changed to Tools tab	도구 탭으로 전환했습니다
+Selection target temperature	선택 영역 목표 온도
+The volume of UI elements.	UI 요소의 음량입니다.
+Toggle gate behaviour.	게이트 동작을 바꿉니다.
+Toggle trigger behaviour.	트리거 동작을 바꿉니다.
+Publish to the Steam Workshop.	Steam 창작마당에 게시합니다.
+Disable machine heat damage	기계 열 피해 끄기
+Drag and rotate objects.	물체를 끌고 회전합니다.
+Player statistics regarding the game.	게임 관련 플레이어 통계입니다.
+Set winch upper limit	윈치 상한 설정
+Destructible red propagation wire	파괴 가능한 빨간 전달 와이어
+Forces the stumbling animation override.	비틀거리는 애니메이션을 강제합니다.
+Thermal vision update rate	열화상 갱신 빈도
+Freezes the selected objects.	선택한 물체를 고정합니다.
+Toggle parking brakes	주차 브레이크 전환
+Toggle invisibility.	투명화를 켜고 끕니다.
+Basic indestructible wooden wheel.	부서지지 않는 기본 나무 바퀴입니다.
+Disengage parking brakes	주차 브레이크 풀기
+Set tank to pull mode.	탱크를 당기기 모드로 바꿉니다.
+Set object temperature.	물체 온도를 정합니다.
+Slowly heal injuries	부상 천천히 회복
+Set winch lower limit	윈치 하한 설정
+Stop affecting pressure.	압력에 영향을 주지 않습니다.
+Physics iteration count	물리 반복 횟수
+Destructible blue propagation wire	파괴 가능한 파란 전달 와이어
+It's just a metal circle.	그냥 금속 원입니다.
+View terms of service	서비스 약관 보기
+Slow motion speed modifier	슬로 모션 속도
+Copies the selected objects.	선택한 물체를 복사합니다.
+Return to the toybox menu.	아이템 메뉴로 돌아갑니다.
+Threshold as percentage	백분율 기준값
+Destructible rigid strut.	파괴 가능한 고정 지지대입니다.
+Ignites the selected objects.	선택한 물체에 불을 붙입니다.
+Deletes the selected objects.	선택한 물체를 삭제합니다.
+Choose objects under cursor	커서 아래 물체 선택
+Freeze selected objects	선택한 물체 고정
+Set the speed of the rotor.	로터 속도를 정합니다.
+View item info.	아이템 정보를 봅니다.
+Slow motion disabled	슬로 모션 꺼짐
+A small fireworks rocket.	작은 불꽃놀이 로켓입니다.
+An old jukebox.	오래된 주크박스입니다.
+A semi automatic pistol.	반자동 권총입니다.
+Reject suspicious mods	의심스러운 모드 거부
+Old filament light bulb.	오래된 필라멘트 전구입니다.
+Toggle indestructibility.	파괴 불가를 켜고 끕니다.
+Its base is frozen when created.	생성할 때 받침이 고정되어 있습니다.
+A pane made of fragile glass.	깨지기 쉬운 유리판입니다.
+Locks a creature's joints.	생명체의 관절을 굳힙니다.
+Giant hovering fan.	떠 있는 거대한 선풍기입니다.
+Electricity Transformer	전기 변환기
+Set detector range.	감지기 범위를 정합니다.
+Log debug messages	디버그 메시지 표시
+Simple airfoil.	간단한 날개입니다.
+It's a hovercraft.	호버크래프트입니다.
+Switch to 9th tool	9번 도구로 전환
+Relatively small bush.	비교적 작은 덤불입니다.
+Switch to 7th tool	7번 도구로 전환
+Switch to 6th tool	6번 도구로 전환
+Switch to 5th tool	5번 도구로 전환
+Switch to 4th tool	4번 도구로 전환
+Switch to 3th tool	3번 도구로 전환
+Detached Laser Cannon	분리된 레이저 포
+Switch to 2th tool	2번 도구로 전환
+Switch to 1th tool	1번 도구로 전환
+Slow motion enabled	슬로 모션 켜짐
+Simplified background tiles	단순한 배경 타일
+Switch to 8th tool	8번 도구로 전환
+Change the colour of this object.	이 물체의 색을 바꿉니다.
+Welcome to the playground!	놀이터에 오신 걸 환영합니다!
+Toggle slow motion	슬로 모션 전환
+Hammer made to fight with.	싸우려고 만든 망치입니다.
+Clears all debris and decals.	모든 잔해와 자국을 치웁니다.
+A belt that conveys.	물건을 실어 나르는 벨트입니다.
+Distant sound effects	먼 거리 효과음
+Screenshake intensity	화면 흔들림 세기
+Upload to Steam Workshop	Steam 창작마당에 업로드
+Temperature unit	온도 단위
+Forces the walking animation override.	걷기 애니메이션을 강제합니다.
+Detached Beam Cannon	분리된 빔 캐논
+Forces the sitting animation override.	앉기 애니메이션을 강제합니다.
+Enter contraption name	장치 이름 입력
+Wires with context menu	컨텍스트 메뉴가 있는 와이어
+Reverse rotor.	로터를 거꾸로 돌립니다.
+Red propagation wire	빨간 전달 와이어
+Soviet Submachine Gun	소련제 기관단총
+Mend or break bone.	뼈를 붙이거나 부러뜨립니다.
+Toggle sidepanels	사이드 패널 전환
+Relatively large bush.	비교적 큰 덤불입니다.
+Toggle electricity.	전기를 켜고 끕니다.
+BG Signal Converter	파초 신호 변환기
+Very powerful explosive.	매우 강력한 폭발물입니다.
+Ignite selected objects	선택한 물체에 불 붙이기
+Reverse vehicle	차량 후진
+RG Signal Converter	빨초 신호 변환기
+BR Signal Converter	파빨 신호 변환기
+Bone Eating Syringe	뼈를 녹이는 주사기
+Toggle detail view	상세 보기 전환
+Large wooden pole.	큰 나무 기둥입니다.
+A human being, very fragile.	인간입니다. 아주 연약합니다.
+Clamp audio volume	음량 제한
+Blood vessel wire	혈관 와이어
+Set lagbox delay	랙박스 지연 설정
+Set exact rotation.	정확한 회전 각도를 정합니다.
+Water Breathing Syringe	수중 호흡 주사기
+Blue propagation wire	파란 전달 와이어
+It is disabled by default.	기본값은 꺼짐입니다.
+Soft plastic barrel.	말랑한 플라스틱 통입니다.
+Drop on death	죽으면 떨어뜨리기
+Steam is not initialised	Steam이 초기화되지 않았습니다
+Big metal beam.	큰 금속 빔입니다.
+Set timed gate duration	타이머 게이트 시간 설정
+Export game debug info	게임 디버그 정보 내보내기
+An axe. Heavy and sharp.	도끼입니다. 무겁고 날카롭습니다.
+Double trigger gate	이중 트리거 게이트
+Activation Transformer	작동 변환기
+Giant Wooden Bowl	거대한 나무 그릇
+A sharp metal sword.	날카로운 금속 검입니다.
+Resets and restarts the map.	맵을 초기화하고 다시 시작합니다.
+Fragmentation explosive.	파편 폭발물입니다.
+Sharp crystal shard.	날카로운 수정 조각입니다.
+Change the light colour.	빛의 색을 바꿉니다.
+Mini Thruster	미니 추진기
+Purple cathode light	보라색 음극등
+Small metal beam.	작은 금속 빔입니다.
+Detached 120mm Cannon	분리된 120 mm 포
+Resize object(s)	크기 조절
+Set metronome rate	메트로놈 속도 설정
+Set target temperature	목표 온도 설정
+Destructible propagation wire	파괴 가능한 전달 와이어
+User Interface	사용자 인터페이스
+Set rotor speed	로터 속도 설정
+General Purpose Bomb	범용 폭탄
+Light wooden stick.	가벼운 나무 막대입니다.
+Energy Vessel Explosive	에너지 용기 폭발물
+Nitroglycerine Flask	니트로글리세린 플라스크
+Change the gravity	중력 바꾸기
+Toggle thermal vision	열화상 전환
+Industrial Generator	산업용 발전기
+Set upper limit	상한 설정
+Disable heat damage	열 피해 끄기
+De staf van Sinterklaas	신터클라스의 지팡이
+Infrared Thermometer	적외선 온도계
+Change the radio channel.	라디오 채널을 바꿉니다.
+Why are you doing this?	왜 이러시는 거죠?
+Activation Toggle	작동 토글
+A sniper rifle.	저격 소총입니다.
+internal bleeding	내부 출혈
+Clears all "living" things.	"살아 있는" 것을 모두 치웁니다.
+Set hover height	부양 높이 설정
+Gyroscope Stabiliser	자이로스코프 안정기
+Set lower limit	하한 설정
+A powerful tesla coil.	강력한 테슬라 코일입니다.
+Set to idle	대기로 설정
+What should it say?	뭐라고 표시할까요?
+Set to pull	당기기로 설정
+Enable electricity	전기 켜기
+CRT Television.	브라운관 TV입니다.
+Ambient temperature	주변 온도
+welke dag is het vandaag?	오늘이 무슨 요일이죠?
+Holographic Display	홀로그램 디스플레이
+Bulletproof Sheet	방탄판
+Rapid firing cannon.	속사포입니다.
+A conducting wire.	전기가 통하는 와이어입니다.
+Enable heat damage	열 피해 켜기
+Plastic Explosive	플라스틱 폭약
+Opens the pause menu.	일시정지 메뉴를 엽니다.
+Motorised Wheel	전동 바퀴
+Liquidentifier	액체 식별기
+1. FILL WITH LIQUID	1. 액체를 채우세요
+Giant sharp spike.	거대한 날카로운 가시입니다.
+Set to push	밀기로 설정
+Green cathode light	초록색 음극등
+Show hovering highlights	마우스 오버 강조 표시
+It glows purple.	보라색으로 빛납니다.
+No mods required	모드 필요 없음
+Heating Element	가열 장치
+Launches crystals.	수정을 발사합니다.
+Toggleable Mirror	전환식 거울
+Set laser colour	레이저 색 설정
+Set temperature	온도 설정
+Machine Blaster	머신 블래스터
+Classic handgun.	고전적인 권총입니다.
+Yellow cathode light	노란색 음극등
+Hover Thruster	부양 추진기
+Painkiller Syringe	진통제 주사기
+Red cathode light	빨간색 음극등
+Industrial Gyrostabiliser	산업용 자이로 안정기
+Liquid Pressuriser	액체 가압기
+Enable collision	충돌 켜기
+Do you want to upload	업로드할까요:
+Limb crushing	팔다리 으깨기
+Clears everything.	모든 것을 치웁니다.
+Archelix Caster	아르켈릭스 캐스터
+Activation Fuse	작동 퓨즈
+Industrial Piston	산업용 피스톤
+Update existing	기존 항목 업데이트
+Vsync	수직 동기화
+Metal Pyramid	금속 피라미드
+Fluorescent Lamp	형광등
+Open "Mods" folder in Explorer	"Mods" 폴더를 탐색기에서 열기
+gunshot wounds	총상
+White cathode light	흰색 음극등
+Metal rod.	금속 막대입니다.
+Thrusterbed	추진기 받침대
+Adrenaline Syringe	아드레날린 주사기
+Blue cathode light	파란색 음극등
+Maximum power	최대 전력
+Ceramic plate.	도자기 접시입니다.
+Mending Syringe	회복 주사기
+Pick a new map.	다른 맵을 고릅니다.
+Open documentation in browser	브라우저에서 문서 열기
+Propagation wire	전달 와이어
+Anti-aliasing (SMAA)	안티앨리어싱(SMAA)
+Previous texture	이전 텍스처
+Zombie Syringe	좀비 주사기
+An adrenaline shot.	아드레날린 주사입니다.
+saved with errors	오류와 함께 저장됨
+Click to edit	클릭해서 편집
+Oil Flask	기름 플라스크
+Make indestructible	파괴 불가로 만들기
+Tempered Glass Pane	강화 유리판
+Move camera right	카메라 오른쪽으로
+Tonemapping	톤 매핑
+Cooling Element	냉각 장치
+Mechanical belt	기계식 벨트
+Engage parking brakes	주차 브레이크 걸기
+Set description	설명 설정
+Flare for signaling.	신호용 조명탄입니다.
+Destructible wall.	부술 수 있는 벽입니다.
+G1 Submachine Gun	G1 기관단총
+It glows green.	초록색으로 빛납니다.
+Passenger car.	승용차입니다.
+Missile Launcher	미사일 발사기
+Sniper Rifle	저격 소총
+Shock Detector	충격 감지기
+It glows yellow.	노란색으로 빛납니다.
+Immobility Field	고정장
+Flintlock Pistol	수발식 권총
+Life Detector	생명 감지기
+limbs selected	개 부위 선택됨
+Ultra Strength Syringe	초인적 힘 주사기
+Heals nearly anything.	거의 모든 것을 치료합니다.
+Leave the playground.	놀이터를 떠납니다.
+Edit trigger key.	트리거 키를 편집합니다.
+Resizable Housing	크기 조절 가능한 케이스
+Fixed cable	고정 케이블
+heart stopped	심장 정지
+Insulator	절연체
+Blaster Rifle	블래스터 라이플
+Metal Wheel	금속 바퀴
+Rocket Launcher	로켓 발사기
+Steel binding	강철 고정 장치
+It glows red.	빨간색으로 빛납니다.
+Saved in version	저장된 버전
+Structural Pillar	구조용 기둥
+Launch Platform	발사대
+Gorse Blood Flask	고스 피 플라스크
+A submachine gun.	기관단총입니다.
+Move camera left	카메라 왼쪽으로
+Wooden strut	나무 지지대
+Upload as new	새 항목으로 업로드
+Set to repulse	밀어내기로 설정
+Wooden Pillar	나무 기둥
+Just a normal wheel.	그냥 평범한 바퀴입니다.
+Fancy effects	화려한 효과
+Emergency siren.	비상 사이렌입니다.
+saved succesfully	저장했습니다
+Dampening Box	완충 상자
+Laser sentry turret	레이저 센트리 터렛
+It glows white.	흰색으로 빛납니다.
+Resumes the game.	게임을 계속합니다.
+Repair engine	엔진 수리
+Assault Rifle	돌격 소총
+Lightning chance	번개 확률
+It glows blue.	파란색으로 빛납니다.
+Destructible pin.	파괴 가능한 핀입니다.
+Plastic Barrel	플라스틱 통
+Particle Projector	파티클 프로젝터
+Single trigger	단일 트리거
+Make invisible	투명하게 만들기
+blood pressure	혈압
+Move camera down	카메라 아래로
+Laser Receiver	레이저 수신기
+Metal Pole	금속 기둥
+Move camera up	카메라 위로
+Explosives	폭발물
+Next texture	다음 텍스처
+Render scale	렌더링 배율
+Landmine	지뢰
+Energy Sword	에너지 검
+Ceiling Turret	천장 터렛
+Firearms	총기
+Exported to	내보낸 위치
+Set range	범위 설정
+Sentry Turret	센트리 터렛
+Thruster	추진기
+Blood Tank	혈액 탱크
+Collision quality	충돌 품질
+Heatray	열선총
+Detail view	상세 보기
+Fusion Bomb	핵융합 폭탄
+What are you doing?	뭐 하시는 거예요?
+Fire Detector	화재 감지기
+Conveyor Belt	컨베이어 벨트
+Magnum Revolver	매그넘 리볼버
+Set to drain	배출로 설정
+Restore weight	무게 되돌리기
+Break engine	엔진 고장 내기
+Pulse Drum	펄스 드럼
+Decimator	데시메이터
+Unfollow	따라가기 중지
+Wooden Wheel	나무 바퀴
+Submachine Gun	기관단총
+Liquid Valve	액체 밸브
+Cleared living	생명체를 치웠습니다
+Hovercar	호버카
+Text Display	텍스트 디스플레이
+Angle in degrees	각도(도)
+Light Machine Gun	경기관총
+Sound effects	효과음
+Snap	맞추기
+Motion Detector	동작 감지기
+cosmetic rain	장식용 비
+Jukebox	주크박스
+Freezeray	동결 광선총
+Visual center	시각적 중심
+Double trigger	이중 트리거
+cosmetic fog	장식용 안개
+Clear living	생명체 치우기
+Extinguishes fires.	불을 끕니다.
+blood amount	혈액량
+Cleared debris	잔해를 치웠습니다
+Wooden crate.	나무 상자입니다.
+Metal Cube	금속 큐브
+Set target angle	목표 각도 설정
+Transfers heat.	열을 전달합니다.
+Baseball Bat	야구 배트
+LED Bulb	LED 전구
+Signal Flare	신호 조명탄
+Ion Thruster	이온 추진기
+Small Button	작은 버튼
+Pressure Valve	압력 밸브
+Spike Grenade	가시 수류탄
+Context menu	컨텍스트 메뉴
+Stielhandgranate	막대형 수류탄
+Spike Rifle	가시 소총
+broken bones	골절
+Freeze Syringe	동결 주사기
+Glass Pane	유리판
+Trigger key	트리거 키
+Bus Chair	버스 의자
+Timed Gate	타이머 게이트
+Crossbow Bolt	석궁 화살
+Laser Pointer	레이저 포인터
+Enter value	값 입력
+Physics Gun	물리 건
+Strong spring	강한 스프링
+Detached 30mm HEAT Cannon	분리된 30 mm 대전차 고폭탄 포
+Acid Syringe	산성 주사기
+internal temp	내부 온도
+Environment	환경
+Container Wagon	컨테이너 화차
+Destructible vase.	부술 수 있는 꽃병입니다.
+Small Boulder	작은 바위
+Bowling Ball	볼링공
+cosmetic snow	장식용 눈
+Show in Explorer	탐색기에서 보기
+Small I-Beam	작은 I빔
+Fire Extinguisher	소화기
+Wooden Chair	나무 의자
+Open in Explorer	탐색기에서 열기
+Wooden Table	나무 탁자
+Change key	키 바꾸기
+Beam Rifle	빔 라이플
+No mods found	모드를 찾지 못했습니다
+Toggle time	시간 정지/재개
+Sticky Grenade	접착 수류탄
+Metal Detector	금속 탐지기
+Channel name	채널 이름
+Reflects light.	빛을 반사합니다.
+An empty syringe.	빈 주사기입니다.
+Delete object	물체 삭제
+to the Workshop?	창작마당에 올릴까요?
+Depressurise	압력 빼기
+Concrete slab	콘크리트 판
+Scherbenwerfer	파편 투척기
+Toggle fire.	불을 켜고 끕니다.
+Power Gauge	전력계
+Rotate left	왼쪽으로 회전
+Wooden Pole	나무 막대
+Cleared room	방을 비웠습니다
+Defibrillator	제세동기
+Substructure	하부 구조
+Reconstructor	재구성기
+A tonne of steel.	강철 1톤입니다.
+Edit channel	채널 편집
+Knockout Syringe	수면제 주사기
+Options menu.	옵션 메뉴입니다.
+Eats flesh.	살을 먹어 치웁니다.
+Ambience	주변 소리
+Rotate right	오른쪽으로 회전
+Brick Wall	벽돌 벽
+Window mode	창 모드
+Electromagnet	전자석
+Pink Explosive	분홍색 폭발물
+Disable smoke	연기 끄기
+EMP Generator	EMP 발생기
+Regular table.	평범한 탁자입니다.
+Change colour	색 바꾸기
+Pick a colour	색 고르기
+Handgrenade	수류탄
+Small knife.	작은 칼입니다.
+to the workshop	창작마당에
+Rigid cable	단단한 케이블
+Enable fire	불 켜기
+Set angle	각도 설정
+Blood Flask	혈액 플라스크
+Boat Motor	보트 모터
+Small Bush	작은 덤불
+Toggle smoke.	연기를 켜고 끕니다.
+Wooden pin	나무 핀
+Power Hammer	파워 해머
+Gate	게이트
+Local file	로컬 파일
+Show framerate	프레임 속도 표시
+Pink Syringe	분홍색 주사기
+The spooky food.	으스스한 음식입니다.
+Grenade Launcher	유탄 발사기
+broken bone	골절
+Heat pipe	히트 파이프
+Death Syringe	죽음의 주사기
+Empty Syringe	빈 주사기
+Set threshold	기준값 설정
+Disable all	모두 끄기
+Edit text	텍스트 편집
+Sharp stick.	뾰족한 막대기입니다.
+Sharp spear.	날카로운 창입니다.
+Disassembler	분해기
+Tall Tree	키 큰 나무
+Copper wire	구리선
+Ambience Highpass	주변 소리 하이패스
+Red Barrel	빨간 드럼통
+Clean cuboid.	깔끔한 직육면체입니다.
+Tesla Coil	테슬라 코일
+Master	마스터
+Entities	생명체
+Phase link	위상 연결
+Brick Cube	벽돌 큐브
+Center of mass	무게 중심
+Atom Bomb	원자 폭탄
+Rigidifier	경화기
+stab wounds	자상
+Gore shader	고어 셰이더
+Paused	일시정지됨
+Lance	랜스
+Destructible	파괴 가능
+bleeding	출혈
+Realistic	사실적
+Undo	실행 취소
+Enable all	모두 켜기
+Electronics	전자 장치
+Heart Monitor	심박 모니터
+Large Bush	큰 덤불
+Ion Cannon	이온 포
+Worm Staff	벌레 지팡이
+heilekouwe	소 한 마리 통째로
+Accumulator	축전기
+Handcannon	핸드캐논
+Life Syringe	생명 주사기
+The mod author	모드 제작자
+Fullscreen	전체 화면
+Balloon	풍선
+Continuous	연속
+Television	텔레비전
+9mm Pistol	9 mm 권총
+uploaded...	업로드됨...
+Framerate limit	프레임 속도 제한
+Drag	끌기
+Borderless	테두리 없음
+Unpaused	재개됨
+hello world!	Hello world!
+information	정보
+Reverse gear	후진
+Accelerator	가속기
+Liquid Canister	액체 통
+integrity	내구도
+Floodlights	투광등
+It is a ramp.	경사로입니다.
+Publish	게시
+Centrifuge	원심분리기
+Pause menu	일시정지 메뉴
+1000kg Weight	1000 kg 추
+dismembered	절단됨
+brain-dead	뇌사
+Consciousness	의식
+Adrenaline	아드레날린
+Default	기본
+Thermometer	온도계
+Wrench	렌치
+Toogle	전환
+Battery	배터리
+Generator	발전기
+Modern	모던
+hekserij	마법
+controls	조작
+Discrete	불연속
+Fahrenheit	화씨
+Workshop	창작마당
+Spot Light	스포트라이트
+Toggle	전환
+Floodlight	투광등
+Outdated	오래된 버전
+Gravity	중력
+Inspect.	살펴보기.
+Blaster gun.	블래스터 총입니다.
+Dynamic	동적
+Machinery	기계
+Propeller	프로펠러
+Fireworks	불꽃놀이
+Zoom in	확대
+A shotgun.	산탄총입니다.
+Understood	알겠습니다
+Where are you?	어디 있어요?
+Building	건설
+Bicycle	자전거
+Chainsaw	전기톱
+Disabled	꺼짐
+Metronome	메트로놈
+Flamethrower	화염방사기
+Melee	근접 무기
+Key Trigger	키 트리거
+Legacy	구버전
+settings	설정
+Tools	도구
+Lighting	조명
+Revolver	리볼버
+Vehicles	탈것
+Lightbulb	전구
+Stormbaan	테슬라건
+Servo	서보
+Chemistry	화학
+Humongous	초대형
+Machine	기계
+Machine Gun	기관총
+Vehicle	탈것
+Fun	재미
+Copy	복사
+Resistor	저항기
+Brightness	밝기
+Flashlight	손전등
+Zoom out	축소
+Upload	업로드
+Pasted	붙여 넣음
+Crystal	수정
+Enabled	켜짐
+Shotgun	산탄총
+Apply	적용
+General	일반
+Small	소형
+Liquid Outlet	액체 배출구
+objects	개 물체
+Fan	선풍기
+OXygen	산소
+Android	안드로이드
+Pistol	권총
+iterations	회
+Save	저장
+Tiny	초소형
+Pressurise	가압
+rotted	썩음
+INACTIVE	비활성
+Sit down.	앉기.
+Crossbow	석궁
+Dynamite	다이너마이트
+Lift	리프트
+Windowed	창 모드
+0 LITER	0 리터
+Utility	유틸리티
+Bloom	블룸
+Bowling Pin	볼링 핀
+Rifle	소총
+None	없음
+Off	끔
+Truck	트럭
+Local	로컬
+Blaster	블래스터
+Celsius	섭씨
+Minigun	미니건
+Lightning	번개
+Slider	슬라이더
+Lagbox	랙박스
+numb	마비
+Bottle	병
+Spring	스프링
+ACTIVE	활성
+Decals	자국
+Detector	감지기
+Kelvin	켈빈
+Piston	피스톤
+Ramp	경사로
+Mirror	거울
+PUSH	밀기
+Human	인간
+Rod	막대
+Flush	비우기
+Enter	들어가기
+Plate	접시
+video	그래픽
+Bazooka	바주카
+Slanted	경사
+Winch	윈치
+removed	삭제됨
+seconds	초
+Brick.	벽돌입니다.
+Button	버튼
+bruise	멍
+Hybrid	하이브리드
+Void	공허
+Misc.	기타.
+filter	필터
+Cancel	취소
+Rope	밧줄
+Bell	종
+Camera	카메라
+Wheel	바퀴
+Stunner	스턴건
+Cable	케이블
+bruises	멍
+Abyss	심연
+Plank.	판자입니다.
+Pumpkin	호박
+Fancy	화려함
+Bus	버스
+Siren	사이렌
+Blocks	블록
+Fast	빠름
+Wire	와이어
+Anchor	닻
+Hammer	망치
+I-Beam	I빔
+Radio	라디오
+Bandage	붕대
+Car	자동차
+Stick	막대기
+Spear	창
+Clamp	클램프
+Tower	탑
+Torch	횃불
+Flask	플라스크
+Rotor	로터
+Powers	능력
+Bowl.	그릇입니다.
+back	뒤로
+Rain	비
+Wing	날개
+audio	오디오
+Fog	안개
+Axe	도끼
+Crate	상자
+Gorse	고스
+Pull	당기기
+Lava	용암
+AK-47	AK-47
+Soap	비누
+dead	사망
+Vase	꽃병
+Tank	전차
+Mods	모드
+Snow	눈
+Knife	칼
+Sea	바다
+Shock	충격
+Spike	가시
+Sword	검
+for	대상
+fps	fps
+Pin	핀
+No	아니요
+Okay	확인
+Yes	예
+Hz	Hz
+Set lagbox delay in seconds.	랙박스 지연 시간(초).
+Set the gate maximum power	게이트 최대 출력
+Set hover height in meters	부양 높이(m)
+Limb crushing sensitivity	팔다리 압궤 민감도
+Snap to center of mass	질량 중심에 맞추기
+Set the gate threshold	게이트 임계값
+Single trigger gate	단발 트리거 게이트
+Coagulation Syringe	응고 주사기
+Bullet tracers	예광탄
+Open file	파일 열기
+quit	종료
+play	플레이
+resume	계속
+restart	다시 시작
+choose map	맵 선택
+player statistics	플레이어 통계
+main menu	메인 메뉴
+gore	고어
+visual effects	시각 효과
+Contraptions	장치
+Select a chamber	약실을 선택하세요
+Paste	붙여넣기
+Delete	삭제
+Follow	따라가기
+Activate	작동
+Ignite	점화
+Freeze	고정
+Unfreeze	고정 해제
+Make weightless	무중력으로
+Resize	크기 조절
+Stop resizing	크기 조절 중지
+Break bone	뼈 부러뜨리기
+Mend bone	뼈 치료
+Stumble	비틀거리기
+Clear animation override	애니메이션 덮어쓰기 해제
+Walk	걷기
+Cower	움츠리기
+Flat pose	평평한 자세
+Clear debris	잔해 지우기
+Clear everything	모두 지우기
+Recompile	다시 컴파일
+Safe mode is enabled. Mods cannot load.	안전 모드가 켜져 있습니다. 모드를 불러올 수 없습니다.
+Open Mods folder in Explorer	탐색기에서 Mods 폴더 열기
+Search	검색
+Biohazard	생물학적 위험
+Inanimate	무생물
+Decorations	장식
+Drag object	물체 끌기
+Switch to first tool	첫 번째 도구로 전환
+Switch to second tool	두 번째 도구로 전환
+Switch to third tool	세 번째 도구로 전환
+Edit layers of selected objects	선택한 물체의 레이어 편집
+Move layer down	레이어 내리기
+Move layer up	레이어 올리기
+Bring to front	맨 앞으로
+Send to back	맨 뒤로
+Increment grid size	격자 크기 늘리기
+Decrement grid size	격자 크기 줄이기
+Increment angle snap	각도 스냅 늘리기
+Decrement angle snap	각도 스냅 줄이기
+Pause menu / back	일시정지 메뉴 / 뒤로
+Toggle user interface	UI 표시 전환
+Pan	카메라 이동
+Mouse0	좌클릭
+Mouse1	우클릭
+Mouse2	휠 클릭
+Mouse3	마우스 4
+Mouse4	마우스 5
+Space	스페이스
+Alpha{0}	{0}
+LeftShift	왼쪽 Shift
+RightShift	오른쪽 Shift
+LeftAlt	왼쪽 Alt
+RightAlt	오른쪽 Alt
+LeftControl	왼쪽 Ctrl
+RightControl	오른쪽 Ctrl
+Escape	Esc
+Return	Enter
+RightArrow	→
+LeftArrow	←
+UpArrow	↑
+DownArrow	↓
+Collision calculations	충돌 계산
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	충돌 감지 품질을 정합니다. 불연속 모드는 빠르지만 덜 정확합니다. 연속 모드는 빠르게 움직이는 물체가 서로를 통과하는 것을 막습니다.
+Goreless	고어 없음
+No blood or obvious gore will be rendered when this is enabled.	켜면 피와 노골적인 고어 표현이 표시되지 않습니다.
+Procedural fragments	절차적 파편
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	팔다리가 완전히 으스러지면 살과 뼈 파편을 절차적으로 생성합니다. 팔다리가 많이 파괴되면 성능이 떨어질 수 있습니다.
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	물리 시뮬레이션 반복 횟수를 정합니다. 값이 클수록 정확해지지만 성능이 떨어집니다. 128을 넘으면 효과가 점점 줄어듭니다. 기본값은 32입니다.
+{0} iterations	{0}회
+{0} fps	{0} fps
+{0} Hz	{0} Hz
+{0} m	{0} m
+{0} seconds	{0}초
+{0} degrees	{0}도
+This setting may decrease performance when enabled. It is disabled by default.	켜면 성능이 떨어질 수 있습니다. 기본적으로 꺼져 있습니다.
+Snap grid size	격자 크기
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	위치 스냅에 쓰는 격자점 사이의 거리입니다. 물체를 가장 가까운 격자점에 맞춰 정확하게 정렬할 수 있습니다. 기본값은 0.25 m입니다.
+Angle snap size	각도 스냅 크기
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	회전할 때 스냅에 쓰는 각도 단위입니다. 회전을 이 값의 가장 가까운 배수로 맞춰 정확하게 정렬할 수 있습니다. 기본값은 15도입니다.
+The maximum amount of seconds that a mod can compile for until it's skipped.	모드 컴파일을 건너뛰기 전까지 허용되는 최대 시간(초)입니다.
+Fragility multiplier	취약성 배율
+The higher this value is the more fragile entities become.	값이 클수록 생명체가 더 약해집니다.
+Brain damage	뇌 손상
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	뇌 손상 발생 여부를 전환합니다. 생명체가 가끔 기절하거나, 똑바로 서지 못하거나, 발작을 일으킵니다.
+Extra shot impact particles	추가 피격 입자
+Limbs with enough flesh on them may eject chunky particles when shot.	살이 충분한 팔다리는 총에 맞으면 살점이 튀어나올 수 있습니다.
+Dismemberment loose tissue	절단 시 늘어진 조직
+Dismemberment of limbs may expose loose stringy tissue.	팔다리가 절단되면 늘어진 섬유 조직이 드러날 수 있습니다.
+This will toggle relatively performance-heavy effects.	비교적 무거운 효과를 전환합니다.
+Bullet cracks and whizzes	총알 충격음과 휘파람 소리
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	켜면 초음속 총알이 채찍 같은 충격음과 스쳐 가는 소리를 냅니다.
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	모드 사용은 버그, 성능 저하 등의 문제를 일으킬 수 있습니다. 모드 설치와 사용은 본인 책임입니다.
+No mod selected	선택한 모드 없음
+Submit	제출
+Problem description	문제 설명
+Describe the issue	문제를 설명하세요
+Steps to reproduce	재현 단계
+Fill this form and press "Submit" to report a bug.	버그를 신고하려면 이 양식을 작성하고 "제출"을 누르세요.
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	안전과 효율을 위해 IP 주소, 게임 로그, 일부 시스템 사양, 불러온 모드가 보고서에 포함됩니다. 공개되지 않습니다.
+By submitting the report, you agree to share this information with the developer of the game.	보고서를 제출하면 이 정보를 게임 개발자와 공유하는 데 동의하게 됩니다.
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	버그를 재현하는 방법을 명확히 적어 주세요. 재현할 수 없는 버그는 무시됩니다
+version	버전
+[SAFE MODE]	[안전 모드]
+(64 bit)	(64비트)
+(32 bit)	(32비트)
+PREVIEW BUILD	프리뷰 빌드
+you may encounter bugs and unfinished content	버그와 미완성 콘텐츠가 있을 수 있습니다
+Steam Workshop	Steam 창작마당
+Retrieving subscriptions	구독 정보 가져오는 중
+Entities killed	죽인 생명체
+Entities revived	되살린 생명체
+Items spawned	생성한 아이템
+Nuclear explosions caused	일으킨 핵폭발
+Wires created	만든 와이어
+Contraptions saved	저장한 장치
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b> (2019), mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	추가 작업: Aspa102, mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio: Mark Heath (Ms-PL)
+Reactor A5	원자로 A5
+Enter Tiny	초소형 입장
+Enter Small	소형 입장
+Enter Tower	탑 입장
+Enter Void	공허 입장
+Enter Substructure	하부 구조 입장
+Enter Lava	용암 입장
+Enter Hybrid	하이브리드 입장
+Enter Humongous	초대형 입장
+Enter Default	기본 입장
+Enter Blocks	블록 입장
+Enter Abyss	심연 입장
+Enter Slanted	경사 입장
+Enter Snow	눈 입장
+Enter Sea	바다 입장
+Enter Reactor A5	원자로 A5 입장
+{0} bruise	멍 {0}개
+{0} bruises	멍 {0}개
+{0} gunshot wound	총상 {0}개
+{0} gunshot wounds	총상 {0}개
+{0} gunshots wounds	총상 {0}개
+{0} stab wound	자상 {0}개
+{0} stab wounds	자상 {0}개
+{0}% burnt	{0}% 화상
+{0}% acid damage	{0}% 산 손상
+{0}% rotted	{0}% 부패
+{0}% skin damage	{0}% 피부 손상
+{0} limb selected	부위 {0}개 선택됨
+{0} limbs selected	부위 {0}개 선택됨
+Pasted {0} object	물체 {0}개 붙여 넣음
+Pasted {0} objects	물체 {0}개 붙여 넣음
+Enter a name for the contraption	장치 이름을 입력하세요
+Contraption name	장치 이름
+Colour code	색상 코드
+Saved in version {0}.	버전 {0}에서 저장됨.
+Toggle frozen	고정 전환
+Thermal vision	열화상
+Toggle collisions	충돌 전환
+Edit the current environment settings\\nSome maps don't support some settings	현재 환경 설정 편집\\n일부 맵은 일부 설정을 지원하지 않습니다
+Edit layer	레이어 편집
+Choose bell note	종소리 음 선택
+Disable collision	충돌 끄기
+Sit	앉기
+Mute	음소거
+Next track	다음 곡
+Previous track	이전 곡
+Toggle sounds	소리 전환
+Now playing <color=#ff54f9>{s}</color>	재생 중 <color=#ff54f9>{s}</color>
+Clear counter	카운터 초기화
+Set signal value	신호 값 설정
+Set stick distance	부착 거리 설정
+Set tank to drain mode.	탱크를 배출 모드로 설정.
+Disable infinite source	무한 공급 끄기
+Toggle syringe infinite.	주사기 무한 전환.
+Repair	수리
+Fire lightning bolts by flicking across the screen.	화면을 빠르게 그어 번개를 발사합니다.
+Pyrokinesis	발화 능력
+Fire powers.	불의 능력.
+Chain	사슬
+Wire but it looks like a chain.	사슬처럼 생긴 와이어.
+Liquid conduit	액체 도관
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	용기 사이로 액체를 옮기는 와이어. 주로 사람에게서 피를 뽑는 데 쓰입니다.
+Wooden binding	나무 결속
+Destructible wooden fixed wiring.	파괴 가능한 고정식 나무 연결.
+Activator Electrode	작동 전극
+Stone Brick	돌벽돌
+Cobblestone Wall	자갈 벽
+Stone Brick Wall	돌벽돌 벽
+Cardiopulmonary Bypass Machine	심폐 바이패스 기계
+Counter	카운터
+Adhesive Coupler	접착 커플러
+Decoupler	분리기
+Detached Ray Cannon	분해된 광선포
+Naval Mine	기뢰
+Liquid Duplicator	액체 복제기
+Pointer	포인터
+Office Chair	사무용 의자
+Office Computer	사무용 컴퓨터
+Office Keyboard	사무용 키보드
+Office Monitor	사무용 모니터
+Office Table	사무용 책상
+Excalibur	엑스칼리버
+Jet Engine	제트 엔진
+Scope Attachment	부착물: 조준경
+Capacitor Attachment	부착물: 축전기
+Explosive Rounds Attachment	부착물: 폭발탄
+Incendiary Rounds Attachment	부착물: 소이탄
+Laser Attachment	부착물: 레이저
+Flashlight Attachment	부착물: 손전등
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	고전적인 자동 돌격소총. 조준경과 총열 하부 부착물을 지원합니다.
+Automatic assault rifle. Supports scoped and underbarrel attachments.	자동 돌격소총. 조준경과 총열 하부 부착물을 지원합니다.
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	엄청나게 강력하고 비실용적인 권총. 조준경과 총열 하부 부착물을 지원합니다.
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	플라스틱 프레임의 소형 권총. 조준경과 총열 하부 부착물을 지원합니다.
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	원시적인 권총. 정확도도 실용성도 낮고 매우 시끄럽습니다. 조준경과 총열 하부 부착물을 지원합니다.
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	완전 자동 경기관총. 고전적인 무한 탄띠가 달려 있습니다. 총열 하부 부착물을 지원합니다.
+A semi automatic pistol. Supports scoped and underbarrel attachments.	반자동 권총. 조준경과 총열 하부 부착물을 지원합니다.
+Classic handgun. Supports scoped and underbarrel attachments.	고전적인 권총. 조준경과 총열 하부 부착물을 지원합니다.
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	강력한 반자동 소총. 조준경과 총열 하부 부착물을 지원합니다.
+A shotgun. Supports scoped and underbarrel attachments.	산탄총. 조준경과 총열 하부 부착물을 지원합니다.
+A sniper rifle. Supports underbarrel attachments.	저격소총. 총열 하부 부착물을 지원합니다.
+A submachine gun. Supports scoped and underbarrel attachments.	기관단총. 조준경과 총열 하부 부착물을 지원합니다.
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	연사가 빠른 기관단총. 조준경과 총열 하부 부착물을 지원합니다.
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	연사력이 높은 소련제 기관단총. 조준경과 총열 하부 부착물을 지원합니다.
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	아주 크고 쓰기 고통스러운 총. 조준경과 총열 하부 부착물을 지원합니다.
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	엄청나게 강력한 광선포. 포신을 빼고 모든 부품이 없습니다.
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	대부분의 총 총열 아래에 끼우는 축전기. 총의 전하를 총알에 전달합니다.
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	대부분의 총 위쪽에 끼우는 조준경. 정확도가 조금 오릅니다.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	대부분의 총 총열 아래에 끼우는 부착물. 어째서인지 탄을 폭발탄으로 바꿉니다.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	대부분의 총 총열 아래에 끼우는 부착물. 어째서인지 탄을 소이탄으로 바꿉니다.
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	대부분의 총 총열 아래에 끼우는 소형 레이저 포인터. 정확도가 오릅니다.
+A small flashlight that is slotted under the barrel of most guns.	대부분의 총 총열 아래에 끼우는 소형 손전등.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	손에 드는 단거리 치유 주스 분사기. <b>생명 혈청</b>과 달리 치유 주스는 타박상이나 총상을 치료하지 못합니다.
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	전설의 검을 본뜬 복제품. 칼날이 단분자라 자기보다 약한 모든 재질을 관통합니다. 작동하면 칼끝에서 기계적으로 불덩이를 발사합니다.
+This small wrench can repair most machinery with a few gentle taps.	이 작은 렌치로 살살 몇 번 두드리면 대부분의 기계를 고칠 수 있습니다.
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	닻에 사슬로 묶도록 설계된 전통적인 접촉식 기뢰. 뿔 하나가 눌리면 격렬하게 폭발합니다.
+Brick made of stone.	돌로 만든 벽돌.
+A brick wall that will stand the test of time. Very resistant and heavy building material.	세월을 견딜 벽돌 벽. 매우 튼튼하고 무거운 건축 자재입니다.
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	"자연산" 돌로 만든 원시적인 벽. 구조적 강도, 안전성, 단열 모두 기대하기 어렵습니다.
+Metal triangle. I <b>know</b> it says pyramid.	금속 삼각형. 피라미드라고 적힌 건 <b>알아요</b>.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	액체를 5 L 담을 수 있는 탱크. 작동하면 다음 압력 모드로 바뀝니다. <color=#FF4444>빨간 신호<color=#FFFFFF>는 이전 모드로 돌아갑니다.
+PUSH: Force liquid out of the tank	밀기: 탱크에서 액체를 밀어냅니다
+PULL: Force liquid to flow in the tank	당기기: 탱크로 액체를 끌어들입니다
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	대기: 다른 압력원에 맡깁니다. 액체는 평형을 찾아갑니다
+DRAIN: Pull and drain liquid.	배출: 액체를 빨아들여 내보냅니다.
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	<color=#44FF44>초록 신호<color=#FFFFFF>를 받으면 값을 올리고, <color=#FF4444>빨간 신호<color=#FFFFFF>를 받으면 내리고, <color=#7777FF>파란 신호<color=#FFFFFF>를 받으면 초기화하는 장치.
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	값이 설정한 "신호 값"에 도달하면 작동 신호를 보내고 값을 초기화합니다.
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	항상 당신을 정면으로 향하도록 각도를 조절하는 로터. 꺼지면 각도가 고정됩니다.
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	설정한 속도로 회전합니다. <color=#FF4444>빨간 신호<color=#FFFFFF>를 받으면 방향을 바꾸고, 그 외에는 작동 상태를 전환합니다. 전원을 주면 토크가 세지지만 속도는 그대로입니다.
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	엄청나게 강력한 추진기. 켜지고 꺼지는 데 시간이 걸리지만 결국 막대한 힘으로 나아갑니다. 엔진은 비교적 약해서 파괴되면 폭발합니다.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	작동 신호 채널 변환기. <color=#7777FF>파랑<color=#FFFFFF>을 <color=#44FF44>초록<color=#FFFFFF>으로, 또 그 반대로 바꿉니다.
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	작동 신호 채널 변환기. <color=#FF4444>빨강<color=#FFFFFF>을 <color=#44FF44>초록<color=#FFFFFF>으로, 또 그 반대로 바꿉니다.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	작동 신호 채널 변환기. <color=#7777FF>파랑<color=#FFFFFF>을 <color=#FF4444>빨강<color=#FFFFFF>으로, 또 그 반대로 바꿉니다.
+Duplicates the liquids that are present upon activation.	작동 시 들어 있는 액체를 복제합니다.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	0도에서 설정한 목표 각도까지 회전하는 전동 경첩. 비교적 무겁고, 전원을 주면 더 강해집니다.
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	방출기 앞에 있는 것을 작동시킵니다. 장치의 작동부를 들여다보지 마세요.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	케이블을 늘이거나 감는 기계. 작동하면 방향이 바뀝니다. 움직이려면 전원이 필요합니다. <color=#FF4444>빨간 작동 신호<color=#FFFFFF>를 받으면 내장 배터리를 전환합니다.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	표면 위에 떠 있도록 설계된 추진기. 전원을 주면 부양력이 커집니다. 높이는 우클릭 메뉴에서 설정합니다. <color=#FF4444>빨간 신호<color=#FFFFFF>는 높이를 올리고 <color=#7777FF>파란 신호<color=#FFFFFF>는 낮춥니다.
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	작동하면 좁은 반경 안의 모든 물체에 달라붙습니다. 다시 작동하면 놓습니다.
+Two objects that detach when activated.	작동하면 분리되는 두 물체.
+A relatively outdated desktop computer.	좀 구식인 데스크톱 컴퓨터.
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	누군가에겐 너무 높고 누군가에겐 너무 낮은 책상. 여러 사람이 같이 써서 조절할 수 없습니다.
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	초첨단 무선 멤브레인 키보드! 몇몇 키가 유독 닳아 보입니다.
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	상체에 연결하면 심장 대신 혈압을 공급해 주는 기계.
+A computer monitor that looks like it belongs in an office.	사무실에 있을 법한 모니터.
+A chair that looks really comfortable but is actually a bit too small for most people.	아주 편해 보이지만 사실 대부분의 사람에게 조금 작은 의자.
+{0} BPM	{0} BPM
+Extended limb damage	확장된 팔다리 피해
+Causes limbs to become more fragile as they take more damage. Enabled by default.	팔다리가 피해를 입을수록 더 약해집니다. 기본적으로 켜져 있습니다.
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	총알 궤적 등 비슷한 효과의 표시 정도를 조절합니다. 기본값은 100%입니다.
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	잔해의 충돌 감지 품질을 정합니다. 불연속은 빠르지만 덜 정확합니다. 연속은 빠르게 움직이는 잔해가 서로 통과하는 것을 막습니다.
+Clamp brightness	밝기 제한
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	눈부시게 밝은 물체의 블룸 효과를 약하게 합니다. 밝은 빛에 민감하다면 유용합니다.
+Changes the displayed temperature unit across the game.	게임 전체에 표시되는 온도 단위를 바꿉니다.
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	켜면 상세 보기 키를 누르고 있는 동안 장면 속 모든 물체의 질량 중심이 표시됩니다. 균형 잡힌 장치를 만들 때 유용합니다.
+UI volume	UI 음량
+Adjust the volume of user interface sounds. Default is 100%.	인터페이스 소리 음량을 조절합니다. 기본값은 100%입니다.
+Ambience volume	환경음 음량
+Adjust the volume of ambient background sounds. Default is 100%.	배경 환경음 음량을 조절합니다. 기본값은 100%입니다.
+Make sure to leave a review on Steam and join our Discord server if you like the game!	게임이 마음에 드셨다면 Steam에 평가를 남기고 Discord 서버에 들어와 주세요!
+Check out the official wiki for more information about the game.	게임에 대한 자세한 정보는 공식 위키에서 확인하세요.
+Third-party licenses:	서드파티 라이선스:
+texture packs	텍스처 팩
+Discord server	Discord 서버
+Force refresh mod list	모드 목록 강제 새로고침
+Open source libraries	오픈 소스 라이브러리
+map editor	맵 편집기
+report a bug	버그 신고
+Update	업데이트
+Accept risk	위험 감수
+The game failed to detect Steam. Some features may not work correctly.	게임이 Steam을 감지하지 못했습니다. 일부 기능이 제대로 작동하지 않을 수 있습니다.
+Try restarting the game or the Steam client.	게임이나 Steam 클라이언트를 다시 시작해 보세요.
+limb status	팔다리 상태
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> 또는 <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>로 선택한 아이템 생성</size>
+Hold <b>Mouse2</b> and drag	<b>Mouse2</b>를 누른 채 끌기
+<size=40>to move the camera around</size>	<size=40>로 카메라 이동</size>
+slow motion	슬로 모션
+Invisible tools	도구 숨기기
+Don't save anything and resume the game	아무것도 저장하지 않고 게임으로 돌아가기
+Toggle visibility of placed wires, cables, etc.	설치한 와이어, 케이블 등의 표시 전환
+<b>Invisibility</b>	<b>투명화</b>
+Move one layer down	한 레이어 아래로
+Increment order	순서 +1
+<b>Use Wire</b>	<b>와이어 사용</b>
+Save to disk	디스크에 저장
+Increment layer	레이어 +1
+Decrement order	순서 -1
+Decrement layer	레이어 -1
+View this item on the Workshop	창작마당에서 보기
+Move one layer up	한 레이어 위로
+Arrange objects	물체 정렬
+Destructible spring	파괴 가능한 스프링
+Destructible metal spring	파괴 가능한 금속 스프링
+World origin	월드 원점
+<size=80%>This is where the player spawns	<size=80%>플레이어가 여기서 나타납니다
+<b>Map settings</b>	<b>맵 설정</b>
+Map properties	맵 속성
+Reset	초기화
+Save map	맵 저장
+Properties	속성
+Remove everything in the map and start over. Map properties are untouched.	맵의 모든 것을 지우고 새로 시작합니다. 맵 속성은 그대로입니다.
+Exit to the main menu.	메인 메뉴로 나가기.
+You are not supposed to be here. This place isn't ready yet.	여기 오시면 안 됩니다. 아직 준비되지 않은 곳입니다.
+Save the map	맵 저장
+Edit the map properties	맵 속성 편집
+Open the menu	메뉴 열기
+Extremely deep pit	엄청나게 깊은 구덩이
+A space scattered with floating rectangles	떠다니는 사각형이 흩어져 있는 공간
+Large open rectangular space	넓게 트인 직사각형 공간
+This map is just way too large	이 맵은 그냥 너무 큽니다
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	아주 깊은 물과 오른쪽에 평지가 있는 계곡. 아래로 터널이 지나갑니다.
+Large map with two coasts and a body of lava	해안 두 곳과 용암 호수가 있는 큰 맵
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	시설의 여러 원자로 중 하나를 주변 방까지 그대로 재현한 맵.
+Large map with two coasts and a body of water	해안 두 곳과 물이 있는 큰 맵
+The ground is slanted	땅이 기울어져 있습니다
+A decently sized room. Compared to the other maps, it's very small	적당한 크기의 방. 다른 맵에 비하면 아주 작습니다
+It's cold and slippery	춥고 미끄럽습니다
+A replica of an old subterranean part of the facility.	시설의 오래된 지하 구역을 재현한 맵.
+This map is designed to fit your monitor, it's that small	모니터에 딱 맞게 만든 맵. 그만큼 작습니다
+Large space with a tall tower in the middle	가운데에 높은 탑이 있는 넓은 공간
+There is nothing	아무것도 없습니다
+Bell that rings the A4 note	라4 음을 내는 종
+Bell that rings the B4 note	시4 음을 내는 종
+Bell that rings the C4 note	도4 음을 내는 종
+Bell that rings the C5 note	도5 음을 내는 종
+Bell that rings the D4 note	레4 음을 내는 종
+Bell that rings the E4 note	미4 음을 내는 종
+Bell that rings the F4 note	파4 음을 내는 종
+Bell that rings the G4 note	솔4 음을 내는 종
+Brighter, more efficient, more durable, and less painful to touch.	더 밝고, 더 효율적이고, 더 튼튼하며, 만져도 덜 아픕니다.
+128 tooth spur gear	128톱니 평기어
+256 tooth spur gear	256톱니 평기어
+32 tooth spur gear	32톱니 평기어
+64 tooth spur gear	64톱니 평기어
+Sends activation signals if the amount of liquid it contains is above a certain threshold	안에 든 액체 양이 일정 임계값을 넘으면 작동 신호를 보냅니다
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	디지털 온도계. -273~9999°C 범위에서 자신의 온도를 정확히 표시합니다. 3.4028235e38°C까지 견디도록 설계되었습니다!
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	앞에 물을 감지하면 작동 신호를 보냅니다. 범위는 우클릭 메뉴에서 바꿀 수 있습니다.
+(empty)	(비어 있음)
+Rest	휴식
+Head	머리
+Fetus	태아 자세
+Flailing	허우적거리기
+Stumbling	비틀거리기
+Swimming	수영
+In pain	고통
+Walking	걷기
+Foot	발
+Sitting	앉기
+Flat	평평하게
+Decerebrate	제뇌 자세
+Decorticate	제피질 자세
+Bone	뼈
+Flesh	살
+Protective	방어 자세
+Decrease cooling	냉각 줄이기
+Increase cooling	냉각 늘리기
+Raise control rods	제어봉 올리기
+Lower control rods	제어봉 내리기
+STAND BY	대기 중
+Press E	E 누르기
+<b>CAPACITY</b>	<b>용량</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>원자로 데이터</align>
+TEMPERATURE\t:	온도\t:
+PRESSURE\t\t:	압력\t\t:
+COOLING RODS\t:	냉각봉\t:
+OUTPUT POWER\t:	출력\t:
+<color=red>WARNING</color>	<color=red>경고</color>
+<b>Modded Categories</b>	<b>모드 카테고리</b>
+Categories added by mods	모드가 추가한 카테고리
+The most common map tile. A static indestructible rectangle that collides with everything.	가장 흔한 맵 타일. 모든 것과 충돌하는, 움직이지 않고 파괴되지 않는 직사각형.
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	완전 자동 빔 형성 에너지 무기. 짧은 에너지 펄스를 빠르게 연속으로 만들어 냅니다.
+Glowing tube filled with gas	가스로 채워진 빛나는 관
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	탄을 초음속으로 쏘는 휴대용 운동 에너지 무기. 관통력은 높고 피해는 낮습니다. 탄은 거의 즉시 증발하며 이온화된 공기 자국을 남깁니다.
+Set colour for selected lights	선택한 조명의 색상 설정
+Use	사용
+Regenerate identity	신원 재생성
+Top	위
+Bottom	아래
+Speed	속도
+spring cable	스프링 케이블
+Gorse blood	고스의 피
+Nitroglycerine	니트로글리세린
+Something happened. Please show this message to the developer:	문제가 발생했습니다. 이 메시지를 개발자에게 보여 주세요:
+Set detector threshold	감지기 임계값 설정
+Set the detector liquid threshold	감지기 액체 임계값 설정
+Break	부러뜨리기
+Set pointer speed	포인터 속도 설정
+Set the speed of the pointer	포인터의 속도 설정
+Set pointer speed from 0 to 10	포인터 속도 0~10
+Water	물
+Bounds	경계
+Unfulfilled mod requirements:	충족되지 않은 모드 요구 사항:
+Select anyway	그래도 선택
+This contraption is corrupted	이 장치는 손상되었습니다
+This contraption is incompatible with your current version	이 장치는 현재 버전과 호환되지 않습니다
+From the Steam Workshop	Steam 창작마당에서
+Selection mode	선택 모드
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	어떤 물체를 선택할지 정하는 방식입니다. 질량은 질량이 가장 작은 물체를, 면적은 전체 면적이 가장 작은 물체를, 깊이는 정렬 순서가 가장 높은 물체를 고릅니다. 대개는 가장 먼저 보이는 물체가 선택됩니다.
+Mass	질량
+Area	면적
+Depth	깊이
+Liquid overflow limb exploding	액체 과다 시 팔다리 폭발
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	액체가 너무 차면 팔다리가 터질지 정합니다. 기본적으로 꺼져 있습니다. 팔다리 압궤가 켜져 있을 때만 적용됩니다.
+Slice	자르기
+Angle snap set to {0} degrees	각도 스냅: {0}도
+Grid size set to {0} m	격자 크기: {0} m
+Left Mouse	마우스 왼쪽
+Right Mouse	마우스 오른쪽
+Middle Mouse	마우스 가운데
+Automatic	자동
+Make destructible	파괴 가능하게
+Untitled	제목 없음
+Vibrate	진동
+Set detector range in meters	감지기 범위 설정(m)
+Target distance in meters from 0.2 m to 40 m	목표 거리 0.2 m~40 m
+Show beam	빔 표시
+Hide beam	빔 숨기기
+Show or hide the detector beam	감지기 빔 표시/숨기기
+Contraption directory malformed	장치 폴더가 손상되었습니다
+Can't upload to Workshop	창작마당에 업로드할 수 없습니다
+Close	닫기
+This item is marked as uploaded. How do you want to continue?	이 아이템은 업로드된 것으로 표시되어 있습니다. 어떻게 하시겠습니까?
+Contraption does not exist.	장치가 존재하지 않습니다.
+Contraptions cannot be uploaded from family shared games.	가족 공유 게임에서는 장치를 업로드할 수 없습니다.
+Could not create workshop item	창작마당 아이템을 만들 수 없습니다
+Unknown reason	알 수 없는 이유
+By submitting to the workshop, you must agree to the terms of service.	창작마당에 올리려면 서비스 약관에 동의해야 합니다.
+{0}% uploaded...	{0}% 업로드됨...
+This puzzle requires an internet connection	이 퍼즐은 인터넷 연결이 필요합니다
+Toggle cosmetic rain	장식용 비 전환
+Toggle cosmetic snow	장식용 눈 전환
+Toggle cosmetic fog	장식용 안개 전환
+Repair broken machinery	고장 난 기계 수리
+Double trigger receiver	이중 트리거 수신기
+Single trigger receiver	단일 트리거 수신기
+TEMPERATURE: {s}	온도: {s}
+COOLING PUMPS: {0}%	냉각 펌프: {0}%
+CONTROL ROD DEPTH: {0}%	제어봉 깊이: {0}%
+POWER OUTPUT: {0} E	출력: {0} E
+Basic	기본
+Ignored if animation is enabled	애니메이션이 켜져 있으면 무시됩니다
+Animation	애니메이션
+Clear counter value	카운터 값 초기화
+Set counter signal value	카운터 신호 값 설정
+Set value at which to reset the counter and emit a signal	카운터를 초기화하고 신호를 보낼 값 설정
+Value from {0} to {1}	{0}~{1} 사이 값
+Connecting...	연결 중...
+Compiling	컴파일 중
+Client disconnected during compilation...	컴파일 중 클라이언트 연결이 끊어졌습니다...
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	컴파일 시간 초과! 모드 컴파일에 {0}초 넘게 걸려 무시됩니다.
+Set syringe to push mode	주사기를 밀기 모드로
+Set syringe to pull mode	주사기를 당기기 모드로
+Set syringe to idle mode	주사기를 대기 모드로
+Enable infinite source	무한 공급 켜기
+Move Gizmo	이동 기즈모
+Resize Gizmo	크기 기즈모
+Background	배경
+Foreground	전경
+Outline	외곽선
+Set the distance the coupler can stick to objects	커플러가 물체에 달라붙는 거리 설정
+Distance	거리
+Unknown error occurred...	알 수 없는 오류가 발생했습니다...
+Status	상태
+Resets the animation to be controlled by the algorithm again	애니메이션 제어를 다시 알고리즘에 맡깁니다
+Reset all animations	모든 애니메이션 초기화
+Deserialisation error! This contraption is incompatible.	역직렬화 오류! 이 장치는 호환되지 않습니다.
+This may be a version mismatch or a missing mod.	버전이 다르거나 모드가 빠졌을 수 있습니다.
+Loading maps	맵 불러오는 중
+Press any button...	아무 버튼이나 누르세요...
+Target height in meters from 0.5 m to 10 km	목표 높이 0.5 m~10 km
+Set bell note	종소리 음 설정
+Could not find the selected piano key...	선택한 피아노 건반을 찾을 수 없습니다...
+Increment bell note	종소리 음 올리기
+Decrement bell note	종소리 음 내리기
+Water breathing serum	수중 호흡 혈청
+Reanimation agent	소생제
+Coagulation serum	응고 혈청
+Instant death poison	즉사 독
+Inert pink liquid	비활성 분홍 액체
+Vestibular poison	평형 감각 독
+Muscle poison	근육 독
+Numbing poison	마비 독
+Mirrorising agent	거울화 약품
+Transparency agent	투명화 약품
+Crushing poison	압궤 독
+Mass agent	질량 약품
+Explosion poison	폭발 독
+Durability serum	내구 혈청
+Regeneration serum	재생 혈청
+Distortion poison	왜곡 독
+Circulation poison	순환 독
+Combustion agent	연소 약품
+Tissue deconstruction agent	조직 분해 약품
+Enhancing serum	강화 혈청
+Immortality serum	불사 혈청
+Ultra strength serum	초근력 혈청
+Life serum	생명 혈청
+Mending serum	치유 혈청
+Knockout poison	기절 독
+Joint lock poison	관절 고정 독
+Painkiller	진통제
+Human blood	인간의 피
+Exotic liquid	특이한 액체
+Inert liquid	비활성 액체
+Beverage M04	음료 M04
+Debug discoloration liquid	디버그용 탈색 액체
+Coolant	냉각수
+Tritium	삼중수소
+Acid	산
+Gasoline	휘발유
+Portal	포털
+Save settings	설정 저장
+Load settings	설정 불러오기
+Set servo target angle	서보 목표 각도 설정
+Set servo delta	서보 델타 설정
+Angle	각도
+Set servo speed	서보 속도 설정
+Set the speed of the servo	서보의 속도 설정
+Set servo speed from 0 to 10	서보 속도 0~10
+Damage	피해
+Toggle key trigger behaviour	키 트리거 동작 전환
+Press {s} to {t}	{s} 키를 눌러 {t}
+Press {s}	{s} 키 누르기
+Cleared chamber	약실 비움
+Set to attract	당기기로 설정
+Could not save file.	파일을 저장할 수 없습니다.
+This mod has updated.	이 모드가 업데이트되었습니다.
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	이 모드에는 유해할 수 있는 코드가 들어 있습니다. 위험을 감수할 수도 있지만 후회할지도 모릅니다.
+Continue	계속
+Disable	끄기
+Enable	켜기
+Enter your text here	여기에 텍스트를 입력하세요
+Make visible	보이게 하기
+Pain	고통
+Create new pose	새 자세 만들기
+Initialise all poses	모든 자세 초기화
+Loading Workshop items	창작마당 아이템 불러오는 중
+punctured lungs	폐 천공
+This will overwrite an existing contraption with the same name.	같은 이름의 기존 장치를 덮어씁니다.
+Some mods caused a {0}ms freeze!	일부 모드가 {0}ms 멈춤을 일으켰습니다!
+Consider disabling some mods for faster load times.	더 빠른 로딩을 위해 일부 모드를 끄는 것을 고려하세요.
+Consider disabling these mods for faster load times:	더 빠른 로딩을 위해 다음 모드를 끄는 것을 고려하세요:
+Don't show this again	다시 표시하지 않음
+Menu	메뉴
+INITIALISING...	초기화 중...
+SCANNING...	스캔 중...
+FLUSHING...	세척 중...
+Flushed :)	세척 완료 :)
+ABRUPT SHUTDOWN RECOVERY	비정상 종료 복구
+Checking~	확인 중~
+Incorrect	틀림
+Receiving...	수신 중...
+Flip object	물체 뒤집기
+Toggle wire invisibility	와이어 투명화 전환
+Activate object under cursor	커서 아래 물체 작동
+Select multiple	여러 개 선택
+Local space transformation	로컬 좌표 변형
+Sharp	날카로움
+Loading	불러오는 중
+Particle settings	입자 설정
+Decal settings	데칼 설정
+Are you sure you want to permanently remove	정말로 영구 삭제하시겠습니까:
+Are you sure you want to unsubscribe from	정말로 구독을 취소하시겠습니까:
+Unable to delete	삭제할 수 없음
+Enter channel name	채널 이름 입력
+Metal	금속
+energy wire	에너지 와이어
+Set lower winch limit	윈치 하한 설정
+Set upper winch limit	윈치 상한 설정
+Translation in meters	이동 거리(m)
+Invalid decimal input for winch limit!	윈치 제한값에 잘못된 소수가 입력되었습니다!
+Repair holes	구멍 수리
+Repairs holes in liquid container	액체 용기의 구멍을 수리합니다
+Loading mods	모드 불러오는 중
+Loading mod	모드 불러오는 중
+Start	시작
+Preparing	준비 중
+Workshop is disabled	창작마당이 꺼져 있습니다
+Sending request	요청 보내는 중
+Invalid decimal input	잘못된 소수 입력
+Unmute	음소거 해제
+Unknown	알 수 없음
+Copied {0} objects	물체 {0}개 복사됨
+Target rate in Hertz from 0.125 Hz to 32 Hz	목표 주파수 0.125 Hz~32 Hz
+Mechanism limits	기구 한계
+Larger values can lead to instability if the mechanism is heavily loaded.	기구에 하중이 크게 걸려 있으면 큰 값은 불안정을 일으킬 수 있습니다.
+Internal mechanism forces	기구 내부 힘
+A one-shot impulse. Resets to 0 automatically each update.	1회성 충격. 업데이트마다 자동으로 0으로 돌아갑니다.
+A continuous tensioning force pushing the mechanism.	기구를 계속 미는 장력.
+The target speed of the mechanism.	기구의 목표 속도.
+The degree to which the drive is engaged.	구동이 맞물린 정도.
+Change what the display displays on its display	디스플레이가 디스플레이에 표시하는 내용 변경
+Set maximum power level	최대 출력 수준 설정
+Repair or break the engine.	엔진을 수리하거나 고장 냅니다.
+Toggle trigger behaviour	트리거 동작 전환
+Disable machine heat damage.	기계 열 피해 끄기.
+Set object temperature	물체 온도 설정
+Set detector range	감지기 범위 설정
+Enable machine heat damage	기계 열 피해 켜기
+Set exact rotation	정확한 회전 설정
+Reverse rotor	로터 역회전
+User interface	인터페이스
+Brick	벽돌
+general	일반
+Push	밀기
+Plank	판자
+mods	모드
+Set target temperature.	목표 온도 설정.
+Toggle parking brakes.	주차 브레이크 전환.
+Set hover height.	부양 높이 설정.
+Reverse vehicle.	차량 방향 전환.
+Inspect	살펴보기
+Mend or break bone	뼈 치료 또는 부러뜨리기
+Toggle indestructibility	파괴 불가 전환
+(EMPTY)	(비어 있음)

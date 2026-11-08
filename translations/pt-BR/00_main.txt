@@ -1,0 +1,1668 @@
+# English<TAB>Português (Brasil)
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	Define a quantidade de iterações da simulação física. Valores maiores deixam a simulação mais precisa, mas pesam no desempenho. Os ragdolls foram feitos para o valor 16, então o comportamento deles pode mudar com outro valor. O padrão é 16.
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	Pressuriza ou despressuriza um recipiente de líquido. O modo empurrar expulsa os líquidos. O modo puxar os suga. Não armazena líquido. Conecte o dispositivo a um recipiente com um fio de vaso sanguíneo.
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	Define a qualidade da detecção de colisão. O modo discreto é bem mais rápido, mas menos preciso. O modo contínuo impede que objetos se atravessem em altas velocidades. O modo dinâmico alterna entre os dois conforme a velocidade.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	Um propulsor feito para pairar sobre uma superfície. A força aumenta quando recebe energia. A altura é definida no menu de contexto. Sinais vermelhos aumentam a altura. Sinais azuis diminuem.
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	Centrífuga de líquidos. Remove do recipiente os líquidos de menor concentração. As luzes à esquerda indicam quantos líquidos diferentes há dentro. Quando só a luz de baixo está acesa, a filtragem para.
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	O sistema de iluminação deixa as áreas escuras realmente escuras e torna úteis os objetos que emitem luz. Desativar a iluminação deixa tudo com brilho máximo. A iluminação quase não afeta o desempenho.
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	Corte passa-alta. O som ambiente não toca nada abaixo desta frequência. Útil se o áudio estiver estalando. 90 Hz é o valor padrão e recomendado.
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	Arma atomizadora portátil. Dispara um projétil minúsculo que, ao se cravar no objeto, tenta desmanchar a estrutura molecular ao redor. Funciona melhor contra objetos macios.
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	Encoste uma das pás na parte de cima do peito e ative. O coração volta a bater. Serve para reviver pessoas pouco depois da morte. Não cura ferimentos.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	Máquina que estende ou recolhe o cabo. Ative para trocar a direção. Dê energia para mover. Com um sinal de ativação vermelho, liga ou desliga uma bateria interna.
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Gira em velocidade ajustável. Um sinal vermelho inverte o sentido; os outros ligam ou desligam. Com energia ganha mais torque, mas a velocidade continua a mesma.
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	Um gerador dez vezes mais potente que a versão menor. É tão instável e perigoso que pode causar comportamentos indesejados. Use com cuidado.
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	Arma de energia carregada. Dispara um projétil explosivo que libera energia em pleno voo, soltando arcos nos objetos próximos. Quanto mais tempo segurada, mais forte fica.
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Dispensador portátil de curto alcance de suco de rigidez. Diferente do veneno congelante, o suco de rigidez não se espalha pelo sangue: deixa uma parte da pele rígida e azul.
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	O áudio pode tocar acima dos limites definidos. Recomendamos deixar isto ligado para proteger a audição. Desative por sua conta e risco!
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	Solta uma poderosa onda de choque pelo emissor. Cada objeto à frente recebe uma força proporcional à própria massa. Resumindo: objetos pesados são empurrados com mais força.
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	Quando ativado, humanos e androides soltam objetos quando os braços não conseguem mais segurar. Normalmente isso acontece quando morrem ou levam tiro nos braços. Ativado por padrão.
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	Um termômetro digital. Mostra com precisão a própria temperatura entre -273 e 9999 °C. Feito para aguentar até 3.4028235e38 °C!
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Dispensador portátil de curto alcance de suco de rigidez. Diferente do <b>veneno congelante</b>, o suco de rigidez não se espalha pelo sangue: deixa uma parte da pele rígida e azul.
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	Mensagens de depuração aparecerão como notificações no jogo: avisos, erros e exceções não tratadas. Recomendamos deixar desativado.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	Dispensador portátil de curto alcance de suco curativo. Diferente do <b>soro da vida</b>, o suco curativo não fecha ferimentos na carne, mas anula o veneno congelante e o suco de rigidez.
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	Quando ativado, explosões e tiros ecoam e reverberam ao longe. Desativar deixa o processamento de áudio um pouco mais leve.
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	Resistor variável. Ajuste puxando a alavanca. Com a alavanca à esquerda passa 0% da energia; à direita, 100%.
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	Uma válvula de pressão que alterna ao ser ativada. Só deixa passar pressão. Ligada com fios de vaso sanguíneo, pode bloquear o fluxo de pressão do líquido.
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	Transmite um sinal de ativação de um objeto para outro. A direção em que você liga os cabos importa. O sinal vai pelo canal verde (principal).
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	Gera um pulso eletromagnético. Provavelmente se destrói no processo. O pulso deve desativar tudo que for eletrônico num raio de 82.39700374531835 metros. Bem específico.
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	Um fundo simplificado pode reduzir artefatos de compressão em gravações de tela. Não melhora o desempenho.
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	Este dispositivo controla quanto tempo o sinal de ativação leva para atravessá-lo. O padrão é 1 segundo em vez dos 0,1 normais.
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	Envia um sinal de ativação quando a tecla definida é pressionada ou solta, conforme a configuração. Pode conflitar com os controles do jogador.
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	Pulsa a 1 Hz. A frequência é alterada no menu de contexto. Envia sinais de ativação no mesmo ritmo. Fica imprevisível com energia.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	Um tanque que guarda 5 L de líquido. A ativação passa para o próximo modo de pressão. Um sinal vermelho volta ao modo anterior.
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	Ele se impulsiona sozinho. De algum jeito, este brinquedo parece mais um propulsor do que um ventilador. Diferente dos ventiladores, hélices não vibram nem empurram outros objetos.
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	Define se as balas têm tempo de voo e mostram traçantes. Reduz o desempenho. Desativado por padrão.
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	Alterna o modo de acionamento. No modo duplo, aciona mais uma vez ao soltar a tecla, além de ao pressionar.
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	Quando ativado, as entidades interrompem a animação forçada ao sofrer dano. Por exemplo, um humano para de andar ao levar um tiro.
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	Define se os membros podem ser totalmente destruídos. Quando ativado, sob pressão extrema eles viram névoa vermelha.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	Dobradiça motorizada que gira de 0 grau até um ângulo-alvo ajustável. É bem pesada e acelera com energia.
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	Frasco vazio. Feito de uma substância divina e indestrutível que os criadores chamam de "polimetilmetacrilato". Capacidade de um litro.
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	Com o Vsync ligado, a taxa de quadros fica limitada à taxa de atualização do monitor. Reduz o tearing da tela.
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	Termômetro infravermelho com alcance máximo de 7 metros. Mostra a temperatura do objeto atingido pelo raio infravermelho.
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	Lança-mísseis portátil teleguiado. Dispara um míssil que persegue o alvo. A mira travada é indicada por som e imagem.
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	Clique num mod para ativar ou desativar. Mods corrompidos não podem ser ativados. Mods desativados ou corrompidos não são executados.
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	Um dispositivo que emite um campo de dizimação. O campo apaga objetos da existência desmontando seus átomos um a um.
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	Pinos de boliche são o alvo da bola em vários tipos de boliche, como tenpins, five-pins, duckpins e candlepins.
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	Envia um sinal de ativação quando detecta algo metálico à frente. O alcance é ajustado no menu de contexto.
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	Ninguém sabe o que tem nesta seringa. Os efeitos parecem inconsistentes e diferentes em cada uma. Ela é rosa.
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	Envia um sinal de ativação quando detecta objetos em chamas à frente. O alcance é ajustado no menu de contexto.
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	Uma válvula que alterna ao ser ativada. Ligada com fios de vaso sanguíneo, pode bloquear o fluxo de líquido.
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	Envia um sinal de ativação quando detecta matéria viva à frente. O alcance é ajustado no menu de contexto.
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	Este item bloqueia sinais de ativação até o temporizador zerar. O temporizador começa ao... ativar.
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	Uma garrafinha de 350 ml. Se usada continuamente, despeja o conteúdo no que estiver na boca dela.
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	Envia um sinal de ativação quando detecta qualquer coisa à frente. O alcance é ajustado no menu de contexto.
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	Mostra os batimentos cardíacos de seres vivos. Conecte o monitor a um membro com um fio de vaso sanguíneo.
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	Envia um sinal de ativação quando detecta movimento à frente. O alcance é ajustado no menu de contexto.
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	Transforma um sinal elétrico em sinal de ativação. Resumindo: entra energia, sai ativação.
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	Lança-foguetes portátil simples. Os foguetes são mais rápidos e mais fracos que os do lança-foguetes padrão.
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	Martelo de metal muito pesado. Ao bater, cria ondas de choque fortíssimas com uma fonte de energia desconhecida.
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	Galão de alta capacidade (25 L). Flutua enquanto não estiver cheio de líquido.
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	Quando ativado, o jogo rejeita mods com código suspeito. Vale depois de reiniciar.
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	Transforma sinais de ativação em eletricidade. Resumindo: entra ativação, sai eletricidade.
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	Canhão de feixe muito potente. Fica mais forte quando carregado. Faltam todas as peças, menos o cano.
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	Ferramenta feita para serrar madeira com facilidade. Neste jogo ela não serra madeira.
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	Gera eletricidade. Mais forte que uma bateria, mais fraca que um gerador. Seguro de tocar.
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	Tempo máximo em segundos que um mod pode levar para compilar antes de o processo ser encerrado.
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	Torreta automática de teto. Procura organismos vivos num raio de 20 metros e os mata.
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	Uma criatura relativamente pequena e horrível. Gorses são inteligentes e maldosos. E costumam ter cheiro de cola queimada.
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	Lança um pacote de energia capaz de imobilizar uma pessoa. Parece um pouco um megafone.
+An explosive that absorbs all energy in the environment and violently releases it.	Um explosivo que absorve toda a energia do ambiente e a libera com violência.
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	Transmite e recebe sinais de ativação. Só se comunica com dispositivos no mesmo canal.
+Regular gate. It lets signals through when its power level is above the set threshold.	Portão comum. Deixa os sinais passarem quando o nível de energia está acima do limite definido.
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	Uma pequena chapa feita para parar balas. Não é impenetrável, mas é bem resistente.
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	Laje de concreto alta e relativamente leve. É frágil, mas o peso a torna útil em construções.
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	Um soro que permite respirar debaixo d'água enquanto estiver circulando no sangue.
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	Projeta partículas puramente visuais. O dispositivo pode soltar fumaça, fogo e eletricidade.
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	Arma de energia de feixe. Cria um pulso curto de energia intensa e concentrada.
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	Define se os destaques de seleção, congelamento e fios são desenhados. Útil para gravar.
+An object that allows something to slide in between. Only the coloured parts collide.	Um objeto que deixa algo deslizar entre as partes. Só as partes coloridas colidem.
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	Uma chapa de material isolante. Isola temperatura e eletricidade.
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	Metralhadora leve totalmente automática. Vem com o clássico cinto de munição infinito.
+Things too specific or generic to be catergorised.	Coisas específicas ou genéricas demais para entrar numa categoria.
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	Um dispositivo que, ao ser ativado, mantém a rotação fixa. É quase impossível girá-lo.
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	Define o quanto o tempo fica mais lento no modo câmera lenta. O padrão é 20%.
+When enabled, an alert will appear when mods cause increased loading times.	Quando ativado, aparece um aviso se os mods deixarem o carregamento mais lento.
+You might want to add some tags to make your contraption more visible to your target audience.	Talvez você queira adicionar tags para que sua engenhoca seja mais vista pelo público.
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	Bloom é um efeito de pós-processamento que dá a ilusão de objetos extremamente brilhantes.
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	Praticamente um chuveiro. Aceita qualquer líquido e despeja por baixo na hora.
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	Você pode colocar as colisões em modo <b>discreto</b> para ganhar bastante desempenho!
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	Um propulsor relativamente fraco que não esquenta, não queima nada e não vibra.
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	Canhão HEAT de 30 mm que de algum jeito funciona. Faltam todas as peças, menos o cano.
+Mod compilation complete, make sure to restart the map to apply activated mods!	Compilação dos mods concluída. Reinicie o mapa para aplicar os mods ativados!
+You can set your collision settings to discrete for a significant performance gain!	Você pode colocar as colisões em modo discreto para ganhar bastante desempenho!
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>Só vale no modo janela sem bordas ou tela cheia.
+Casts a small field that holds objects in place relative to the emitter.	Cria um pequeno campo que mantém os objetos parados em relação ao emissor.
+Determines the temperature unit used throughout the game. Celsius by default.	Define a unidade de temperatura usada no jogo todo. Celsius por padrão.
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	Aumenta a integridade dos membros, desacelera o sangramento e tenta reverter a decomposição.
+This device emits an activation signal when it detects a laser pointer beam.	Este dispositivo envia um sinal de ativação quando detecta o feixe de um apontador laser.
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	Um eletroímã que, quando ativado, atrai objetos magnéticos num raio de 15 metros.
+Different kinds of explosives each with different properties and strengths.	Diferentes tipos de explosivos, cada um com propriedades e força próprias.
+This will toggle relatively expensive particle and decal effects.	Liga ou desliga efeitos de partículas e marcas relativamente pesados.
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	Canhão de 120 mm que de algum jeito funciona. Faltam todas as peças, menos o cano.
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	Arma portátil com bobina de Tesla. Quanto mais tempo segurada, mais forte fica.
+A colourable foreground element that keeps its texture unstretched when resized.	Elemento de primeiro plano colorível cuja textura não estica ao redimensionar.
+Modding your game may cause bugs, loss of performance, and other issues.	Usar mods pode causar bugs, perda de desempenho e outros problemas.
+Activation signal channel converter. Converts red to green and vice versa.	Conversor de canal do sinal de ativação. Converte vermelho em verde e vice-versa.
+A colourable laser pointer that becomes dangerous when powered.	Apontador laser colorível que fica perigoso com energia.
+If disabled, heat can only be transferred through heat pipes and direct contact.	Se desativado, o calor só passa por tubos de calor e por contato direto.
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	Lança-foguetes portátil. Dispara foguetes explosivos tão fortes quanto uma granada.
+Activation signal channel converter. Converts blue to green and vice versa.	Conversor de canal do sinal de ativação. Converte azul em verde e vice-versa.
+Activation signal channel converter. Converts blue to red and vice versa.	Conversor de canal do sinal de ativação. Converte azul em vermelho e vice-versa.
+Access environment settings. These will only last for the current session.	Configurações do ambiente. Valem só para a sessão atual.
+Grenade that violently launches small spikes in random directions.	Granada que lança pequenos espinhos com violência em direções aleatórias.
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	Está cheio de um gás misterioso mais leve que o gás que enche esta sala.
+Wounds and injuries will slowly heal on living organisms when this is enabled.	Quando ativado, ferimentos e lesões de organismos vivos saram aos poucos.
+Toggle whether decals are created. Disabling decals may improve performance.	Define se as marcas são criadas. Desativar pode melhorar o desempenho.
+Determines how much force is needed to crush a limb. Default is 100%.	Define quanta força é preciso para esmagar um membro. O padrão é 100%.
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	Esfria até uma temperatura-alvo ajustável de 0 a -273,15 °C.
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	Identifica líquidos. Encha com qualquer mistura (máximo de 2,5 L) e ative.
+Objects will retain a fraction of their mass, and completely ignore gravity.	Os objetos mantêm parte da massa e ignoram totalmente a gravidade.
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>Recomendamos deixar isto ativado. Mods que pedem para desativar devem ser denunciados.
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	Antes de tudo, estanca sangramentos, mas também é um fio bem elástico.
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	Esquenta até uma temperatura-alvo ajustável de 0 a 1000 °C.
+Pins objects to the background or to other objects.  Allows rotation.	Prende objetos ao fundo ou a outros objetos. Permite rotação.
+A belt that wraps around two objects, transferring rotational energy.	Uma correia que envolve dois objetos e transmite energia de rotação.
+1L flask filled with nitroglycerine. Explosive and highly unstable.	Frasco de 1 L cheio de nitroglicerina. Explosivo e muito instável.
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	Um soro que acelera a coagulação do sangue. Cura todos os ferimentos que sangram.
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	Escava para dentro de itens vivos. Item adicionado em parceria com Mutilate-a-Doll 2.
+A little engine that only propels itself while submerged.	Um pequeno motor que só se impulsiona debaixo d'água.
+A link between two objects that allows them to phase through each other.	Uma ligação entre dois objetos que permite que um atravesse o outro.
+Handheld device that is capable of lifting objects from a great distance.	Dispositivo portátil capaz de levantar objetos de muito longe.
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>Só funciona se o Vsync estiver desativado.
+Green signals toggle. Red signals open. Blue signals close.	Sinais verdes alternam. Vermelhos abrem. Azuis fecham.
+Indestructible cable that restricts positions and rotation on both objects.	Cabo indestrutível que trava posição e rotação dos dois objetos.
+1x1 brick rectangle. I know it says cube, but the game is 2D.	Retângulo de tijolo 1x1. Eu sei que diz cubo, mas o jogo é 2D.
+Toggle whether wires block the context menu for the underlying object.	Define se os fios bloqueiam o menu de contexto do objeto embaixo deles.
+Primitive pistol. Not very accurate, not very practical, and very loud.	Pistola primitiva. Pouco precisa, pouco prática e muito barulhenta.
+Handheld burst energy weapon that fires heat-seeking projectiles.	Arma de energia portátil de rajada que dispara projéteis guiados por calor.
+Determines how fast zooming using the mouse wheel is. Default is 1x.	Define a velocidade do zoom com a roda do mouse. O padrão é 1x.
+A metal square.  It says cube, I know. I've explained this before.	Um quadrado de metal. Diz cubo, eu sei. Já expliquei isso antes.
+An explosive with a large blast radius and a powerful shockwave.	Um explosivo com grande raio de explosão e uma onda de choque forte.
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	Pequeno explosivo nuclear. Queima e destrói tudo num raio de 750 m.
+Highly accurate blaster rifle that launches high speed bolts.	Rifle blaster de alta precisão que dispara projéteis em alta velocidade.
+Colourable LED bulb. Bright, efficient, and durable.	Lâmpada LED colorível. Brilhante, eficiente e durável.
+A wranch you can slam aganist Androids to repair them.	Uma chave inglesa para bater em androides e consertá-los.
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	<color=green>mova a câmera</color> com <color=orange>o botão do meio do mouse</color>
+The will toggle relatively performance-heavy effects.	Liga ou desliga efeitos relativamente pesados.
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	segure <color=orange>o botão esquerdo do mouse</color> para <color=green>agarrar</color>
+A chair that kind of looks like it belongs inside a bus.	Uma cadeira que parece ter saído de um ônibus.
+By submitting to the workshop, you agree to the terms of service.	Ao enviar para a Oficina, você concorda com os termos de serviço.
+Controlled powerful explosive. Can only detonate by activation.	Explosivo forte controlado. Só detona quando ativado.
+An electric bi-wheeled unicycle with no chain??? How does it work.	Um monociclo elétrico de duas rodas e sem corrente??? Como isso funciona.
+Grenade that sticks to most things when armed.	Granada que gruda em quase tudo depois de armada.
+This item is marked as once uploaded. How do you want to continue?	Este item já foi enviado uma vez. Como deseja continuar?
+Makes living beings more durable. Might cause immortality.	Deixa seres vivos mais resistentes. Pode causar imortalidade.
+<color=green>rotate</color> objects with <color=orange>A or D </color>	<color=green>gire</color> objetos com <color=orange>A ou D </color>
+A relatively small boulder. Supposedly made of minerals.	Uma pedra relativamente pequena. Supostamente feita de minerais.
+<color=orange>Right Mouse</color> to <color=green>delete</color>	<color=orange>Botão direito do mouse</color> para <color=green>apagar</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	Holofote que liga e desliga. Ilumina a área e tem um ar sinistro.
+A thermonuclear bomb. Easily the most powerful bomb available.	Uma bomba termonuclear. Fácil a bomba mais forte disponível.
+Change the chance the artificial sky generates a lightning bolt.	Muda a chance de o céu artificial soltar um raio.
+Displays the current framerate in the top-right of the screen.	Mostra a taxa de quadros atual no canto superior direito da tela.
+Powerful laser cannon. It's missing all the pieces except for the barrel.	Canhão laser potente. Faltam todas as peças, menos o cano.
+Extends or retracts when activated. Faster when charged.	Estende ou recolhe ao ser ativado. Mais rápido quando carregado.
+Speed up rotation / uniform resizing / multiselect	Rotação rápida / redimensionar por igual / seleção múltipla
+A weapon that launches shells that explode on impact.	Uma arma que dispara projéteis que explodem no impacto.
+Melodic bell! Set the bell note via the context menu.	Sino melódico! Escolha a nota no menu de contexto.
+Two objects attached by a ...long piston. Moves freely.	Dois objetos ligados por um... pistão comprido. Move-se livremente.
+A device that, when activated, stays upright.	Um dispositivo que, ao ser ativado, fica em pé.
+"Handheld" energy weapon. Emits bouncy balls of energy.	Arma de energia "portátil". Solta bolas de energia que quicam.
+This setting may decrease performance when enabled.	Esta configuração pode reduzir o desempenho quando ativada.
+A small thruster that propels itself forward when activated.	Um pequeno propulsor que se impulsiona para a frente ao ser ativado.
+Heat will travel through the air when this is enabled.	Quando ativado, o calor se espalha pelo ar.
+A heavy container train wagon. Does not move on its own.	Um vagão de contêiner pesado. Não anda sozinho.
+Downscale the resolution that the game is being rendered at.	Reduz a resolução em que o jogo é renderizado.
+Saves the selected objects as one, to be loaded later.	Salva os objetos selecionados como um só, para carregar depois.
+This save is from a different version. This might cause issues.	Este salvamento é de outra versão. Pode dar problemas.
+<color=green>activate</color> objects with <color=orange>F</color>	<color=green>ative</color> objetos com <color=orange>F</color>
+Alert when mods significantly affect loading times	Avisar quando mods pesarem muito no carregamento
+Small thruster. Weaker and lighter than the bigger ones.	Propulsor pequeno. Mais fraco e mais leve que os grandes.
+A humanoid robot. Larger, heavier, and more durable than a human.	Um robô humanoide. Maior, mais pesado e mais resistente que um humano.
+A durable pane of glass. Much stronger than a regular glass pane.	Um painel de vidro resistente. Bem mais forte que um vidro comum.
+Modify the final exposure value. Default is 100%	Altera o valor final de exposição. O padrão é 100%
+A very heavy combat tank that fires explosive shells.	Um tanque de guerra muito pesado que dispara projéteis explosivos.
+Metal triangle. I know it says pyramid.	Triângulo de metal. Eu sei que diz pirâmide.
+One of those old torches. Prevents mobs from spawning.	Uma daquelas tochas antigas. Impede que mobs apareçam.
+A mirror that partially dissolves when powered.	Um espelho que fica parcialmente transparente com energia.
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	<color=orange>E ou Q</color> para <color=green>criar</color> objetos
+Generates incredible amounts of energy when activated.	Gera quantidades incríveis de energia ao ser ativado.
+It's a torch but that name is already used by the other torch.	É uma tocha, mas esse nome já é usado pela outra tocha.
+A platform that, when activated, propels itself in the air.	Uma plataforma que, ao ser ativada, se lança no ar.
+It's a ball specifically designed for bowling. How thoughtful.	É uma bola feita especialmente para boliche. Que atencioso.
+How often should the thermal vision be updated?	Com que frequência a visão térmica deve ser atualizada?
+A crossbow that lauches a sharp bolt at high speed.	Uma besta que dispara um virote afiado em alta velocidade.
+Set timed gate duration in seconds.	Define a duração do portão temporizado em segundos.
+A wrench you can slam against Androids to repair them.	Uma chave inglesa para bater em androides e consertá-los.
+Adjust the intensity of the screenshake. Default is 1x.	Ajusta a intensidade do tremor de tela. O padrão é 1x.
+Liquid chemicals and other items related to chemistry.	Produtos químicos líquidos e outros itens ligados à química.
+Continuously sends out activation signals if activated.	Quando ativado, envia sinais de ativação continuamente.
+Handheld freezeray gun. Emits a cooling beam.	Arma de raio congelante portátil. Emite um feixe resfriador.
+The volume of the ambient hum and other background noises.	Volume do zumbido ambiente e de outros ruídos de fundo.
+Game version mismatch. This might cause problems.	Versão do jogo diferente. Isso pode causar problemas.
+Change what the display displays on its display.	Muda o que o display mostra no display.
+A blade of energy contained in a material field.	Uma lâmina de energia contida num campo material.
+An electronic display capable of showing any text.	Um display eletrônico capaz de mostrar qualquer texto.
+Anti-aliasing attempts to get rid of jagged edges.	O anti-aliasing tenta eliminar bordas serrilhadas.
+Device that measures how much power it is receiving.	Dispositivo que mede quanta energia está recebendo.
+A sentry turret that targets anything that seems to be alive.	Uma torreta sentinela que mira em tudo que pareça vivo.
+Can only propagate an activation signal once.	Só consegue transmitir um sinal de ativação uma vez.
+A destructible version of the blue propagation wire.	Versão destrutível do fio de propagação azul.
+A metal tube that is just a little taller than a human.	Um tubo de metal um pouco mais alto que uma pessoa.
+A destructible version of the green propagation wire.	Versão destrutível do fio de propagação verde.
+A destructible version of the red propagation wire.	Versão destrutível do fio de propagação vermelho.
+The volume of all items and effects in the game.	Volume de todos os itens e efeitos do jogo.
+Repulse everything in a small radius around you.	Repele tudo num pequeno raio ao seu redor.
+Target duration in seconds from 0.04s to 16s	Duração desejada em segundos, de 0,04 s a 16 s
+Activate object under cursor / currently holding	Ativar o objeto sob o cursor / que está segurando
+It's one of those red barrels that explode.	É um daqueles barris vermelhos que explodem.
+Very large and painful gun to use.	Arma enorme e dolorosa de usar.
+Relieves pain. Can be dangerous in high doses.	Alivia a dor. Pode ser perigoso em doses altas.
+Your contraption will be uploaded to the workshop.	Sua engenhoca será enviada para a Oficina.
+Lift everything around you with infinite force.	Levanta tudo ao seu redor com força infinita.
+Identical to the big one apart from the size and weight.	Igual ao grande, só muda o tamanho e o peso.
+Things that shoot a projectile somehow.	Coisas que de algum jeito disparam projéteis.
+1L flask full of Gorse blood. Do not ingest.	Frasco de 1 L cheio de sangue de gorse. Não beber.
+Big automatic laser sentry turret.	Grande torreta sentinela laser automática.
+A drug that temporarily disables a person.	Uma droga que incapacita uma pessoa temporariamente.
+Attract everything in a small radius around you.	Atrai tudo num pequeno raio ao seu redor.
+Soviet submachine gun with a high rate of fire.	Submetralhadora soviética com alta cadência de tiro.
+Set the upper translation limit for the winch.	Define o limite superior de curso do guincho.
+Forces the resting animation override.	Força a animação de descanso.
+A small holographic text display emitter.	Um pequeno emissor de texto holográfico.
+A button that activates when pressed.	Um botão que é ativado ao ser pressionado.
+Zoom scroll wheel sensitivity	Sensibilidade da roda do mouse no zoom
+Handheld flamethrower. Not actually a flamethrower.	Lança-chamas portátil. Na verdade, não é um lança-chamas.
+Probably the worst thing to step on.	Provavelmente a pior coisa para se pisar.
+Set the lower translation limit for the winch.	Define o limite inferior de curso do guincho.
+Objects will only collide with the walls.	Os objetos só colidem com as paredes.
+Destructible non-conductive wire.	Fio destrutível não condutor.
+A virus that turns living beings into zombies.	Um vírus que transforma seres vivos em zumbis.
+You install and use mods at your own risk.	Você instala e usa mods por sua conta e risco.
+Classic automatic assault rifle.	Fuzil de assalto automático clássico.
+Determines the way the window is presented.	Define como a janela é exibida.
+Toggle between tools and powers	Alternar entre ferramentas e poderes
+A large heavy truck with lots of space.	Um caminhão grande e pesado com bastante espaço.
+Box that dampens movement when activated.	Caixa que amortece o movimento ao ser ativada.
+1L flask full of human blood.	Frasco de 1 L cheio de sangue humano.
+Indestructible, stiff metal spring.	Mola de metal rígida e indestrutível.
+Pressurise the connected container.	Pressuriza o recipiente conectado.
+1L flask full of regular oil.	Frasco de 1 L cheio de óleo comum.
+Depressurise the connected container.	Despressuriza o recipiente conectado.
+Choose between different gore shaders	Escolha entre diferentes shaders de gore
+World war era German handgrenade.	Granada de mão alemã da época da guerra mundial.
+Propagates a signal on the red channel.	Transmite um sinal pelo canal vermelho.
+Destructible steel fixed wiring.	Fixação de aço destrutível.
+Heavy anchor designed to sink.	Âncora pesada feita para afundar.
+Determine the upper bound of the framerate.	Define o limite máximo da taxa de quadros.
+Drain the container of its contents.	Esvazia o conteúdo do recipiente.
+Extremely powerful and impractical handgun.	Pistola extremamente potente e nada prática.
+Destructible conductive wire.	Fio condutor destrutível.
+Propagates a signal on the blue channel.	Transmite um sinal pelo canal azul.
+Forces the protection animation override.	Força a animação de proteção.
+move forward, toggle lights, etc.	andar para frente, ligar luzes etc.
+Wooden bat made to hit things.	Taco de madeira feito para bater nas coisas.
+Make the camera track this object.	Faz a câmera seguir este objeto.
+Change the way HDR colours are displayed.	Muda a forma como as cores HDR são exibidas.
+Edit the current environment settings	Editar as configurações atuais do ambiente
+Launches objects placed on it in the air.	Lança para o alto os objetos colocados em cima.
+Automatic spike launching weapon.	Arma automática que dispara espinhos.
+A tall tree. It was never alive.	Uma árvore alta. Ela nunca esteve viva.
+Toggle hovering highlights	Destaque ao passar o mouse
+does not match your current username	não corresponde ao seu nome de usuário atual
+Target height in meters from 0.5 m to 10 m	Altura desejada em metros, de 0,5 m a 10 m
+Set tint for selected objects	Definir a tonalidade dos objetos selecionados
+From Wikipedia, the free encyclopedia.	Da Wikipédia, a enciclopédia livre.
+Like a normal explosive but pink.	Igual a um explosivo comum, só que rosa.
+Should the floodlights be turned on?	Ligar os holofotes?
+A crossbow bolt. Points to where it goes.	Um virote de besta. Aponta para onde vai.
+Target temperature in Celsius	Temperatura desejada em Celsius
+A lamp that does not offer comfort.	Uma lâmpada que não traz conforto algum.
+Organic or artificial beings.	Seres orgânicos ou artificiais.
+This should make the mech work.	Isso deve fazer o mech funcionar.
+Set the target angle of the servo.	Define o ângulo-alvo do servo.
+Things built to go places.	Coisas feitas para ir a lugares.
+De staf van de goedheiligman zelf.	O cajado do próprio Sinterklaas.
+Sends an activation signal on impact.	Envia um sinal de ativação ao sofrer impacto.
+Change the ambient temperature.	Muda a temperatura ambiente.
+Chemical that eats bones.	Substância química que corrói ossos.
+Handheld heatray gun. Emits a heating beam.	Arma de raio de calor portátil. Emite um feixe que esquenta.
+Set maximum power level.	Define o nível máximo de energia.
+Small plastic-framed handgun.	Pistola pequena com armação de plástico.
+Switches to the previous texture.	Muda para a textura anterior.
+Indestructible loose cable.	Cabo solto indestrutível.
+. Are you sure you want to continue?	. Tem certeza de que deseja continuar?
+The volume of the entire application.	Volume do aplicativo inteiro.
+Set key trigger description.	Define a descrição do gatilho de tecla.
+Powerful semi-automatic rifle.	Rifle semiautomático potente.
+Remove this contraption from the list.	Remover esta engenhoca da lista.
+Objects you saved on disk.	Objetos que você salvou no disco.
+Enable machine heat damage.	Ativa o dano por calor nas máquinas.
+An automatic laser machine rifle.	Rifle laser automático.
+A wire that transfers blood between limbs.	Um fio que transfere sangue entre membros.
+A suspended motorised wheel.	Roda motorizada com suspensão.
+Target delay in seconds from 0.04s to 60s	Atraso desejado em segundos, de 0,04 s a 60 s
+Indestructible metal spring.	Mola de metal indestrutível.
+Machines that do stuff.	Máquinas que fazem coisas.
+Switches to the next texture.	Muda para a próxima textura.
+Resize selected objects	Redimensionar os objetos selecionados
+Public transport bus.	Ônibus de transporte público.
+Indestructible rigid connection.	Conexão rígida indestrutível.
+Spawn right facing	Criar virado para a direita
+Maximum mod compilation time	Tempo máximo de compilação de mods
+Things to hit or stab with.	Coisas para bater ou esfaquear.
+Triggers the selected objects.	Aciona os objetos selecionados.
+Set tank to idle mode.	Coloca o tanque no modo ocioso.
+A small energy container.	Um pequeno recipiente de energia.
+Set gate threshold.	Define o limite do portão.
+Handheld rapid firing gatling gun.	Metralhadora giratória portátil de disparo rápido.
+Set tank to push mode.	Coloca o tanque no modo empurrar.
+2 meter tall metal pole.	Poste de metal com 2 metros de altura.
+Industrial hinged spot light.	Holofote industrial articulado.
+Spawn left facing	Criar virado para a esquerda
+Kills living beings instantly.	Mata seres vivos instantaneamente.
+Stop animation on damage	Parar a animação ao sofrer dano
+Ambient temperature transfer	Transferência de temperatura ambiente
+Automatic assault rifle.	Fuzil de assalto automático.
+Rapid firing submachine gun.	Submetralhadora de disparo rápido.
+Reverses the polarity of the magnet.	Inverte a polaridade do ímã.
+Repair or break the engine	Consertar ou quebrar o motor
+Changed to Powers tab	Mudou para a aba de poderes
+Set metronome rate in Hz.	Define a frequência do metrônomo em Hz.
+2 meter tall wooden pillar.	Pilar de madeira com 2 metros de altura.
+Pastes the copied objects.	Cola os objetos copiados.
+A larger, more powerful piston.	Um pistão maior e mais forte.
+Changed to Tools tab	Mudou para a aba de ferramentas
+Selection target temperature	Temperatura-alvo da seleção
+The volume of UI elements.	Volume dos elementos da interface.
+Toggle gate behaviour.	Alterna o modo do portão.
+Toggle trigger behaviour.	Alterna o modo de acionamento.
+Publish to the Steam Workshop.	Publicar na Oficina Steam.
+Disable machine heat damage	Desativar dano por calor nas máquinas
+Drag and rotate objects.	Arrastar e girar objetos.
+Player statistics regarding the game.	Estatísticas do jogador no jogo.
+Set winch upper limit	Definir limite superior do guincho
+Destructible red propagation wire	Fio de propagação vermelho destrutível
+Forces the stumbling animation override.	Força a animação de tropeço.
+Thermal vision update rate	Taxa de atualização da visão térmica
+Freezes the selected objects.	Congela os objetos selecionados.
+Toggle parking brakes	Freio de mão
+Toggle invisibility.	Liga ou desliga a invisibilidade.
+Basic indestructible wooden wheel.	Roda de madeira simples e indestrutível.
+Disengage parking brakes	Soltar freio de mão
+Set tank to pull mode.	Coloca o tanque no modo puxar.
+Set object temperature.	Define a temperatura do objeto.
+Slowly heal injuries	Curar ferimentos aos poucos
+Set winch lower limit	Definir limite inferior do guincho
+Stop affecting pressure.	Para de afetar a pressão.
+Physics iteration count	Iterações da física
+Destructible blue propagation wire	Fio de propagação azul destrutível
+It's just a metal circle.	É só um círculo de metal.
+View terms of service	Ver termos de serviço
+Slow motion speed modifier	Velocidade da câmera lenta
+Copies the selected objects.	Copia os objetos selecionados.
+Return to the toybox menu.	Voltar ao menu de itens.
+Threshold as percentage	Limite em porcentagem
+Destructible rigid strut.	Escora rígida destrutível.
+Ignites the selected objects.	Põe fogo nos objetos selecionados.
+Deletes the selected objects.	Apaga os objetos selecionados.
+Choose objects under cursor	Escolher objetos sob o cursor
+Freeze selected objects	Congelar objetos selecionados
+Set the speed of the rotor.	Define a velocidade do rotor.
+View item info.	Ver informações do item.
+Slow motion disabled	Câmera lenta desativada
+A small fireworks rocket.	Um pequeno foguete de fogos de artifício.
+An old jukebox.	Uma jukebox antiga.
+A semi automatic pistol.	Uma pistola semiautomática.
+Reject suspicious mods	Rejeitar mods suspeitos
+Old filament light bulb.	Lâmpada incandescente antiga.
+Toggle indestructibility.	Liga ou desliga a indestrutibilidade.
+Its base is frozen when created.	A base fica congelada ao ser criada.
+A pane made of fragile glass.	Um painel de vidro frágil.
+Locks a creature's joints.	Trava as articulações de uma criatura.
+Giant hovering fan.	Ventilador gigante flutuante.
+Electricity Transformer	Transformador elétrico
+Set detector range.	Define o alcance do detector.
+Log debug messages	Registrar mensagens de depuração
+Simple airfoil.	Aerofólio simples.
+It's a hovercraft.	É um hovercraft.
+Switch to 9th tool	Mudar para a 9ª ferramenta
+Relatively small bush.	Arbusto relativamente pequeno.
+Switch to 7th tool	Mudar para a 7ª ferramenta
+Switch to 6th tool	Mudar para a 6ª ferramenta
+Switch to 5th tool	Mudar para a 5ª ferramenta
+Switch to 4th tool	Mudar para a 4ª ferramenta
+Switch to 3th tool	Mudar para a 3ª ferramenta
+Detached Laser Cannon	Canhão laser solto
+Switch to 2th tool	Mudar para a 2ª ferramenta
+Switch to 1th tool	Mudar para a 1ª ferramenta
+Slow motion enabled	Câmera lenta ativada
+Simplified background tiles	Fundo simplificado
+Switch to 8th tool	Mudar para a 8ª ferramenta
+Change the colour of this object.	Muda a cor deste objeto.
+Welcome to the playground!	Bem-vindo ao playground!
+Toggle slow motion	Ligar/desligar câmera lenta
+Hammer made to fight with.	Martelo feito para lutar.
+Clears all debris and decals.	Remove todos os detritos e marcas.
+A belt that conveys.	Uma esteira que transporta.
+Distant sound effects	Efeitos sonoros distantes
+Screenshake intensity	Intensidade do tremor de tela
+Upload to Steam Workshop	Enviar para a Oficina Steam
+Temperature unit	Unidade de temperatura
+Forces the walking animation override.	Força a animação de andar.
+Detached Beam Cannon	Canhão de feixe solto
+Forces the sitting animation override.	Força a animação de sentar.
+Enter contraption name	Digite o nome da engenhoca
+Wires with context menu	Fios com menu de contexto
+Reverse rotor.	Inverte o rotor.
+Red propagation wire	Fio de propagação vermelho
+Soviet Submachine Gun	Submetralhadora soviética
+Mend or break bone.	Cura ou quebra o osso.
+Toggle sidepanels	Mostrar/ocultar painéis laterais
+Relatively large bush.	Arbusto relativamente grande.
+Toggle electricity.	Liga ou desliga a eletricidade.
+BG Signal Converter	Conversor de sinal AV
+Very powerful explosive.	Explosivo muito forte.
+Ignite selected objects	Pôr fogo nos objetos selecionados
+Reverse vehicle	Inverter o veículo
+RG Signal Converter	Conversor de sinal VmV
+BR Signal Converter	Conversor de sinal AVm
+Bone Eating Syringe	Seringa devora-ossos
+Toggle detail view	Visão detalhada
+Large wooden pole.	Poste de madeira grande.
+A human being, very fragile.	Um ser humano, muito frágil.
+Clamp audio volume	Limitar o volume
+Blood vessel wire	Fio de vaso sanguíneo
+Set lagbox delay	Definir o atraso do lagbox
+Set exact rotation.	Define a rotação exata.
+Water Breathing Syringe	Seringa de respiração aquática
+Blue propagation wire	Fio de propagação azul
+It is disabled by default.	Desativado por padrão.
+Soft plastic barrel.	Barril de plástico macio.
+Drop on death	Soltar ao morrer
+Steam is not initialised	O Steam não foi inicializado
+Big metal beam.	Viga de metal grande.
+Set timed gate duration	Definir a duração do portão temporizado
+Export game debug info	Exportar dados de depuração
+An axe. Heavy and sharp.	Um machado. Pesado e afiado.
+Double trigger gate	Portão de acionamento duplo
+Activation Transformer	Transformador de ativação
+Giant Wooden Bowl	Tigela gigante de madeira
+A sharp metal sword.	Uma espada de metal afiada.
+Resets and restarts the map.	Reinicia o mapa.
+Fragmentation explosive.	Explosivo de fragmentação.
+Sharp crystal shard.	Fragmento de cristal afiado.
+Change the light colour.	Muda a cor da luz.
+Mini Thruster	Minipropulsor
+Purple cathode light	Luz catódica roxa
+Small metal beam.	Viga de metal pequena.
+Detached 120mm Cannon	Canhão de 120 mm solto
+Resize object(s)	Redimensionar
+Set metronome rate	Definir a frequência do metrônomo
+Set target temperature	Definir a temperatura-alvo
+Destructible propagation wire	Fio de propagação destrutível
+User Interface	Interface
+Set rotor speed	Definir a velocidade do rotor
+General Purpose Bomb	Bomba de uso geral
+Light wooden stick.	Bastão de madeira leve.
+Energy Vessel Explosive	Explosivo de recipiente energético
+Nitroglycerine Flask	Frasco de nitroglicerina
+Change the gravity	Mudar a gravidade
+Toggle thermal vision	Ligar/desligar visão térmica
+Industrial Generator	Gerador industrial
+Set upper limit	Definir limite superior
+Disable heat damage	Desativar dano por calor
+De staf van Sinterklaas	O cajado de Sinterklaas
+Infrared Thermometer	Termômetro infravermelho
+Change the radio channel.	Muda o canal do rádio.
+Why are you doing this?	Por que você está fazendo isso?
+Activation Toggle	Interruptor de ativação
+A sniper rifle.	Um rifle de precisão.
+internal bleeding	sangramento interno
+Clears all "living" things.	Remove tudo que está "vivo".
+Set hover height	Definir a altura de flutuação
+Gyroscope Stabiliser	Estabilizador giroscópico
+Set lower limit	Definir limite inferior
+A powerful tesla coil.	Uma bobina de Tesla poderosa.
+Set to idle	Modo ocioso
+What should it say?	O que deve estar escrito?
+Set to pull	Modo puxar
+Enable electricity	Ativar eletricidade
+CRT Television.	Televisão de tubo.
+Ambient temperature	Temperatura ambiente
+welke dag is het vandaag?	Que dia é hoje?
+Holographic Display	Display holográfico
+Bulletproof Sheet	Chapa à prova de balas
+Rapid firing cannon.	Canhão de disparo rápido.
+A conducting wire.	Um fio condutor.
+Enable heat damage	Ativar dano por calor
+Plastic Explosive	Explosivo plástico
+Opens the pause menu.	Abre o menu de pausa.
+Motorised Wheel	Roda motorizada
+Liquidentifier	Identificador de líquidos
+1. FILL WITH LIQUID	1. ENCHA COM LÍQUIDO
+Giant sharp spike.	Espinho gigante afiado.
+Set to push	Modo empurrar
+Green cathode light	Luz catódica verde
+Show hovering highlights	Destacar ao passar o mouse
+It glows purple.	Brilha em roxo.
+No mods required	Não precisa de mods
+Heating Element	Elemento de aquecimento
+Launches crystals.	Dispara cristais.
+Toggleable Mirror	Espelho alternável
+Set laser colour	Definir a cor do laser
+Set temperature	Definir a temperatura
+Machine Blaster	Blaster automático
+Classic handgun.	Pistola clássica.
+Yellow cathode light	Luz catódica amarela
+Hover Thruster	Propulsor de flutuação
+Painkiller Syringe	Seringa analgésica
+Red cathode light	Luz catódica vermelha
+Industrial Gyrostabiliser	Giroestabilizador industrial
+Liquid Pressuriser	Pressurizador de líquidos
+Enable collision	Ativar colisão
+Do you want to upload	Deseja enviar
+Limb crushing	Esmagamento de membros
+Clears everything.	Remove tudo.
+Archelix Caster	Lançador de Archelix
+Activation Fuse	Fusível de ativação
+Industrial Piston	Pistão industrial
+Update existing	Atualizar existente
+Vsync	Vsync
+Metal Pyramid	Pirâmide de metal
+Fluorescent Lamp	Lâmpada fluorescente
+Open "Mods" folder in Explorer	Abrir a pasta "Mods" no Explorador
+gunshot wounds	ferimentos de bala
+White cathode light	Luz catódica branca
+Metal rod.	Haste de metal.
+Thrusterbed	Plataforma de propulsores
+Adrenaline Syringe	Seringa de adrenalina
+Blue cathode light	Luz catódica azul
+Maximum power	Potência máxima
+Ceramic plate.	Prato de cerâmica.
+Mending Syringe	Seringa reparadora
+Pick a new map.	Escolha outro mapa.
+Open documentation in browser	Abrir a documentação no navegador
+Propagation wire	Fio de propagação
+Anti-aliasing (SMAA)	Anti-aliasing (SMAA)
+Previous texture	Textura anterior
+Zombie Syringe	Seringa zumbi
+An adrenaline shot.	Uma injeção de adrenalina.
+saved with errors	salvo com erros
+Click to edit	Clique para editar
+Oil Flask	Frasco de óleo
+Make indestructible	Tornar indestrutível
+Tempered Glass Pane	Painel de vidro temperado
+Move camera right	Mover câmera para a direita
+Tonemapping	Mapeamento de tons
+Cooling Element	Elemento de resfriamento
+Mechanical belt	Correia mecânica
+Engage parking brakes	Puxar o freio de mão
+Set description	Definir descrição
+Flare for signaling.	Sinalizador para pedir socorro.
+Destructible wall.	Parede destrutível.
+G1 Submachine Gun	Submetralhadora G1
+It glows green.	Brilha em verde.
+Passenger car.	Carro de passeio.
+Missile Launcher	Lança-mísseis
+Sniper Rifle	Rifle de precisão
+Shock Detector	Detector de impacto
+It glows yellow.	Brilha em amarelo.
+Immobility Field	Campo de imobilidade
+Flintlock Pistol	Pistola de pederneira
+Life Detector	Detector de vida
+limbs selected	membros selecionados
+Ultra Strength Syringe	Seringa de superforça
+Heals nearly anything.	Cura quase tudo.
+Leave the playground.	Sair do playground.
+Edit trigger key.	Editar a tecla de gatilho.
+Resizable Housing	Carcaça redimensionável
+Fixed cable	Cabo fixo
+heart stopped	coração parado
+Insulator	Isolante
+Blaster Rifle	Rifle blaster
+Metal Wheel	Roda de metal
+Rocket Launcher	Lança-foguetes
+Steel binding	Fixação de aço
+It glows red.	Brilha em vermelho.
+Saved in version	Salvo na versão
+Structural Pillar	Pilar estrutural
+Launch Platform	Plataforma de lançamento
+Gorse Blood Flask	Frasco de sangue de gorse
+A submachine gun.	Uma submetralhadora.
+Move camera left	Mover câmera para a esquerda
+Wooden strut	Escora de madeira
+Upload as new	Enviar como novo
+Set to repulse	Modo repelir
+Wooden Pillar	Pilar de madeira
+Just a normal wheel.	Só uma roda comum.
+Fancy effects	Efeitos caprichados
+Emergency siren.	Sirene de emergência.
+saved succesfully	salvo com sucesso
+Dampening Box	Caixa amortecedora
+Laser sentry turret	Torreta sentinela laser
+It glows white.	Brilha em branco.
+Resumes the game.	Retoma o jogo.
+Repair engine	Consertar motor
+Assault Rifle	Fuzil de assalto
+Lightning chance	Chance de raio
+It glows blue.	Brilha em azul.
+Destructible pin.	Pino destrutível.
+Plastic Barrel	Barril de plástico
+Particle Projector	Projetor de partículas
+Single trigger	Acionamento simples
+Make invisible	Tornar invisível
+blood pressure	pressão sanguínea
+Move camera down	Mover câmera para baixo
+Laser Receiver	Receptor laser
+Metal Pole	Poste de metal
+Move camera up	Mover câmera para cima
+Explosives	Explosivos
+Next texture	Próxima textura
+Render scale	Escala de renderização
+Landmine	Mina terrestre
+Energy Sword	Espada de energia
+Ceiling Turret	Torreta de teto
+Firearms	Armas de fogo
+Exported to	Exportado para
+Set range	Definir alcance
+Sentry Turret	Torreta sentinela
+Thruster	Propulsor
+Blood Tank	Tanque de sangue
+Collision quality	Qualidade da colisão
+Heatray	Raio de calor
+Detail view	Visão detalhada
+Fusion Bomb	Bomba de fusão
+What are you doing?	O que você está fazendo?
+Fire Detector	Detector de fogo
+Conveyor Belt	Esteira transportadora
+Magnum Revolver	Revólver Magnum
+Set to drain	Modo drenar
+Restore weight	Restaurar peso
+Break engine	Quebrar motor
+Pulse Drum	Tambor de pulsos
+Decimator	Dizimador
+Unfollow	Parar de seguir
+Wooden Wheel	Roda de madeira
+Submachine Gun	Submetralhadora
+Liquid Valve	Válvula de líquido
+Cleared living	Seres vivos removidos
+Hovercar	Carro flutuante
+Text Display	Display de texto
+Angle in degrees	Ângulo em graus
+Light Machine Gun	Metralhadora leve
+Sound effects	Efeitos sonoros
+Snap	Encaixe
+Motion Detector	Detector de movimento
+cosmetic rain	chuva decorativa
+Jukebox	Jukebox
+Freezeray	Raio congelante
+Visual center	Centro visual
+Double trigger	Acionamento duplo
+cosmetic fog	neblina decorativa
+Clear living	Remover seres vivos
+Extinguishes fires.	Apaga incêndios.
+blood amount	quantidade de sangue
+Cleared debris	Detritos removidos
+Wooden crate.	Caixote de madeira.
+Metal Cube	Cubo de metal
+Set target angle	Definir ângulo-alvo
+Transfers heat.	Transfere calor.
+Baseball Bat	Taco de beisebol
+LED Bulb	Lâmpada LED
+Signal Flare	Sinalizador
+Ion Thruster	Propulsor iônico
+Small Button	Botão pequeno
+Pressure Valve	Válvula de pressão
+Spike Grenade	Granada de espinhos
+Context menu	Menu de contexto
+Stielhandgranate	Granada de cabo
+Spike Rifle	Fuzil de espinhos
+broken bones	ossos quebrados
+Freeze Syringe	Seringa congelante
+Glass Pane	Painel de vidro
+Trigger key	Tecla de gatilho
+Bus Chair	Banco de ônibus
+Timed Gate	Portão temporizado
+Crossbow Bolt	Virote de besta
+Laser Pointer	Apontador laser
+Enter value	Digite um valor
+Physics Gun	Arma de física
+Strong spring	Mola forte
+Detached 30mm HEAT Cannon	Canhão HEAT de 30 mm solto
+Acid Syringe	Seringa de ácido
+internal temp	temp. interna
+Environment	Ambiente
+Container Wagon	Vagão de contêiner
+Destructible vase.	Vaso destrutível.
+Small Boulder	Pedra pequena
+Bowling Ball	Bola de boliche
+cosmetic snow	neve decorativa
+Show in Explorer	Mostrar no Explorador
+Small I-Beam	Viga em I pequena
+Fire Extinguisher	Extintor
+Wooden Chair	Cadeira de madeira
+Open in Explorer	Abrir no Explorador
+Wooden Table	Mesa de madeira
+Change key	Mudar tecla
+Beam Rifle	Rifle de feixe
+No mods found	Nenhum mod encontrado
+Toggle time	Pausar/retomar o tempo
+Sticky Grenade	Granada adesiva
+Metal Detector	Detector de metais
+Channel name	Nome do canal
+Reflects light.	Reflete a luz.
+An empty syringe.	Uma seringa vazia.
+Delete object	Apagar objeto
+to the Workshop?	para a Oficina?
+Depressurise	Despressurizar
+Concrete slab	Laje de concreto
+Scherbenwerfer	Lança-estilhaços
+Toggle fire.	Liga ou desliga o fogo.
+Power Gauge	Medidor de potência
+Rotate left	Girar para a esquerda
+Wooden Pole	Poste de madeira
+Cleared room	Sala limpa
+Defibrillator	Desfibrilador
+Substructure	Subestrutura
+Reconstructor	Reconstrutor
+A tonne of steel.	Uma tonelada de aço.
+Edit channel	Editar canal
+Knockout Syringe	Seringa sonífera
+Options menu.	Menu de opções.
+Eats flesh.	Devora carne.
+Ambience	Ambiente
+Rotate right	Girar para a direita
+Brick Wall	Parede de tijolos
+Window mode	Modo de janela
+Electromagnet	Eletroímã
+Pink Explosive	Explosivo rosa
+Disable smoke	Desativar fumaça
+EMP Generator	Gerador de PEM
+Regular table.	Mesa comum.
+Change colour	Mudar cor
+Pick a colour	Escolha uma cor
+Handgrenade	Granada de mão
+Small knife.	Faca pequena.
+to the workshop	para a Oficina
+Rigid cable	Cabo rígido
+Enable fire	Ativar fogo
+Set angle	Definir ângulo
+Blood Flask	Frasco de sangue
+Boat Motor	Motor de barco
+Small Bush	Arbusto pequeno
+Toggle smoke.	Liga ou desliga a fumaça.
+Wooden pin	Pino de madeira
+Power Hammer	Martelo de força
+Gate	Portão
+Local file	Arquivo local
+Show framerate	Mostrar FPS
+Pink Syringe	Seringa rosa
+The spooky food.	A comida assustadora.
+Grenade Launcher	Lança-granadas
+broken bone	osso quebrado
+Heat pipe	Tubo de calor
+Death Syringe	Seringa da morte
+Empty Syringe	Seringa vazia
+Set threshold	Definir limite
+Disable all	Desativar tudo
+Edit text	Editar texto
+Sharp stick.	Graveto afiado.
+Sharp spear.	Lança afiada.
+Disassembler	Desmontador
+Tall Tree	Árvore alta
+Copper wire	Fio de cobre
+Ambience Highpass	Passa-alta do ambiente
+Red Barrel	Barril vermelho
+Clean cuboid.	Cuboide limpo.
+Tesla Coil	Bobina de Tesla
+Master	Geral
+Entities	Entidades
+Phase link	Ligação de fase
+Brick Cube	Cubo de tijolo
+Center of mass	Centro de massa
+Atom Bomb	Bomba atômica
+Rigidifier	Enrijecedor
+stab wounds	facadas
+Gore shader	Shader de gore
+Paused	Pausado
+Lance	Lança
+Destructible	Destrutível
+bleeding	sangramento
+Realistic	Realista
+Undo	Desfazer
+Enable all	Ativar tudo
+Electronics	Eletrônicos
+Heart Monitor	Monitor cardíaco
+Large Bush	Arbusto grande
+Ion Cannon	Canhão de íons
+Worm Staff	Cajado de vermes
+heilekouwe	uma vaca inteira
+Accumulator	Acumulador
+Handcannon	Canhão de mão
+Life Syringe	Seringa da vida
+The mod author	O autor do mod
+Fullscreen	Tela cheia
+Balloon	Balão
+Continuous	Contínuo
+Television	Televisão
+9mm Pistol	Pistola 9 mm
+uploaded...	enviado...
+Framerate limit	Limite de FPS
+Drag	Arrastar
+Borderless	Sem bordas
+Unpaused	Retomado
+hello world!	Olá, mundo!
+information	informações
+Reverse gear	Marcha à ré
+Accelerator	Acelerador
+Liquid Canister	Galão de líquido
+integrity	integridade
+Floodlights	Holofotes
+It is a ramp.	É uma rampa.
+Publish	Publicar
+Centrifuge	Centrífuga
+Pause menu	Menu de pausa
+1000kg Weight	Peso de 1000 kg
+dismembered	desmembrado
+brain-dead	morte cerebral
+Consciousness	Consciência
+Adrenaline	Adrenalina
+Default	Padrão
+Thermometer	Termômetro
+Wrench	Chave inglesa
+Toogle	Alternar
+Battery	Bateria
+Generator	Gerador
+Modern	Moderno
+hekserij	bruxaria
+controls	controles
+Discrete	Discreto
+Fahrenheit	Fahrenheit
+Workshop	Oficina
+Spot Light	Holofote direcional
+Toggle	Alternar
+Floodlight	Holofote
+Outdated	Desatualizado
+Gravity	Gravidade
+Inspect.	Inspecionar.
+Blaster gun.	Pistola blaster.
+Dynamic	Dinâmico
+Machinery	Máquinas
+Propeller	Hélice
+Fireworks	Fogos de artifício
+Zoom in	Aproximar
+A shotgun.	Uma espingarda.
+Understood	Entendi
+Where are you?	Cadê você?
+Building	Construção
+Bicycle	Bicicleta
+Chainsaw	Motosserra
+Disabled	Desativado
+Metronome	Metrônomo
+Flamethrower	Lança-chamas
+Melee	Corpo a corpo
+Key Trigger	Gatilho de tecla
+Legacy	Antigo
+settings	configurações
+Tools	Ferram.
+Lighting	Iluminação
+Revolver	Revólver
+Vehicles	Veículos
+Lightbulb	Lâmpada
+Stormbaan	Raio Tesla
+Servo	Servo
+Chemistry	Química
+Humongous	Enorme
+Machine	Máquina
+Machine Gun	Metralhadora
+Vehicle	Veículo
+Fun	Diversão
+Copy	Copiar
+Resistor	Resistor
+Brightness	Brilho
+Flashlight	Lanterna
+Zoom out	Afastar
+Upload	Enviar
+Pasted	Colado
+Crystal	Cristal
+Enabled	Ativado
+Shotgun	Espingarda
+Apply	Aplicar
+General	Geral
+Small	Pequeno
+Liquid Outlet	Saída de líquido
+objects	objetos
+Fan	Ventilador
+OXygen	Oxigênio
+Android	Androide
+Pistol	Pistola
+iterations	iterações
+Save	Salvar
+Tiny	Minúsculo
+Pressurise	Pressurizar
+rotted	podre
+INACTIVE	INATIVO
+Sit down.	Sentar.
+Crossbow	Besta
+Dynamite	Dinamite
+Lift	Elevador
+Windowed	Em janela
+0 LITER	0 LITROS
+Utility	Utilidades
+Bloom	Bloom
+Bowling Pin	Pino de boliche
+Rifle	Rifle
+None	Nenhum
+Off	Desligado
+Truck	Caminhão
+Local	Local
+Blaster	Blaster
+Celsius	Celsius
+Minigun	Minigun
+Lightning	Raio
+Slider	Controle deslizante
+Lagbox	Lagbox
+numb	dormente
+Bottle	Garrafa
+Spring	Mola
+ACTIVE	ATIVO
+Decals	Marcas
+Detector	Detector
+Kelvin	Kelvin
+Piston	Pistão
+Ramp	Rampa
+Mirror	Espelho
+PUSH	EMPURRAR
+Human	Humano
+Rod	Haste
+Flush	Esvaziar
+Enter	Entrar
+Plate	Prato
+video	vídeo
+Bazooka	Bazuca
+Slanted	Inclinado
+Winch	Guincho
+removed	removido
+seconds	segundos
+Brick.	Tijolo.
+Button	Botão
+bruise	hematoma
+Hybrid	Híbrido
+Void	Vazio
+Misc.	Diversos.
+filter	filtrar
+Cancel	Cancelar
+Rope	Corda
+Bell	Sino
+Camera	Câmera
+Wheel	Roda
+Stunner	Atordoador
+Cable	Cabo
+bruises	hematomas
+Abyss	Abismo
+Plank.	Tábua.
+Pumpkin	Abóbora
+Fancy	Caprichado
+Bus	Ônibus
+Siren	Sirene
+Blocks	Blocos
+Fast	Rápido
+Wire	Fio
+Anchor	Âncora
+Hammer	Martelo
+I-Beam	Viga em I
+Radio	Rádio
+Bandage	Atadura
+Car	Carro
+Stick	Graveto
+Spear	Lança
+Clamp	Grampo
+Tower	Torre
+Torch	Tocha
+Flask	Frasco
+Rotor	Rotor
+Powers	Poderes
+Bowl.	Tigela.
+back	voltar
+Rain	Chuva
+Wing	Asa
+audio	áudio
+Fog	Neblina
+Axe	Machado
+Crate	Caixote
+Gorse	Gorse
+Pull	Puxar
+Lava	Lava
+AK-47	AK-47
+Soap	Sabão
+dead	morto
+Vase	Vaso
+Tank	Tanque
+Mods	Mods
+Snow	Neve
+Knife	Faca
+Sea	Mar
+Shock	Choque
+Spike	Espeto
+Sword	Espada
+for	por
+fps	fps
+Pin	Pino
+No	Não
+Okay	OK
+Yes	Sim
+Hz	Hz
+Set lagbox delay in seconds.	Atraso do lagbox em segundos.
+Set the gate maximum power	Potência máxima da porta lógica
+Set hover height in meters	Altura de flutuação em metros
+Limb crushing sensitivity	Sensibilidade de esmagamento de membros
+Snap to center of mass	Alinhar ao centro de massa
+Set the gate threshold	Limite da porta lógica
+Single trigger gate	Porta de disparo único
+Coagulation Syringe	Seringa de coagulação
+Bullet tracers	Traçantes de bala
+Open file	Abrir arquivo
+quit	sair
+play	jogar
+resume	continuar
+restart	reiniciar
+choose map	escolher mapa
+player statistics	estatísticas do jogador
+main menu	menu principal
+gore	gore
+visual effects	efeitos visuais
+Contraptions	Engenhocas
+Select a chamber	Escolha uma câmara
+Paste	Colar
+Delete	Excluir
+Follow	Seguir
+Activate	Ativar
+Ignite	Incendiar
+Freeze	Congelar
+Unfreeze	Descongelar
+Make weightless	Tirar peso
+Resize	Redimensionar
+Stop resizing	Parar de redimensionar
+Break bone	Quebrar osso
+Mend bone	Curar osso
+Stumble	Tropeçar
+Clear animation override	Limpar animação forçada
+Walk	Andar
+Cower	Encolher-se
+Flat pose	Pose plana
+Clear debris	Limpar destroços
+Clear everything	Limpar tudo
+Recompile	Recompilar
+Safe mode is enabled. Mods cannot load.	O modo seguro está ativado. Mods não podem ser carregados.
+Open Mods folder in Explorer	Abrir a pasta Mods no explorador
+Search	Pesquisar
+Biohazard	Risco biológico
+Inanimate	Inanimado
+Decorations	Decoração
+Drag object	Arrastar objeto
+Switch to first tool	Mudar para a primeira ferramenta
+Switch to second tool	Mudar para a segunda ferramenta
+Switch to third tool	Mudar para a terceira ferramenta
+Edit layers of selected objects	Editar camadas dos objetos selecionados
+Move layer down	Descer camada
+Move layer up	Subir camada
+Bring to front	Trazer para frente
+Send to back	Enviar para trás
+Increment grid size	Aumentar tamanho da grade
+Decrement grid size	Diminuir tamanho da grade
+Increment angle snap	Aumentar passo de ângulo
+Decrement angle snap	Diminuir passo de ângulo
+Pause menu / back	Menu de pausa / voltar
+Toggle user interface	Mostrar/ocultar interface
+Pan	Mover câmera
+Mouse0	Botão esq.
+Mouse1	Botão dir.
+Mouse2	Botão do meio
+Mouse3	Mouse 4
+Mouse4	Mouse 5
+Space	Espaço
+Alpha{0}	{0}
+LeftShift	Shift esq.
+RightShift	Shift dir.
+LeftAlt	Alt esq.
+RightAlt	Alt dir.
+LeftControl	Ctrl esq.
+RightControl	Ctrl dir.
+Escape	Esc
+Return	Enter
+RightArrow	Seta direita
+LeftArrow	Seta esquerda
+UpArrow	Seta para cima
+DownArrow	Seta para baixo
+Collision calculations	Cálculo de colisões
+Determines the quality of the collision detection. Discrete mode is faster, but less accurate. Continuous mode will prevent objects from phasing through each other at high velocities.	Define a qualidade da detecção de colisões. O modo discreto é mais rápido, porém menos preciso. O modo contínuo impede que objetos atravessem uns aos outros em altas velocidades.
+Goreless	Sem gore
+No blood or obvious gore will be rendered when this is enabled.	Com esta opção, sangue e gore evidente não serão exibidos.
+Procedural fragments	Fragmentos procedurais
+Enabling this will cause the generation of procedural flesh and bone fragments on full limb crush. This may cause performance issues when lots of limbs are destroyed.	Ao esmagar um membro por completo, serão gerados fragmentos procedurais de carne e osso. Pode afetar o desempenho quando muitos membros são destruídos.
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Values greater than 128 may have diminishing returns. Default is 32.	Define o número de iterações da simulação física. Valores maiores deixam a simulação mais precisa, mas pesam no desempenho. Acima de 128 o ganho é cada vez menor. Padrão: 32.
+{0} iterations	{0} iterações
+{0} fps	{0} fps
+{0} Hz	{0} Hz
+{0} m	{0} m
+{0} seconds	{0} segundos
+{0} degrees	{0} graus
+This setting may decrease performance when enabled. It is disabled by default.	Esta opção pode reduzir o desempenho. Vem desativada por padrão.
+Snap grid size	Tamanho da grade
+The distance between grid points used for translational snapping. This helps in aligning objects more precisely by snapping their position to the nearest grid point. Default is 0.25 m	Distância entre os pontos da grade usada no alinhamento de posição. Ajuda a alinhar objetos com precisão, encaixando-os no ponto mais próximo. Padrão: 0.25 m
+Angle snap size	Passo de ângulo
+The angle increment used for snapping during rotation. This helps in aligning objects more precisely by snapping their rotation to the nearest multiple of this value. Default is 15 degrees	Incremento de ângulo usado ao girar com alinhamento. Ajuda a alinhar objetos com precisão, arredondando a rotação ao múltiplo mais próximo deste valor. Padrão: 15 graus
+The maximum amount of seconds that a mod can compile for until it's skipped.	Tempo máximo em segundos que um mod pode levar compilando antes de ser ignorado.
+Fragility multiplier	Multiplicador de fragilidade
+The higher this value is the more fragile entities become.	Quanto maior o valor, mais frágeis ficam os seres.
+Brain damage	Dano cerebral
+Toggle whether brain damage can occur. It causes organisms to occasionally pass out, fail to stand upright, and have seizures.	Ativa ou desativa o dano cerebral. Ele faz organismos desmaiarem de vez em quando, não conseguirem ficar de pé e terem convulsões.
+Extra shot impact particles	Partículas extras de impacto
+Limbs with enough flesh on them may eject chunky particles when shot.	Membros com carne suficiente podem soltar pedaços ao serem baleados.
+Dismemberment loose tissue	Tecido solto no desmembramento
+Dismemberment of limbs may expose loose stringy tissue.	Desmembrar membros pode expor tecido fibroso solto.
+This will toggle relatively performance-heavy effects.	Ativa ou desativa efeitos relativamente pesados.
+Bullet cracks and whizzes	Estalos e zunidos de balas
+When enabled, supersonic bullets can make whip crack and whiz-by sounds.	Quando ativado, balas supersônicas fazem estalos e zunidos ao passar.
+Modding your game may cause bugs, loss of performance, and other issues. You install and use mods at your own risk.	Usar mods pode causar bugs, perda de desempenho e outros problemas. Você instala e usa mods por sua conta e risco.
+No mod selected	Nenhum mod selecionado
+Submit	Enviar
+Problem description	Descrição do problema
+Describe the issue	Descreva o problema
+Steps to reproduce	Passos para reproduzir
+Fill this form and press "Submit" to report a bug.	Preencha este formulário e clique em "Enviar" para relatar um bug.
+Your IP address, game log, limited system specifications, and loaded mods are included in the report for safety and efficacy. They are not publicly visible.	Seu endereço IP, o log do jogo, especificações limitadas do sistema e os mods carregados são incluídos no relatório por segurança e eficácia. Eles não ficam públicos.
+By submitting the report, you agree to share this information with the developer of the game.	Ao enviar o relatório, você concorda em compartilhar essas informações com o desenvolvedor do jogo.
+Clearly describe how to reproduce the bug. If the bug cannot be reproduced, it will be ignored	Descreva com clareza como reproduzir o bug. Se não for possível reproduzi-lo, ele será ignorado
+version	versão
+[SAFE MODE]	[MODO SEGURO]
+(64 bit)	(64 bits)
+(32 bit)	(32 bits)
+PREVIEW BUILD	VERSÃO DE TESTE
+you may encounter bugs and unfinished content	podem ocorrer bugs e conteúdo inacabado
+Steam Workshop	Oficina Steam
+Retrieving subscriptions	Obtendo inscrições
+Entities killed	Seres mortos
+Entities revived	Seres revividos
+Items spawned	Itens criados
+Nuclear explosions caused	Explosões nucleares causadas
+Wires created	Fios criados
+Contraptions saved	Engenhocas salvas
+<b>people playground</b> (2019) by mestiez (zooi), Studio Minus	<b>people playground</b> (2019), por mestiez (zooi), Studio Minus
+Additional work by Aspa102 and mishanya	Trabalho adicional: Aspa102 e mishanya
+NAudio by Mark Heath (Ms-PL)	NAudio, por Mark Heath (Ms-PL)
+Reactor A5	Reator A5
+Enter Tiny	Entrar em Minúsculo
+Enter Small	Entrar em Pequeno
+Enter Tower	Entrar em Torre
+Enter Void	Entrar em Vazio
+Enter Substructure	Entrar em Subestrutura
+Enter Lava	Entrar em Lava
+Enter Hybrid	Entrar em Híbrido
+Enter Humongous	Entrar em Gigantesco
+Enter Default	Entrar em Padrão
+Enter Blocks	Entrar em Blocos
+Enter Abyss	Entrar em Abismo
+Enter Slanted	Entrar em Inclinado
+Enter Snow	Entrar em Neve
+Enter Sea	Entrar em Mar
+Enter Reactor A5	Entrar em Reator A5
+{0} bruise	{0} hematoma
+{0} bruises	{0} hematomas
+{0} gunshot wound	{0} ferimento de bala
+{0} gunshot wounds	{0} ferimentos de bala
+{0} gunshots wounds	{0} ferimentos de bala
+{0} stab wound	{0} facada
+{0} stab wounds	{0} facadas
+{0}% burnt	{0}% queimado
+{0}% acid damage	{0}% dano por ácido
+{0}% rotted	{0}% apodrecido
+{0}% skin damage	{0}% dano na pele
+{0} limb selected	{0} membro selecionado
+{0} limbs selected	{0} membros selecionados
+Pasted {0} object	{0} objeto colado
+Pasted {0} objects	{0} objetos colados
+Enter a name for the contraption	Digite um nome para a engenhoca
+Contraption name	Nome da engenhoca
+Colour code	Código de cor
+Saved in version {0}.	Salvo na versão {0}.
+Toggle frozen	Congelar/descongelar
+Thermal vision	Visão térmica
+Toggle collisions	Ativar/desativar colisões
+Edit the current environment settings\\nSome maps don't support some settings	Editar as configurações do ambiente atual\\nAlguns mapas não aceitam todas as configurações
+Edit layer	Editar camada
+Choose bell note	Escolher nota do sino
+Disable collision	Desativar colisão
+Sit	Sentar
+Mute	Silenciar
+Next track	Próxima faixa
+Previous track	Faixa anterior
+Toggle sounds	Ativar/desativar sons
+Now playing <color=#ff54f9>{s}</color>	Tocando agora <color=#ff54f9>{s}</color>
+Clear counter	Zerar contador
+Set signal value	Definir valor do sinal
+Set stick distance	Definir distância de fixação
+Set tank to drain mode.	Colocar o tanque no modo de drenagem.
+Disable infinite source	Desativar fonte infinita
+Toggle syringe infinite.	Alternar seringa infinita.
+Repair	Consertar
+Fire lightning bolts by flicking across the screen.	Dispara raios ao deslizar o mouse pela tela.
+Pyrokinesis	Pirocinese
+Fire powers.	Poderes de fogo.
+Chain	Corrente
+Wire but it looks like a chain.	Um fio, mas com cara de corrente.
+Liquid conduit	Duto de líquido
+A wire that transfers liquid between containers. Usually used to siphon blood from humans.	Um fio que transfere líquido entre recipientes. Normalmente usado para tirar sangue de humanos.
+Wooden binding	Amarração de madeira
+Destructible wooden fixed wiring.	Ligação fixa de madeira destrutível.
+Activator Electrode	Eletrodo ativador
+Stone Brick	Tijolo de pedra
+Cobblestone Wall	Muro de paralelepípedos
+Stone Brick Wall	Muro de tijolos de pedra
+Cardiopulmonary Bypass Machine	Máquina de circulação extracorpórea
+Counter	Contador
+Adhesive Coupler	Acoplador adesivo
+Decoupler	Desacoplador
+Detached Ray Cannon	Canhão de raios desmontado
+Naval Mine	Mina naval
+Liquid Duplicator	Duplicador de líquidos
+Pointer	Ponteiro
+Office Chair	Cadeira de escritório
+Office Computer	Computador de escritório
+Office Keyboard	Teclado de escritório
+Office Monitor	Monitor de escritório
+Office Table	Mesa de escritório
+Excalibur	Excalibur
+Jet Engine	Motor a jato
+Scope Attachment	Acessório: mira
+Capacitor Attachment	Acessório: capacitor
+Explosive Rounds Attachment	Acessório: munição explosiva
+Incendiary Rounds Attachment	Acessório: munição incendiária
+Laser Attachment	Acessório: laser
+Flashlight Attachment	Acessório: lanterna
+Classic automatic assault rifle. Supports scoped and underbarrel attachments.	Fuzil de assalto automático clássico. Aceita mira e acessórios sob o cano.
+Automatic assault rifle. Supports scoped and underbarrel attachments.	Fuzil de assalto automático. Aceita mira e acessórios sob o cano.
+Extremely powerful and impractical handgun. Supports scoped and underbarrel attachments.	Pistola potentíssima e nada prática. Aceita mira e acessórios sob o cano.
+Small plastic-framed handgun. Supports scoped and underbarrel attachments.	Pequena pistola com armação de plástico. Aceita mira e acessórios sob o cano.
+Primitive pistol. Not very accurate, not very practical, and very loud. Supports scoped and underbarrel attachments.	Pistola primitiva. Pouco precisa, pouco prática e muito barulhenta. Aceita mira e acessórios sob o cano.
+A fully automatic light machine gun. Comes with the classic unending ammo belt. Supports underbarrel attachments.	Metralhadora leve totalmente automática. Vem com o clássico cinto de munição sem fim. Aceita acessórios sob o cano.
+A semi automatic pistol. Supports scoped and underbarrel attachments.	Pistola semiautomática. Aceita mira e acessórios sob o cano.
+Classic handgun. Supports scoped and underbarrel attachments.	Pistola clássica. Aceita mira e acessórios sob o cano.
+Powerful semi-automatic rifle. Supports scoped and underbarrel attachments.	Fuzil semiautomático potente. Aceita mira e acessórios sob o cano.
+A shotgun. Supports scoped and underbarrel attachments.	Uma espingarda. Aceita mira e acessórios sob o cano.
+A sniper rifle. Supports underbarrel attachments.	Um fuzil de precisão. Aceita acessórios sob o cano.
+A submachine gun. Supports scoped and underbarrel attachments.	Uma submetralhadora. Aceita mira e acessórios sob o cano.
+Rapid firing submachine gun. Supports scoped and underbarrel attachments.	Submetralhadora de disparo rápido. Aceita mira e acessórios sob o cano.
+Soviet submachine gun with a high rate of fire. Supports scoped and underbarrel attachments.	Submetralhadora soviética com alta cadência de tiro. Aceita mira e acessórios sob o cano.
+Very large and painful gun to use. Supports scoped and underbarrel attachments.	Arma enorme e dolorosa de usar. Aceita mira e acessórios sob o cano.
+Extremely powerful ray cannon. It's missing all the pieces except for the barrel.	Canhão de raios potentíssimo. Faltam todas as peças, menos o cano.
+A capacitor that is slotted under the barrel of most guns. Applies the gun's charge to the bullets.	Capacitor encaixado sob o cano da maioria das armas. Transfere a carga da arma para as balas.
+A scope which is slotted onto the top of most guns. Slightly increases accuracy.	Mira encaixada em cima da maioria das armas. Aumenta um pouco a precisão.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into explosive rounds.	Acessório encaixado sob o cano da maioria das armas. De algum jeito transforma a munição em explosiva.
+An attachment that is slotted under the barrel of most guns. Somehow converts rounds into incendiary rounds.	Acessório encaixado sob o cano da maioria das armas. De algum jeito transforma a munição em incendiária.
+A small laser pointer that is slotted under the barrel of most guns. Increases accuracy.	Pequeno apontador laser encaixado sob o cano da maioria das armas. Aumenta a precisão.
+A small flashlight that is slotted under the barrel of most guns.	Pequena lanterna encaixada sob o cano da maioria das armas.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend blunt damage wounds or bullet wounds.	Dispensador portátil de suco curativo de curto alcance. Ao contrário do <b>soro da vida</b>, o suco curativo não cura contusões nem ferimentos de bala.
+A replica of a mythical sword. The blade is monomolecular, allowing it to pierce any material weaker than itself. Activation mechanically fires a ball of fire from the tip of the blade.	Réplica de uma espada mítica. A lâmina é monomolecular e perfura qualquer material mais fraco que ela. Ao ativar, dispara mecanicamente uma bola de fogo da ponta da lâmina.
+This small wrench can repair most machinery with a few gentle taps.	Esta pequena chave conserta a maioria das máquinas com algumas batidinhas.
+A traditional naval contact mine that is designed to be chained to an achor. Violently detonates when one of its horns is pressed down.	Mina naval de contato tradicional, feita para ser presa a uma âncora. Detona violentamente quando um dos chifres é pressionado.
+Brick made of stone.	Tijolo feito de pedra.
+A brick wall that will stand the test of time. Very resistant and heavy building material.	Um muro de tijolos que vai resistir ao tempo. Material de construção muito resistente e pesado.
+Primitive wall made of "natural" stone. Does not provide much structural integrity, safety, or insulation.	Muro primitivo de pedra "natural". Não oferece muita solidez, segurança nem isolamento.
+Metal triangle. I <b>know</b> it says pyramid.	Triângulo de metal. Eu <b>sei</b> que está escrito pirâmide.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A <color=#FF4444>red signal<color=#FFFFFF> will cycle to the previous mode.	Tanque para 5 L de líquido. Ativar passa para o próximo modo de pressão. Um <color=#FF4444>sinal vermelho<color=#FFFFFF> volta para o modo anterior.
+PUSH: Force liquid out of the tank	EMPURRAR: força o líquido para fora do tanque
+PULL: Force liquid to flow in the tank	PUXAR: força o líquido a entrar no tanque
+IDLE: Let other pressure sources decide: liquid will seek equilibrium	PARADO: outras fontes de pressão decidem; o líquido busca o equilíbrio
+DRAIN: Pull and drain liquid.	DRENAR: puxa e drena o líquido.
+A device that increments a value when receiving a <color=#44FF44>green signal<color=#FFFFFF>, decrements when receiving a <color=#FF4444>red signal<color=#FFFFFF> and resets when receiving a <color=#7777FF>blue signal<color=#FFFFFF>.	Dispositivo que aumenta um valor ao receber um <color=#44FF44>sinal verde<color=#FFFFFF>, diminui com um <color=#FF4444>sinal vermelho<color=#FFFFFF> e zera com um <color=#7777FF>sinal azul<color=#FFFFFF>.
+When the value reaches a configurable "signal value", an activation signal is sent out and the value resets.	Quando o valor chega a um "valor do sinal" configurável, envia um sinal de ativação e o valor é zerado.
+A rotor that dynamically adjusts it's angle to point directly towards you. The angle is locked in once deactivated.	Rotor que ajusta o ângulo para apontar direto para você. O ângulo fica travado ao desativar.
+It rotates with a customisable speed. Reverses when activated with a <color=#FF4444>red signal<color=#FFFFFF>, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Gira a uma velocidade configurável. Com um <color=#FF4444>sinal vermelho<color=#FFFFFF> inverte o sentido; caso contrário, alterna a ativação. Com energia ganha torque, mas a velocidade não muda.
+Extremely powerful thruster. It takes a while to start up and shut off, but it will eventually propel itself with immense force. The engine is relatively fragile and will explode when destroyed.	Propulsor potentíssimo. Demora para ligar e desligar, mas acaba se impulsionando com uma força imensa. O motor é bem frágil e explode ao ser destruído.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Conversor de canal de sinal de ativação. Converte <color=#7777FF>azul<color=#FFFFFF> em <color=#44FF44>verde<color=#FFFFFF> e vice-versa.
+Activation signal channel converter. Converts <color=#FF4444>red<color=#FFFFFF> to <color=#44FF44>green<color=#FFFFFF> and vice versa.	Conversor de canal de sinal de ativação. Converte <color=#FF4444>vermelho<color=#FFFFFF> em <color=#44FF44>verde<color=#FFFFFF> e vice-versa.
+Activation signal channel converter. Converts <color=#7777FF>blue<color=#FFFFFF> to <color=#FF4444>red<color=#FFFFFF> and vice versa.	Conversor de canal de sinal de ativação. Converte <color=#7777FF>azul<color=#FFFFFF> em <color=#FF4444>vermelho<color=#FFFFFF> e vice-versa.
+Duplicates the liquids that are present upon activation.	Duplica os líquidos presentes no momento da ativação.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and becomes more powerful when powered.	Dobradiça motorizada que gira de 0 grau até um ângulo-alvo configurável. É bem pesada e fica mais forte com energia.
+Activates whatever is in front of the emitter. Do not look into the operational end of the device.	Ativa o que estiver na frente do emissor. Não olhe para a ponta ativa do dispositivo.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a <color=#FF4444>red activation signal<color=#FFFFFF>, it toggles an internal battery.	Máquina que estende ou recolhe o cabo. Ative para mudar o sentido. Precisa de energia para se mover. Com um <color=#FF4444>sinal de ativação vermelho<color=#FFFFFF> alterna uma bateria interna.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. <color=#FF4444>Red signals<color=#FFFFFF> increase the hover height. <color=#7777FF>Blue signals<color=#FFFFFF> decrease the hover height.	Propulsor feito para flutuar sobre uma superfície. A força aumenta com energia. A altura é definida no menu de contexto. <color=#FF4444>Sinais vermelhos<color=#FFFFFF> aumentam a altura. <color=#7777FF>Sinais azuis<color=#FFFFFF> diminuem a altura.
+Attaches to all objects around it in a small radius when activated. Releases objects when activated again.	Ao ser ativado, prende todos os objetos num raio pequeno. Solta os objetos ao ser ativado de novo.
+Two objects that detach when activated.	Dois objetos que se separam ao serem ativados.
+A relatively outdated desktop computer.	Um computador de mesa meio ultrapassado.
+A table that is too tall for some people, and too short for others, but it can't be adjusted because it's being shared by mulitple people.	Uma mesa alta demais para uns e baixa demais para outros, mas não dá para ajustar porque é compartilhada por várias pessoas.
+A super high tech wireless membrane keyboard! Some of the keys seem more worn than others.	Um teclado de membrana sem fio de altíssima tecnologia! Algumas teclas parecem mais gastas que outras.
+This machine, when connected to the upper torso, will take over the function of the heart by supplying the organism with blood pressure.	Ligada ao tronco superior, esta máquina assume a função do coração, fornecendo pressão sanguínea ao organismo.
+A computer monitor that looks like it belongs in an office.	Um monitor que parece saído de um escritório.
+A chair that looks really comfortable but is actually a bit too small for most people.	Uma cadeira que parece muito confortável, mas na verdade é um pouco pequena para a maioria das pessoas.
+{0} BPM	{0} BPM
+Extended limb damage	Dano estendido nos membros
+Causes limbs to become more fragile as they take more damage. Enabled by default.	Os membros ficam mais frágeis à medida que sofrem dano. Ativado por padrão.
+Adjust the visibility of bullet trails and similar effects. Default is 100%.	Ajusta a visibilidade dos rastros de bala e efeitos parecidos. Padrão: 100%.
+Determines the collision detection quality of debris. Discrete is fast, but less accurate. Continuous will prevent debris from passing through each other at high speeds.	Define a qualidade da detecção de colisões dos destroços. Discreto é rápido, mas menos preciso. Contínuo impede que destroços se atravessem em altas velocidades.
+Clamp brightness	Limitar brilho
+Makes the bloom effect less intense for blindingly bright objects. Useful if you're sensitive to bright lights.	Deixa o bloom menos intenso em objetos ofuscantes. Útil se você é sensível a luzes fortes.
+Changes the displayed temperature unit across the game.	Muda a unidade de temperatura exibida no jogo todo.
+If enabled, the center of mass of every object in the scene will be displayed when holding the Detail View key. Useful for building balanced contraptions.	Se ativado, segurar a tecla de visão detalhada mostra o centro de massa de cada objeto da cena. Útil para montar engenhocas equilibradas.
+UI volume	Volume da interface
+Adjust the volume of user interface sounds. Default is 100%.	Ajusta o volume dos sons da interface. Padrão: 100%.
+Ambience volume	Volume ambiente
+Adjust the volume of ambient background sounds. Default is 100%.	Ajusta o volume dos sons ambientes de fundo. Padrão: 100%.
+Make sure to leave a review on Steam and join our Discord server if you like the game!	Se você gosta do jogo, deixe uma avaliação na Steam e entre no nosso servidor do Discord!
+Check out the official wiki for more information about the game.	Confira a wiki oficial para mais informações sobre o jogo.
+Third-party licenses:	Licenças de terceiros:
+texture packs	pacotes de texturas
+Discord server	Servidor do Discord
+Force refresh mod list	Forçar atualização da lista de mods
+Open source libraries	Bibliotecas de código aberto
+map editor	editor de mapas
+report a bug	relatar um bug
+Update	Atualizar
+Accept risk	Aceitar o risco
+The game failed to detect Steam. Some features may not work correctly.	O jogo não detectou a Steam. Alguns recursos podem não funcionar direito.
+Try restarting the game or the Steam client.	Tente reiniciar o jogo ou o cliente da Steam.
+limb status	estado dos membros
+<b>{s}</b> or <b>{t}</b>	<b>{s}</b> ou <b>{t}</b>
+<size=40>to spawn the selected item</size>	<size=40>para criar o item selecionado</size>
+Hold <b>Mouse2</b> and drag	Segure <b>Mouse2</b> e arraste
+<size=40>to move the camera around</size>	<size=40>para mover a câmera</size>
+slow motion	câmera lenta
+Invisible tools	Ferramentas invisíveis
+Don't save anything and resume the game	Não salvar nada e continuar o jogo
+Toggle visibility of placed wires, cables, etc.	Mostrar ou ocultar fios, cabos etc.
+<b>Invisibility</b>	<b>Invisibilidade</b>
+Move one layer down	Descer uma camada
+Increment order	Ordem +1
+<b>Use Wire</b>	<b>Usar fio</b>
+Save to disk	Salvar no disco
+Increment layer	Camada +1
+Decrement order	Ordem -1
+Decrement layer	Camada -1
+View this item on the Workshop	Ver este item na Oficina
+Move one layer up	Subir uma camada
+Arrange objects	Organizar objetos
+Destructible spring	Mola destrutível
+Destructible metal spring	Mola de metal destrutível
+World origin	Origem do mundo
+<size=80%>This is where the player spawns	<size=80%>É aqui que o jogador aparece
+<b>Map settings</b>	<b>Configurações do mapa</b>
+Map properties	Propriedades do mapa
+Reset	Redefinir
+Save map	Salvar mapa
+Properties	Propriedades
+Remove everything in the map and start over. Map properties are untouched.	Remove tudo do mapa e recomeça. As propriedades do mapa continuam iguais.
+Exit to the main menu.	Sair para o menu principal.
+You are not supposed to be here. This place isn't ready yet.	Você não deveria estar aqui. Este lugar ainda não está pronto.
+Save the map	Salvar o mapa
+Edit the map properties	Editar as propriedades do mapa
+Open the menu	Abrir o menu
+Extremely deep pit	Poço extremamente fundo
+A space scattered with floating rectangles	Um espaço cheio de retângulos flutuantes
+Large open rectangular space	Grande espaço retangular aberto
+This map is just way too large	Este mapa é grande demais
+Valley with an extremely deep water body and a flat surface to the right. There is a tunnel that runs under it.	Vale com uma massa de água muito funda e uma superfície plana à direita. Um túnel passa por baixo.
+Large map with two coasts and a body of lava	Mapa grande com duas costas e um lago de lava
+A replica of one of the many reactors of the facility, complete with surrounding rooms.	Réplica de um dos muitos reatores das instalações, com as salas ao redor.
+Large map with two coasts and a body of water	Mapa grande com duas costas e uma massa de água
+The ground is slanted	O chão é inclinado
+A decently sized room. Compared to the other maps, it's very small	Uma sala de tamanho razoável. Comparada aos outros mapas, é bem pequena
+It's cold and slippery	É frio e escorregadio
+A replica of an old subterranean part of the facility.	Réplica de uma antiga parte subterrânea das instalações.
+This map is designed to fit your monitor, it's that small	Este mapa cabe no seu monitor, de tão pequeno
+Large space with a tall tower in the middle	Grande espaço com uma torre alta no meio
+There is nothing	Não há nada
+Bell that rings the A4 note	Sino que toca a nota Lá4
+Bell that rings the B4 note	Sino que toca a nota Si4
+Bell that rings the C4 note	Sino que toca a nota Dó4
+Bell that rings the C5 note	Sino que toca a nota Dó5
+Bell that rings the D4 note	Sino que toca a nota Ré4
+Bell that rings the E4 note	Sino que toca a nota Mi4
+Bell that rings the F4 note	Sino que toca a nota Fá4
+Bell that rings the G4 note	Sino que toca a nota Sol4
+Brighter, more efficient, more durable, and less painful to touch.	Mais brilhante, mais eficiente, mais durável e menos doloroso de tocar.
+128 tooth spur gear	Engrenagem reta de 128 dentes
+256 tooth spur gear	Engrenagem reta de 256 dentes
+32 tooth spur gear	Engrenagem reta de 32 dentes
+64 tooth spur gear	Engrenagem reta de 64 dentes
+Sends activation signals if the amount of liquid it contains is above a certain threshold	Envia sinais de ativação se a quantidade de líquido dentro dele passar de um certo limite
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celsius. Designed to withstand temperatures up to 3.4028235e38 degrees Celsius!	Termômetro digital. Mostra com precisão a própria temperatura entre -273 e 9999 graus Celsius. Feito para aguentar até 3.4028235e38 graus Celsius!
+Triggers an activation signal when it detects water in front of it. Range can be edited in the context menu.	Dispara um sinal de ativação ao detectar água à sua frente. O alcance pode ser ajustado no menu de contexto.
+(empty)	(vazio)
+Rest	Repouso
+Head	Cabeça
+Fetus	Posição fetal
+Flailing	Debater-se
+Stumbling	Tropeçar
+Swimming	Nadar
+In pain	Com dor
+Walking	Andar
+Foot	Pé
+Sitting	Sentado
+Flat	Deitado
+Decerebrate	Descerebração
+Decorticate	Decorticação
+Bone	Osso
+Flesh	Carne
+Protective	Defensiva
+Decrease cooling	Diminuir resfriamento
+Increase cooling	Aumentar resfriamento
+Raise control rods	Subir barras de controle
+Lower control rods	Baixar barras de controle
+STAND BY	EM ESPERA
+Press E	Aperte E
+<b>CAPACITY</b>	<b>CAPACIDADE</b>
+<align=center>CURRENT REACTOR DATA</align>	<align=center>DADOS DO REATOR</align>
+TEMPERATURE\t:	TEMPERATURA\t:
+PRESSURE\t\t:	PRESSÃO\t\t:
+COOLING RODS\t:	RESFRIAMENTO\t:
+OUTPUT POWER\t:	POTÊNCIA\t:
+<color=red>WARNING</color>	<color=red>ALERTA</color>
+<b>Modded Categories</b>	<b>Categorias de mods</b>
+Categories added by mods	Categorias adicionadas por mods
+The most common map tile. A static indestructible rectangle that collides with everything.	O bloco de mapa mais comum. Um retângulo estático e indestrutível que colide com tudo.
+A fully automatic beam forming energy weapon. Creates a rapid sequence of short pulsed energy.	Arma de energia de feixe totalmente automática. Cria uma sequência rápida de pulsos curtos de energia.
+Glowing tube filled with gas	Tubo brilhante cheio de gás
+A handheld kinetic energy weapon that launches a slug at supersonic speed. High penetration, low damage. The projectile vaporises nearly instantly, and leaves a trail of ionised air behind it.	Arma cinética portátil que lança um projétil em velocidade supersônica. Alta penetração, pouco dano. O projétil vaporiza quase na hora e deixa um rastro de ar ionizado.
+Set colour for selected lights	Definir cor das luzes selecionadas
+Use	Usar
+Regenerate identity	Gerar nova identidade
+Top	Topo
+Bottom	Base
+Speed	Velocidade
+spring cable	cabo com mola
+Gorse blood	Sangue de gorse
+Nitroglycerine	Nitroglicerina
+Something happened. Please show this message to the developer:	Algo deu errado. Mostre esta mensagem ao desenvolvedor:
+Set detector threshold	Definir limite do detector
+Set the detector liquid threshold	Definir limite de líquido do detector
+Break	Quebrar
+Set pointer speed	Definir velocidade do ponteiro
+Set the speed of the pointer	Definir a velocidade do ponteiro
+Set pointer speed from 0 to 10	Velocidade do ponteiro de 0 a 10
+Water	Água
+Bounds	Limites
+Unfulfilled mod requirements:	Requisitos de mods não atendidos:
+Select anyway	Selecionar mesmo assim
+This contraption is corrupted	Esta engenhoca está corrompida
+This contraption is incompatible with your current version	Esta engenhoca não é compatível com a sua versão atual
+From the Steam Workshop	Da Oficina Steam
+Selection mode	Modo de seleção
+Determines what method is used to get which object is selected. Mass picks the object with the smallest mass. Area picks the object with the smallest overall area. Depth picks the object with the highest sorting order. Basically, picks the first object you see, usually.	Define como o objeto selecionado é escolhido. Massa pega o objeto de menor massa. Área pega o de menor área total. Profundidade pega o de maior ordem de desenho. Na prática, costuma pegar o primeiro objeto que você vê.
+Mass	Massa
+Area	Área
+Depth	Profundidade
+Liquid overflow limb exploding	Membros explodem com excesso de líquido
+Toggle whether limbs explode when too full of liquid. Disabled by default. Will only take effect if limb crushing is enabled.	Faz os membros explodirem quando ficam cheios demais de líquido. Desativado por padrão. Só funciona com o esmagamento de membros ativado.
+Slice	Fatiar
+Angle snap set to {0} degrees	Passo de ângulo: {0} graus
+Grid size set to {0} m	Tamanho da grade: {0} m
+Left Mouse	Botão esquerdo
+Right Mouse	Botão direito
+Middle Mouse	Botão do meio
+Automatic	Automático
+Make destructible	Tornar destrutível
+Untitled	Sem título
+Vibrate	Vibrar
+Set detector range in meters	Definir alcance do detector em metros
+Target distance in meters from 0.2 m to 40 m	Distância-alvo de 0.2 m a 40 m
+Show beam	Mostrar feixe
+Hide beam	Ocultar feixe
+Show or hide the detector beam	Mostrar ou ocultar o feixe do detector
+Contraption directory malformed	Pasta da engenhoca corrompida
+Can't upload to Workshop	Não é possível enviar para a Oficina
+Close	Fechar
+This item is marked as uploaded. How do you want to continue?	Este item está marcado como enviado. Como você quer continuar?
+Contraption does not exist.	A engenhoca não existe.
+Contraptions cannot be uploaded from family shared games.	Não é possível enviar engenhocas de jogos compartilhados em família.
+Could not create workshop item	Não foi possível criar o item da Oficina
+Unknown reason	Motivo desconhecido
+By submitting to the workshop, you must agree to the terms of service.	Para publicar na Oficina, você precisa aceitar os termos de serviço.
+{0}% uploaded...	{0}% enviado...
+This puzzle requires an internet connection	Este quebra-cabeça precisa de conexão com a internet
+Toggle cosmetic rain	Alternar chuva decorativa
+Toggle cosmetic snow	Alternar neve decorativa
+Toggle cosmetic fog	Alternar neblina decorativa
+Repair broken machinery	Consertar máquinas quebradas
+Double trigger receiver	Receptor de disparo duplo
+Single trigger receiver	Receptor de disparo único
+TEMPERATURE: {s}	TEMPERATURA: {s}
+COOLING PUMPS: {0}%	BOMBAS: {0}%
+CONTROL ROD DEPTH: {0}%	BARRAS: {0}%
+POWER OUTPUT: {0} E	POTÊNCIA: {0} E
+Basic	Básico
+Ignored if animation is enabled	Ignorado se a animação estiver ativada
+Animation	Animação
+Clear counter value	Zerar valor do contador
+Set counter signal value	Definir valor do sinal do contador
+Set value at which to reset the counter and emit a signal	Valor em que o contador zera e emite um sinal
+Value from {0} to {1}	Valor de {0} a {1}
+Connecting...	Conectando...
+Compiling	Compilando
+Client disconnected during compilation...	O cliente desconectou durante a compilação...
+Compilation timeout! Mod took over {0} seconds to compile and will be ignored.	Tempo de compilação esgotado! O mod levou mais de {0} segundos para compilar e será ignorado.
+Set syringe to push mode	Colocar a seringa no modo empurrar
+Set syringe to pull mode	Colocar a seringa no modo puxar
+Set syringe to idle mode	Colocar a seringa em repouso
+Enable infinite source	Ativar fonte infinita
+Move Gizmo	Gizmo de mover
+Resize Gizmo	Gizmo de tamanho
+Background	Fundo
+Foreground	Primeiro plano
+Outline	Contorno
+Set the distance the coupler can stick to objects	Distância em que o acoplador gruda nos objetos
+Distance	Distância
+Unknown error occurred...	Ocorreu um erro desconhecido...
+Status	Estado
+Resets the animation to be controlled by the algorithm again	Devolve o controle da animação ao algoritmo
+Reset all animations	Redefinir todas as animações
+Deserialisation error! This contraption is incompatible.	Erro de desserialização! Esta engenhoca não é compatível.
+This may be a version mismatch or a missing mod.	Pode ser uma versão diferente ou um mod faltando.
+Loading maps	Carregando mapas
+Press any button...	Aperte qualquer botão...
+Target height in meters from 0.5 m to 10 km	Altura-alvo de 0.5 m a 10 km
+Set bell note	Definir nota do sino
+Could not find the selected piano key...	Não foi possível encontrar a tecla de piano selecionada...
+Increment bell note	Subir nota do sino
+Decrement bell note	Baixar nota do sino
+Water breathing serum	Soro de respiração aquática
+Reanimation agent	Agente reanimador
+Coagulation serum	Soro de coagulação
+Instant death poison	Veneno de morte instantânea
+Inert pink liquid	Líquido rosa inerte
+Vestibular poison	Veneno vestibular
+Muscle poison	Veneno muscular
+Numbing poison	Veneno anestésico
+Mirrorising agent	Agente espelhador
+Transparency agent	Agente de transparência
+Crushing poison	Veneno esmagador
+Mass agent	Agente de massa
+Explosion poison	Veneno explosivo
+Durability serum	Soro de resistência
+Regeneration serum	Soro de regeneração
+Distortion poison	Veneno de distorção
+Circulation poison	Veneno circulatório
+Combustion agent	Agente de combustão
+Tissue deconstruction agent	Agente de desconstrução de tecidos
+Enhancing serum	Soro potencializador
+Immortality serum	Soro da imortalidade
+Ultra strength serum	Soro de ultraforça
+Life serum	Soro da vida
+Mending serum	Soro curativo
+Knockout poison	Veneno nocauteador
+Joint lock poison	Veneno de travamento articular
+Painkiller	Analgésico
+Human blood	Sangue humano
+Exotic liquid	Líquido exótico
+Inert liquid	Líquido inerte
+Beverage M04	Bebida M04
+Debug discoloration liquid	Líquido descolorante de depuração
+Coolant	Refrigerante
+Tritium	Trítio
+Acid	Ácido
+Gasoline	Gasolina
+Portal	Portal
+Save settings	Salvar configurações
+Load settings	Carregar configurações
+Set servo target angle	Definir ângulo-alvo do servo
+Set servo delta	Definir delta do servo
+Angle	Ângulo
+Set servo speed	Definir velocidade do servo
+Set the speed of the servo	Definir a velocidade do servo
+Set servo speed from 0 to 10	Velocidade do servo de 0 a 10
+Damage	Dano
+Toggle key trigger behaviour	Alternar comportamento do gatilho de tecla
+Press {s} to {t}	Aperte {s} para {t}
+Press {s}	Aperte {s}
+Cleared chamber	Câmara esvaziada
+Set to attract	Modo atração
+Could not save file.	Não foi possível salvar o arquivo.
+This mod has updated.	Este mod foi atualizado.
+This mod contains potentially harmful code. You may accept this risk, but you might regret it.	Este mod contém código potencialmente nocivo. Você pode aceitar o risco, mas talvez se arrependa.
+Continue	Continuar
+Disable	Desativar
+Enable	Ativar
+Enter your text here	Digite seu texto aqui
+Make visible	Tornar visível
+Pain	Dor
+Create new pose	Criar nova pose
+Initialise all poses	Inicializar todas as poses
+Loading Workshop items	Carregando itens da Oficina
+punctured lungs	pulmões perfurados
+This will overwrite an existing contraption with the same name.	Isto vai substituir uma engenhoca existente com o mesmo nome.
+Some mods caused a {0}ms freeze!	Alguns mods causaram um travamento de {0} ms!
+Consider disabling some mods for faster load times.	Considere desativar alguns mods para carregar mais rápido.
+Consider disabling these mods for faster load times:	Considere desativar estes mods para carregar mais rápido:
+Don't show this again	Não mostrar de novo
+Menu	Menu
+INITIALISING...	INICIANDO...
+SCANNING...	ESCANEANDO...
+FLUSHING...	PURGANDO...
+Flushed :)	Purgado :)
+ABRUPT SHUTDOWN RECOVERY	RECUPERAÇÃO DE DESLIGAMENTO
+Checking~	Verificando~
+Incorrect	Incorreto
+Receiving...	Recebendo...
+Flip object	Espelhar objeto
+Toggle wire invisibility	Alternar invisibilidade dos fios
+Activate object under cursor	Ativar objeto sob o cursor
+Select multiple	Seleção múltipla
+Local space transformation	Transformação em espaço local
+Sharp	Afiado
+Loading	Carregando
+Particle settings	Configurações de partículas
+Decal settings	Configurações de decalques
+Are you sure you want to permanently remove	Tem certeza de que quer remover permanentemente
+Are you sure you want to unsubscribe from	Tem certeza de que quer cancelar a inscrição de
+Unable to delete	Não foi possível excluir
+Enter channel name	Digite o nome do canal
+Metal	Metal
+energy wire	fio de energia
+Set lower winch limit	Definir limite inferior do guincho
+Set upper winch limit	Definir limite superior do guincho
+Translation in meters	Deslocamento em metros
+Invalid decimal input for winch limit!	Valor decimal inválido para o limite do guincho!
+Repair holes	Consertar furos
+Repairs holes in liquid container	Conserta furos no recipiente de líquido
+Loading mods	Carregando mods
+Loading mod	Carregando mod
+Start	Iniciar
+Preparing	Preparando
+Workshop is disabled	A Oficina está desativada
+Sending request	Enviando solicitação
+Invalid decimal input	Valor decimal inválido
+Unmute	Ativar som
+Unknown	Desconhecido
+Copied {0} objects	{0} objetos copiados
+Target rate in Hertz from 0.125 Hz to 32 Hz	Frequência-alvo de 0.125 Hz a 32 Hz
+Mechanism limits	Limites do mecanismo
+Larger values can lead to instability if the mechanism is heavily loaded.	Valores altos podem causar instabilidade se o mecanismo estiver muito carregado.
+Internal mechanism forces	Forças internas do mecanismo
+A one-shot impulse. Resets to 0 automatically each update.	Impulso único. Volta a 0 automaticamente a cada atualização.
+A continuous tensioning force pushing the mechanism.	Força de tensão contínua que empurra o mecanismo.
+The target speed of the mechanism.	Velocidade-alvo do mecanismo.
+The degree to which the drive is engaged.	Grau de acoplamento do acionamento.
+Change what the display displays on its display	Mudar o que a tela mostra na sua tela
+Set maximum power level	Definir nível máximo de potência
+Repair or break the engine.	Consertar ou quebrar o motor.
+Toggle trigger behaviour	Alternar modo de disparo
+Disable machine heat damage.	Desativar dano por calor nas máquinas.
+Set object temperature	Definir temperatura do objeto
+Set detector range	Definir alcance do detector
+Enable machine heat damage	Ativar dano por calor nas máquinas
+Set exact rotation	Definir rotação exata
+Reverse rotor	Inverter rotor
+User interface	Interface
+Brick	Tijolo
+general	geral
+Push	Empurrar
+Plank	Tábua
+mods	mods
+Set target temperature.	Definir temperatura-alvo.
+Toggle parking brakes.	Alternar freio de mão.
+Set hover height.	Definir altura de flutuação.
+Reverse vehicle.	Inverter direção do veículo.
+Inspect	Examinar
+Mend or break bone	Curar ou quebrar osso
+Toggle indestructibility	Alternar indestrutibilidade
+(EMPTY)	(VAZIO)

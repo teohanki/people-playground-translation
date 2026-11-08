@@ -1,0 +1,1081 @@
+Determines the amount of physics iterations for the physics simulation. Higher values cause the simulation to be more accurate at the cost of performance. Ragdolls are designed for a value of 16, so their behaviour might change when this is set differently. Default is 16.	Определяет число итераций физической симуляции. Чем выше значение, тем точнее симуляция, но ниже производительность. Существа рассчитаны на 16, при другом значении их поведение может измениться. По умолчанию 16.
+Pressurises or depressurises a liquid container. Push mode pushes liquids out. Pull mode pulls liquids in. It cannot store liquid. You connect the device to a liquid container using a blood vessel wire.	Создаёт или сбрасывает давление в ёмкости с жидкостью. Режим выталкивания выдавливает жидкость наружу, режим втягивания втягивает внутрь. Сам жидкость не хранит. К ёмкости подключается проводом для переливания крови.
+Determines the quality of the collision detection. Discrete mode is much faster, but less accurate. Continuous mode prevents objects from passing through each other at high velocities. Dynamic mode switches between the two based on velocity.	Определяет качество обнаружения столкновений. Дискретный режим намного быстрее, но менее точный. Непрерывный не даёт объектам проходить сквозь друг друга на высоких скоростях. Динамический переключается между ними в зависимости от скорости.
+A thruster designed to hover above a surface. The hover force increases when powered. Hover height can be set using the context menu. Red signals increase the hover height. Blue signals decrease the hover height.	Двигатель для парения над поверхностью. С питанием сила парения растёт. Высоту парения можно задать в контекстном меню. Красные сигналы поднимают её, синие опускают.
+Liquid centrifuge. This device will remove the lowest concentration liquids from its container. The lights on the left indicate the amount of distinct liquids inside. When only the bottom light is lit, no more filtering will take place.	Центрифуга для жидкостей. Удаляет из ёмкости жидкость с самой низкой концентрацией. Индикаторы слева показывают, сколько разных жидкостей внутри. Когда горит только нижний, фильтрация прекращается.
+The lighting system makes dark areas actually dark, and makes light-emitting objects useful. Disabling lighting will make everything "full bright". Lighting has very little impact on performance.	Освещение делает тёмные места по-настоящему тёмными, а светящиеся предметы полезными. Без освещения всё будет максимально ярким. На производительность освещение почти не влияет.
+Highpass cutoff. Ambient audio will not play any audio below this frequency. This is useful if you suffer from crackling audio issues. 90 Hz is the default and recommended value here.	Фильтр низких частот. Фоновые звуки ниже этой частоты не воспроизводятся. Помогает, если звук трещит. По умолчанию и рекомендуется 90 Гц.
+Portable atomising weapon. Fires a miniscule projectile that, when embedded into the object, attempts to break down the surrounding molecular structure. Works best against soft objects.	Переносное расщепляющее оружие. Стреляет крошечным снарядом, который застревает в объекте и разрушает молекулярную структуру вокруг себя. Лучше всего работает против мягких объектов.
+Hold one of the pads on the upper chest and activate. The heart will be restarted. This can be used to revive people during a short period after their death. This does not heal wounds.	Приложите одну из пластин к верхней части груди и активируйте. Сердце запустится снова. Так можно оживить человека вскоре после смерти. Раны дефибриллятор не лечит.
+Machine that can extend or retract its cable. Activate to switch direction. Power to move. When powered by a red activation signal, it toggles an internal battery.	Механизм, который выпускает и втягивает трос. Активация меняет направление, питание приводит в движение. При питании красным сигналом активации включает и выключает встроенную батарею.
+It rotates with a customisable speed. Reverses when activated with a red signal, otherwise it toggles activation state. Gets more torque when powered, the speed remains the same.	Вращается с настраиваемой скоростью. Красный сигнал меняет направление, остальные включают и выключают вращение. С питанием растёт крутящий момент, скорость остаётся прежней.
+A generator thats ten times as powerful as the smaller version. This thing is so incredibly unstable and dangerous that it may cause unwanted behaviour. Use with caution.	Генератор в десять раз мощнее маленького. Настолько нестабилен и опасен, что может вести себя непредсказуемо. Используйте осторожно.
+Charged energy weapon. Fires an explosive projectile that slowly releases its energy mid-flight by arcing to nearby objects. The weapon increases its output when held.	Заряжаемое энергетическое оружие. Стреляет взрывным снарядом, который в полёте понемногу разряжается в ближайшие объекты. Если удерживать оружие, мощность растёт.
+Handheld short-ranged rigidity juice dispenser. Unlike freeze poison, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Ручной распылитель затвердевающего сока ближнего действия. В отличие от морозного яда, затвердевающий сок не распространяется по крови, а просто делает часть кожи твёрдой и синей.
+Audio can play at volumes that exceed set limits. It is recommended you keep this turned on to prevent hearing damage. You enable this at your own risk!	Звук может превышать заданные пределы громкости. Рекомендуем держать настройку включённой, чтобы не навредить слуху. Включаете на свой страх и риск!
+Launches a powerful shockwave from its emitter. Any object in front of it receives a force directly proportional to its own mass. In short: heavy objects get pushed harder.	Испускает мощную ударную волну. Каждый объект перед устройством получает силу, пропорциональную его массе. Проще говоря: тяжёлые предметы отталкивает сильнее.
+When enabled, humans and androids will drop objects when their arms aren't capable of holding on anymore. This is usually when they die or when their arms are shot. Default is on.	Если включено, люди и андроиды роняют предметы, когда руки больше не могут их держать. Обычно это происходит после смерти или попадания в руки. По умолчанию включено.
+A digital thermometer. It accurately displays its own temperature if it is within -273 and 9999 degrees Celcius. Designed to withstand temperatures up to 3.4028235e38 degrees Celcius!	Цифровой термометр. Точно показывает собственную температуру в пределах от -273 до 9999 °C. Выдерживает температуру до 3.4028235e38 °C!
+Handheld short-ranged rigidity juice dispenser. Unlike <b>freeze poison</b>, rigidity juice does not spread through blood, and instead turns a portion of the skin rigid and blue.	Ручной распылитель затвердевающего сока ближнего действия. В отличие от <b>морозного яда</b>, затвердевающий сок не распространяется по крови, а просто делает часть кожи твёрдой и синей.
+Debug messages will be logged as notifications in-game. Messages include warnings, errors, and unhandled exceptions. It is recommended to keep this off.	Отладочные сообщения будут появляться в игре как уведомления: предупреждения, ошибки и необработанные исключения. Лучше не включать.
+Handheld short-ranged healing juice dispenser. Unlike <b>life serum</b>, healing juice does not mend flesh wounds and negates freezing poison and rigidity juice.	Ручной распылитель целебного сока ближнего действия. В отличие от <b>сыворотки жизни</b>, не заживляет раны плоти, зато нейтрализует морозный яд и затвердевающий сок.
+When enabled, things like explosions and guns can be heard reflecting and echoing in the distance. Disabling this setting makes audio processing a bit less demanding.	Если включено, взрывы и выстрелы отдаются эхом вдалеке. Если выключить, обработка звука станет чуть легче.
+Variable resistor. Can be adjusted by pulling the lever. When the lever is to the left, it lets 0% of the energy through. When it is to the right, it lets 100% through.	Переменный резистор. Регулируется рычагом. Рычаг слева - пропускает 0% энергии, справа - 100%.
+A pressure valve that will toggle when activated. Only lets pressure through. It can block liquid pressure flow when connected with blood vessel wires.	Клапан давления, переключается при активации. Пропускает только давление. Если подключить его проводами для переливания крови, может перекрывать поток давления жидкости.
+Propagates an activation trigger from one object to another. Direction in which you link the cables is relevant. Signal is on the green (main) channel.	Передаёт сигнал активации от одного объекта к другому. Важно, в каком направлении соединять. Сигнал идёт по зелёному (основному) каналу.
+Generates an electromagnetic pulse. Probably destroys itself doing so. The pulse will likely disable anything electronic in a 82.39700374531835 meter radius. Really specific.	Создаёт электромагнитный импульс и, скорее всего, уничтожает себя. Импульс, вероятно, выведет из строя всю электронику в радиусе 82.39700374531835 метра. Очень точно.
+A simplified background may help decrease compression artifacts in screen recordings. Simplified rendering does not increase performance.	Упрощённый фон может уменьшить артефакты сжатия при записи экрана. На производительность упрощённая отрисовка не влияет.
+This device can control how long it takes for activation triggers to traverse through it. Defaults to 1 second instead of the regular 0.1 seconds.	Задаёт, сколько времени сигнал активации проходит через устройство. По умолчанию 1 секунда вместо обычных 0,1.
+Sends an activation signal when the set key is pressed or released, depending on configuration. May interfere with user set bindings.	Посылает сигнал активации при нажатии или отпускании заданной клавиши, смотря как настроено. Может конфликтовать с вашими назначениями клавиш.
+Ticks at a rate of 1 Hz. Frequency can be changed in the context menu. Sends an activation signal at the same rate. Becomes unpredictable when powered.	Тикает с частотой 1 Гц. Частоту можно изменить в контекстном меню. Посылает сигнал активации с той же частотой. Становится непредсказуемым при подаче питания.
+A tank that can store 5L of liquid. Activation will cycle to the next pressure mode. A red signal will cycle to the previous mode.	Бак на 5 л жидкости. Активация переключает на следующий режим давления, красный сигнал - на предыдущий.
+It propels itself. Somehow, this toy is more like a thruster than a fan. Unlike fans, propellers don't vibrate or push other objects away.	Толкает сам себя. Почему-то эта игрушка больше похожа на двигатель, чем на вентилятор. В отличие от вентиляторов, пропеллеры не вибрируют и не отталкивают другие предметы.
+Toggle whether bullets have travel time and display tracers. This degrades performance. Off by default.	Включает полёт пуль с задержкой и трассеры. Снижает производительность. По умолчанию выключено.
+Toggle trigger behaviour. Double trigger behaviour ensures one extra trigger when the key is released, in addition to it being pressed.	Переключает режим срабатывания. В двойном режиме устройство срабатывает ещё и при отпускании клавиши, а не только при нажатии.
+When enabled, entities will reset their animation override if they are damaged. For example, a human will stop walking when shot.	Если включено, существа при получении урона сбрасывают текущую анимацию. Например, человек перестанет идти, если в него выстрелить.
+Toggle whether limbs are fully destroyable or not. When enabled, limbs will turn into red mist under extreme pressure.	Определяет, можно ли полностью уничтожить конечности. Если включено, под сильным давлением конечности превращаются в кровавый туман.
+Motorised hinge that rotates from 0 degrees to a customisable target angle. The device is relatively heavy and speeds up when powered.	Моторизованный шарнир, поворачивается от 0° до заданного угла. Довольно тяжёлый, с питанием ускоряется.
+Empty flask. It is made of indestructible divine substance that the creators call "polymethylmethacrylaat". Has a capacity of one litre.	Пустая колба из неразрушимого божественного вещества, которое создатели называют «полиметилметакрилат». Вмещает один литр.
+With Vsync turned on, the framerate will be capped to the refresh rate of your monitor. This minimises screen tearing.	При включённой вертикальной синхронизации частота кадров ограничивается частотой обновления монитора. Это почти убирает разрывы изображения.
+An infrared thermometer with a maximum range of 7 meters. It will display the temperature of the object hit by the infrared ray.	Инфракрасный термометр с дальностью до 7 метров. Показывает температуру объекта, на который падает инфракрасный луч.
+Handheld seeking missile launcher. Launches a missile that follows the target. Locking is audibly and visually indicated.	Ручная ракетная установка с самонаведением. Ракета летит за целью. Захват цели сопровождается звуком и индикацией.
+Click on a mod entry to toggle it. Malformed mods cannot be enabled. Disabled mods and malformed mods will not be executed.	Нажмите на мод, чтобы включить или выключить его. Повреждённые моды включить нельзя. Выключенные и повреждённые моды не запускаются.
+A device that emits a decimation field. The field is capable of phasing objects out of existence by deconstructing its individual atoms.	Устройство, создающее поле распада. Поле стирает объекты из существования, разбирая их на отдельные атомы.
+Bowling pins are the target of the bowling ball in various bowling games including tenpins, five-pins, duckpins, and candlepins.	Кегли - мишень для шара в разных видах боулинга: десятикегельном, пятикегельном, дакпинс и кэндлпинс.
+Triggers an activation signal when it detects anything metal in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит перед собой что-то металлическое. Дальность настраивается в контекстном меню.
+Nobody is sure what this syringe contains. Its effects appear inconsistent and unique to each container. It is pink.	Никто не знает, что в этом шприце. Его действие непредсказуемо и у каждого шприца своё. Он розовый.
+Triggers an activation signal when it detects burning objects in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит перед собой горящие объекты. Дальность настраивается в контекстном меню.
+A valve that will toggle when activated. It can block liquid flow when connected with blood vessel wires.	Клапан, переключается при активации. Если подключить его проводами для переливания крови, может перекрывать поток жидкости.
+Triggers an activation signal when it detects living matter in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит перед собой что-то живое. Дальность настраивается в контекстном меню.
+This item blocks activation signals until the timer reaches zero. The timer is activated upon... activation.	Этот элемент блокирует сигналы активации до тех пор, пока таймер не достигнет нуля. Таймер активируется при... активации.
+A small 350ml bottle. If continuously used, it will transfer it contents to whatever is at the opening.	Небольшая бутылка на 350 мл. Если использовать её непрерывно, переливает содержимое во всё, что находится у горлышка.
+Triggers an activation signal when it detects anything in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит что-либо перед собой. Дальность настраивается в контекстном меню.
+Monitors heart rate of living beings. Connect the monitor to a limb using a blood vessel wire.	Показывает пульс живых существ. Подключите монитор к конечности проводом для переливания крови.
+Triggers an activation signal when it detects motion in front of it. Range can be edited in the context menu.	Подаёт сигнал активации, когда видит перед собой движение. Дальность настраивается в контекстном меню.
+Transforms an electrical signal to an activation trigger signal. Basically: energy goes in, activation goes out.	Превращает электрический сигнал в сигнал активации. Проще говоря: на входе энергия, на выходе активация.
+Simple handheld rocket launcher. Launched rockets are faster and less powerful than those of the standard rocket launcher.	Простая ручная ракетница. Её ракеты быстрее, но слабее, чем у обычной ракетницы.
+Very heavy metal hammer. Creates powerful shockwaves on impact powered by an unknown source of energy.	Очень тяжёлый металлический молот. При ударе создаёт мощные ударные волны за счёт неизвестного источника энергии.
+High capacity (25 L) liquid canister. This container is buoyant unless filled with a liquid.	Канистра для жидкостей большого объёма (25 л). Держится на воде, пока пустая.
+When enabled, the game will reject mods with suspicious code. Takes effect after restart.	Если включено, игра будет отклонять моды с подозрительным кодом. Вступает в силу после перезапуска игры.
+Transforms activation trigger signals into electricity. Basically: activation goes in, electricity goes out.	Превращает сигналы активации в электричество. Проще говоря: на входе активация, на выходе электричество.
+Very powerful beam cannon. Becomes more powerful when charged. It's missing all the pieces except for the barrel.	Очень мощная лучевая пушка. С зарядом становится сильнее. От неё остался только ствол.
+Tool designed to easily saw through wood. It can't actually saw through wood in this game.	Инструмент, чтобы легко пилить дерево. В этой игре он пилить дерево не умеет.
+Generates electricity. More powerful than a battery, less powerful than a generator. Safe to touch.	Вырабатывает электричество. Мощнее батарейки, слабее генератора. Трогать безопасно.
+The maximum amount of seconds that a mod can compile for until it the process is terminated.	Сколько секунд мод может компилироваться, прежде чем процесс будет прерван.
+An automatic ceiling turret. It scans for living organisms in a 20 meter radius around itself and kills it.	Автоматическая потолочная турель. Ищет живые организмы в радиусе 20 метров и убивает их.
+A relatively small, awful creature. Gorses are intelligent and malicious. They also tend to smell of burnt glue.	Сравнительно маленькое мерзкое существо. Горсы умны и злобны. А ещё от них обычно пахнет палёным клеем.
+Launches an energy packet capable of immobilising humans. It kind of looks like a megaphone.	Выпускает сгусток энергии, способный обездвижить человека. Немного похож на мегафон.
+An explosive that absorbs all energy in the environment and violently releases it.	Взрывчатка, которая поглощает всю энергию вокруг и резко её высвобождает.
+Transmits and receives activation signals. Only communicates with other devices on the same channel.	Передаёт и принимает сигналы активации. Работает только с устройствами на том же канале.
+Regular gate. It lets signals through when its power level is above the set threshold.	Обычный затвор. Пропускает сигналы, когда уровень мощности выше заданного порога.
+A small sheet designed to stop bullets. It is not inpenetrable, but it's very resistant.	Небольшой лист, который останавливает пули. Не непробиваемый, но очень стойкий.
+Tall, relatively lightweight concrete slab. It is brittle, but its weight makes useful for buildings.	Высокая, относительно лёгкая бетонная плита. Она хрупкая, но благодаря весу полезна для построек.
+A serum that allows the user to breathe underwater as long as it circulates in their blood stream.	Сыворотка, которая позволяет дышать под водой, пока циркулирует в крови.
+Projects purely visual particles into the world. The device can emit smoke, fire, and electricity.	Создаёт чисто визуальные частицы. Устройство может испускать дым, огонь и электричество.
+A beam forming energy weapon. Creates a short pulse of intense concentrated energy.	Лучевое энергетическое оружие. Выпускает короткий импульс сильно сконцентрированной энергии.
+Toggle whether selection, freezing, and wire highlights are drawn or not. Useful for recording.	Определяет, видны ли выделение, заморозка и подсветка проводов. Полезно для записи видео.
+An object that allows something to slide in between. Only the coloured parts collide.	Объект, между частями которого можно что-то просунуть. Сталкиваются только цветные части.
+A sheet of insulating material. It's designed to insulate against temperature and electricity.	Лист изолирующего материала. Защищает от тепла и электричества.
+A fully automatic light machine gun. Comes with the classic unending ammo belt.	Полностью автоматический ручной пулемёт с классической бесконечной лентой.
+Things too specific or generic to be catergorised.	Предметы, слишком особенные или слишком обычные, чтобы отнести их к какой-то категории.
+A device that, when activated, has a static rotation. It is nearly impossible to rotate.	Устройство, которое при активации фиксирует свой поворот. Повернуть его почти невозможно.
+Determines how much slower the time will pass in slow motion mode. Default is 20%.	Определяет, насколько медленнее идёт время в режиме замедления. По умолчанию 20%.
+When enabled, an alert will appear when mods cause increased loading times.	Если включено, игра предупредит, когда моды заметно замедляют загрузку.
+You might want to add some tags to make your contraption more visible to your target audience.	Добавьте теги, чтобы вашу постройку было проще найти.
+Bloom is a post processing effect that gives the illusion of objects being extremely bright.	Свечение (bloom) - эффект постобработки, который создаёт иллюзию очень ярких объектов.
+Practically a shower head. It accepts all liquids and dispenses them out of the bottom immediately.	По сути душевая лейка. Принимает любые жидкости и сразу выливает их снизу.
+You can set your collision settings to <b>discrete</b> for a significant performance gain!	Переключите столкновения в <b>дискретный</b> режим, чтобы заметно поднять производительность!
+A relatively weak thruster that generates no heat, doesn't burn anything, and doesn't vibrate.	Сравнительно слабый двигатель: не греется, ничего не поджигает и не вибрирует.
+Somehow functional 30mm HEAT cannon. It's missing all the pieces except for the barrel.	Каким-то образом работающая 30-мм кумулятивная пушка. От неё остался только ствол.
+Mod compilation complete, make sure to restart the map to apply activated mods!	Компиляция модов завершена. Перезапустите карту, чтобы включённые моды заработали!
+You can set your collision settings to discrete for a significant performance gain!	Переключите столкновения в дискретный режим, чтобы заметно поднять производительность!
+<b><color=#ff9>This only applies when the window mode is set to Borderless or Fullscreen.	<b><color=#ff9>Действует только в режиме окна без рамки или в полноэкранном режиме.
+Casts a small field that holds objects in place relative to the emitter.	Создаёт небольшое поле, которое удерживает предметы на месте относительно излучателя.
+Determines the temperature unit used throughout the game. Celsius by default.	Определяет единицу температуры во всей игре. По умолчанию Цельсий.
+Increases limb integrity, slows bleeding, and tries to revert decomposition.	Укрепляет конечности, замедляет кровотечение и пытается обратить разложение.
+This device emits an activation signal when it detects a laser pointer beam.	Посылает сигнал активации, когда замечает луч лазерной указки.
+An electromagnet that, when activated, attracts magnetic objects in a 15 meter radius.	Электромагнит, который при активации притягивает магнитные объекты в радиусе 15 метров.
+Different kinds of explosives each with different properties and strengths.	Разные виды взрывчатки, у каждой свои свойства и сила.
+This will toggle relatively expensive particle and decal effects.	Включает или выключает относительно тяжёлые эффекты частиц и следов.
+Somehow functional 120mm cannon. It's missing all the pieces except for the barrel.	Каким-то образом работающая 120-мм пушка. От неё остался только ствол.
+Handheld Tesla coil weapon. Gets more powerful the longer it is held.	Ручное оружие с катушкой Теслы. Чем дольше его держать, тем оно мощнее.
+A colourable foreground element that keeps its texture unstretched when resized.	Окрашиваемый элемент переднего плана, текстура которого не растягивается при изменении размера.
+Modding your game may cause bugs, loss of performance, and other issues.	Моды могут вызывать ошибки, падение производительности и другие проблемы.
+Activation signal channel converter. Converts red to green and vice versa.	Преобразователь канала сигнала активации. Превращает красный в зелёный и обратно.
+A colourable laser pointer that becomes dangerous when powered.	Лазерная указка, цвет которой можно менять. С питанием становится опасной.
+If disabled, heat can only be transferred through heat pipes and direct contact.	Если выключено, тепло передаётся только через тепловые трубки и при прямом контакте.
+Handheld rocket launcher. Launches explosive rockets as powerful as a grenade.	Ручная ракетница. Стреляет ракетами мощностью с гранату.
+Activation signal channel converter. Converts blue to green and vice versa.	Преобразователь канала сигнала активации. Превращает синий в зелёный и обратно.
+Activation signal channel converter. Converts blue to red and vice versa.	Преобразователь канала сигнала активации. Превращает синий в красный и обратно.
+Access environment settings. These will only last for the current session.	Настройки окружения. Действуют только до конца текущей сессии.
+Grenade that violently launches small spikes in random directions.	Граната, которая со страшной силой разбрасывает маленькие шипы во все стороны.
+It's filled with mysterious gas that's lighter than whatever gas fills this room.	Наполнен загадочным газом, который легче того газа, что заполняет эту комнату.
+Wounds and injuries will slowly heal on living organisms when this is enabled.	Если включено, раны живых организмов постепенно заживают.
+Toggle whether decals are created. Disabling decals may improve performance.	Определяет, остаются ли следы. Если выключить, производительность может вырасти.
+Determines how much force is needed to crush a limb. Default is 100%.	Определяет, сколько силы нужно, чтобы раздавить конечность. По умолчанию 100%.
+Cools down to a configurable target temperature from 0 to -273.15 degrees Celcius.	Охлаждается до заданной температуры от 0 до -273,15 °C.
+Identifies liquids. Fill it with any mixture (maximum of 2.5 L) and activate.	Определяет жидкости. Заполните любой смесью (не больше 2,5 л) и активируйте.
+Objects will retain a fraction of their mass, and completely ignore gravity.	Объекты будут сохранять часть своей массы и полностью игнорировать гравитацию.
+<color=#F55><b>It is recommended to keep this enabled. Mods that ask you to disable this setting should be reported.	<color=#F55><b>Рекомендуется держать включённым. На моды, которые просят это отключить, стоит жаловаться.
+Stops bleeding, first of all, but it's also a pretty stretchy wire.	Прежде всего останавливает кровотечение, но это ещё и довольно тянущийся провод.
+Heats up to a configurable target temperature from 0 to 1000 degrees Celcius.	Нагревается до заданной температуры от 0 до 1000 °C.
+Pins objects to the background or to other objects.  Allows rotation.	Прибивает предметы к фону или к другим предметам, при этом позволяя им вращаться.
+A belt that wraps around two objects, transferring rotational energy.	Ремень, который оборачивается вокруг двух объектов, передавая энергию вращения.
+1L flask filled with nitroglycerine. Explosive and highly unstable.	Литровая колба с нитроглицерином. Взрывоопасна и крайне нестабильна.
+A serum that speeds up the blood clotting process. Will heal all bleeding wounds.	Сыворотка, ускоряющая свёртывание крови. Останавливает все кровотечения.
+Burrows into alive items. An item added in collaboration with Mutilate-a-Doll 2.	Вгрызаются в живые объекты. Предмет добавлен совместно с игрой Mutilate-a-Doll 2.
+A little engine that only propels itself while submerged.	Небольшой двигатель, который толкает себя вперёд только под водой.
+A link between two objects that allows them to phase through each other.	Связь между двумя объектами, которая позволяет им проходить друг через друга.
+Handheld device that is capable of lifting objects from a great distance.	Портативное устройство, способное поднимать предметы с большого расстояния.
+<color=#ff9><b>This will only take effect if Vsync is disabled.	<color=#ff9><b>Работает, только если вертикальная синхронизация выключена.
+Green signals toggle. Red signals open. Blue signals close.	Зелёные сигналы переключают. Красные открывают. Синие закрывают.
+Indestructible cable that restricts positions and rotation on both objects.	Неразрушимый трос, который фиксирует положение и поворот обоих объектов.
+1x1 brick rectangle. I know it says cube, but the game is 2D.	Кирпичный прямоугольник 1x1. Знаю, в названии написано «куб», но игра двухмерная.
+Toggle whether wires block the context menu for the underlying object.	Определяет, перекрывают ли провода контекстное меню объекта под ними.
+Primitive pistol. Not very accurate, not very practical, and very loud.	Примитивный пистолет. Не очень точный, не очень практичный и очень громкий.
+Handheld burst energy weapon that fires heat-seeking projectiles.	Ручное энергетическое оружие, которое стреляет очередями самонаводящихся снарядов.
+Determines how fast zooming using the mouse wheel is. Default is 1x.	Скорость приближения колесом мыши. По умолчанию 1x.
+A metal square.  It says cube, I know. I've explained this before.	Металлический квадрат. Знаю, в названии написано «куб». Я это уже объяснял.
+An explosive with a large blast radius and a powerful shockwave.	Взрывное устройство с огромным радиусом поражения и мощной взрывной волной.
+Small nuclear explosive. Burns and destroys everything in a 750m radius.	Небольшая ядерная бомба. Сжигает и уничтожает всё в радиусе 750 м.
+Highly accurate blaster rifle that launches high speed bolts.	Высокоточная бластерная винтовка, стреляющая скоростными зарядами.
+Colourable LED bulb. Bright, efficient, and durable.	Цветная светодиодная лампочка. Яркая, экономичная и долговечная.
+A wranch you can slam aganist Androids to repair them.	Гаечный ключ, которым можно стукнуть андроида, чтобы его починить.
+<color=green>pan</color> with <color=orange>Middle Mouse</color>	<color=green>перемещайтесь</color> с помощью <color=orange>зажатого колесика мыши</color>
+The will toggle relatively performance-heavy effects.	Включает или выключает эффекты, которые относительно сильно нагружают систему.
+hold <color=orange>Left Mouse</color> to <color=green>grab</color>	удерживайте <color=orange>левую кнопку мыши</color>, чтобы <color=green>ухватить</color>
+A chair that kind of looks like it belongs inside a bus.	Сиденье, будто снятое из автобуса.
+By submitting to the workshop, you agree to the terms of service.	Отправляя в Мастерскую, вы соглашаетесь с условиями использования.
+Controlled powerful explosive. Can only detonate by activation.	Мощная управляемая взрывчатка. Взрывается только при активации.
+An electric bi-wheeled unicycle with no chain??? How does it work.	Электрический моноцикл на двух колёсах и без цепи??? Как он вообще работает.
+Grenade that sticks to most things when armed.	Граната, которая после взведения прилипает почти ко всему.
+This item is marked as once uploaded. How do you want to continue?	Эта постройка уже загружалась. Что сделать?
+Makes living beings more durable. Might cause immortality.	Делает живых существ более выносливыми. Может привести к бессмертию.
+<color=green>rotate</color> objects with <color=orange>A or D </color>	<color=green>поворачивайте</color> объекты с помощью <color=orange>A или D </color>
+A relatively small boulder. Supposedly made of minerals.	Сравнительно небольшой валун. Предположительно состоит из минералов.
+<color=orange>Right Mouse</color> to <color=green>delete</color>	Нажмите <color=orange>правую кнопку мыши</color>, чтобы <color=green>удалить</color>
+Toggleable floodlight. Brightens up the area and looks ominous.	Включаемый прожектор. Освещает всё вокруг и выглядит зловеще.
+A thermonuclear bomb. Easily the most powerful bomb available.	Термоядерная бомба. Без сомнений, самая мощная бомба из имеющихся.
+Change the chance the artificial sky generates a lightning bolt.	Изменить вероятность удара молнии из искусственного неба.
+Displays the current framerate in the top-right of the screen.	Отображает текущую частоту кадров в правом верхнем углу экрана.
+Powerful laser cannon. It's missing all the pieces except for the barrel.	Мощная лазерная пушка. От неё остался только ствол.
+Extends or retracts when activated. Faster when charged.	Выдвигается или втягивается при активации. С зарядом быстрее.
+Speed up rotation / uniform resizing / multiselect	Ускоренный поворот / равномерное изменение размера / выделение нескольких
+A weapon that launches shells that explode on impact.	Оружие, стреляющее снарядами, которые взрываются при столкновении.
+Melodic bell! Set the bell note via the context menu.	Мелодичный звонок! Установите ноту звонка через контекстное меню.
+Two objects attached by a ...long piston. Moves freely.	Два объекта, соединённые... длинным поршнем. Двигается свободно.
+A device that, when activated, stays upright.	Устройство, которое при активации остается в вертикальном положении.
+"Handheld" energy weapon. Emits bouncy balls of energy.	«Ручное» энергетическое оружие. Выпускает прыгучие шары энергии.
+This setting may decrease performance when enabled.	Этот параметр может снизить производительность, если он включен.
+A small thruster that propels itself forward when activated.	Небольшой двигатель, который движется вперед при активации.
+Heat will travel through the air when this is enabled.	Если включено, тепло передаётся через воздух.
+A heavy container train wagon. Does not move on its own.	Тяжёлый вагон контейнерного поезда. Не двигается сам по себе.
+Downscale the resolution that the game is being rendered at.	Уменьшить разрешение, в котором отрисовывается игра.
+Saves the selected objects as one, to be loaded later.	Сохраняет выделенные объекты как одну постройку, чтобы потом загрузить.
+This save is from a different version. This might cause issues.	Сохранение из другой версии. Это может вызвать проблемы.
+<color=green>activate</color> objects with <color=orange>F</color>	<color=green>активируйте</color> объекты с помощью <color=orange>F</color>
+Alert when mods significantly affect loading times	Предупреждать, когда моды значительно влияют на время загрузки
+Small thruster. Weaker and lighter than the bigger ones.	Маленький двигатель. Слабее и легче больших.
+A humanoid robot. Larger, heavier, and more durable than a human.	Робот-гуманоид. Больше, тяжелее и выносливее человека.
+A durable pane of glass. Much stronger than a regular glass pane.	Прочное стекло. Намного крепче обычного.
+Modify the final exposure value. Default is 100%	Итоговое значение экспозиции. По умолчанию 100%
+A very heavy combat tank that fires explosive shells.	Очень тяжёлый боевой танк, стреляющий разрывными снарядами.
+Metal triangle. I know it says pyramid.	Металлический треугольник. Знаю, в названии написано «пирамида».
+One of those old torches. Prevents mobs from spawning.	Один из тех старых факелов. Не даёт мобам появляться.
+A mirror that partially dissolves when powered.	Зеркало, которое под питанием частично исчезает.
+<color=orange>E or Q</color> to <color=green>spawn</color> objects	<color=orange>E или Q</color> - <color=green>создать</color> объект
+Generates incredible amounts of energy when activated.	Генерирует невероятное количество энергии при активации.
+It's a torch but that name is already used by the other torch.	Это факел, но название «факел» уже занято другим факелом.
+A platform that, when activated, propels itself in the air.	Платформа, которая при активации взлетает.
+It's a ball specifically designed for bowling. How thoughtful.	Шар, специально сделанный для боулинга. Как предусмотрительно.
+How often should the thermal vision be updated?	Как часто обновлять картинку тепловизора?
+A crossbow that lauches a sharp bolt at high speed.	Арбалет, который стреляет острыми болтами на большой скорости.
+Set timed gate duration in seconds.	Задать длительность затвора с таймером в секундах.
+A wrench you can slam against Androids to repair them.	Гаечный ключ, ударами которого можно чинить андроидов.
+Adjust the intensity of the screenshake. Default is 1x.	Сила тряски экрана. По умолчанию 1x.
+Liquid chemicals and other items related to chemistry.	Жидкие химикаты и другие предметы, связанные с химией.
+Continuously sends out activation signals if activated.	При активации непрерывно посылает сигналы активации.
+Handheld freezeray gun. Emits a cooling beam.	Ручной замораживающий излучатель. Испускает охлаждающий луч.
+The volume of the ambient hum and other background noises.	Громкость фонового гула и других фоновых шумов.
+Game version mismatch. This might cause problems.	Несоответствие версии игры. Это может вызвать проблемы.
+Change what the display displays on its display.	Изменить, что дисплей отображает на своём дисплее.
+A blade of energy contained in a material field.	Энергетический клинок, заключённый в материальное поле.
+An electronic display capable of showing any text.	Электронный дисплей, способный отображать любой текст.
+Anti-aliasing attempts to get rid of jagged edges.	Сглаживание убирает зубчатые края.
+Device that measures how much power it is receiving.	Прибор, который измеряет, сколько энергии на него подаётся.
+A sentry turret that targets anything that seems to be alive.	Турель, которая стреляет во всё, что похоже на живое.
+Can only propagate an activation signal once.	Может передать сигнал активации только один раз.
+A destructible version of the blue propagation wire.	Разрушаемая версия синего активирующего провода.
+A metal tube that is just a little taller than a human.	Металлическая труба чуть выше человека.
+A destructible version of the green propagation wire.	Разрушаемая версия зелёного активирующего провода.
+A destructible version of the red propagation wire.	Разрушаемая версия красного активирующего провода.
+The volume of all items and effects in the game.	Громкость звука всех предметов и эффектов в игре.
+Change what the display displays on its display	Изменить, что дисплей отображает на своём дисплее
+Repulse everything in a small radius around you.	Отталкивает всё в небольшом радиусе вокруг.
+Target duration in seconds from 0.04s to 16s	Нужная длительность в секундах, от 0,04 до 16 с
+Activate object under cursor / currently holding	Активировать объект под курсором / удерживаемый
+It's one of those red barrels that explode.	Одна из тех красных бочек, которые взрываются.
+Very large and painful gun to use.	Очень большой пистолет, стрелять из которого больно.
+Relieves pain. Can be dangerous in high doses.	Снимает боль. В больших дозах может быть опасен.
+Your contraption will be uploaded to the workshop.	Ваша постройка будет загружена в Мастерскую.
+Lift everything around you with infinite force.	Поднимает всё вокруг с бесконечной силой.
+Identical to the big one apart from the size and weight.	Такой же, как большой, только меньше и легче.
+Things that shoot a projectile somehow.	Штуки, которые как-то стреляют снарядами.
+1L flask full of Gorse blood. Do not ingest.	Литровая колба с кровью горса. Не пить.
+Big automatic laser sentry turret.	Большая автоматическая лазерная турель.
+A drug that temporarily disables a person.	Препарат, который временно выводит человека из строя.
+Attract everything in a small radius around you.	Притягивает всё в небольшом радиусе вокруг.
+Soviet submachine gun with a high rate of fire.	Скорострельный советский пистолет-пулемёт.
+Set the upper translation limit for the winch.	Задать верхний предел хода лебёдки.
+Forces the resting animation override.	Принудительно включает анимацию покоя.
+A small holographic text display emitter.	Небольшой голографический излучатель текста.
+A button that activates when pressed.	Кнопка, которая срабатывает при нажатии.
+Zoom scroll wheel sensitivity	Чувствительность колёсика мыши при приближении
+Handheld flamethrower. Not actually a flamethrower.	Ручной огнемёт. На самом деле не огнемёт.
+Probably the worst thing to step on.	Наверное, худшее, на что можно наступить.
+Set the lower translation limit for the winch.	Задать нижний предел хода лебёдки.
+Objects will only collide with the walls.	Объекты будут сталкиваться только со стенами.
+Destructible non-conductive wire.	Разрушаемый провод, не проводящий ток.
+A virus that turns living beings into zombies.	Вирус, превращающий живых существ в зомби.
+You install and use mods at your own risk.	Вы устанавливаете и используете моды на свой страх и риск.
+Classic automatic assault rifle.	Классическая автоматическая штурмовая винтовка.
+Determines the way the window is presented.	Определяет режим отображения окна.
+Toggle between tools and powers	Переключиться между инструментами и способностями
+A large heavy truck with lots of space.	Большой тяжёлый грузовик с вместительным кузовом.
+Box that dampens movement when activated.	Ящик, который при активации гасит движение.
+1L flask full of human blood.	Литровая колба, наполненная человеческой кровью.
+Indestructible, stiff metal spring.	Неразрушимая жёсткая металлическая пружина.
+Pressurise the connected container.	Создать давление в подключённой ёмкости.
+1L flask full of regular oil.	Литровая колба с обычным маслом.
+Depressurise the connected container.	Сбросить давление в подключённой ёмкости.
+Choose between different gore shaders	Выбор между разными шейдерами крови
+World war era German handgrenade.	Немецкая ручная граната времён мировой войны.
+Propagates a signal on the red channel.	Передаёт сигнал по красному каналу.
+Destructible steel fixed wiring.	Разрушаемое жёсткое стальное крепление.
+Heavy anchor designed to sink.	Тяжёлый якорь, чтобы тонуть.
+Determine the upper bound of the framerate.	Определяет верхний предел частоты кадров.
+Drain the container of its contents.	Опустошить ёмкость.
+Extremely powerful and impractical handgun.	Крайне мощный и непрактичный пистолет.
+Destructible conductive wire.	Разрушаемый провод, проводящий ток.
+Propagates a signal on the blue channel.	Передаёт сигнал по синему каналу.
+Forces the protection animation override.	Принудительно включает защитную анимацию.
+move forward, toggle lights, etc.	двигаться вперёд, переключать свет и т.д.
+Wooden bat made to hit things.	Деревянная бита, чтобы бить.
+Make the camera track this object.	Камера будет следить за этим объектом.
+Change the way HDR colours are displayed.	Изменить способ отображения цветов HDR.
+Edit the current environment settings	Изменить настройки окружения
+Launches objects placed on it in the air.	Подбрасывает в воздух предметы, которые на нём лежат.
+Automatic spike launching weapon.	Автоматическое оружие, стреляющее шипами.
+A tall tree. It was never alive.	Высокое дерево. Оно никогда не было живым.
+Toggle hovering highlights	Подсветка при наведении
+does not match your current username	не соответствует вашему текущему имени
+Target height in meters from 0.5 m to 10 m	Нужная высота в метрах, от 0,5 до 10 м
+Set tint for selected objects	Задать оттенок выделенных объектов
+From Wikipedia, the free encyclopedia.	Из Википедии, свободной энциклопедии.
+Like a normal explosive but pink.	Как обычная взрывчатка, только розовая.
+Should the floodlights be turned on?	Включить прожекторы?
+A crossbow bolt. Points to where it goes.	Арбалетный болт. Летит туда, куда указывает.
+Target temperature in Celsius	Нужная температура в градусах Цельсия
+A lamp that does not offer comfort.	Не приносящая никакого комфорта лампа.
+Organic or artificial beings.	Органические или искусственные существа.
+This should make the mech work.	С этим мех должен заработать.
+Set the target angle of the servo.	Задать целевой угол сервопривода.
+Things built to go places.	Штуки, на которых куда-то ездят.
+De staf van de goedheiligman zelf.	Посох самого Синтерклааса.
+Sends an activation signal on impact.	Посылает сигнал активации при ударе.
+Change the ambient temperature.	Изменить температуру окружающей среды.
+Chemical that eats bones.	Химикат, который растворяет кости.
+Handheld heatray gun. Emits a heating beam.	Ручной тепловой излучатель. Испускает нагревающий луч.
+Set maximum power level.	Задать максимальный уровень мощности.
+Small plastic-framed handgun.	Небольшой пистолет с пластиковой рамкой.
+Switches to the previous texture.	Переключает на предыдущую текстуру.
+Indestructible loose cable.	Неразрушимый свободный трос.
+Set maximum power level	Задать максимальный уровень мощности
+. Are you sure you want to continue?	. Вы уверены, что хотите продолжить?
+The volume of the entire application.	Громкость звука всего приложения.
+Set key trigger description.	Задать описание клавиши-триггера.
+Powerful semi-automatic rifle.	Мощная полуавтоматическая винтовка.
+Remove this contraption from the list.	Удалить эту постройку из списка.
+Objects you saved on disk.	Объекты, которые вы сохранили на диске.
+Enable machine heat damage.	Включить урон механизмам от перегрева.
+An automatic laser machine rifle.	Автоматическая лазерная винтовка.
+A wire that transfers blood between limbs.	Провод, который переливает кровь между конечностями.
+A suspended motorised wheel.	Моторизованное колесо на подвеске.
+Target delay in seconds from 0.04s to 60s	Нужная задержка в секундах, от 0,04 до 60 с
+Indestructible metal spring.	Неразрушимая металлическая пружина.
+Machines that do stuff.	Механизмы, которые делают разные штуки.
+Switches to the next texture.	Переключает на следующую текстуру.
+Resize selected objects	Изменение размера выделенных объектов
+Public transport bus.	Рейсовый автобус.
+Indestructible rigid connection.	Неразрушимое жёсткое соединение.
+Spawn right facing	Создать повёрнутым вправо
+Maximum mod compilation time	Максимальное время компиляции мода
+Things to hit or stab with.	Штуки, которыми можно бить и колоть.
+Triggers the selected objects.	Активирует выделенные объекты.
+Set tank to idle mode.	Перевести бак в режим покоя.
+A small energy container.	Небольшой энергетический контейнер.
+Set gate threshold.	Задать порог срабатывания затвора.
+Handheld rapid firing gatling gun.	Ручной шестиствольный пулемёт.
+Set tank to push mode.	Перевести бак в режим выталкивания.
+2 meter tall metal pole.	Металлический столб высотой 2 метра.
+Industrial hinged spot light.	Промышленный прожектор на шарнире.
+Spawn left facing	Создать повёрнутым влево
+Kills living beings instantly.	Мгновенно убивает живых существ.
+Stop animation on damage	Сброс анимации при уроне
+Ambient temperature transfer	Передача температуры в окружение
+Automatic assault rifle.	Автоматическая штурмовая винтовка.
+Rapid firing submachine gun.	Скорострельный пистолет-пулемёт.
+Reverses the polarity of the magnet.	Изменяет полярность магнита.
+Repair or break the engine	Починить или сломать двигатель
+Changed to Powers tab	Переключено на вкладку способностей
+Set metronome rate in Hz.	Задать частоту метронома в Гц.
+2 meter tall wooden pillar.	Деревянная колонна высотой 2 метра.
+Pastes the copied objects.	Вставляет скопированные объекты.
+A larger, more powerful piston.	Большой, более мощный поршень.
+Changed to Tools tab	Переключено на вкладку инструментов
+Selection target temperature	Целевая температура выделенного
+The volume of UI elements.	Громкость элементов интерфейса.
+Toggle gate behaviour.	Переключить режим затвора.
+Toggle trigger behaviour.	Переключить режим срабатывания.
+Repair or break the engine.	Починить или сломать двигатель.
+Publish to the Steam Workshop.	Опубликовать в Мастерской Steam.
+Disable machine heat damage	Отключить урон механизмам от перегрева
+Drag and rotate objects.	Перетаскивать и вращать объекты.
+Player statistics regarding the game.	Ваша статистика в игре.
+Toggle trigger behaviour	Переключить режим срабатывания
+Set winch upper limit	Задать верхний предел лебёдки
+Destructible red propagation wire	Разрушаемый красный активирующий провод
+Forces the stumbling animation override.	Принудительно включает анимацию спотыкания.
+Thermal vision update rate	Частота обновления тепловизора
+Freezes the selected objects.	Замораживает выделенные объекты.
+Toggle parking brakes	Переключение стояночного тормоза
+Toggle invisibility.	Вкл/выкл невидимость.
+Basic indestructible wooden wheel.	Простое неразрушимое деревянное колесо.
+Disengage parking brakes	Отключить стояночные тормоза
+Set tank to pull mode.	Перевести бак в режим втягивания.
+Set object temperature.	Задать температуру объекта.
+Slowly heal injuries	Медленное заживление ран
+Set winch lower limit	Задать нижний предел лебёдки
+Stop affecting pressure.	Перестать влиять на давление.
+Physics iteration count	Число итераций физики
+Destructible blue propagation wire	Разрушаемый синий активирующий провод
+Disable machine heat damage.	Отключить урон механизмам от перегрева.
+It's just a metal circle.	Это просто металлический круг.
+View terms of service	Посмотреть условия использования
+Slow motion speed modifier	Множитель скорости замедления
+Copies the selected objects.	Копирует выделенные объекты.
+Return to the toybox menu.	Вернуться в меню предметов.
+Set object temperature	Задать температуру объекта
+Threshold as percentage	Пороговое значение в процентах
+Destructible rigid strut.	Разрушаемая жёсткая распорка.
+Ignites the selected objects.	Поджигает выделенные объекты.
+Deletes the selected objects.	Удаляет выделенные объекты.
+Choose objects under cursor	Выбрать объекты под курсором
+Freeze selected objects	Заморозка выделенных объектов
+Set the speed of the rotor.	Задать скорость ротора.
+View item info.	Посмотреть информацию о предмете.
+Slow motion disabled	Замедление выключено
+A small fireworks rocket.	Небольшая ракета фейерверка.
+An old jukebox.	Старый музыкальный автомат.
+A semi automatic pistol.	Полуавтоматический пистолет.
+Reject suspicious mods	Отклонять подозрительные моды
+Old filament light bulb.	Старая лампочка накаливания.
+Toggle indestructibility.	Вкл/выкл неразрушимость.
+Its base is frozen when created.	Основание заморожено при создании.
+A pane made of fragile glass.	Панель из хрупкого стекла.
+Locks a creature's joints.	Сковывает суставы существа.
+Giant hovering fan.	Гигантский парящий вентилятор.
+Electricity Transformer	Электрический трансформатор
+Set detector range.	Задать дальность детектора.
+Log debug messages	Показывать отладочные сообщения
+Simple airfoil.	Простое аэродинамическое крыло.
+It's a hovercraft.	Это судно на воздушной подушке.
+Switch to 9th tool	Переключиться на 9-й инструмент
+Relatively small bush.	Относительно маленький куст.
+Switch to 7th tool	Переключиться на 7-й инструмент
+Switch to 6th tool	Переключиться на 6-й инструмент
+Switch to 5th tool	Переключиться на 5-й инструмент
+Switch to 4th tool	Переключиться на 4-й инструмент
+Switch to 3th tool	Переключиться на 3-й инструмент
+Detached Laser Cannon	Отсоединённая лазерная пушка
+Switch to 2th tool	Переключиться на 2-й инструмент
+Switch to 1th tool	Переключиться на 1-й инструмент
+Slow motion enabled	Замедление включено
+Simplified background tiles	Упрощённые фоновые плитки
+Switch to 8th tool	Переключиться на 8-й инструмент
+Change the colour of this object.	Изменить цвет объекта.
+Welcome to the playground!	Добро пожаловать в песочницу!
+Set detector range	Задать дальность детектора
+Toggle slow motion	Вкл/выкл замедление
+Hammer made to fight with.	Молот для драки.
+Clears all debris and decals.	Убирает весь мусор и следы.
+A belt that conveys.	Движущаяся конвейерная лента.
+Distant sound effects	Дальние звуковые эффекты
+Screenshake intensity	Интенсивность тряски экрана
+Upload to Steam Workshop	Загрузить в Мастерскую Steam
+Temperature unit	Единица измерения температуры
+Forces the walking animation override.	Принудительно включает анимацию ходьбы.
+Detached Beam Cannon	Отсоединённая лучевая пушка
+Forces the sitting animation override.	Принудительно включает анимацию сидения.
+Enter contraption name	Введите название постройки
+Wires with context menu	Провода с контекстным меню
+Reverse rotor.	Изменить направление ротора.
+Red propagation wire	Красный активирующий провод
+Soviet Submachine Gun	Советский пистолет-пулемёт
+Mend or break bone.	Вылечить или сломать кость.
+Toggle sidepanels	Вкл/выкл боковые панели
+Relatively large bush.	Относительно крупный куст.
+Toggle electricity.	Вкл/выкл электричество.
+BG Signal Converter	Преобразователь сигналов СЗ
+Very powerful explosive.	Крайне мощная взрывчатка.
+Ignite selected objects	Поджечь выбранные объекты
+Reverse vehicle	Поменять направление движения
+RG Signal Converter	Преобразователь сигналов КЗ
+BR Signal Converter	Преобразователь сигналов СК
+Bone Eating Syringe	Шприц, растворяющий кости
+Toggle detail view	Детальный просмотр
+Large wooden pole.	Большой деревянный столб.
+A human being, very fragile.	Человек. Очень хрупкий.
+Clamp audio volume	Ограничить громкость звука
+Blood vessel wire	Провод для переливания крови
+Set lagbox delay	Задать задержку лагбокса
+Set exact rotation.	Задать точный поворот.
+Water Breathing Syringe	Шприц для дыхания под водой
+Blue propagation wire	Синий активирующий провод
+It is disabled by default.	Выключено по умолчанию.
+Soft plastic barrel.	Мягкая пластиковая бочка.
+Drop on death	Ронять предметы при смерти
+Enable machine heat damage	Включить урон механизмам от перегрева
+Steam is not initialised	Steam не инициализирован
+Big metal beam.	Большая металлическая балка.
+Set exact rotation	Задать точный поворот
+Set timed gate duration	Задать длительность затвора с таймером
+Export game debug info	Экспортировать отладочные данные игры
+An axe. Heavy and sharp.	Топор. Тяжёлый и острый.
+Double trigger gate	Двойной триггерный затвор
+Activation Transformer	Трансформатор активации
+Giant Wooden Bowl	Гигантская деревянная чаша
+A sharp metal sword.	Острый металлический меч.
+Resets and restarts the map.	Сбрасывает и перезапускает карту.
+Fragmentation explosive.	Осколочная взрывчатка.
+Sharp crystal shard.	Острый осколок кристалла.
+Change the light colour.	Изменить цвет света.
+Mini Thruster	Мини-двигатель
+Purple cathode light	Фиолетовый катодный свет
+Small metal beam.	Малая металлическая балка.
+Detached 120mm Cannon	Отсоединённая 120-мм пушка
+Resize object(s)	Изменить размер объекта(ов)
+Set metronome rate	Задать частоту метронома
+Set target temperature	Задать целевую температуру
+Destructible propagation wire	Разрушаемый активирующий провод
+User Interface	Интерфейс
+Set rotor speed	Задать скорость ротора
+General Purpose Bomb	Бомба общего назначения
+Light wooden stick.	Лёгкая деревянная палка.
+Energy Vessel Explosive	Энергетическая взрывчатка
+Nitroglycerine Flask	Колба с нитроглицерином
+Change the gravity	Изменить силу гравитации
+Toggle thermal vision	Переключить тепловизор
+Industrial Generator	Промышленный генератор
+Set upper limit	Задать верхний предел
+Disable heat damage	Отключить тепловой урон
+De staf van Sinterklaas	Посох Синтерклааса
+Infrared Thermometer	Инфракрасный термометр
+Change the radio channel.	Сменить радиостанцию.
+Why are you doing this?	Зачем ты это делаешь?
+Activation Toggle	Переключатель активации
+A sniper rifle.	Снайперская винтовка.
+internal bleeding	внутреннее кровотечение
+Clears all "living" things.	Убирает всё «живое».
+Set hover height	Задать высоту парения
+Gyroscope Stabiliser	Гироскоп-стабилизатор
+Set lower limit	Задать нижний предел
+A powerful tesla coil.	Мощная катушка Теслы.
+Set to idle	Режим покоя
+What should it say?	Что должно быть написано?
+Set to pull	Режим втягивания
+Enable electricity	Включить электричество
+CRT Television.	ЭЛТ-телевизор.
+Ambient temperature	Температура окружения
+welke dag is het vandaag?	Какой сегодня день?
+Holographic Display	Голографический экран
+Bulletproof Sheet	Пуленепробиваемый лист
+Rapid firing cannon.	Скорострельная пушка.
+A conducting wire.	Токопроводящий провод.
+Enable heat damage	Включить тепловой урон
+Plastic Explosive	Пластиковая взрывчатка
+Opens the pause menu.	Открывает меню паузы.
+Motorised Wheel	Моторизованное колесо
+Liquidentifier	Определитель жидкостей
+1. FILL WITH LIQUID	1. ЗАПОЛНИТЕ ЖИДКОСТЬЮ
+Giant sharp spike.	Гигантский острый шип.
+Set to push	Режим выталкивания
+Green cathode light	Зелёный катодный свет
+Show hovering highlights	Подсветка при наведении
+It glows purple.	Светится фиолетовым.
+No mods required	Моды не требуются
+Heating Element	Нагревательный элемент
+Launches crystals.	Стреляет кристаллами.
+Toggleable Mirror	Переключаемое зеркало
+Set laser colour	Задать цвет лазера
+Set temperature	Задать температуру
+Machine Blaster	Автоматический бластер
+Classic handgun.	Классический пистолет.
+Yellow cathode light	Жёлтый катодный свет
+Hover Thruster	Левитирующий двигатель
+Painkiller Syringe	Обезболивающий шприц
+Red cathode light	Красный катодный свет
+Industrial Gyrostabiliser	Промышленный гиростабилизатор
+Liquid Pressuriser	Нагнетатель давления
+Enable collision	Включить столкновения
+Do you want to upload	Вы хотите загрузить
+Limb crushing	Раздавливание конечностей
+Clears everything.	Очищает всё.
+Archelix Caster	Заклинатель Археликса
+Activation Fuse	Одноразовый активатор
+Industrial Piston	Промышленный поршень
+Update existing	Обновить существующий
+Vsync	Вертикальная синхронизация
+Metal Pyramid	Металлическая пирамида
+Fluorescent Lamp	Люминесцентная лампа
+Open "Mods" folder in Explorer	Открыть папку «Mods» в проводнике
+gunshot wounds	огнестрельные ранения
+White cathode light	Белый катодный свет
+Metal rod.	Металлический стержень.
+Thrusterbed	Левитирующая платформа
+Adrenaline Syringe	Шприц с адреналином
+Blue cathode light	Синий катодный свет
+Maximum power	Максимальная мощность
+Ceramic plate.	Керамическая тарелка.
+Mending Syringe	Восстанавливающий шприц
+Pick a new map.	Выбрать другую карту.
+Open documentation in browser	Открыть документацию в браузере
+Propagation wire	Активирующий провод
+Anti-aliasing (SMAA)	Сглаживание (SMAA)
+Previous texture	Предыдущая текстура
+Zombie Syringe	Шприц с зомби-вирусом
+An adrenaline shot.	Укол адреналина.
+saved with errors	сохранено с ошибками
+Click to edit	Нажмите для изменения
+Oil Flask	Колба с маслом
+Make indestructible	Сделать неразрушимым
+Tempered Glass Pane	Закалённое стекло
+Move camera right	Камера вправо
+Tonemapping	Тональная компрессия
+Cooling Element	Охлаждающий элемент
+Mechanical belt	Механический ремень
+Engage parking brakes	Включить стояночный тормоз
+Set description	Задать описание
+Flare for signaling.	Фальшфейер для подачи сигналов.
+Destructible wall.	Разрушаемая стена.
+G1 Submachine Gun	Пистолет-пулемёт G1
+It glows green.	Светится зелёным.
+Passenger car.	Легковой автомобиль.
+Missile Launcher	Ракетница с наведением
+Sniper Rifle	Снайперская винтовка
+Shock Detector	Датчик удара
+It glows yellow.	Светится жёлтым.
+Immobility Field	Поле неподвижности
+Flintlock Pistol	Кремневый пистолет
+Life Detector	Датчик жизни
+limbs selected	выбрано конечностей
+Ultra Strength Syringe	Шприц сверхсилы
+Heals nearly anything.	Лечит почти всё.
+Leave the playground.	Покинуть песочницу.
+Edit trigger key.	Изменить клавишу-триггер.
+Resizable Housing	Корпус с изменяемым размером
+Fixed cable	Жёсткий трос
+heart stopped	сердце остановилось
+Insulator	Изолятор
+Blaster Rifle	Бластерная винтовка
+Metal Wheel	Металлическое колесо
+Rocket Launcher	Ракетница
+Steel binding	Стальное крепление
+It glows red.	Светится красным.
+Saved in version	Сохранено в версии
+Structural Pillar	Несущая колонна
+Launch Platform	Пусковая платформа
+Gorse Blood Flask	Колба с кровью горса
+A submachine gun.	Пистолет-пулемёт.
+Move camera left	Камера влево
+Wooden strut	Деревянная распорка
+Upload as new	Загрузить как новую
+Set to repulse	Режим отталкивания
+Wooden Pillar	Деревянная колонна
+Just a normal wheel.	Обычное колесо.
+Fancy effects	Красивые эффекты
+Emergency siren.	Аварийная сирена.
+saved succesfully	успешно сохранено
+Dampening Box	Демпфирующий ящик
+Laser sentry turret	Лазерная турель
+It glows white.	Светится белым.
+Resumes the game.	Продолжить игру.
+Repair engine	Починить двигатель
+Assault Rifle	Штурмовая винтовка
+Lightning chance	Шанс удара молнии
+It glows blue.	Светится синим.
+Destructible pin.	Разрушаемый штифт.
+Plastic Barrel	Пластиковая бочка
+Particle Projector	Проектор частиц
+Single trigger	Одиночный триггер
+Make invisible	Сделать невидимым
+blood pressure	кровяное давление
+Move camera down	Камера вниз
+Laser Receiver	Лазерный приёмник
+Metal Pole	Металлический столб
+Move camera up	Камера вверх
+Explosives	Взрывчатка
+Next texture	Следующая текстура
+Render scale	Масштаб отрисовки
+Landmine	Противопехотная мина
+Energy Sword	Энергетический меч
+Ceiling Turret	Потолочная турель
+Firearms	Огнестрельное оружие
+Exported to	Экспортировано в
+Set range	Задать дальность
+Sentry Turret	Сторожевая турель
+Thruster	Двигатель
+Blood Tank	Бак для крови
+Collision quality	Качество столкновений
+Heatray	Тепловая пушка
+Detail view	Детальный просмотр
+Fusion Bomb	Термоядерная бомба
+What are you doing?	Что ты делаешь?
+Fire Detector	Датчик возгорания
+Conveyor Belt	Конвейерная лента
+Magnum Revolver	Револьвер магнум
+Set to drain	Режим слива
+Restore weight	Восстановить вес
+Break engine	Сломать двигатель
+Pulse Drum	Импульсный барабан
+Decimator	Расщепитель атомов
+Unfollow	Перестать следить
+Wooden Wheel	Деревянное колесо
+Submachine Gun	Пистолет-пулемёт
+Liquid Valve	Жидкостный клапан
+Cleared living	Существа убраны
+Hovercar	Левитирующая машина
+Text Display	Текстовый дисплей
+Angle in degrees	Угол в градусах
+Light Machine Gun	Ручной пулемёт
+Sound effects	Звуковые эффекты
+Snap	Привязка
+Motion Detector	Датчик движения
+cosmetic rain	декоративный дождь
+Jukebox	Музыкальный автомат
+Freezeray	Замораживающий луч
+Visual center	Визуальный центр
+Double trigger	Двойной триггер
+cosmetic fog	декоративный туман
+Clear living	Убрать существ
+Extinguishes fires.	Тушит пожары.
+blood amount	количество крови
+Cleared debris	Мусор убран
+Wooden crate.	Деревянный ящик.
+Metal Cube	Металлический куб
+Set target angle	Задать целевой угол
+Transfers heat.	Передаёт тепло.
+Baseball Bat	Бейсбольная бита
+LED Bulb	Светодиодная лампа
+Signal Flare	Сигнальный фальшфейер
+Ion Thruster	Ионный двигатель
+Small Button	Маленькая кнопка
+Pressure Valve	Клапан давления
+Spike Grenade	Граната с шипами
+Context menu	Контекстное меню
+Stielhandgranate	Граната-колотушка
+Spike Rifle	Винтовка с шипами
+broken bones	сломанные кости
+Freeze Syringe	Шприц заморозки
+Glass Pane	Стеклянная панель
+Trigger key	Клавиша-триггер
+Bus Chair	Автобусное сиденье
+Timed Gate	Затвор с таймером
+Crossbow Bolt	Арбалетный болт
+Laser Pointer	Лазерная указка
+Enter value	Введите значение
+Physics Gun	Физическая пушка
+Strong spring	Сильная пружина
+Detached 30mm HEAT Cannon	Отсоединённая 30-мм кумулятивная пушка
+Acid Syringe	Шприц с кислотой
+internal temp	внутр. температура
+Environment	Окружение
+Container Wagon	Контейнерный вагон
+Destructible vase.	Разрушаемая ваза.
+Small Boulder	Маленький валун
+Bowling Ball	Шар для боулинга
+cosmetic snow	декоративный снег
+Show in Explorer	Показать в проводнике
+Small I-Beam	Маленькая двутавровая балка
+Fire Extinguisher	Огнетушитель
+Wooden Chair	Деревянный стул
+Open in Explorer	Открыть в проводнике
+Wooden Table	Деревянный стол
+Change key	Изменить клавишу
+Beam Rifle	Лучевая винтовка
+No mods found	Моды не найдены
+Toggle time	Остановить/запустить время
+Sticky Grenade	Липкая граната
+Metal Detector	Датчик металла
+Channel name	Название канала
+Reflects light.	Отражает свет.
+An empty syringe.	Пустой шприц.
+Reverse rotor	Реверс ротора
+Delete object	Удалить объект
+to the Workshop?	в Мастерскую?
+Depressurise	Сброс давления
+Concrete slab	Бетонная плита
+Scherbenwerfer	Осколкомёт
+Toggle fire.	Вкл/выкл огонь.
+Power Gauge	Измеритель мощности
+Rotate left	Повернуть влево
+Wooden Pole	Деревянный шест
+Cleared room	Камера очищена
+Defibrillator	Дефибриллятор
+Substructure	Подконструкция
+Reconstructor	Реконструктор
+A tonne of steel.	Тонна стали.
+Edit channel	Изменить канал
+Knockout Syringe	Усыпляющий шприц
+Options menu.	Меню настроек.
+Eats flesh.	Пожирает плоть.
+Ambience	Звуки окружения
+Rotate right	Повернуть вправо
+Brick Wall	Кирпичная стена
+Window mode	Режим окна
+Electromagnet	Электромагнит
+Pink Explosive	Розовая взрывчатка
+Disable smoke	Выключить дым
+EMP Generator	Генератор ЭМИ
+Regular table.	Обычный стол.
+Change colour	Изменить цвет
+Pick a colour	Выберите цвет
+Handgrenade	Ручная граната
+Small knife.	Маленький нож.
+to the workshop	в Мастерскую
+Rigid cable	Жёсткий трос
+Enable fire	Включить огонь
+Set angle	Задать угол
+Blood Flask	Колба с кровью
+Boat Motor	Лодочный мотор
+Small Bush	Маленький куст
+Toggle smoke.	Вкл/выкл дым.
+Wooden pin	Деревянный штифт
+Power Hammer	Силовой молот
+Gate	Затвор
+Local file	Локальный файл
+Show framerate	Показывать FPS
+Pink Syringe	Розовый шприц
+The spooky food.	Жуткая еда.
+Grenade Launcher	Гранатомёт
+broken bone	сломанная кость
+Heat pipe	Тепловая труба
+Death Syringe	Шприц смерти
+Empty Syringe	Пустой шприц
+Set threshold	Задать порог
+Disable all	Выключить все
+Edit text	Изменить текст
+Sharp stick.	Острая палка.
+Sharp spear.	Острое копьё.
+Disassembler	Разборщик
+Tall Tree	Высокое дерево
+Copper wire	Медный провод
+Ambience Highpass	Фильтр низких частот
+Red Barrel	Красная бочка
+Clean cuboid.	Ровный брусок.
+Tesla Coil	Катушка Теслы
+Master	Общая громкость
+Entities	Живые существа
+Phase link	Фазовая связь
+Brick Cube	Кирпичный куб
+Center of mass	Центр масс
+Atom Bomb	Атомная бомба
+Rigidifier	Затвердитель
+stab wounds	колотые раны
+Gore shader	Шейдер крови
+Paused	Приостановлено
+Lance	Копьё
+Destructible	Разрушаемые
+bleeding	кровотечение
+Realistic	Реалистичный
+Undo	Отменить
+Enable all	Включить все
+Electronics	Электроника
+Heart Monitor	Пульсометр
+Large Bush	Большой куст
+Ion Cannon	Ионная пушка
+Worm Staff	Посох червей
+heilekouwe	целая корова
+Accumulator	Аккумулятор
+Handcannon	Ручная пушка
+Life Syringe	Шприц жизни
+The mod author	Автор мода
+Fullscreen	Полный экран
+Balloon	Воздушный шар
+Continuous	Непрерывный
+Television	Телевизор
+9mm Pistol	Пистолет 9 мм
+uploaded...	загружено...
+Framerate limit	Ограничение FPS
+Drag	Перетащить
+Borderless	Без рамки
+Unpaused	Возобновлено
+User interface	Интерфейс
+hello world!	Привет, мир!
+information	Информация
+Reverse gear	Задний ход
+Accelerator	Ускоритель
+Liquid Canister	Канистра для жидкостей
+integrity	целостность
+Floodlights	Прожекторы
+It is a ramp.	Это пандус.
+Publish	Опубликовать
+Centrifuge	Центрифуга
+Pause menu	Меню паузы
+1000kg Weight	Гиря 1000 кг
+dismembered	расчленён
+brain-dead	мозг мёртв
+Consciousness	Сознание
+Adrenaline	Адреналин
+Default	Стандартный
+Thermometer	Термометр
+Wrench	Гаечный ключ
+Toogle	Переключить
+Battery	Батарейка
+Generator	Генератор
+Modern	Современный
+hekserij	колдовство
+controls	Управление
+Discrete	Дискретный
+Fahrenheit	Фаренгейт
+Workshop	Мастерская
+Spot Light	Точечный прожектор
+Toggle	Переключить
+Floodlight	Прожектор
+Outdated	Устаревший
+Gravity	Гравитация
+Inspect.	Осмотреть.
+Blaster gun.	Бластер.
+Dynamic	Динамический
+Machinery	Механизмы
+Propeller	Пропеллер
+Fireworks	Фейерверк
+Zoom in	Приблизить
+A shotgun.	Дробовик.
+Understood	Понятно
+Where are you?	Где ты?
+Building	Строительство
+Bicycle	Велосипед
+Chainsaw	Бензопила
+Disabled	Выключено
+Metronome	Метроном
+Flamethrower	Огнемёт
+Melee	Ближний бой
+Key Trigger	Клавиша-триггер
+Legacy	Устаревший
+settings	Настройки
+Tools	<size=60%>Инстр.
+Lighting	Освещение
+Revolver	Револьвер
+Vehicles	Транспорт
+Lightbulb	Лампочка
+Stormbaan	Теслаган
+Servo	Сервомотор
+Chemistry	Химия
+Humongous	Огромная
+Machine	Механизм
+Machine Gun	Пулемёт
+Vehicle	Транспорт
+Fun	Развлечения
+Copy	Копировать
+Resistor	Резистор
+Brightness	Яркость
+Flashlight	Фонарик
+Zoom out	Отдалить
+Upload	Загрузить
+Pasted	Вставлено
+Crystal	Кристалл
+Enabled	Включено
+Shotgun	Дробовик
+Apply	Применить
+General	Общие
+Small	Маленькая
+Liquid Outlet	Лейка
+objects	объектов
+Fan	Вентилятор
+OXygen	Кислород
+Android	Андроид
+Pistol	Пистолет
+iterations	итераций
+Save	Сохранить
+Tiny	Крошечная
+Pressurise	Нагнетать
+rotted	сгнило
+INACTIVE	НЕАКТИВНО
+Sit down.	Сесть.
+Crossbow	Арбалет
+Dynamite	Динамит
+Lift	Подъёмник
+Windowed	В окне
+0 LITER	0 Л
+Utility	Утилиты
+Bloom	Свечение
+Bowling Pin	Кегля
+Rifle	Винтовка
+None	Не задано
+Off	Выключено
+Truck	Грузовик
+Local	Локально
+Blaster	Бластер
+Celsius	Цельсий
+Minigun	Миниган
+Lightning	Молния
+Slider	Ползунок
+Lagbox	Лагбокс
+numb	онемение
+Bottle	Бутылка
+Spring	Пружина
+ACTIVE	АКТИВНО
+Decals	Следы
+Detector	Датчик
+Kelvin	Кельвин
+Piston	Поршень
+Ramp	Пандус
+Mirror	Зеркало
+PUSH	ВЫТАЛКИВАНИЕ
+Human	Человек
+Rod	Стержень
+Flush	Промыть
+Enter	Войти
+Plate	Тарелка
+video	Графика
+Bazooka	Базука
+Slanted	Наклон
+Winch	Лебёдка
+removed	удалено
+seconds	секунд
+Brick.	Кирпич.
+Button	Кнопка
+bruise	синяк
+Hybrid	Гибрид
+Void	Пустота
+Misc.	Разное.
+filter	фильтр
+Cancel	Отмена
+Rope	Верёвка
+Bell	Колокол
+Camera	Камера
+Brick	Кирпич
+Wheel	Колесо
+Stunner	Шокер
+Cable	Кабель
+bruises	синяки
+Abyss	Бездна
+Plank.	Доска.
+Pumpkin	Тыква
+general	Общие
+Fancy	Красивый
+Bus	Автобус
+Siren	Сирена
+Blocks	Блоки
+Fast	Быстро
+Wire	Провод
+Push	Выталкивание
+Anchor	Якорь
+Hammer	Молот
+I-Beam	Балка
+Radio	Радио
+Bandage	Бинт
+Car	Машина
+Stick	Палка
+Spear	Копьё
+Plank	Доска
+Clamp	Зажим
+Tower	Башня
+Torch	Факел
+Flask	Колба
+Rotor	Ротор
+Powers	Способности
+Bowl.	Чаша.
+back	Назад
+Rain	Дождь
+Wing	Крыло
+audio	Звук
+Fog	Туман
+Axe	Топор
+Crate	Ящик
+Gorse	Горс
+Pull	Втягивание
+Lava	Лава
+AK-47	АК-47
+Soap	Мыло
+dead	мёртв
+Vase	Ваза
+Tank	Танк
+Mods	Моды
+mods	моды
+Snow	Снег
+Knife	Нож
+Sea	Море
+Shock	Шок
+Spike	Шип
+Sword	Меч
+for	для
+fps	фпс
+Pin	Штифт
+No	Нет
+Okay	ОК
+Yes	Да
+Hz	Гц
+Set lagbox delay in seconds.	Задать задержку лагбокса в секундах.
+Set the gate maximum power	Задать максимальную мощность затвора
+Set hover height in meters	Задать высоту парения в метрах
+Limb crushing sensitivity	Чувствительность раздавливания конечностей
+Set target temperature.	Задать целевую температуру.
+Snap to center of mass	Привязка к центру масс
+Toggle parking brakes.	Переключить стояночный тормоз.
+Set the gate threshold	Задать порог срабатывания затвора
+Single trigger gate	Одиночный триггерный затвор
+Coagulation Syringe	Шприц с коагулянтом
+Set hover height.	Задать высоту парения.
+Reverse vehicle.	Поменять направление движения.
+Bullet tracers	Трассеры пуль
+Open file	Открыть файл
+quit	выход
+play	играть
+resume	продолжить
+restart	перезапустить
+choose map	выбрать карту
+player statistics	статистика игрока
+main menu	главное меню
+gore	жестокость
+visual effects	визуальные эффекты
+Contraptions	Постройки
+Select a chamber	Выбрать камеру
+Paste	Вставить
+Delete	Удалить
+Follow	Следить
+Activate	Активировать
+Ignite	Поджечь
+Freeze	Заморозить
+Unfreeze	Разморозить
+Make weightless	Сделать невесомым
+Resize	Изменить размер
+Stop resizing	Остановить изменение размера
+Inspect	Осмотреть
+Break bone	Сломать кость
+Mend bone	Вылечить кость
+Stumble	Споткнуться
+Clear animation override	Сбросить анимацию
+Walk	Ходить
+Cower	Сжаться от страха
+Flat pose	Лечь
+Clear debris	Убрать мусор
+Clear everything	Очистить всё
+Recompile	Перекомпилировать
+Safe mode is enabled. Mods cannot load.	Включён безопасный режим. Моды не могут загружаться.
+Open Mods folder in Explorer	Открыть папку Mods
+Search	Поиск
+Biohazard	Биоопасность
+Inanimate	Неживое
+Decorations	Декорации
