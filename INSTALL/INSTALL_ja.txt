@@ -1,0 +1,107 @@
+PPG Translate 2.3.0
+===================
+
+People Playground を 11 言語で：English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski。
+このフォルダーには同じ説明書が各言語で入っています：INSTALL_en.txt、INSTALL_ja.txt、INSTALL_ko.txt など。
+
+これは BepInEx 5 のプラグインで、ゲーム内の MOD ではないため、ゲームのセーフモードではブロックされません。Mod Enabler や RE_PPG は不要です。
+
+プラグインはインターネットに接続せず、何もダウンロードせず、自分のフォルダー以外にファイルを書き込まず、ゲームファイルやセーブデータにも触れません。ソースコードは BepInEx/plugins/PPG_Translate/source にあります。
+
+
+どのアーカイブを使うか
+----------------------
+PPG_Translate_2.3.0_x64.zip - ほぼすべての人向け：Steam 版、Steam 以外のほとんどの版、CrossOver 経由の Mac。
+PPG_Translate_2.3.0_x86.zip - 32 ビット版のゲーム専用。
+
+見分け方：ゲームフォルダーに UnityCrashHandler64.exe があれば x64、UnityCrashHandler32.exe があれば x86 です。間違えてもゲームが英語で起動するだけで、何も壊れません。
+
+ゲームのバージョン 1.24.5 以降が必要です。翻訳は 1.28 に合わせて作られています。
+
+
+Windows（Steam 版と Steam 以外）
+--------------------------------
+1. ゲームを閉じます。
+2. ゲームフォルダーを開きます。Steam では：ゲームを右クリック -> 管理 -> ローカルファイルを閲覧（英語表示：Manage -> Browse local files）。それ以外の版では People Playground.exe があるフォルダーです。
+3. アーカイブの中身をすべて、People Playground.exe と同じ場所にコピーします。
+4. ゲームを起動します。初回起動時に言語リストが自動で開くので、「日本語」を選びます。
+
+
+Mac（CrossOver）
+----------------
+1. ゲームを閉じます。
+2. CrossOver -> ボトル（bottle）-> "Open C: Drive" -> Program Files (x86)/Steam/steamapps/common/People Playground。
+3. アーカイブの中身をすべてそこにコピーします。Finder では .doorstop_version ファイルが隠れますが、問題ありません。
+4. CrossOver -> ボトル -> "Wine Configuration" -> "Libraries" タブ -> winhttp と入力 -> "Add"。winhttp は native, builtin に設定します。"Apply" -> OK。
+   手順 4 を行わないと、Wine では何も読み込まれません。
+
+
+Linux と Steam Deck（Proton）
+-----------------------------
+Windows と同じ手順に加えて、Steam でゲームの プロパティ -> 起動オプション（Properties -> Launch Options）に次を入力します：
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+
+言語の切り替え
+--------------
+メインメニュー ->「言語」ボタン -> 言語を選びます。表示はすぐに切り替わり、再起動は不要です。
+同じボタンはポーズメニューにもあります。
+メインメニューの「作者を支援する」ボタンを押すと、寄付ページ（lava.top と Boosty）がブラウザで開きます。
+
+
+動作の確認方法
+--------------
+メインメニューに「言語」ボタンがあり、ゲームフォルダーに BepInEx/LogOutput.log があって、"PPG Translate"、"Language: ..."、"Hook: TMP_Text.text" の行が含まれていれば動いています。
+ログがない場合は BepInEx が起動していません。たいていはコピー先のフォルダーが違います。Mac と Linux では winhttp の手順の抜けもよくあります。
+
+
+PPG Russian からの更新
+----------------------
+1. translations/50_my.txt を編集していた場合は、コピーを取っておきます。
+2. BepInEx/plugins/PPG_Russian フォルダーを削除します。
+3. 新しいアーカイブをゲームフォルダーに上書きコピーします。編集内容は BepInEx/plugins/PPG_Translate/translations/ru/50_my.txt に移してください。
+設定は引き継がれ、ゲームはロシア語のままです。
+
+
+英語のまま残っている文字がある
+------------------------------
+プラグインはそうした文字を BepInEx/plugins/PPG_Translate/untranslated_<言語コード>.txt（例：untranslated_ja.txt）に書き出します。
+自分で翻訳を追加するには、translations/<言語コード>/50_my.txt に 1 行 1 フレーズで書きます：
+    English<TAB>日本語
+間は必ずタブ文字にして、スペースは使わないでください。ファイルは UTF-8 で保存します。数字はテンプレートで置き換えられます：
+    {0} bruises<TAB>打撲：{0}
+変更は次回のゲーム起動時に反映されます。
+バグや誤訳、アイデアがあれば GitHub の Issues に書いてください。みんなの役に立ちます：
+https://github.com/teohanki/people-playground-translation/issues
+
+
+ウイルス対策ソフトが winhttp.dll を検出する
+------------------------------------------
+これは BepInEx のローダー（Doorstop）です。システムライブラリの代わりに置かれて、ゲームと一緒に BepInEx を起動します。一部のウイルス対策ソフトはこの仕組みそのものに反応します。ファイルは BepInEx 5.4.23.5 の公式リリースから無改変で取っており、SHA-256 は SHA256SUMS.txt に記載されています。
+
+
+設定
+----
+初回起動後に BepInEx/config/ppgrussian.cfg が作られます。名前が PPG Russian 時代のままなのは意図的で、更新しても設定が消えないようにするためです。
+  Language = ja                 言語コード：en, zh-Hans, es, fr, pt-BR, ru, de, ja, tr, ko, pl
+  Enabled = true/false          アンインストールせずに翻訳をオン・オフする
+  TranslateWorldText = true     アイテムやマップ上の文字を翻訳する。プレイヤーが入力した文字は翻訳しません
+  SweepIntervalSeconds = 2      画面上の未翻訳の文字を探す間隔。0 でオフ
+  DumpUntranslated = true       untranslated_<言語コード>.txt を記録する
+
+
+アンインストール
+----------------
+ゲームフォルダーから winhttp.dll、doorstop_config.ini、.doorstop_version、changelog.txt、SHA256SUMS.txt と、BepInEx、INSTALL、LICENSES フォルダーを削除します。
+ほかに BepInEx の MOD（例：RE_PPG）を入れている場合は、BepInEx/plugins/PPG_Translate だけを削除してください。
+
+
+ほかの MOD
+----------
+RE_PPG も同じ BepInEx 5.4.23.5 を使っているので、一緒に動きます。
+ゲームフォルダーにすでに別バージョンの BepInEx がある場合（リパック版によくあります）、アーカイブの BepInEx で上書きしないでください。BepInEx/plugins/PPG_Translate フォルダーだけをコピーします。
+
+
+ライセンス
+----------
+プラグインのコードと翻訳は MIT ライセンスです。Noto Sans CJK フォントは SIL Open Font License 1.1 です。BepInEx、HarmonyX、MonoMod、Mono.Cecil、UnityDoorstop にはそれぞれのライセンスがあります。すべて LICENSES フォルダーに入っています。

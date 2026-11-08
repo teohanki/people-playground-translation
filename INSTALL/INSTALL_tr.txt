@@ -1,0 +1,107 @@
+PPG Translate 2.3.0
+===================
+
+People Playground 11 dilde: English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
+Bu klasörde aynı rehber her dilde var: INSTALL_en.txt, INSTALL_tr.txt, INSTALL_de.txt ve diğerleri.
+
+Bu bir BepInEx 5 eklentisidir, oyun içi mod değildir; bu yüzden oyunun güvenli modu onu engellemez. Mod Enabler veya RE_PPG gerekmez.
+
+Eklenti internete bağlanmaz, hiçbir şey indirmez, kendi klasörü dışına dosya yazmaz, oyun dosyalarına ve kayıtlarına dokunmaz. Kaynak kodu BepInEx/plugins/PPG_Translate/source klasöründedir.
+
+
+Hangi arşivi almalı
+-------------------
+PPG_Translate_2.3.0_x64.zip - neredeyse herkes için: Steam, Steam dışındaki çoğu sürüm, CrossOver ile Mac.
+PPG_Translate_2.3.0_x86.zip - sadece oyunun 32 bit sürümü için.
+
+Hızlı kontrol: oyun klasöründe UnityCrashHandler64.exe varsa x64, UnityCrashHandler32.exe varsa x86 al. Yanlış olanı alırsan oyun sadece İngilizce açılır, hiçbir şey bozulmaz.
+
+Oyunun 1.24.5 veya daha yeni sürümü gerekir. Çeviri 1.28 için yapıldı.
+
+
+Windows (Steam ve Steam dışı)
+-----------------------------
+1. Oyunu kapat.
+2. Oyun klasörünü aç. Steam'de: oyuna sağ tık -> Yönet -> Yerel dosyalara göz at (İngilizce: Manage -> Browse local files). Diğer sürümlerde People Playground.exe'nin bulunduğu klasördür.
+3. Arşivdeki her şeyi oraya, People Playground.exe'nin yanına kopyala.
+4. Oyunu başlat. İlk açılışta dil listesi kendiliğinden açılır. "Türkçe"yi seç.
+
+
+Mac (CrossOver)
+---------------
+1. Oyunu kapat.
+2. CrossOver -> şişe (bottle) -> "Open C: Drive" -> Program Files (x86)/Steam/steamapps/common/People Playground.
+3. Arşivdeki her şeyi oraya kopyala. Finder .doorstop_version dosyasını gizler, bu normal.
+4. CrossOver -> şişe -> "Wine Configuration" -> "Libraries" sekmesi -> winhttp yaz -> "Add". winhttp native, builtin olarak ayarlı olmalı. "Apply" -> OK.
+   4. adım olmadan Wine altında hiçbir şey yüklenmez.
+
+
+Linux ve Steam Deck (Proton)
+----------------------------
+Windows ile aynı, ayrıca Steam'de: oyunun Özellikleri -> Başlatma Seçenekleri (Properties -> Launch Options):
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+
+Dili değiştirme
+---------------
+Ana menü -> "dil" düğmesi -> dili seç. Metin hemen değişir, yeniden başlatmaya gerek yok.
+Aynı düğme duraklatma menüsünde de var.
+Ana menüdeki "yapımcıyı destekle" düğmesi bağış sayfalarını (lava.top ve Boosty) tarayıcıda açar.
+
+
+Çalıştığını nasıl anlarsın
+--------------------------
+Ana menüde "dil" düğmesi vardır ve oyun klasöründe "PPG Translate", "Language: ..." ve "Hook: TMP_Text.text" satırlarını içeren BepInEx/LogOutput.log dosyası bulunur.
+Log yoksa BepInEx başlamamıştır. Genelde dosyalar yanlış klasöre kopyalanmıştır; Mac ve Linux'ta winhttp adımı da sık sık atlanır.
+
+
+PPG Russian'dan güncelleme
+--------------------------
+1. translations/50_my.txt dosyasını düzenlediysen bir kopyasını sakla.
+2. BepInEx/plugins/PPG_Russian klasörünü sil.
+3. Yeni arşivi oyun klasörüne kopyala ve dosyaların üzerine yaz. Düzenlemelerini BepInEx/plugins/PPG_Translate/translations/ru/50_my.txt dosyasına taşı.
+Ayarların korunur ve oyun Rusça kalır.
+
+
+Hâlâ İngilizce kalan yazılar var
+--------------------------------
+Eklenti bu satırları BepInEx/plugins/PPG_Translate/untranslated_<dil>.txt dosyasına yazar, örneğin untranslated_tr.txt.
+Kendi çevirini translations/<dil>/50_my.txt dosyasına, her satıra bir ifade olacak şekilde ekleyebilirsin:
+    English<TAB>Türkçe
+Aralarında boşluk değil, gerçek bir sekme (Tab) olmalı. Dosyayı UTF-8 olarak kaydet. Sayılar bir şablonla değiştirilebilir:
+    {0} bruises<TAB>Morluklar: {0}
+Değişiklikler oyunun bir sonraki açılışında geçerli olur.
+Hata, kötü çeviri ya da bir fikrin mi var? GitHub Issues'a yaz, herkese faydası olur:
+https://github.com/teohanki/people-playground-translation/issues
+
+
+Antivirüs winhttp.dll için uyarı veriyor
+----------------------------------------
+Bu, BepInEx'in yükleyicisidir (Doorstop). BepInEx'i oyunla birlikte başlatmak için bir sistem kitaplığının yerine geçer ve bazı antivirüsler bu yöntemin kendisine tepki verir. Dosya resmi BepInEx 5.4.23.5 sürümünden değiştirilmeden alındı, SHA-256 değeri SHA256SUMS.txt dosyasında.
+
+
+Ayarlar
+-------
+BepInEx/config/ppgrussian.cfg ilk açılıştan sonra oluşur. Adı bilerek PPG Russian'dan kaldı, böylece güncellemelerde ayarların kaybolmaz.
+  Language = tr                 dil kodu: en, zh-Hans, es, fr, pt-BR, ru, de, ja, tr, ko, pl
+  Enabled = true/false          çeviriyi kaldırmadan açıp kapatır
+  TranslateWorldText = true     eşyaların ve haritaların üzerindeki yazıları çevirir. Oyuncuların yazdığı metin asla çevrilmez
+  SweepIntervalSeconds = 2      ekranda kaçırılmış metnin ne sıklıkla aranacağı, 0 kapatır
+  DumpUntranslated = true       untranslated_<dil>.txt dosyasını tutar
+
+
+Kaldırma
+--------
+Oyun klasöründen winhttp.dll, doorstop_config.ini, .doorstop_version, changelog.txt, SHA256SUMS.txt dosyalarını ve BepInEx, INSTALL ve LICENSES klasörlerini sil.
+Başka BepInEx modların varsa (örneğin RE_PPG), sadece BepInEx/plugins/PPG_Translate klasörünü sil.
+
+
+Diğer modlar
+------------
+RE_PPG de aynı BepInEx 5.4.23.5'i kullanır, ikisi birlikte çalışır.
+Oyun klasöründe zaten başka bir BepInEx sürümü varsa (repack'lerde olur), arşivdeki BepInEx'i üzerine kopyalama. Sadece BepInEx/plugins/PPG_Translate klasörünü kopyala.
+
+
+Lisanslar
+---------
+Eklenti kodu ve çeviriler MIT lisanslıdır. Noto Sans CJK yazı tipleri SIL Open Font License 1.1 altındadır. BepInEx, HarmonyX, MonoMod, Mono.Cecil ve UnityDoorstop kendi lisanslarıyla gelir. Hepsi LICENSES klasöründe.
