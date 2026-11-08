@@ -1,0 +1,107 @@
+PPG Translate 2.3.0
+===================
+
+People Playground en 11 langues : English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
+Ce dossier contient le même guide dans chaque langue : INSTALL_en.txt, INSTALL_fr.txt, INSTALL_de.txt, etc.
+
+C'est un plugin BepInEx 5, pas un mod du jeu, donc le mode sans échec du jeu ne le bloque pas. Mod Enabler et RE_PPG sont inutiles.
+
+Le plugin ne va pas sur internet, ne télécharge rien, n'écrit aucun fichier hors de son dossier et ne touche ni aux fichiers du jeu ni à vos sauvegardes. Le code source se trouve dans BepInEx/plugins/PPG_Translate/source.
+
+
+Quelle archive prendre
+----------------------
+PPG_Translate_2.3.0_x64.zip - pour presque tout le monde : Steam, la plupart des versions hors Steam, Mac via CrossOver.
+PPG_Translate_2.3.0_x86.zip - uniquement pour la version 32 bits du jeu.
+
+Vérification rapide : si le dossier du jeu contient UnityCrashHandler64.exe, prenez x64 ; s'il contient UnityCrashHandler32.exe, prenez x86. En cas d'erreur, le jeu se lance simplement en anglais, rien ne casse.
+
+Il faut la version 1.24.5 du jeu ou plus récente. La traduction a été faite pour la 1.28.
+
+
+Windows (Steam et hors Steam)
+-----------------------------
+1. Fermez le jeu.
+2. Ouvrez le dossier du jeu. Dans Steam : clic droit sur le jeu -> Gérer -> Parcourir les fichiers locaux (en anglais : Manage -> Browse local files). Sinon, c'est le dossier qui contient People Playground.exe.
+3. Copiez-y tout le contenu de l'archive, à côté de People Playground.exe.
+4. Lancez le jeu. Au premier lancement, la liste des langues s'ouvre d'elle-même. Choisissez « Français ».
+
+
+Mac (CrossOver)
+---------------
+1. Fermez le jeu.
+2. CrossOver -> bouteille (bottle) -> « Open C: Drive » -> Program Files (x86)/Steam/steamapps/common/People Playground.
+3. Copiez-y tout le contenu de l'archive. Le Finder cache le fichier .doorstop_version, c'est normal.
+4. CrossOver -> bouteille -> « Wine Configuration » -> onglet « Libraries » -> tapez winhttp -> « Add ». winhttp doit être réglé sur native, builtin. « Apply » -> OK.
+   Sans l'étape 4, rien ne se charge sous Wine.
+
+
+Linux et Steam Deck (Proton)
+----------------------------
+Comme sous Windows, et en plus dans Steam : Propriétés du jeu -> Options de lancement (Properties -> Launch Options) :
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+
+Changer de langue
+-----------------
+Menu principal -> bouton « langue » -> choisissez une langue. Le texte change tout de suite, sans redémarrer.
+Le même bouton se trouve dans le menu pause.
+Le bouton « soutenir l'auteur » du menu principal ouvre les pages de dons (lava.top et Boosty) dans votre navigateur.
+
+
+Comment vérifier que ça marche
+------------------------------
+Le menu principal a un bouton « langue », et le dossier du jeu contient BepInEx/LogOutput.log avec les lignes « PPG Translate », « Language: ... » et « Hook: TMP_Text.text ».
+Pas de log, cela veut dire que BepInEx n'a pas démarré. En général, les fichiers ont été copiés dans le mauvais dossier ; sur Mac et Linux, l'étape winhttp est aussi souvent oubliée.
+
+
+Mise à jour depuis PPG Russian
+------------------------------
+1. Si vous avez modifié translations/50_my.txt, gardez-en une copie.
+2. Supprimez le dossier BepInEx/plugins/PPG_Russian.
+3. Copiez la nouvelle archive dans le dossier du jeu en remplaçant les fichiers. Mettez vos modifications dans BepInEx/plugins/PPG_Translate/translations/ru/50_my.txt.
+Vos réglages sont conservés et le jeu reste en russe.
+
+
+Il reste du texte en anglais
+----------------------------
+Le plugin écrit ces lignes dans BepInEx/plugins/PPG_Translate/untranslated_<langue>.txt, par exemple untranslated_fr.txt.
+Vous pouvez ajouter votre propre traduction dans translations/<langue>/50_my.txt, une phrase par ligne :
+    English<TAB>Français
+Mettez une vraie tabulation entre les deux, pas des espaces. Enregistrez le fichier en UTF-8. Les nombres peuvent être remplacés par un modèle :
+    {0} bruises<TAB>Ecchymoses : {0}
+Les changements sont pris en compte au prochain lancement du jeu.
+Un bug, une mauvaise traduction ou une idée ? Écrivez dans les Issues GitHub, ça aide tout le monde :
+https://github.com/teohanki/people-playground-translation/issues
+
+
+L'antivirus se plaint de winhttp.dll
+------------------------------------
+C'est le chargeur de BepInEx (Doorstop). Il prend la place d'une bibliothèque système pour lancer BepInEx avec le jeu, et certains antivirus réagissent à cette astuce en elle-même. Le fichier vient tel quel de la version officielle BepInEx 5.4.23.5, son SHA-256 est dans SHA256SUMS.txt.
+
+
+Réglages
+--------
+BepInEx/config/ppgrussian.cfg apparaît après le premier lancement. Le nom vient de PPG Russian, c'est voulu : les mises à jour conservent ainsi vos réglages.
+  Language = fr                 code de langue : en, zh-Hans, es, fr, pt-BR, ru, de, ja, tr, ko, pl
+  Enabled = true/false          activer ou désactiver la traduction sans la désinstaller
+  TranslateWorldText = true     traduire les textes sur les objets et les cartes. Le texte tapé par les joueurs n'est jamais traduit
+  SweepIntervalSeconds = 2      fréquence de recherche du texte oublié à l'écran, 0 la désactive
+  DumpUntranslated = true       tenir à jour untranslated_<langue>.txt
+
+
+Désinstaller
+------------
+Supprimez du dossier du jeu winhttp.dll, doorstop_config.ini, .doorstop_version, changelog.txt, SHA256SUMS.txt et les dossiers BepInEx, INSTALL et LICENSES.
+Si vous avez d'autres mods BepInEx (RE_PPG par exemple), supprimez seulement BepInEx/plugins/PPG_Translate.
+
+
+Autres mods
+-----------
+RE_PPG utilise le même BepInEx 5.4.23.5, les deux fonctionnent ensemble.
+Si le dossier du jeu contient déjà une autre version de BepInEx (c'est le cas des repacks), ne copiez pas le BepInEx de l'archive par-dessus. Copiez seulement le dossier BepInEx/plugins/PPG_Translate.
+
+
+Licences
+--------
+Le code du plugin et les traductions sont sous licence MIT. Les polices Noto Sans CJK sont sous SIL Open Font License 1.1. BepInEx, HarmonyX, MonoMod, Mono.Cecil et UnityDoorstop ont leurs propres licences. Elles sont toutes dans le dossier LICENSES.

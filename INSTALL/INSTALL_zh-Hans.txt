@@ -1,0 +1,107 @@
+PPG Translate 2.3.0
+===================
+
+People Playground（人类游乐场）支持 11 种语言：English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski。
+本文件夹里有各语言版本的同一份说明：INSTALL_en.txt、INSTALL_zh-Hans.txt、INSTALL_es.txt 等。
+
+这是 BepInEx 5 插件，不是游戏内的模组，所以游戏的安全模式不会拦截它。不需要 Mod Enabler 或 RE_PPG。
+
+插件不联网，不下载任何东西，不在自己的文件夹以外写文件，也不改动游戏文件和存档。源代码在 BepInEx/plugins/PPG_Translate/source。
+
+
+选择哪个压缩包
+--------------
+PPG_Translate_2.3.0_x64.zip - 几乎所有人都用这个：Steam 版、大多数非 Steam 版、通过 CrossOver 运行的 Mac 版。
+PPG_Translate_2.3.0_x86.zip - 只用于 32 位版本的游戏。
+
+快速判断：游戏目录里有 UnityCrashHandler64.exe 就用 x64，有 UnityCrashHandler32.exe 就用 x86。选错了也没关系，游戏只会以英文启动，不会损坏任何东西。
+
+需要游戏版本 1.24.5 或更新。翻译基于 1.28 版本制作。
+
+
+Windows（Steam 版和非 Steam 版）
+-------------------------------
+1. 关闭游戏。
+2. 打开游戏目录。在 Steam 中：右键点击游戏 -> 管理 -> 浏览本地文件（英文界面：Manage -> Browse local files）。其他版本就是 People Playground.exe 所在的文件夹。
+3. 把压缩包里的全部内容复制到这里，和 People Playground.exe 放在一起。
+4. 启动游戏。第一次启动时会自动打开语言列表，选择「简体中文」。
+
+
+Mac（CrossOver）
+----------------
+1. 关闭游戏。
+2. CrossOver -> 选择容器（bottle）-> "Open C: Drive" -> Program Files (x86)/Steam/steamapps/common/People Playground。
+3. 把压缩包里的全部内容复制到这里。访达会隐藏 .doorstop_version 文件，这是正常的。
+4. CrossOver -> 容器 -> "Wine Configuration" -> "Libraries" 选项卡 -> 输入 winhttp -> "Add"。winhttp 必须设置为 native, builtin。"Apply" -> OK。
+   不做第 4 步，Wine 下什么都不会加载。
+
+
+Linux 和 Steam Deck（Proton）
+-----------------------------
+步骤和 Windows 相同，另外在 Steam 中打开游戏的 属性 -> 启动选项（Properties -> Launch Options），填入：
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+
+切换语言
+--------
+主菜单 ->「语言」按钮 -> 选择语言。文字会立即切换，无需重启。
+暂停菜单里也有同样的按钮。
+主菜单的「支持作者」按钮会在浏览器中打开捐助页面（lava.top 和 Boosty）。
+
+
+如何确认插件在工作
+------------------
+主菜单里出现了「语言」按钮，游戏目录里有 BepInEx/LogOutput.log 文件，里面有 "PPG Translate"、"Language: ..." 和 "Hook: TMP_Text.text" 这几行。
+如果没有日志，说明 BepInEx 没有启动。通常是文件复制错了文件夹；在 Mac 和 Linux 上也常常是漏了 winhttp 那一步。
+
+
+从 PPG Russian 升级
+-------------------
+1. 如果你修改过 translations/50_my.txt，先备份一份。
+2. 删除 BepInEx/plugins/PPG_Russian 文件夹。
+3. 把新压缩包的内容复制到游戏目录并覆盖。把你的修改放进 BepInEx/plugins/PPG_Translate/translations/ru/50_my.txt。
+设置会保留，游戏仍然是俄语。
+
+
+还有文字是英文
+--------------
+插件会把这些文字写入 BepInEx/plugins/PPG_Translate/untranslated_<语言代码>.txt，例如 untranslated_zh-Hans.txt。
+你可以在 translations/<语言代码>/50_my.txt 里添加自己的翻译，每行一句：
+    English<TAB>中文
+中间必须是真正的 Tab 制表符，不能用空格。文件请保存为 UTF-8 编码。数字可以用模板代替：
+    {0} bruises<TAB>瘀伤：{0}
+修改会在下次启动游戏时生效。
+发现错误、翻译问题或有好点子？请在 GitHub Issues 里留言，这能帮到所有人：
+https://github.com/teohanki/people-playground-translation/issues
+
+
+杀毒软件报 winhttp.dll
+----------------------
+这是 BepInEx 的加载器（Doorstop）。它以系统库的名义放在游戏旁边，让 BepInEx 随游戏一起启动，一些杀毒软件会对这种做法本身报警。文件来自 BepInEx 5.4.23.5 官方发布包，没有任何改动，它的 SHA-256 写在 SHA256SUMS.txt 里。
+
+
+设置
+----
+第一次启动后会生成 BepInEx/config/ppgrussian.cfg。文件名沿用了 PPG Russian，这是有意的，这样升级时设置不会丢失。
+  Language = zh-Hans            语言代码：en, zh-Hans, es, fr, pt-BR, ru, de, ja, tr, ko, pl
+  Enabled = true/false          开启或关闭翻译，无需卸载
+  TranslateWorldText = true     翻译物品和地图上的文字。玩家自己输入的文字永远不会被翻译
+  SweepIntervalSeconds = 2      多久扫描一次屏幕上漏掉的文字，0 表示关闭
+  DumpUntranslated = true       记录 untranslated_<语言代码>.txt
+
+
+卸载
+----
+从游戏目录删除 winhttp.dll、doorstop_config.ini、.doorstop_version、changelog.txt、SHA256SUMS.txt，以及 BepInEx、INSTALL 和 LICENSES 文件夹。
+如果你还装了其他 BepInEx 模组（例如 RE_PPG），只删除 BepInEx/plugins/PPG_Translate。
+
+
+其他模组
+--------
+RE_PPG 使用同样的 BepInEx 5.4.23.5，两者可以一起使用。
+如果游戏目录里已经有其他版本的 BepInEx（整合包常见），不要用压缩包里的 BepInEx 覆盖它，只复制 BepInEx/plugins/PPG_Translate 文件夹。
+
+
+许可证
+------
+插件代码和翻译采用 MIT 许可证。Noto Sans CJK 字体采用 SIL Open Font License 1.1。BepInEx、HarmonyX、MonoMod、Mono.Cecil 和 UnityDoorstop 各有自己的许可证。全部许可证都在 LICENSES 文件夹里。
