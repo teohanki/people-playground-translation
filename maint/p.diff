@@ -1,0 +1,115 @@
+diff --git a/src/MenuUI.cs b/src/MenuUI.cs
+index 523da2a..eac0fc3 100644
+--- a/src/MenuUI.cs
++++ b/src/MenuUI.cs
+@@ -33,2 +33,2 @@ namespace PPGTranslate
+-        static Type controllerType, buttonType, rawImageType;
+-        static PropertyInfo wrapProp, marginProp, rawTextureProp, raycastProp;
++        static Type controllerType, buttonType, rawImageType, layoutElementType;
++        static PropertyInfo wrapProp, marginProp, rawTextureProp, raycastProp, preferredWidthProp, minWidthProp, layoutPreferredWidthProp;
+@@ -95,0 +96,7 @@ namespace PPGTranslate
++                preferredWidthProp = AccessTools.Property(tmp, "preferredWidth");
++            }
++            layoutElementType = AccessTools.TypeByName("UnityEngine.UI.LayoutElement");
++            if (layoutElementType != null)
++            {
++                minWidthProp = AccessTools.Property(layoutElementType, "minWidth");
++                layoutPreferredWidthProp = AccessTools.Property(layoutElementType, "preferredWidth");
+@@ -176,0 +184 @@ namespace PPGTranslate
++            FitWidth(go, label);
+@@ -180,0 +189,32 @@ namespace PPGTranslate
++        void FitWidth(GameObject go, Component label)
++        {
++            try
++            {
++                RectTransform rt = go.transform as RectTransform;
++                if (rt == null || label == null || preferredWidthProp == null) return;
++                float need = (float)preferredWidthProp.GetValue(label, null);
++                if (marginProp != null)
++                {
++                    Vector4 m = (Vector4)marginProp.GetValue(label, null);
++                    need += m.x + m.z;
++                }
++                need += 16f;
++                RectTransform lr = label.transform as RectTransform;
++                float pad = lr != null && lr != rt ? Mathf.Max(0f, rt.rect.width - lr.rect.width) : 0f;
++                float total = need + pad;
++                if (total > rt.rect.width)
++                {
++                    rt.sizeDelta = new Vector2(rt.sizeDelta.x + total - rt.rect.width, rt.sizeDelta.y);
++                    if (layoutElementType != null && minWidthProp != null)
++                    {
++                        Component le = go.GetComponent(layoutElementType) ?? go.AddComponent(layoutElementType);
++                        minWidthProp.SetValue(le, total, null);
++                        if (layoutPreferredWidthProp != null) layoutPreferredWidthProp.SetValue(le, total, null);
++                    }
++                }
++                if (lr != null && lr != rt && lr.rect.width < need)
++                    lr.offsetMax = new Vector2(lr.offsetMax.x + need - lr.rect.width, lr.offsetMax.y);
++            }
++            catch (Exception e) { Plugin.LogOnce(e); }
++        }
++
+@@ -254 +294 @@ namespace PPGTranslate
+-            listButtons.Add(MakeText("PPGT pitch", l.Pitch, at++));
++            listButtons.Add(MakeText("PPGT pitch", l.Pitch + Heart, at++, 90, 1.05f));
+@@ -261 +301 @@ namespace PPGTranslate
+-            listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++));
++            listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++, 75, 0.85f));
+@@ -266 +306 @@ namespace PPGTranslate
+-        GameObject MakeText(string name, string text, int index)
++        GameObject MakeText(string name, string text, int index, int size, float lineHeight)
+@@ -270 +310 @@ namespace PPGTranslate
+-            GameObject go = MakeButton(name, "<size=75%><alpha=#CC>" + text, delegate { }, index, 0.85f * lines, null);
++            GameObject go = MakeButton(name, "<size=" + size + "%><alpha=#DD>" + text, delegate { }, index, lineHeight * lines, null);
+diff --git a/src/Plugin.cs b/src/Plugin.cs
+index 79af259..a1a8f95 100644
+--- a/src/Plugin.cs
++++ b/src/Plugin.cs
+@@ -16,2 +16,2 @@ using UnityEngine;
+-[assembly: AssemblyVersion("2.3.0.0")]
+-[assembly: AssemblyFileVersion("2.3.0.0")]
++[assembly: AssemblyVersion("2.3.1.0")]
++[assembly: AssemblyFileVersion("2.3.1.0")]
+@@ -26 +26 @@ namespace PPGTranslate
+-        public const string PluginVersion = "2.3.0";
++        public const string PluginVersion = "2.3.1";
+diff --git a/src/Translator.cs b/src/Translator.cs
+index b1616c2..e5afb39 100644
+--- a/src/Translator.cs
++++ b/src/Translator.cs
+@@ -97 +97 @@ namespace PPGTranslate
+-                    rx.Append(ph == "{s}" || ph == "{t}" ? "(.+?)" : NumRx);
++                    rx.Append(ph == "{s}" || ph == "{t}" || ph == "{w}" ? "(.+?)" : NumRx);
+@@ -229,3 +229,12 @@ namespace PPGTranslate
+-                for (int g = 0; g < tp.Names.Length; g++)
+-                    res = res.Replace(tp.Names[g], m.Groups[g + 1].Value);
+-                return res;
++                bool ok = true;
++                for (int g = 0; g < tp.Names.Length && ok; g++)
++                {
++                    string part = m.Groups[g + 1].Value;
++                    if (tp.Names[g] == "{w}")
++                    {
++                        part = Whole(part);
++                        if (part == null) { ok = false; break; }
++                    }
++                    res = res.Replace(tp.Names[g], part);
++                }
++                if (ok) return res;
+@@ -333 +342 @@ namespace PPGTranslate
+-            return c == '0' || c == '1' || c == '2' || c == 's' || c == 't';
++            return c == '0' || c == '1' || c == '2' || c == 's' || c == 't' || c == 'w';
+diff --git a/tests/TranslatorTests.cs b/tests/TranslatorTests.cs
+index 02f0148..13e607a 100644
+--- a/tests/TranslatorTests.cs
++++ b/tests/TranslatorTests.cs
+@@ -27,0 +28,2 @@ class T{ static int fail=0;
++  Eq(t,"IDLE","ПОКОЙ"); Eq(t,"DRAIN","СЛИВ"); Eq(t,"PULL","ВТЯГИВАНИЕ"); Eq(t,"REACTOR IS SUBCRITICAL","РЕАКТОР: ПОДКРИТИЧЕСКИЙ"); Eq(t,"REACTOR IS WEIRD","REACTOR IS WEIRD");
++  Eq(t,"<align=\"center\"><#fff>LIQUID CONTENTS\n</align></color>\n\n70% BLOOD\n30% LIFE SERUM\n","<align=\"center\"><#fff>СОСТАВ ЖИДКОСТИ\n</align></color>\n\n70% КРОВЬ\n30% СЫВОРОТКА ЖИЗНИ\n"); Eq(t,"<i>Mixture</i>\n3L / 5L","<i>Смесь</i>\n3L / 5L");
+diff --git a/tools/package.sh b/tools/package.sh
+index bbde7cd..6fb691e 100644
+--- a/tools/package.sh
++++ b/tools/package.sh
+@@ -29,0 +30 @@ cp INSTALL/INSTALL_*.txt "$stage/INSTALL/"
++sed -i "s/<version>/$VERSION/g" "$stage"/INSTALL/*.txt

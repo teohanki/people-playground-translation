@@ -1,0 +1,25 @@
+name: Maintenance
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        run: |
+          git apply --unidiff-zero maint/p.diff
+          for f in INSTALL/*.txt; do
+            sed -i -e '1s/^PPG Translate 2\.3\.0$/PPG Translate/' -e '2s/^===================$/=============/' -e 's/PPG_Translate_2\.3\.0_/PPG_Translate_<version>_/g' "$f"
+          done
+          git rm -q maint/p.diff
+          git config user.name teohanki
+          git config user.email 345032692+teohanki@users.noreply.github.com
+          git add -A
+          git commit -q -m "Wider click area for menu links, bigger support text, version 2.3.1"
+          git push

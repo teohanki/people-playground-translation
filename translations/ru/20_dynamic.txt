@@ -1,0 +1,21 @@
+PUSH	ВЫТАЛКИВАНИЕ
+PULL	ВТЯГИВАНИЕ
+IDLE	ПОКОЙ
+DRAIN	СЛИВ
+SUBCRITICAL	ПОДКРИТИЧЕСКИЙ
+CRITICAL	КРИТИЧЕСКИЙ
+SUPERCRITICAL	НАДКРИТИЧЕСКИЙ
+REACTOR IS {w}	РЕАКТОР: {w}
+LOW TEMPERATURE	НИЗКАЯ ТЕМПЕРАТУРА
+HIGH TEMPERATURE	ВЫСОКАЯ ТЕМПЕРАТУРА
+CATASTROPHIC TEMPERATURE	КАТАСТРОФИЧЕСКАЯ ТЕМПЕРАТУРА
+LIQUID CONTENTS	СОСТАВ ЖИДКОСТИ
+Mixture	Смесь
+BLOOD	КРОВЬ
+OIL	МАСЛО
+NITRO	НИТРО
+PAIN KILLER	ОБЕЗБОЛИВАЮЩЕЕ
+FREEZE POISON	ЗАМОРАЖИВАЮЩИЙ ЯД
+BONE EATING POISON	ЯД, РАЗЪЕДАЮЩИЙ КОСТИ
+OSTEOMORPHOSIS AGENT	ВЕЩЕСТВО ОСТЕОМОРФОЗА
+Modded	Моды
