@@ -11,6 +11,7 @@ namespace PPGTranslate
     {
         const string BoostyUrl = "https://boosty.to/teohanki/donate";
         const string LavaUrl = "https://app.lava.top/teohanki";
+        const string IssuesUrl = "https://github.com/teohanki/people-playground-translation/issues";
 
         sealed class Clicker
         {
@@ -256,6 +257,7 @@ namespace PPGTranslate
             Action lava = delegate { Application.OpenURL(LavaUrl); };
             listButtons.Add(MakeButton("PPGT lava", Link("lava.top") + Small(ru ? LavaRu : LavaWorld), lava, at++, 1.3f, null));
             listButtons.Add(MakeButton("PPGT boosty", Link("Boosty") + Small(ru ? BoostyRu : BoostyWorld), boosty, at++, 1.3f, null));
+            listButtons.Add(MakeButton("PPGT issues", "<size=85%>" + Link(l.Issues), delegate { Application.OpenURL(IssuesUrl); }, at++, 1.3f, null));
             listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++));
             listButtons.Add(MakeSpacer(0.6f, at++));
             listButtons.Add(MakeButton("PPGT back", l.Back, CloseList, at, 1.3f, null));
