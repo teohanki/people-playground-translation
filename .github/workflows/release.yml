@@ -1,0 +1,120 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version without the v prefix
+        required: true
+        default: 2.3.0
+      replace:
+        description: Recreate the release and tag if they already exist
+        type: boolean
+        default: false
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    env:
+      BEPINEX_VERSION: 5.4.23.5
+      BEPINEX_X64_SHA256: 82f9878551030f54657792c0740d9d51a09500eeae1fba21106b0c441e6732c4
+      BEPINEX_X86_SHA256: 37651c79e40d6f909572a4f461ac25350bb3ef8fe7fbd29f1aa8791a33b84c82
+      UNITY_DLL_SHA256: 771cca9499b7eb451a6715ad3f6b08486821e85a3824022cb725d68ce3b8bc03
+      XUNITY_COMMIT: 08324a58dcb26b76fc08e0fb2121098164579e73
+      NOTO_TTC: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+      FLAG_ICONS_VERSION: 7.2.3
+      FLAG_ICONS_SHA256: 691cd3917f7596ff7e9960d9b4ae98b00ff2000d26c119284609f6d2fafbdad2
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Version
+        run: |
+          if [ "${GITHUB_EVENT_NAME}" = "push" ]; then v="${GITHUB_REF_NAME#v}"; else v="${{ inputs.version }}"; fi
+          echo "VERSION=$v" >> "$GITHUB_ENV"
+
+      - name: Tools
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q mono-mcs mono-devel zip fonts-noto-cjk python3-fonttools librsvg2-bin
+          dpkg -s fonts-noto-cjk | grep -E '^Version'
+          sha256sum "$NOTO_TTC"
+
+      - name: Dependencies
+        run: |
+          mkdir -p deps/licenses
+          cd deps
+          base="https://github.com/BepInEx/BepInEx/releases/download/v${BEPINEX_VERSION}"
+          curl -fsSL -o "BepInEx_win_x64_${BEPINEX_VERSION}.zip" "$base/BepInEx_win_x64_${BEPINEX_VERSION}.zip"
+          curl -fsSL -o "BepInEx_win_x86_${BEPINEX_VERSION}.zip" "$base/BepInEx_win_x86_${BEPINEX_VERSION}.zip"
+          echo "${BEPINEX_X64_SHA256}  BepInEx_win_x64_${BEPINEX_VERSION}.zip" | sha256sum -c
+          echo "${BEPINEX_X86_SHA256}  BepInEx_win_x86_${BEPINEX_VERSION}.zip" | sha256sum -c
+          curl -fsSL -o UnityEngine.dll "https://raw.githubusercontent.com/bbepis/XUnity.AutoTranslator/${XUNITY_COMMIT}/libs/UnityEngine.dll"
+          echo "${UNITY_DLL_SHA256}  UnityEngine.dll" | sha256sum -c
+          unzip -q "BepInEx_win_x64_${BEPINEX_VERSION}.zip" "BepInEx/core/*" -d bepinex
+          raw="https://raw.githubusercontent.com"
+          curl -fsSL -o licenses/BepInEx.txt "$raw/BepInEx/BepInEx/dbc82f05b8ea34833de5b6a723eb60dd8398e0b1/LICENSE"
+          curl -fsSL -o licenses/HarmonyX.txt "$raw/BepInEx/HarmonyX/217cc408cc3909ee67c727a2d782bede84f6c2b1/LICENSE"
+          curl -fsSL -o licenses/MonoMod.txt "$raw/MonoMod/MonoMod/8147261c18829e5de0cb71570cc3ff51dbc601b0/LICENSE"
+          curl -fsSL -o licenses/cecil.txt "$raw/jbevain/cecil/fdcf99fd1c74c9b2bafd58bf30f6971ef3ed1000/LICENSE.txt"
+          curl -fsSL -o licenses/UnityDoorstop.txt "$raw/NeighTools/UnityDoorstop/1c3ece1f1e6c20f4aa74d5402baabf8a0098d282/LICENSE"
+          npm pack "flag-icons@${FLAG_ICONS_VERSION}"
+          echo "${FLAG_ICONS_SHA256}  flag-icons-${FLAG_ICONS_VERSION}.tgz" | sha256sum -c
+          tar -xzf "flag-icons-${FLAG_ICONS_VERSION}.tgz"
+          mv package flag-icons
+          cp flag-icons/LICENSE licenses/flag-icons.txt
+
+      - name: Build and test
+        run: BEPINEX_CORE="$PWD/deps/bepinex/BepInEx/core" UNITY_DLL="$PWD/deps/UnityEngine.dll" bash tools/build.sh
+
+      - name: Fonts and flags
+        run: |
+          python3 tools/mkfonts.py . "$NOTO_TTC" build/fonts
+          ls -la build/fonts
+          FLAGS_DIR="$PWD/deps/flag-icons" bash tools/mkflags.sh build/flags
+
+      - name: Archives
+        run: |
+          for a in x64 x86; do
+            ARCH=$a BEPINEX_ZIP="$PWD/deps/BepInEx_win_${a}_${BEPINEX_VERSION}.zip" THIRD_PARTY_LICENSES="$PWD/deps/licenses" bash tools/package.sh
+          done
+          ls -la dist
+          sha256sum dist/*.zip
+
+      - name: Check archives
+        run: |
+          for z in dist/*.zip; do
+            d=$(mktemp -d)
+            unzip -q "$z" -d "$d"
+            (cd "$d" && tail -n +3 SHA256SUMS.txt | sha256sum -c --quiet)
+            grep -q "Teo Hanki" "$d/LICENSES/PPG_Translate.txt"
+            test -s "$d/INSTALL.txt"
+            test -s "$d/INSTALL_RU.txt"
+            p="$d/BepInEx/plugins/PPG_Translate"
+            for l in ru es pt-BR de fr pl tr ja ko zh-Hans; do test -s "$p/translations/$l/00_main.txt" || test -s "$p/translations/$l/00_base.txt"; done
+            ls -la "$p/fonts" "$p/flags"
+            test "$(ls "$p/flags" | wc -l)" = 11
+            sha256sum "$p/PPG_Translate.dll"
+            echo "$z OK"
+          done
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v${VERSION}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            if [ "${{ inputs.replace }}" = "true" ]; then
+              gh release delete "$tag" --cleanup-tag -y
+              git push --delete origin "$tag" 2>/dev/null || true
+            else
+              echo "Release $tag already exists. Run with replace = true to replace it." >&2
+              exit 1
+            fi
+          fi
+          gh release create "$tag" dist/*.zip --target "$GITHUB_SHA" --title "PPG Translate ${VERSION}" --notes-file tools/release-notes.md
