@@ -1,5 +1,5 @@
-PPG Translate 2.3.0
-===================
+PPG Translate
+=============
 
 People Playground 11 dilde: English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
 Bu klasörde aynı rehber her dilde var: INSTALL_en.txt, INSTALL_tr.txt, INSTALL_de.txt ve diğerleri.
@@ -11,8 +11,8 @@ Eklenti internete bağlanmaz, hiçbir şey indirmez, kendi klasörü dışına d
 
 Hangi arşivi almalı
 -------------------
-PPG_Translate_2.3.0_x64.zip - neredeyse herkes için: Steam, Steam dışındaki çoğu sürüm, CrossOver ile Mac.
-PPG_Translate_2.3.0_x86.zip - sadece oyunun 32 bit sürümü için.
+PPG_Translate_<version>_x64.zip - neredeyse herkes için: Steam, Steam dışındaki çoğu sürüm, CrossOver ile Mac.
+PPG_Translate_<version>_x86.zip - sadece oyunun 32 bit sürümü için.
 
 Hızlı kontrol: oyun klasöründe UnityCrashHandler64.exe varsa x64, UnityCrashHandler32.exe varsa x86 al. Yanlış olanı alırsan oyun sadece İngilizce açılır, hiçbir şey bozulmaz.
 

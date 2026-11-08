@@ -27,6 +27,7 @@ done
 cp build/flags/*.png "$plug/flags/"
 mkdir -p "$stage/INSTALL"
 cp INSTALL/INSTALL_*.txt "$stage/INSTALL/"
+sed -i "s/<version>/$VERSION/g" "$stage"/INSTALL/*.txt
 cp LICENSE "$stage/LICENSES/$name.txt"
 cp fonts/OFL.txt "$stage/LICENSES/NotoSansCJK-OFL.txt"
 cp "$THIRD_PARTY_LICENSES"/*.txt "$stage/LICENSES/"

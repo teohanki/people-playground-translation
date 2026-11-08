@@ -1,5 +1,5 @@
-PPG Translate 2.3.0
-===================
+PPG Translate
+=============
 
 People Playground를 11개 언어로: English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
 이 폴더에는 같은 안내서가 언어별로 들어 있습니다: INSTALL_en.txt, INSTALL_ko.txt, INSTALL_ja.txt 등.
@@ -11,8 +11,8 @@ People Playground를 11개 언어로: English, 简体中文, Español, Français
 
 어떤 압축 파일을 받을까
 -----------------------
-PPG_Translate_2.3.0_x64.zip - 거의 모든 사람용: Steam, Steam 외 대부분의 버전, CrossOver를 쓰는 Mac.
-PPG_Translate_2.3.0_x86.zip - 32비트 버전 게임 전용.
+PPG_Translate_<version>_x64.zip - 거의 모든 사람용: Steam, Steam 외 대부분의 버전, CrossOver를 쓰는 Mac.
+PPG_Translate_<version>_x86.zip - 32비트 버전 게임 전용.
 
 간단한 확인 방법: 게임 폴더에 UnityCrashHandler64.exe가 있으면 x64, UnityCrashHandler32.exe가 있으면 x86입니다. 잘못 골라도 게임이 영어로 실행될 뿐 망가지는 것은 없습니다.
 

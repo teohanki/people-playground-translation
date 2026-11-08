@@ -94,7 +94,7 @@ namespace PPGTranslate
                 {
                     if (lit.Length > hint.Length) hint = lit.ToString();
                     lit.Length = 0;
-                    rx.Append(ph == "{s}" || ph == "{t}" ? "(.+?)" : NumRx);
+                    rx.Append(ph == "{s}" || ph == "{t}" || ph == "{w}" ? "(.+?)" : NumRx);
                     names.Add(ph);
                     i += 3;
                 }
@@ -226,9 +226,18 @@ namespace PPGTranslate
                 Match m = tp.Rx.Match(t);
                 if (!m.Success) continue;
                 string res = tp.Value;
-                for (int g = 0; g < tp.Names.Length; g++)
-                    res = res.Replace(tp.Names[g], m.Groups[g + 1].Value);
-                return res;
+                bool ok = true;
+                for (int g = 0; g < tp.Names.Length && ok; g++)
+                {
+                    string part = m.Groups[g + 1].Value;
+                    if (tp.Names[g] == "{w}")
+                    {
+                        part = Whole(part);
+                        if (part == null) { ok = false; break; }
+                    }
+                    res = res.Replace(tp.Names[g], part);
+                }
+                if (ok) return res;
             }
             return null;
         }
@@ -330,7 +339,7 @@ namespace PPGTranslate
 
         static bool IsPlaceholderChar(char c)
         {
-            return c == '0' || c == '1' || c == '2' || c == 's' || c == 't';
+            return c == '0' || c == '1' || c == '2' || c == 's' || c == 't' || c == 'w';
         }
 
         static bool HasPlaceholder(string key)

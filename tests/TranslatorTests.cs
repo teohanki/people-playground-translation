@@ -25,6 +25,8 @@ class T{ static int fail=0;
   Eq(t,"Enter Tiny","Играть: Крошечная"); Eq(t,"Enter something weird","Enter something weird");
   Eq(t,"<size=80%>Edit the current environment settings\\nSome maps don't support some settings</size>","<size=80%>Изменить настройки окружения на этой карте\\nНекоторые карты поддерживают не все настройки</size>");
   Eq(t,"Copies the selected objects","Копирует выделенные объекты"); Eq(t,"Press E to open the door","Нажмите E, чтобы open the door"); Eq(t,"Angle snap set to 15 degrees","Шаг поворота: 15°"); Eq(t,"Copied 3 objects","Скопировано объектов: 3"); Eq(t,"COAGULATION SERUM","СЫВОРОТКА СВЁРТЫВАНИЯ");
+  Eq(t,"IDLE","ПОКОЙ"); Eq(t,"DRAIN","СЛИВ"); Eq(t,"PULL","ВТЯГИВАНИЕ"); Eq(t,"REACTOR IS SUBCRITICAL","РЕАКТОР: ПОДКРИТИЧЕСКИЙ"); Eq(t,"REACTOR IS WEIRD","REACTOR IS WEIRD");
+  Eq(t,"<align=\"center\"><#fff>LIQUID CONTENTS\n</align></color>\n\n70% BLOOD\n30% LIFE SERUM\n","<align=\"center\"><#fff>СОСТАВ ЖИДКОСТИ\n</align></color>\n\n70% КРОВЬ\n30% СЫВОРОТКА ЖИЗНИ\n"); Eq(t,"<i>Mixture</i>\n3L / 5L","<i>Смесь</i>\n3L / 5L");
   Eq(t,"Escape","Esc"); Eq(t,"Esc","Esc"); Eq(t,"Totally unknown string here","Totally unknown string here");
   var sw=System.Diagnostics.Stopwatch.StartNew(); for(int i=0;i<1000000;i++) t.Translate("A sharp metal sword."); Console.WriteLine("1M cached lookups ms: "+sw.ElapsedMilliseconds);
   sw.Restart(); for(int i=0;i<20000;i++) t.Translate("Dynamic value "+i+"\nKnife <b>x</b>"); Console.WriteLine("20k uncached ms: "+sw.ElapsedMilliseconds);

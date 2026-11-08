@@ -1,5 +1,5 @@
-PPG Translate 2.3.0
-===================
+PPG Translate
+=============
 
 People Playground（人类游乐场）支持 11 种语言：English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski。
 本文件夹里有各语言版本的同一份说明：INSTALL_en.txt、INSTALL_zh-Hans.txt、INSTALL_es.txt 等。
@@ -11,8 +11,8 @@ People Playground（人类游乐场）支持 11 种语言：English, 简体中�
 
 选择哪个压缩包
 --------------
-PPG_Translate_2.3.0_x64.zip - 几乎所有人都用这个：Steam 版、大多数非 Steam 版、通过 CrossOver 运行的 Mac 版。
-PPG_Translate_2.3.0_x86.zip - 只用于 32 位版本的游戏。
+PPG_Translate_<version>_x64.zip - 几乎所有人都用这个：Steam 版、大多数非 Steam 版、通过 CrossOver 运行的 Mac 版。
+PPG_Translate_<version>_x86.zip - 只用于 32 位版本的游戏。
 
 快速判断：游戏目录里有 UnityCrashHandler64.exe 就用 x64，有 UnityCrashHandler32.exe 就用 x86。选错了也没关系，游戏只会以英文启动，不会损坏任何东西。
 

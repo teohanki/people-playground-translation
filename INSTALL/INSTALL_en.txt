@@ -1,5 +1,5 @@
-PPG Translate 2.3.0
-===================
+PPG Translate
+=============
 
 People Playground in 11 languages: English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
 This folder has the same guide in every language: INSTALL_en.txt, INSTALL_zh-Hans.txt, INSTALL_es.txt and so on.
@@ -11,8 +11,8 @@ The plugin does not go online, does not download anything, does not write files 
 
 Which archive to take
 ---------------------
-PPG_Translate_2.3.0_x64.zip - for almost everyone: Steam, most non-Steam copies, Mac through CrossOver.
-PPG_Translate_2.3.0_x86.zip - only for the 32-bit game.
+PPG_Translate_<version>_x64.zip - for almost everyone: Steam, most non-Steam copies, Mac through CrossOver.
+PPG_Translate_<version>_x86.zip - only for the 32-bit game.
 
 Quick check: if the game folder has UnityCrashHandler64.exe, take x64; if it has UnityCrashHandler32.exe, take x86. If you take the wrong one, the game just starts in English, nothing breaks.
 

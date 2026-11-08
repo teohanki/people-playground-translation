@@ -30,8 +30,8 @@ namespace PPGTranslate
         const string LavaRu = "Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, МИР, СБП";
         const string BoostyRu = "Visa, Mastercard, МИР, СБП";
 
-        static Type controllerType, buttonType, rawImageType;
-        static PropertyInfo wrapProp, marginProp, rawTextureProp, raycastProp;
+        static Type controllerType, buttonType, rawImageType, layoutElementType;
+        static PropertyInfo wrapProp, marginProp, rawTextureProp, raycastProp, preferredWidthProp, minWidthProp, layoutPreferredWidthProp;
         static MethodInfo loadImage;
         static readonly Dictionary<string, Texture2D> flags = new Dictionary<string, Texture2D>();
         static FieldInfo mainField, pagesField;
@@ -93,6 +93,13 @@ namespace PPGTranslate
             {
                 wrapProp = AccessTools.Property(tmp, "enableWordWrapping");
                 marginProp = AccessTools.Property(tmp, "margin");
+                preferredWidthProp = AccessTools.Property(tmp, "preferredWidth");
+            }
+            layoutElementType = AccessTools.TypeByName("UnityEngine.UI.LayoutElement");
+            if (layoutElementType != null)
+            {
+                minWidthProp = AccessTools.Property(layoutElementType, "minWidth");
+                layoutPreferredWidthProp = AccessTools.Property(layoutElementType, "preferredWidth");
             }
             rawImageType = AccessTools.TypeByName("UnityEngine.UI.RawImage");
             if (rawImageType != null)
@@ -174,8 +181,41 @@ namespace PPGTranslate
             Plugin.SetOwnText(label, text);
             if (label != null && wrapProp != null) wrapProp.SetValue(label, false, null);
             if (flag != null) AddFlag(go, label, flag);
+            FitWidth(go, label);
             go.transform.SetSiblingIndex(Math.Min(index, menu.childCount - 1));
             return go;
+        }
+
+        void FitWidth(GameObject go, Component label)
+        {
+            try
+            {
+                RectTransform rt = go.transform as RectTransform;
+                if (rt == null || label == null || preferredWidthProp == null) return;
+                float need = (float)preferredWidthProp.GetValue(label, null);
+                if (marginProp != null)
+                {
+                    Vector4 m = (Vector4)marginProp.GetValue(label, null);
+                    need += m.x + m.z;
+                }
+                need += 16f;
+                RectTransform lr = label.transform as RectTransform;
+                float pad = lr != null && lr != rt ? Mathf.Max(0f, rt.rect.width - lr.rect.width) : 0f;
+                float total = need + pad;
+                if (total > rt.rect.width)
+                {
+                    rt.sizeDelta = new Vector2(rt.sizeDelta.x + total - rt.rect.width, rt.sizeDelta.y);
+                    if (layoutElementType != null && minWidthProp != null)
+                    {
+                        Component le = go.GetComponent(layoutElementType) ?? go.AddComponent(layoutElementType);
+                        minWidthProp.SetValue(le, total, null);
+                        if (layoutPreferredWidthProp != null) layoutPreferredWidthProp.SetValue(le, total, null);
+                    }
+                }
+                if (lr != null && lr != rt && lr.rect.width < need)
+                    lr.offsetMax = new Vector2(lr.offsetMax.x + need - lr.rect.width, lr.offsetMax.y);
+            }
+            catch (Exception e) { Plugin.LogOnce(e); }
         }
 
         void AddFlag(GameObject go, Component label, string code)
@@ -251,23 +291,23 @@ namespace PPGTranslate
             Lang l = Plugin.Current;
             bool ru = l.Code == "ru";
             int at = 0;
-            listButtons.Add(MakeText("PPGT pitch", l.Pitch, at++));
+            listButtons.Add(MakeText("PPGT pitch", l.Pitch + Heart, at++, 90, 1.05f));
             listButtons.Add(MakeSpacer(0.6f, at++));
             Action boosty = delegate { Application.OpenURL(BoostyUrl); };
             Action lava = delegate { Application.OpenURL(LavaUrl); };
             listButtons.Add(MakeButton("PPGT lava", Link("lava.top") + Small(ru ? LavaRu : LavaWorld), lava, at++, 1.3f, null));
             listButtons.Add(MakeButton("PPGT boosty", Link("Boosty") + Small(ru ? BoostyRu : BoostyWorld), boosty, at++, 1.3f, null));
             listButtons.Add(MakeButton("PPGT issues", "<size=85%>" + Link(l.Issues), delegate { Application.OpenURL(IssuesUrl); }, at++, 1.3f, null));
-            listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++));
+            listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++, 75, 0.85f));
             listButtons.Add(MakeSpacer(0.6f, at++));
             listButtons.Add(MakeButton("PPGT back", l.Back, CloseList, at, 1.3f, null));
         }
 
-        GameObject MakeText(string name, string text, int index)
+        GameObject MakeText(string name, string text, int index, int size, float lineHeight)
         {
             int lines = 1;
             foreach (char ch in text) if (ch == '\n') lines++;
-            GameObject go = MakeButton(name, "<size=75%><alpha=#CC>" + text, delegate { }, index, 0.85f * lines, null);
+            GameObject go = MakeButton(name, "<size=" + size + "%><alpha=#DD>" + text, delegate { }, index, lineHeight * lines, null);
             Component button = go.GetComponent(buttonType);
             if (button != null) UnityEngine.Object.Destroy(button);
             return go;
