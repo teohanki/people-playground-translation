@@ -45,7 +45,7 @@ Changing the language
 ---------------------
 Main menu -> "language" button -> pick a language. The text changes right away, no restart needed.
 The same button is in the pause menu.
-The "support the author" button in the main menu opens the donation pages (Boosty and lava.top) in your browser.
+The "support the author" button in the main menu opens the donation pages (lava.top and Boosty) in your browser.
 
 
 How to tell it works
@@ -70,7 +70,8 @@ You can add your own translation to translations/<language>/50_my.txt, one phras
 Use a real tab between them, not spaces. Save the file as UTF-8. Numbers can be replaced with a template:
     {0} bruises<TAB>Prellungen: {0}
 Changes are picked up on the next game start.
-Found a bad translation? Open an Issue on GitHub, that helps everyone.
+Found a bug or a bad translation, or have an idea? Write in GitHub Issues, that helps everyone:
+https://github.com/teohanki/people-playground-translation/issues
 
 
 The antivirus complains about winhttp.dll

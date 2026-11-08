@@ -25,7 +25,9 @@ People Playground in 11 languages. Pick yours:
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Found a bad line? Open an [Issue](../../issues) with the English text and your fix.
+The mod is free and always will be. With each update I add supporters' names to the [Supporters](#supporters) list.
+
+Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 
 <sub>Keywords: People Playground translation, People Playground mod, People Playground language mod, change language People Playground, PPG translation, People Playground localization, BepInEx plugin</sub>
 
@@ -48,7 +50,9 @@ Found a bad line? Open an [Issue](../../issues) with the English text and your f
 - [lava.top](https://app.lava.top/teohanki)（Visa、Mastercard、Apple Pay、PayPal、SEPA、PIX、iDEAL、Bancontact、MB WAY、Mir、SBP）
 - [Boosty](https://boosty.to/teohanki/donate)（Visa、Mastercard、Mir、SBP）
 
-发现翻译错误，请在 [Issues](../../issues) 里写出英文原文和你的修改建议。
+这个模组免费，并且永远免费。每次更新时，我都会把支持者的名字加入[致谢名单](#supporters)。
+
+发现错误、翻译问题或有好点子？请在 [Issues](../../issues) 里告诉我。
 
 <sub>关键词：People Playground 汉化, 人类游乐场 汉化, 人类游乐场 中文, People Playground 中文补丁, 人类游乐场 中文版, 人民游乐场 汉化, People Playground 怎么调中文, 人类游乐场 模组</sub>
 
@@ -70,7 +74,9 @@ Found a bad line? Open an [Issue](../../issues) with the English text and your f
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-¿Ves una frase mal traducida? Abre un [Issue](../../issues) con el texto en inglés y tu corrección.
+El mod es gratis y siempre lo será. En cada actualización añado los nombres de quienes me apoyan a la lista de [agradecimientos](#supporters).
+
+¿Encontraste un error, una mala traducción o tienes una idea? Escríbeme en [Issues](../../issues).
 
 <sub>Palabras clave: People Playground en español, traducción People Playground, People Playground español mod, parche español People Playground, cómo poner People Playground en español, mod de idioma People Playground</sub>
 
@@ -92,7 +98,9 @@ Found a bad line? Open an [Issue](../../issues) with the English text and your f
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Une phrase mal traduite ? Ouvrez une [Issue](../../issues) avec le texte anglais et votre correction.
+Le mod est gratuit et le restera toujours. À chaque mise à jour, j'ajoute le nom des donateurs à la liste des [remerciements](#supporters).
+
+Un bug, une mauvaise traduction ou une idée ? Écrivez-moi dans les [Issues](../../issues).
 
 <sub>Mots-clés : People Playground en français, traduction française People Playground, patch FR People Playground, mettre People Playground en français, mod de langue People Playground</sub>
 
@@ -114,7 +122,9 @@ Une phrase mal traduite ? Ouvrez une [Issue](../../issues) avec le texte anglais
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Achou uma tradução errada? Abra uma [Issue](../../issues) com o texto em inglês e a sua correção.
+O mod é gratuito e sempre vai ser. A cada atualização, coloco o nome de quem apoia na lista de [agradecimentos](#supporters).
+
+Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../issues).
 
 <sub>Palavras-chave: People Playground em português, tradução People Playground PT-BR, People Playground traduzido, como colocar People Playground em português, mod de tradução People Playground</sub>
 
@@ -136,7 +146,9 @@ Achou uma tradução errada? Abra uma [Issue](../../issues) com o texto em ingl�
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, МИР, СБП)
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, МИР, СБП)
 
-Нашли ошибку в переводе? Откройте [Issue](../../issues): английская строка и ваш вариант.
+Мод бесплатный и таким останется. С каждым обновлением я вписываю имена поддержавших в [список благодарностей](#supporters).
+
+Нашли баг, кривой перевод или есть идея? Пишите в [Issues](../../issues).
 
 <sub>Ключевые слова: русификатор People Playground, People Playground на русском, перевод People Playground, русификатор PPG, как сделать People Playground на русском, People Playground русский язык, руссификатор People Playground 1.28</sub>
 
@@ -158,7 +170,9 @@ Achou uma tradução errada? Abra uma [Issue](../../issues) com o texto em ingl�
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Falsch übersetzt? Öffne ein [Issue](../../issues) mit dem englischen Text und deinem Vorschlag.
+Der Mod ist kostenlos und bleibt es auch. Mit jedem Update trage ich die Namen der Unterstützer in die [Danksagungen](#supporters) ein.
+
+Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../../issues).
 
 <sub>Stichwörter: People Playground Deutsch, People Playground deutsche Übersetzung, People Playground auf Deutsch stellen, Deutsch Patch People Playground, Sprachmod People Playground</sub>
 
@@ -181,7 +195,9 @@ Falsch übersetzt? Öffne ein [Issue](../../issues) mit dem englischen Text und 
 - [lava.top](https://app.lava.top/teohanki)（Visa、Mastercard、Apple Pay、PayPal、SEPA、PIX、iDEAL、Bancontact、MB WAY、Mir、SBP）
 - [Boosty](https://boosty.to/teohanki/donate)（Visa、Mastercard、Mir、SBP）
 
-誤訳を見つけたら、英語の原文と修正案を [Issues](../../issues) に書いてください。
+この MOD は無料で、これからもずっと無料です。更新のたびに、支援者のお名前を[クレジット](#supporters)に載せます。
+
+バグや誤訳、アイデアは [Issues](../../issues) で教えてください。
 
 <sub>キーワード：People Playground 日本語化, People Playground 日本語, ピープルプレイグラウンド 日本語化, People Playground 日本語化 MOD, People Playground 翻訳</sub>
 
@@ -203,7 +219,9 @@ Falsch übersetzt? Öffne ein [Issue](../../issues) mit dem englischen Text und 
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Hatalı bir çeviri mi buldun? İngilizce metni ve önerini [Issues](../../issues) sayfasına yaz.
+Mod ücretsiz ve hep ücretsiz kalacak. Her güncellemede destekçilerin adını [teşekkürler](#supporters) listesine ekliyorum.
+
+Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına yaz.
 
 <sub>Anahtar kelimeler: People Playground Türkçe yama, People Playground Türkçe, People Playground Türkçe yapma, People Playground çeviri, People Playground dil modu</sub>
 
@@ -226,7 +244,9 @@ Hatalı bir çeviri mi buldun? İngilizce metni ve önerini [Issues](../../issue
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-잘못된 번역을 찾으면 영어 원문과 수정안을 [Issues](../../issues)에 남겨 주세요.
+이 모드는 무료이고 앞으로도 계속 무료입니다. 업데이트할 때마다 후원자 이름을 [크레딧](#supporters)에 올립니다.
+
+버그, 잘못된 번역, 아이디어가 있으면 [Issues](../../issues)에 남겨 주세요.
 
 <sub>키워드: People Playground 한글패치, 피플 플레이그라운드 한글패치, People Playground 한국어, 피플 플레이그라운드 한글, People Playground 한글 모드</sub>
 
@@ -248,9 +268,20 @@ Hatalı bir çeviri mi buldun? İngilizce metni ve önerini [Issues](../../issue
 - [lava.top](https://app.lava.top/teohanki) (Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP)
 - [Boosty](https://boosty.to/teohanki/donate) (Visa, Mastercard, Mir, SBP)
 
-Widzisz błąd w tłumaczeniu? Załóż [Issue](../../issues) z angielskim tekstem i swoją poprawką.
+Mod jest darmowy i zawsze taki zostanie. Przy każdej aktualizacji dopisuję imiona wspierających do [podziękowań](#supporters).
+
+Błąd, złe tłumaczenie albo pomysł? Napisz w [Issues](../../issues).
 
 <sub>Słowa kluczowe: spolszczenie People Playground, People Playground po polsku, People Playground polski, People Playground tłumaczenie, jak zmienić język People Playground</sub>
+
+---
+
+<a name="supporters"></a>
+## ❤ Supporters
+
+Thank you to everyone who supports PPG Translate. New names are added with each update.
+
+- *Your name could be here: [lava.top](https://app.lava.top/teohanki) · [Boosty](https://boosty.to/teohanki/donate)*
 
 ---
 
