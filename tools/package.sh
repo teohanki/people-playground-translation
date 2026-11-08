@@ -25,7 +25,8 @@ for f in NotoSansJP-PPG.ttf NotoSansKR-PPG.ttf NotoSansSC-PPG.ttf; do
   cp "build/fonts/$f" "$plug/fonts/"
 done
 cp build/flags/*.png "$plug/flags/"
-cp INSTALL.txt INSTALL_RU.txt "$stage/"
+mkdir -p "$stage/INSTALL"
+cp INSTALL/INSTALL_*.txt "$stage/INSTALL/"
 cp LICENSE "$stage/LICENSES/$name.txt"
 cp fonts/OFL.txt "$stage/LICENSES/NotoSansCJK-OFL.txt"
 cp "$THIRD_PARTY_LICENSES"/*.txt "$stage/LICENSES/"

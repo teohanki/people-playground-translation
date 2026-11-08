@@ -93,12 +93,11 @@ jobs:
             unzip -q "$z" -d "$d"
             (cd "$d" && tail -n +3 SHA256SUMS.txt | sha256sum -c --quiet)
             grep -q "Teo Hanki" "$d/LICENSES/PPG_Translate.txt"
-            test -s "$d/INSTALL.txt"
-            test -s "$d/INSTALL_RU.txt"
             p="$d/BepInEx/plugins/PPG_Translate"
             for l in ru es pt-BR de fr pl tr ja ko zh-Hans; do test -s "$p/translations/$l/00_main.txt" || test -s "$p/translations/$l/00_base.txt"; done
             ls -la "$p/fonts" "$p/flags"
             test "$(ls "$p/flags" | wc -l)" = 11
+            test "$(ls "$d/INSTALL" | wc -l)" = 11
             sha256sum "$p/PPG_Translate.dll"
             echo "$z OK"
           done
