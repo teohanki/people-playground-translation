@@ -1,0 +1,107 @@
+PPG Translate 2.3.0
+===================
+
+People Playground를 11개 언어로: English, 简体中文, Español, Français, Português (Brasil), Русский, Deutsch, 日本語, Türkçe, 한국어, Polski.
+이 폴더에는 같은 안내서가 언어별로 들어 있습니다: INSTALL_en.txt, INSTALL_ko.txt, INSTALL_ja.txt 등.
+
+이것은 BepInEx 5 플러그인이며 게임 내 모드가 아니므로, 게임의 안전 모드가 막지 않습니다. Mod Enabler나 RE_PPG는 필요 없습니다.
+
+플러그인은 인터넷에 접속하지 않고, 아무것도 내려받지 않으며, 자기 폴더 밖에 파일을 쓰지 않고, 게임 파일과 세이브를 건드리지 않습니다. 소스 코드는 BepInEx/plugins/PPG_Translate/source에 있습니다.
+
+
+어떤 압축 파일을 받을까
+-----------------------
+PPG_Translate_2.3.0_x64.zip - 거의 모든 사람용: Steam, Steam 외 대부분의 버전, CrossOver를 쓰는 Mac.
+PPG_Translate_2.3.0_x86.zip - 32비트 버전 게임 전용.
+
+간단한 확인 방법: 게임 폴더에 UnityCrashHandler64.exe가 있으면 x64, UnityCrashHandler32.exe가 있으면 x86입니다. 잘못 골라도 게임이 영어로 실행될 뿐 망가지는 것은 없습니다.
+
+게임 버전 1.24.5 이상이 필요합니다. 번역은 1.28 기준으로 만들었습니다.
+
+
+Windows (Steam 및 Steam 외 버전)
+-------------------------------
+1. 게임을 종료합니다.
+2. 게임 폴더를 엽니다. Steam에서는: 게임을 마우스 오른쪽 버튼으로 클릭 -> 관리 -> 로컬 파일 보기 (영문: Manage -> Browse local files). 다른 버전에서는 People Playground.exe가 있는 폴더입니다.
+3. 압축 파일의 내용을 모두 People Playground.exe 옆에 복사합니다.
+4. 게임을 실행합니다. 처음 실행하면 언어 목록이 자동으로 열립니다. "한국어"를 고르세요.
+
+
+Mac (CrossOver)
+---------------
+1. 게임을 종료합니다.
+2. CrossOver -> 보틀(bottle) -> "Open C: Drive" -> Program Files (x86)/Steam/steamapps/common/People Playground.
+3. 압축 파일의 내용을 모두 그곳에 복사합니다. Finder는 .doorstop_version 파일을 숨기는데, 정상입니다.
+4. CrossOver -> 보틀 -> "Wine Configuration" -> "Libraries" 탭 -> winhttp 입력 -> "Add". winhttp는 native, builtin으로 설정되어 있어야 합니다. "Apply" -> OK.
+   4단계를 하지 않으면 Wine에서는 아무것도 로드되지 않습니다.
+
+
+Linux 및 Steam Deck (Proton)
+----------------------------
+Windows와 같고, 추가로 Steam에서 게임 속성 -> 실행 옵션 (Properties -> Launch Options)에 다음을 입력합니다:
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+
+언어 바꾸기
+-----------
+메인 메뉴 -> "언어" 버튼 -> 언어를 고릅니다. 글자가 바로 바뀌며 다시 시작할 필요가 없습니다.
+같은 버튼이 일시 정지 메뉴에도 있습니다.
+메인 메뉴의 "제작자 후원하기" 버튼은 후원 페이지(lava.top과 Boosty)를 브라우저에서 엽니다.
+
+
+작동하는지 확인하는 방법
+------------------------
+메인 메뉴에 "언어" 버튼이 있고, 게임 폴더에 "PPG Translate", "Language: ...", "Hook: TMP_Text.text" 줄이 들어 있는 BepInEx/LogOutput.log가 있으면 작동하는 것입니다.
+로그가 없으면 BepInEx가 시작되지 않은 것입니다. 대개 파일을 다른 폴더에 복사한 경우이고, Mac과 Linux에서는 winhttp 단계를 빠뜨린 경우도 많습니다.
+
+
+PPG Russian에서 업데이트
+------------------------
+1. translations/50_my.txt를 수정했다면 복사본을 보관하세요.
+2. BepInEx/plugins/PPG_Russian 폴더를 삭제합니다.
+3. 새 압축 파일을 게임 폴더에 덮어쓰기로 복사합니다. 수정한 내용은 BepInEx/plugins/PPG_Translate/translations/ru/50_my.txt로 옮기세요.
+설정은 유지되고 게임은 러시아어 그대로입니다.
+
+
+아직 영어로 남은 글자가 있을 때
+-------------------------------
+플러그인은 그런 줄을 BepInEx/plugins/PPG_Translate/untranslated_<언어 코드>.txt에 기록합니다. 예: untranslated_ko.txt.
+직접 번역을 추가하려면 translations/<언어 코드>/50_my.txt에 한 줄에 한 문구씩 적습니다:
+    English<TAB>한국어
+사이에는 공백이 아니라 진짜 탭 문자를 넣어야 합니다. 파일은 UTF-8로 저장하세요. 숫자는 템플릿으로 바꿀 수 있습니다:
+    {0} bruises<TAB>멍: {0}
+변경 사항은 다음에 게임을 실행할 때 적용됩니다.
+버그, 잘못된 번역, 아이디어가 있으면 GitHub Issues에 남겨 주세요. 모두에게 도움이 됩니다:
+https://github.com/teohanki/people-playground-translation/issues
+
+
+백신 프로그램이 winhttp.dll을 경고할 때
+---------------------------------------
+이것은 BepInEx 로더(Doorstop)입니다. 게임과 함께 BepInEx를 실행하려고 시스템 라이브러리 자리에 놓이는데, 일부 백신은 이 방식 자체에 반응합니다. 파일은 BepInEx 5.4.23.5 공식 릴리스에서 수정 없이 가져왔으며, SHA-256 값은 SHA256SUMS.txt에 있습니다.
+
+
+설정
+----
+처음 실행한 뒤 BepInEx/config/ppgrussian.cfg가 생깁니다. 이름이 PPG Russian 시절 그대로인 것은 일부러 그런 것으로, 업데이트해도 설정이 유지되게 하기 위해서입니다.
+  Language = ko                 언어 코드: en, zh-Hans, es, fr, pt-BR, ru, de, ja, tr, ko, pl
+  Enabled = true/false          제거하지 않고 번역을 켜거나 끕니다
+  TranslateWorldText = true     아이템과 맵 위의 글자를 번역합니다. 플레이어가 입력한 글자는 절대 번역하지 않습니다
+  SweepIntervalSeconds = 2      화면에서 빠진 글자를 찾는 간격, 0이면 끕니다
+  DumpUntranslated = true       untranslated_<언어 코드>.txt를 기록합니다
+
+
+제거
+----
+게임 폴더에서 winhttp.dll, doorstop_config.ini, .doorstop_version, changelog.txt, SHA256SUMS.txt와 BepInEx, INSTALL, LICENSES 폴더를 삭제합니다.
+다른 BepInEx 모드(예: RE_PPG)가 있다면 BepInEx/plugins/PPG_Translate만 삭제하세요.
+
+
+다른 모드
+---------
+RE_PPG도 같은 BepInEx 5.4.23.5를 쓰므로 함께 작동합니다.
+게임 폴더에 이미 다른 버전의 BepInEx가 있다면(리팩 버전에서 흔합니다) 압축 파일의 BepInEx로 덮어쓰지 마세요. BepInEx/plugins/PPG_Translate 폴더만 복사합니다.
+
+
+라이선스
+--------
+플러그인 코드와 번역은 MIT 라이선스입니다. Noto Sans CJK 글꼴은 SIL Open Font License 1.1을 따릅니다. BepInEx, HarmonyX, MonoMod, Mono.Cecil, UnityDoorstop은 각자의 라이선스가 있습니다. 모두 LICENSES 폴더에 있습니다.
