@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.png" alt="PPG Translate: People Playground in 11 languages" width="100%"></p>
+
 # People Playground Translation: PPG Translate
 
 People Playground in 11 languages. Pick yours:
