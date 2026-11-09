@@ -1,0 +1,22 @@
+name: Maintenance
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        run: |
+          git apply --unidiff-zero maint/p.diff
+          git rm -q maint/p.diff
+          git config user.name teohanki
+          git config user.email 345032692+teohanki@users.noreply.github.com
+          git add -A
+          git commit -q -m "Fix menu layout: keep button size, extend only the text hit area; version 2.3.2"
+          git push
