@@ -200,20 +200,11 @@ namespace PPGTranslate
                 }
                 need += 16f;
                 RectTransform lr = label.transform as RectTransform;
-                float pad = lr != null && lr != rt ? Mathf.Max(0f, rt.rect.width - lr.rect.width) : 0f;
-                float total = need + pad;
-                if (total > rt.rect.width)
-                {
-                    rt.sizeDelta = new Vector2(rt.sizeDelta.x + total - rt.rect.width, rt.sizeDelta.y);
-                    if (layoutElementType != null && minWidthProp != null)
-                    {
-                        Component le = go.GetComponent(layoutElementType) ?? go.AddComponent(layoutElementType);
-                        minWidthProp.SetValue(le, total, null);
-                        if (layoutPreferredWidthProp != null) layoutPreferredWidthProp.SetValue(le, total, null);
-                    }
-                }
-                if (lr != null && lr != rt && lr.rect.width < need)
+                if (lr == null || lr == rt) return;
+                if (lr.rect.width < need)
                     lr.offsetMax = new Vector2(lr.offsetMax.x + need - lr.rect.width, lr.offsetMax.y);
+                PropertyInfo rc = label.GetType().GetProperty("raycastTarget");
+                if (rc != null) rc.SetValue(label, true, null);
             }
             catch (Exception e) { Plugin.LogOnce(e); }
         }

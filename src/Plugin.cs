@@ -13,8 +13,8 @@ using UnityEngine;
 [assembly: AssemblyCompany("Teo Hanki")]
 [assembly: AssemblyProduct("PPG Translate")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 Teo Hanki")]
-[assembly: AssemblyVersion("2.3.1.0")]
-[assembly: AssemblyFileVersion("2.3.1.0")]
+[assembly: AssemblyVersion("2.3.2.0")]
+[assembly: AssemblyFileVersion("2.3.2.0")]
 
 namespace PPGTranslate
 {
@@ -23,7 +23,7 @@ namespace PPGTranslate
     {
         public const string Guid = "ppgrussian";
         public const string PluginName = "PPG Translate";
-        public const string PluginVersion = "2.3.1";
+        public const string PluginVersion = "2.3.2";
 
         internal static ManualLogSource Log;
         internal static bool FirstRun;
