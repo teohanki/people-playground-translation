@@ -11,7 +11,7 @@ namespace PPGTranslate
     {
         const string BoostyUrl = "https://boosty.to/teohanki/donate";
         const string LavaUrl = "https://app.lava.top/teohanki";
-        const string IssuesUrl = "https://github.com/teohanki/people-playground-translation/issues";
+        const string RepoUrl = "https://github.com/teohanki/people-playground-translation";
 
         sealed class Clicker
         {
@@ -25,9 +25,9 @@ namespace PPGTranslate
         }
 
         const string Heart = " <color=#FF5A6E>♥</color>";
-        const string LavaWorld = "Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, Mir, SBP";
+        const string LavaWorld = "Visa, Mastercard, Apple Pay, PayPal, SEPA,\nPIX, iDEAL, Bancontact, MB WAY, Mir, SBP";
         const string BoostyWorld = "Visa, Mastercard, Mir, SBP";
-        const string LavaRu = "Visa, Mastercard, Apple Pay, PayPal, SEPA, PIX, iDEAL, Bancontact, MB WAY, МИР, СБП";
+        const string LavaRu = "Visa, Mastercard, Apple Pay, PayPal, SEPA,\nPIX, iDEAL, Bancontact, MB WAY, МИР, СБП";
         const string BoostyRu = "Visa, Mastercard, МИР, СБП";
 
         static Type controllerType, buttonType, rawImageType, layoutElementType;
@@ -286,9 +286,13 @@ namespace PPGTranslate
             listButtons.Add(MakeSpacer(0.6f, at++));
             Action boosty = delegate { Application.OpenURL(BoostyUrl); };
             Action lava = delegate { Application.OpenURL(LavaUrl); };
-            listButtons.Add(MakeButton("PPGT lava", Link("lava.top") + Small(ru ? LavaRu : LavaWorld), lava, at++, 1.3f, null));
-            listButtons.Add(MakeButton("PPGT boosty", Link("Boosty") + Small(ru ? BoostyRu : BoostyWorld), boosty, at++, 1.3f, null));
-            listButtons.Add(MakeButton("PPGT issues", "<size=85%>" + Link(l.Issues), delegate { Application.OpenURL(IssuesUrl); }, at++, 1.3f, null));
+            Action repo = delegate { Application.OpenURL(RepoUrl); };
+            listButtons.Add(MakeButton("PPGT lava", Link("lava.top"), lava, at++, 1.3f, null));
+            listButtons.Add(MakeText("PPGT lava info", ru ? LavaRu : LavaWorld, at++, 65, 0.75f));
+            listButtons.Add(MakeButton("PPGT boosty", Link("Boosty"), boosty, at++, 1.3f, null));
+            listButtons.Add(MakeText("PPGT boosty info", ru ? BoostyRu : BoostyWorld, at++, 65, 0.75f));
+            listButtons.Add(MakeButton("PPGT github", Link("GitHub"), repo, at++, 1.3f, null));
+            listButtons.Add(MakeText("PPGT github info", l.Repo + "\nPPG Translate v" + Plugin.PluginVersion, at++, 65, 0.75f));
             listButtons.Add(MakeText("PPGT opens", "<i>" + l.Opens, at++, 75, 0.85f));
             listButtons.Add(MakeSpacer(0.6f, at++));
             listButtons.Add(MakeButton("PPGT back", l.Back, CloseList, at, 1.3f, null));
@@ -319,11 +323,6 @@ namespace PPGTranslate
         static string Link(string name)
         {
             return "<u>" + name + "</u> <color=#FF5A6E>→</color> ";
-        }
-
-        static string Small(string s)
-        {
-            return "<size=70%><alpha=#AA>(" + s + ")";
         }
 
         void OpenList()
