@@ -33,7 +33,7 @@ Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 
 New versions are published in [Releases](../../releases). To get an email about each one: **Watch → Custom → Releases** (a GitHub account is needed). In the game, the GitHub button in the support menu opens this page.
 
-<sub>Keywords: People Playground translation, People Playground mod, People Playground language mod, change language People Playground, PPG translation, People Playground localization, BepInEx plugin</sub>
+<sub>Keywords: People Playground translation, People Playground mod, People Playground language mod, change language People Playground, PPG translation, People Playground localization, BepInEx plugin, PPG translation mod, People Playground language pack, People Playground non-English, People Playground translate to Russian, People Playground translate to Spanish, People Playground translate to Chinese, People Playground translate to Japanese, People Playground Steam language mod, PPG language mod</sub>
 
 ---
 
@@ -60,7 +60,7 @@ New versions are published in [Releases](../../releases). To get an email about 
 
 新版本会发布在 [Releases](../../releases)。想收到邮件通知：**Watch → Custom → Releases**（需要 GitHub 账号）。游戏内“支持作者”菜单里的 GitHub 按钮会打开本页。
 
-<sub>关键词：People Playground 汉化, 人类游乐场 汉化, 人类游乐场 中文, People Playground 中文补丁, 人类游乐场 中文版, 人民游乐场 汉化, People Playground 怎么调中文, 人类游乐场 模组</sub>
+<sub>关键词：People Playground 汉化, 人类游乐场 汉化, 人类游乐场 中文, People Playground 中文补丁, 人类游乐场 中文版, 人民游乐场 汉化, People Playground 怎么调中文, 人类游乐场 模组, PPG 汉化, PPG 中文, People Playground 汉化补丁, 人类游乐场 汉化补丁, 人类游乐场 怎么设置中文, People Playground 简体中文, 人类游乐场 中文补丁</sub>
 
 ---
 
@@ -86,7 +86,7 @@ El mod es gratis y siempre lo será. En cada actualización añado los nombres d
 
 Las versiones nuevas se publican en [Releases](../../releases). Para recibir un correo con cada una: **Watch → Custom → Releases** (hace falta una cuenta de GitHub). En el juego, el botón GitHub del menú «apoyar al autor» abre esta página.
 
-<sub>Palabras clave: People Playground en español, traducción People Playground, People Playground español mod, parche español People Playground, cómo poner People Playground en español, mod de idioma People Playground</sub>
+<sub>Palabras clave: People Playground en español, traducción People Playground, People Playground español mod, parche español People Playground, cómo poner People Playground en español, mod de idioma People Playground, People Playground en castellano, People Playground traducido, People Playground español latino, PPG español, PPG traducción, People Playground idioma español, People Playground parche de traducción</sub>
 
 ---
 
@@ -112,7 +112,7 @@ Un bug, une mauvaise traduction ou une idée ? Écrivez-moi dans les [Issues](..
 
 Les nouvelles versions sortent dans [Releases](../../releases). Pour recevoir un e-mail à chaque fois : **Watch → Custom → Releases** (compte GitHub requis). Dans le jeu, le bouton GitHub du menu « soutenir l'auteur » ouvre cette page.
 
-<sub>Mots-clés : People Playground en français, traduction française People Playground, patch FR People Playground, mettre People Playground en français, mod de langue People Playground</sub>
+<sub>Mots-clés : People Playground en français, traduction française People Playground, patch FR People Playground, mettre People Playground en français, mod de langue People Playground, People Playground VF, People Playground FR, PPG en français, PPG traduction, People Playground traduction FR, People Playground version française</sub>
 
 ---
 
@@ -138,7 +138,7 @@ Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../
 
 As versões novas saem em [Releases](../../releases). Para receber um e-mail a cada uma: **Watch → Custom → Releases** (precisa de conta no GitHub). No jogo, o botão GitHub do menu «apoiar o autor» abre esta página.
 
-<sub>Palavras-chave: People Playground em português, tradução People Playground PT-BR, People Playground traduzido, como colocar People Playground em português, mod de tradução People Playground</sub>
+<sub>Palavras-chave: People Playground em português, tradução People Playground PT-BR, People Playground traduzido, como colocar People Playground em português, mod de tradução People Playground, People Playground PT-BR, People Playground PTBR, People Playground em português BR, PPG tradução, PPG português, People Playground patch de tradução, People Playground tradução Brasil</sub>
 
 ---
 
@@ -164,7 +164,7 @@ As versões novas saem em [Releases](../../releases). Para receber um e-mail a c
 
 Новые версии выходят в [Releases](../../releases). Чтобы получать письмо о каждой: **Watch → Custom → Releases** (нужен аккаунт GitHub). В игре сюда ведёт кнопка GitHub в меню «поддержать автора».
 
-<sub>Ключевые слова: русификатор People Playground, People Playground на русском, перевод People Playground, русификатор PPG, как сделать People Playground на русском, People Playground русский язык, руссификатор People Playground 1.28</sub>
+<sub>Ключевые слова: русификатор People Playground, People Playground на русском, перевод People Playground, русификатор PPG, как сделать People Playground на русском, People Playground русский язык, руссификатор People Playground 1.28, пипл плейграунд, пипл плейграунд русификатор, пипл плейграунд на русском, пипл плэйграунд, русификатор пипл плейграунд, русик People Playground, ппг русификатор, ППГ перевод, перевод ППГ на русский, People Playground локализация, People Playground русская версия, People Playground русский язык Steam, People Playground перевод интерфейса</sub>
 
 ---
 
@@ -190,7 +190,7 @@ Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../..
 
 Neue Versionen erscheinen unter [Releases](../../releases). Für eine E-Mail bei jeder: **Watch → Custom → Releases** (GitHub-Konto nötig). Im Spiel öffnet der GitHub-Button im Menü «Autor unterstützen» diese Seite.
 
-<sub>Stichwörter: People Playground Deutsch, People Playground deutsche Übersetzung, People Playground auf Deutsch stellen, Deutsch Patch People Playground, Sprachmod People Playground</sub>
+<sub>Stichwörter: People Playground Deutsch, People Playground deutsche Übersetzung, People Playground auf Deutsch stellen, Deutsch Patch People Playground, Sprachmod People Playground, People Playground Deutsch Mod, People Playground deutsche Version, PPG Deutsch, PPG Übersetzung, People Playground Deutsch Patch download, People Playground Sprache ändern</sub>
 
 ---
 
@@ -217,7 +217,7 @@ Neue Versionen erscheinen unter [Releases](../../releases). Für eine E-Mail bei
 
 新バージョンは [Releases](../../releases) で公開します。公開のたびにメールを受け取るには **Watch → Custom → Releases**（GitHub アカウントが必要）。ゲーム内の「作者を支援する」メニューにある GitHub ボタンからもこのページを開けます。
 
-<sub>キーワード：People Playground 日本語化, People Playground 日本語, ピープルプレイグラウンド 日本語化, People Playground 日本語化 MOD, People Playground 翻訳</sub>
+<sub>キーワード：People Playground 日本語化, People Playground 日本語, ピープルプレイグラウンド 日本語化, People Playground 日本語化 MOD, People Playground 翻訳, ピープルプレイグラウンド 日本語, PPG 日本語化, People Playground 日本語化パッチ, People Playground 日本語化 方法, ピープルプレイグラウンド 日本語化 MOD, People Playground 日本語 設定</sub>
 
 ---
 
@@ -243,7 +243,7 @@ Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına 
 
 Yeni sürümler [Releases](../../releases) sayfasında yayımlanır. Her sürümde e-posta almak için: **Watch → Custom → Releases** (GitHub hesabı gerekir). Oyunda "yapımcıyı destekle" menüsündeki GitHub düğmesi bu sayfayı açar.
 
-<sub>Anahtar kelimeler: People Playground Türkçe yama, People Playground Türkçe, People Playground Türkçe yapma, People Playground çeviri, People Playground dil modu</sub>
+<sub>Anahtar kelimeler: People Playground Türkçe yama, People Playground Türkçe, People Playground çeviri, People Playground dil modu, PPG Türkçe yama, People Playground Türkçe yama indir, People Playground Türkçe nasıl yapılır, People Playground Türkçe dil paketi, People Playground Türkçe çeviri</sub>
 
 ---
 
@@ -270,7 +270,7 @@ Yeni sürümler [Releases](../../releases) sayfasında yayımlanır. Her sürüm
 
 새 버전은 [Releases](../../releases)에 올라옵니다. 새 버전마다 메일을 받으려면 **Watch → Custom → Releases** (GitHub 계정 필요). 게임 안 "제작자 후원하기" 메뉴의 GitHub 버튼으로도 이 페이지가 열립니다.
 
-<sub>키워드: People Playground 한글패치, 피플 플레이그라운드 한글패치, People Playground 한국어, 피플 플레이그라운드 한글, People Playground 한글 모드</sub>
+<sub>키워드: People Playground 한글패치, 피플 플레이그라운드 한글패치, People Playground 한국어, 피플 플레이그라운드 한글, People Playground 한글 모드, PPG 한글패치, 피플 플레이그라운드 한국어, 피플플레이그라운드 한글화, People Playground 한글화, People Playground 한글패치 설치, 피플 플레이그라운드 한글 모드</sub>
 
 ---
 
@@ -296,7 +296,7 @@ Błąd, złe tłumaczenie albo pomysł? Napisz w [Issues](../../issues).
 
 Nowe wersje pojawiają się w [Releases](../../releases). Żeby dostawać e-mail o każdej: **Watch → Custom → Releases** (potrzebne konto GitHub). W grze przycisk GitHub w menu «wesprzyj autora» otwiera tę stronę.
 
-<sub>Słowa kluczowe: spolszczenie People Playground, People Playground po polsku, People Playground polski, People Playground tłumaczenie, jak zmienić język People Playground</sub>
+<sub>Słowa kluczowe: spolszczenie People Playground, People Playground po polsku, People Playground polski, People Playground tłumaczenie, jak zmienić język People Playground, People Playground PL, PPG spolszczenie, PPG po polsku, People Playground polska wersja, People Playground polskie tłumaczenie, People Playground spolszczenie Steam</sub>
 
 ---
 

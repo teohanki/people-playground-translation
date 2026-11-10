@@ -322,7 +322,7 @@ namespace PPGTranslate
 
         static string Link(string name)
         {
-            return "<u>" + name + "</u> <color=#FF5A6E>→</color> ";
+            return "<color=#FF5A6E><u>" + name + "</u></color>";
         }
 
         void OpenList()
