@@ -1,0 +1,22 @@
+name: Maintenance
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        run: |
+          python3 maint/add.py
+          git rm -q maint/add.py
+          git config user.name teohanki
+          git config user.email 345032692+teohanki@users.noreply.github.com
+          git add -A
+          git commit -q -m "README: where to get new versions and how to follow releases"
+          git push
