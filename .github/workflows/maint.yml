@@ -13,7 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Apply
         run: |
-          git apply --unidiff-zero maint/p.diff
+          git apply --unidiff-zero --exclude=src/Plugin.cs maint/p.diff
+          sed -i 's/2\.3\.2/2.3.3/g' src/Plugin.cs
           git rm -q maint/p.diff
           git config user.name teohanki
           git config user.email 345032692+teohanki@users.noreply.github.com
