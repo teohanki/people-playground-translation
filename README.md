@@ -31,6 +31,8 @@ The mod is free and always will be. With each update I add supporters' names to 
 
 Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 
+New versions are published in [Releases](../../releases). To get an email about each one: **Watch → Custom → Releases** (a GitHub account is needed). In the game, the GitHub button in the support menu opens this page.
+
 <sub>Keywords: People Playground translation, People Playground mod, People Playground language mod, change language People Playground, PPG translation, People Playground localization, BepInEx plugin</sub>
 
 ---
@@ -56,6 +58,8 @@ Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 
 发现错误、翻译问题或有好点子？请在 [Issues](../../issues) 里告诉我。
 
+新版本会发布在 [Releases](../../releases)。想收到邮件通知：**Watch → Custom → Releases**（需要 GitHub 账号）。游戏内“支持作者”菜单里的 GitHub 按钮会打开本页。
+
 <sub>关键词：People Playground 汉化, 人类游乐场 汉化, 人类游乐场 中文, People Playground 中文补丁, 人类游乐场 中文版, 人民游乐场 汉化, People Playground 怎么调中文, 人类游乐场 模组</sub>
 
 ---
@@ -79,6 +83,8 @@ Found a bug, a bad translation or have an idea? Write in [Issues](../../issues).
 El mod es gratis y siempre lo será. En cada actualización añado los nombres de quienes me apoyan a la lista de [agradecimientos](#supporters).
 
 ¿Encontraste un error, una mala traducción o tienes una idea? Escríbeme en [Issues](../../issues).
+
+Las versiones nuevas se publican en [Releases](../../releases). Para recibir un correo con cada una: **Watch → Custom → Releases** (hace falta una cuenta de GitHub). En el juego, el botón GitHub del menú «apoyar al autor» abre esta página.
 
 <sub>Palabras clave: People Playground en español, traducción People Playground, People Playground español mod, parche español People Playground, cómo poner People Playground en español, mod de idioma People Playground</sub>
 
@@ -104,6 +110,8 @@ Le mod est gratuit et le restera toujours. À chaque mise à jour, j'ajoute le n
 
 Un bug, une mauvaise traduction ou une idée ? Écrivez-moi dans les [Issues](../../issues).
 
+Les nouvelles versions sortent dans [Releases](../../releases). Pour recevoir un e-mail à chaque fois : **Watch → Custom → Releases** (compte GitHub requis). Dans le jeu, le bouton GitHub du menu « soutenir l'auteur » ouvre cette page.
+
 <sub>Mots-clés : People Playground en français, traduction française People Playground, patch FR People Playground, mettre People Playground en français, mod de langue People Playground</sub>
 
 ---
@@ -127,6 +135,8 @@ Un bug, une mauvaise traduction ou une idée ? Écrivez-moi dans les [Issues](..
 O mod é gratuito e sempre vai ser. A cada atualização, coloco o nome de quem apoia na lista de [agradecimentos](#supporters).
 
 Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../issues).
+
+As versões novas saem em [Releases](../../releases). Para receber um e-mail a cada uma: **Watch → Custom → Releases** (precisa de conta no GitHub). No jogo, o botão GitHub do menu «apoiar o autor» abre esta página.
 
 <sub>Palavras-chave: People Playground em português, tradução People Playground PT-BR, People Playground traduzido, como colocar People Playground em português, mod de tradução People Playground</sub>
 
@@ -152,6 +162,8 @@ Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../
 
 Нашли баг, кривой перевод или есть идея? Пишите в [Issues](../../issues).
 
+Новые версии выходят в [Releases](../../releases). Чтобы получать письмо о каждой: **Watch → Custom → Releases** (нужен аккаунт GitHub). В игре сюда ведёт кнопка GitHub в меню «поддержать автора».
+
 <sub>Ключевые слова: русификатор People Playground, People Playground на русском, перевод People Playground, русификатор PPG, как сделать People Playground на русском, People Playground русский язык, руссификатор People Playground 1.28</sub>
 
 ---
@@ -175,6 +187,8 @@ Achou um bug, uma tradução errada ou tem uma ideia? Escreva em [Issues](../../
 Der Mod ist kostenlos und bleibt es auch. Mit jedem Update trage ich die Namen der Unterstützer in die [Danksagungen](#supporters) ein.
 
 Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../../issues).
+
+Neue Versionen erscheinen unter [Releases](../../releases). Für eine E-Mail bei jeder: **Watch → Custom → Releases** (GitHub-Konto nötig). Im Spiel öffnet der GitHub-Button im Menü «Autor unterstützen» diese Seite.
 
 <sub>Stichwörter: People Playground Deutsch, People Playground deutsche Übersetzung, People Playground auf Deutsch stellen, Deutsch Patch People Playground, Sprachmod People Playground</sub>
 
@@ -201,6 +215,8 @@ Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../..
 
 バグや誤訳、アイデアは [Issues](../../issues) で教えてください。
 
+新バージョンは [Releases](../../releases) で公開します。公開のたびにメールを受け取るには **Watch → Custom → Releases**（GitHub アカウントが必要）。ゲーム内の「作者を支援する」メニューにある GitHub ボタンからもこのページを開けます。
+
 <sub>キーワード：People Playground 日本語化, People Playground 日本語, ピープルプレイグラウンド 日本語化, People Playground 日本語化 MOD, People Playground 翻訳</sub>
 
 ---
@@ -224,6 +240,8 @@ Fehler, schlechte Übersetzung oder eine Idee? Schreib mir in den [Issues](../..
 Mod ücretsiz ve hep ücretsiz kalacak. Her güncellemede destekçilerin adını [teşekkürler](#supporters) listesine ekliyorum.
 
 Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına yaz.
+
+Yeni sürümler [Releases](../../releases) sayfasında yayımlanır. Her sürümde e-posta almak için: **Watch → Custom → Releases** (GitHub hesabı gerekir). Oyunda "yapımcıyı destekle" menüsündeki GitHub düğmesi bu sayfayı açar.
 
 <sub>Anahtar kelimeler: People Playground Türkçe yama, People Playground Türkçe, People Playground Türkçe yapma, People Playground çeviri, People Playground dil modu</sub>
 
@@ -250,6 +268,8 @@ Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına 
 
 버그, 잘못된 번역, 아이디어가 있으면 [Issues](../../issues)에 남겨 주세요.
 
+새 버전은 [Releases](../../releases)에 올라옵니다. 새 버전마다 메일을 받으려면 **Watch → Custom → Releases** (GitHub 계정 필요). 게임 안 "제작자 후원하기" 메뉴의 GitHub 버튼으로도 이 페이지가 열립니다.
+
 <sub>키워드: People Playground 한글패치, 피플 플레이그라운드 한글패치, People Playground 한국어, 피플 플레이그라운드 한글, People Playground 한글 모드</sub>
 
 ---
@@ -273,6 +293,8 @@ Hata, kötü çeviri ya da bir fikrin mi var? [Issues](../../issues) sayfasına 
 Mod jest darmowy i zawsze taki zostanie. Przy każdej aktualizacji dopisuję imiona wspierających do [podziękowań](#supporters).
 
 Błąd, złe tłumaczenie albo pomysł? Napisz w [Issues](../../issues).
+
+Nowe wersje pojawiają się w [Releases](../../releases). Żeby dostawać e-mail o każdej: **Watch → Custom → Releases** (potrzebne konto GitHub). W grze przycisk GitHub w menu «wesprzyj autora» otwiera tę stronę.
 
 <sub>Słowa kluczowe: spolszczenie People Playground, People Playground po polsku, People Playground polski, People Playground tłumaczenie, jak zmienić język People Playground</sub>
 
